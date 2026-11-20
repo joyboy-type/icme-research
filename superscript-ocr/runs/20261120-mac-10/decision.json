@@ -1,0 +1,8 @@
+{
+  "status": "feasibility_not_supported",
+  "automatic_insertion": false,
+  "human_review_only": true,
+  "new_data_expansion": false,
+  "word_edit_allowed": false,
+  "reason": "No relation gain beyond ordinary local rereading; an actual reference23-to3OCR error creates a new wrong link; data is small and bracket-only"
+}

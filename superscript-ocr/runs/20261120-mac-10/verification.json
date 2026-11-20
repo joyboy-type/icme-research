@@ -1,0 +1,19 @@
+{
+  "tests_passed": 7,
+  "old_archive_files_unchanged": 6718,
+  "word_sha256": "dd00d31e8435e3da12a1d28642ae5df72c2063c9229c46dc038b1df03e4d5136",
+  "word_unchanged": true,
+  "whole_raw_paired_to_pages": 29,
+  "local_raw_paired_to_jobs": 64,
+  "ocr_calls_total": 93,
+  "exact_cached_reparse_only": true,
+  "aligned_groups_manually_reviewed": 9,
+  "target_members": 21,
+  "bibliography_source_pages_reviewed": 3,
+  "unscored_true_callouts_reviewed": 1,
+  "all_case_metrics_recomputed": true,
+  "negative_controls_separate": true,
+  "automatic_insertion": false,
+  "protocol_sha256": "7935e59e97c337bc4dc53168aef505eb9baede4c706f76b330c70443b4ff7190",
+  "verified_at": "2026-11-20T16:15:31.176419+00:00"
+}

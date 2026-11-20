@@ -1,0 +1,187 @@
+{
+  "doc-01": {
+    "1": {
+      "extracted": true,
+      "actual_leading_reference": 1,
+      "identity_correct": true,
+      "additional_merged_reference_numbers": [
+        2,
+        3
+      ],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "2": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "3": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "4": {
+      "extracted": true,
+      "actual_leading_reference": 4,
+      "identity_correct": true,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": true,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "5": {
+      "extracted": true,
+      "actual_leading_reference": 5,
+      "identity_correct": true,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": true,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "6": {
+      "extracted": true,
+      "actual_leading_reference": 6,
+      "identity_correct": true,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": true,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "7": {
+      "extracted": true,
+      "actual_leading_reference": 17,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "8": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "9": {
+      "extracted": true,
+      "actual_leading_reference": 9,
+      "identity_correct": true,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": true,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "10": {
+      "extracted": true,
+      "actual_leading_reference": 10,
+      "identity_correct": true,
+      "additional_merged_reference_numbers": [
+        11,
+        12,
+        14,
+        15
+      ],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "11": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "12": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "13": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "14": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "15": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    }
+  },
+  "doc-02": {
+    "1": {
+      "extracted": true,
+      "actual_leading_reference": 1,
+      "identity_correct": true,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": true,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "2": {
+      "extracted": true,
+      "actual_leading_reference": 2,
+      "identity_correct": true,
+      "additional_merged_reference_numbers": [
+        3,
+        4
+      ],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "3": {
+      "extracted": true,
+      "actual_leading_reference": 23,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "4": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "5": {
+      "extracted": true,
+      "actual_leading_reference": 5,
+      "identity_correct": true,
+      "additional_merged_reference_numbers": [
+        6
+      ],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    },
+    "6": {
+      "extracted": false,
+      "actual_leading_reference": null,
+      "identity_correct": false,
+      "additional_merged_reference_numbers": [],
+      "boundary_clean": false,
+      "review": "Compared saved OCR entry against JATS ref text and rendered bibliography page; no inference modification"
+    }
+  }
+}

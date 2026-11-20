@@ -1,0 +1,8 @@
+{
+  "no_underlying_counts_changed": true,
+  "primary_comparator": "local_mapping",
+  "wrong_links_vs_primary": "2 vs2, nonincrease true",
+  "wrong_links_vs_whole": "2 vs1, nonincrease false",
+  "reason": "Explicit comparator labels prevent conflating the whole-page reference with the same-budget primary comparison",
+  "input_origin": "Unmodified publisher PDF pages rasterized at150dpi, not scanned/camera-captured documents; actual OCR errors, no manually deleted text"
+}

@@ -1,0 +1,17 @@
+{
+  "eligible_sources": [
+    "plos-0316191",
+    "plos-0317054"
+  ],
+  "excluded_source": {
+    "bmc-8-18": "No explicit numeric ref labels; 22 JATS groups rejected rather than infer numbering from ref order or rid suffix"
+  },
+  "gold_groups": 9,
+  "visual_anchor_review": {
+    "all_nine_checked": true,
+    "format": "inline bracket groups; not superscript"
+  },
+  "gold_used_only_for_evaluation": true,
+  "source_scope": "new development feasibility only",
+  "reviewed_at": "2026-11-20T16:07:23.737376+00:00"
+}

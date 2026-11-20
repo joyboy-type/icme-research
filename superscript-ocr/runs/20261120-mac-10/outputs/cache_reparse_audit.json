@@ -1,0 +1,19 @@
+{
+  "reason": "Standalone printed reference number in a separate OCR observation was not starting a bibliography entry; corrected before calculating accuracy metrics",
+  "new_ocr_calls": 0,
+  "raw_hashes": {
+    "whole_raw.jsonl": "34af5b107a2400a8eb9d44ddf88d01ca40f783491587c227ea9a90a1f98102b3",
+    "local_raw.jsonl": "979ccd20d54706792eace73b23ccc799a71fb1f52b3024c1c5dd47e03217ba7f"
+  },
+  "original_jobs_sha256": "a6f533b139a0d885b9266f558931cb41371452a72e03c39f0337eb13f2abb938",
+  "all64rendered_crop_hashes_unchanged": true,
+  "pre_correction_bibliography_entries": {
+    "plos-0316191": 7,
+    "plos-0317054": 7
+  },
+  "post_correction_bibliography_entries": {
+    "plos-0316191": 11,
+    "plos-0317054": 18
+  },
+  "correction_was_before_accuracy_scoring": true
+}

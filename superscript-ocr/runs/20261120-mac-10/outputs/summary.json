@@ -1,0 +1,109 @@
+{
+  "scope": "Two new PLOS documents; numeric bracket groups on first four physical pages; 9 aligned groups, 21 linked reference targets. Development feasibility only, not superscript or unseen-confirmation evidence.",
+  "methods": {
+    "whole": {
+      "number_correct": 6,
+      "anchor_correct": 6,
+      "target_identity_correct": 2,
+      "target_boundary_clean": 0,
+      "all_three_correct": 2,
+      "strict_complete_relation": 0,
+      "wrong_number": 0,
+      "wrong_link": 1,
+      "unresolved_target": 7,
+      "scored_groups": 9,
+      "matched_groups": 6,
+      "false_insertions": 0,
+      "unscored_true_citations": 1,
+      "total_emitted": 7
+    },
+    "local_mapping": {
+      "number_correct": 7,
+      "anchor_correct": 7,
+      "target_identity_correct": 2,
+      "target_boundary_clean": 0,
+      "all_three_correct": 2,
+      "strict_complete_relation": 0,
+      "wrong_number": 0,
+      "wrong_link": 2,
+      "unresolved_target": 6,
+      "scored_groups": 9,
+      "matched_groups": 7,
+      "false_insertions": 0,
+      "unscored_true_citations": 1,
+      "total_emitted": 8
+    },
+    "local_consistency": {
+      "number_correct": 7,
+      "anchor_correct": 7,
+      "target_identity_correct": 2,
+      "target_boundary_clean": 0,
+      "all_three_correct": 2,
+      "strict_complete_relation": 0,
+      "wrong_number": 0,
+      "wrong_link": 2,
+      "unresolved_target": 6,
+      "scored_groups": 9,
+      "matched_groups": 7,
+      "false_insertions": 0,
+      "unscored_true_citations": 1,
+      "total_emitted": 8
+    }
+  },
+  "relation_identity_net_gain_over_whole": 0,
+  "relation_identity_net_gain_over_local_mapping": 0,
+  "new_complete_relations_gained": [],
+  "previous_complete_relations_lost": [],
+  "natural_baseline_failures": {
+    "group_ocr_omission": 1,
+    "delimiter_misrecognition": 2,
+    "wrong_body_numbers_observed": 0,
+    "missing_groups_after_local": 2
+  },
+  "recovered_body_number_but_wrong_target": {
+    "case_id": "case-006",
+    "printed_callout": 3,
+    "whole_ocr": "[3)",
+    "local_ocr": "[3]",
+    "ocr_bibliography_key": 3,
+    "actual_reference_entry": 23,
+    "correct_reference_entry": 3,
+    "explanation": "A real bibliography OCR error relabels printed23as3; local bracket repair is followed by a wrong link, which both consistency tests accept."
+  },
+  "negative_control": {
+    "cases": 2,
+    "simple_id_filter_accepts": 2,
+    "anchor_filter_accepts": 2,
+    "not_mixed_with_natural_metrics": true
+  },
+  "evaluation_notes": [
+    "Target identity and faithful entry boundaries are reported separately; merged entries can identify a leading target but do not count as clean complete relations.",
+    "Anchor correctness means the source callout location (all 9 manually reviewed); this pilot does not demonstrate sentence-level span reconstruction.",
+    "One real [16-20] callout per method is unscored because strict JATS/PDF context alignment failed; it is not counted as a false insertion.",
+    "All emitted predictions on the eight body pages were checked; there were no noncitation insertions, but the scoring denominator is only the aligned subset.",
+    "Reference numbers and rid mappings from PDF/JATS were never supplied to inference.",
+    "CEX/GROBID and OCR-EDR were not run; no strong-baseline superiority is claimed."
+  ],
+  "criteria": {
+    "natural_errors_exist": true,
+    "positive_relation_gain_over_local_mapping": false,
+    "serious_wrong_links_nonincrease_vs_local_mapping": true,
+    "serious_wrong_links_nonincrease_vs_whole": false
+  },
+  "decision": "DO_NOT_INITIATE_FULL_PROJECT; close this frozen candidate version, no threshold search or data expansion",
+  "automatic_insertion": false,
+  "human_review_only": true,
+  "new_data_expansion": false,
+  "word_edit_allowed": false,
+  "input_origin": "Unmodified publisher PDF pages rasterized at150dpi, not scanned/camera-captured documents; actual OCR errors, no manually deleted text",
+  "strong_baselines_not_run": [
+    "GROBID",
+    "CEX",
+    "OCR-EDR"
+  ],
+  "restart_requirements": [
+    "Suitable independently grouped citation-relation truth with source pixel alignment and a relevant superscript/scanned-document error distribution",
+    "An independent pixel-based check that rejects wrong-but-existing reference IDs, including reference-list misrecognition",
+    "Strictly positive complete-relation gain over the same-budget local baseline without increased wrong links, then independent document confirmation"
+  ]
+}

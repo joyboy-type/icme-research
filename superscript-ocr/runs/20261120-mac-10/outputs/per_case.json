@@ -1,0 +1,588 @@
+[
+  {
+    "method": "whole",
+    "case_id": "case-001",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": true,
+    "target_boundary_clean": false,
+    "all_three_correct": true,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": false,
+    "predicted_numbers": [
+      1
+    ],
+    "expected_numbers": [
+      1
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "whole",
+    "case_id": "case-002",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": true,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "expected_numbers": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "whole",
+    "case_id": "case-003",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "expected_numbers": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "whole",
+    "case_id": "case-004",
+    "number_correct": false,
+    "anchor_correct": false,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [],
+    "expected_numbers": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "prediction_origin": null
+  },
+  {
+    "method": "whole",
+    "case_id": "case-005",
+    "number_correct": false,
+    "anchor_correct": false,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [],
+    "expected_numbers": [
+      1,
+      2
+    ],
+    "prediction_origin": null
+  },
+  {
+    "method": "whole",
+    "case_id": "case-006",
+    "number_correct": false,
+    "anchor_correct": false,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [],
+    "expected_numbers": [
+      3
+    ],
+    "prediction_origin": null
+  },
+  {
+    "method": "whole",
+    "case_id": "case-007",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      4
+    ],
+    "expected_numbers": [
+      4
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "whole",
+    "case_id": "case-008",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": true,
+    "target_boundary_clean": false,
+    "all_three_correct": true,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": false,
+    "predicted_numbers": [
+      5
+    ],
+    "expected_numbers": [
+      5
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "whole",
+    "case_id": "case-009",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      6
+    ],
+    "expected_numbers": [
+      6
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "local_mapping",
+    "case_id": "case-001",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": true,
+    "target_boundary_clean": false,
+    "all_three_correct": true,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": false,
+    "predicted_numbers": [
+      1
+    ],
+    "expected_numbers": [
+      1
+    ],
+    "prediction_origin": "local"
+  },
+  {
+    "method": "local_mapping",
+    "case_id": "case-002",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": true,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "expected_numbers": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "prediction_origin": "local"
+  },
+  {
+    "method": "local_mapping",
+    "case_id": "case-003",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "expected_numbers": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "prediction_origin": "local"
+  },
+  {
+    "method": "local_mapping",
+    "case_id": "case-004",
+    "number_correct": false,
+    "anchor_correct": false,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [],
+    "expected_numbers": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "prediction_origin": null
+  },
+  {
+    "method": "local_mapping",
+    "case_id": "case-005",
+    "number_correct": false,
+    "anchor_correct": false,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [],
+    "expected_numbers": [
+      1,
+      2
+    ],
+    "prediction_origin": null
+  },
+  {
+    "method": "local_mapping",
+    "case_id": "case-006",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": true,
+    "unresolved_target": false,
+    "predicted_numbers": [
+      3
+    ],
+    "expected_numbers": [
+      3
+    ],
+    "prediction_origin": "local"
+  },
+  {
+    "method": "local_mapping",
+    "case_id": "case-007",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      4
+    ],
+    "expected_numbers": [
+      4
+    ],
+    "prediction_origin": "local"
+  },
+  {
+    "method": "local_mapping",
+    "case_id": "case-008",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": true,
+    "target_boundary_clean": false,
+    "all_three_correct": true,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": false,
+    "predicted_numbers": [
+      5
+    ],
+    "expected_numbers": [
+      5
+    ],
+    "prediction_origin": "local"
+  },
+  {
+    "method": "local_mapping",
+    "case_id": "case-009",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      6
+    ],
+    "expected_numbers": [
+      6
+    ],
+    "prediction_origin": "local"
+  },
+  {
+    "method": "local_consistency",
+    "case_id": "case-001",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": true,
+    "target_boundary_clean": false,
+    "all_three_correct": true,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": false,
+    "predicted_numbers": [
+      1
+    ],
+    "expected_numbers": [
+      1
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "local_consistency",
+    "case_id": "case-002",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": true,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "expected_numbers": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "local_consistency",
+    "case_id": "case-003",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "expected_numbers": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "local_consistency",
+    "case_id": "case-004",
+    "number_correct": false,
+    "anchor_correct": false,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [],
+    "expected_numbers": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "prediction_origin": null
+  },
+  {
+    "method": "local_consistency",
+    "case_id": "case-005",
+    "number_correct": false,
+    "anchor_correct": false,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [],
+    "expected_numbers": [
+      1,
+      2
+    ],
+    "prediction_origin": null
+  },
+  {
+    "method": "local_consistency",
+    "case_id": "case-006",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": true,
+    "unresolved_target": false,
+    "predicted_numbers": [
+      3
+    ],
+    "expected_numbers": [
+      3
+    ],
+    "prediction_origin": "local"
+  },
+  {
+    "method": "local_consistency",
+    "case_id": "case-007",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      4
+    ],
+    "expected_numbers": [
+      4
+    ],
+    "prediction_origin": "whole"
+  },
+  {
+    "method": "local_consistency",
+    "case_id": "case-008",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": true,
+    "target_boundary_clean": false,
+    "all_three_correct": true,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": false,
+    "predicted_numbers": [
+      5
+    ],
+    "expected_numbers": [
+      5
+    ],
+    "prediction_origin": "local"
+  },
+  {
+    "method": "local_consistency",
+    "case_id": "case-009",
+    "number_correct": true,
+    "anchor_correct": true,
+    "target_identity_correct": false,
+    "target_boundary_clean": false,
+    "all_three_correct": false,
+    "strict_complete_relation": false,
+    "wrong_number": false,
+    "wrong_link": false,
+    "unresolved_target": true,
+    "predicted_numbers": [
+      6
+    ],
+    "expected_numbers": [
+      6
+    ],
+    "prediction_origin": "whole"
+  }
+]

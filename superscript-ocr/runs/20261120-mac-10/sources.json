@@ -1,0 +1,24 @@
+[
+  {
+    "id": "plos-0316191",
+    "doi": "10.1371/journal.pone.0316191",
+    "article_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0316191",
+    "xml_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0316191&type=manuscript",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0316191&type=printable",
+    "pdf_sha256": "3325def2f060152f2f9056fcb8efaa9cc8fdbba18c90a1bb6de3e4ae07a8e1e1",
+    "jats_sha256": "b05373190fdfe87c1e2d7b30684d66299d2f2221d9457e92c24596aeeb8f9ca7",
+    "license": "CC-BY4.0",
+    "authors": "Qian et al."
+  },
+  {
+    "id": "plos-0317054",
+    "doi": "10.1371/journal.pone.0317054",
+    "article_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317054",
+    "xml_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0317054&type=manuscript",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0317054&type=printable",
+    "pdf_sha256": "72a9ffec355b5c1a52342125a2d1b3f50e51bd581331fcbeba6c43a9169428db",
+    "jats_sha256": "13d41861a5aedaa3ced35e8d681f4924d73ee444281fece624fee800b8308bbb",
+    "license": "CC0",
+    "authors": "Benedict et al."
+  }
+]

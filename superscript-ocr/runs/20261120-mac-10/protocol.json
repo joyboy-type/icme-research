@@ -1,0 +1,68 @@
+{
+  "id": "20261120-mac-10",
+  "frozen_at": "2026-11-20T16:04:27.694238+00:00",
+  "purpose": "One feasibility pilot for pixel-only recovery of missing/misread numeric citation relations; no automatic editing; not a novelty claim",
+  "sources": [
+    "bmc-8-18",
+    "plos-0316191",
+    "plos-0317054"
+  ],
+  "source_selection": "unseen documents; explicit article-level CC-BY/CC0; <=20 PDF pages; selected before any new OCR; excludes 34-page PLOS paper by cap",
+  "data_routes": {
+    "europepmc": "search timeouts; one query eventually returned",
+    "old_pmc_oa": "404",
+    "grobid_mirror": "pinned revision ae554101b0d967a309bd3739e189b745600d8ae5",
+    "plos": "publisher XML and PDF"
+  },
+  "exclusions": [
+    "AAPS article: XML only copyright statement, no explicit reusable license resolved",
+    "ACS article: AuthorChoice terms not resolved; TEI mistaken for JATS in exploratory fetch corrected using nxml, article excluded",
+    "PLOS0313000:34pages exceeds preregistered small-document cap"
+  ],
+  "inputs": "Only raster pages plus frozen local Apple Vision outputs; PDF text, JATS, rid, gold boxes and anchors confined to evaluation",
+  "render_dpi": 150,
+  "body_local_pages": "first four physical pages per selected document; no gold-based region routing",
+  "whole_pages": "all pages in each selected PDF, shared once across methods",
+  "local_budget": {
+    "calls_per_body_page": 8,
+    "source_crop": [
+      280,
+      72
+    ],
+    "scale": 3,
+    "canvas": [
+      904,
+      280
+    ],
+    "padding": 32,
+    "selection": "first four bracket-citation positions in whole OCR then first numeric positions not nearby, then longest OCR text lines; pad blank if fewer; no gold"
+  },
+  "methods": [
+    "whole_ocr_plus_bracket_parser",
+    "same_budget_local_plus_number_mapping",
+    "same_local_evidence_plus_bibliography_and_anchor_consistency"
+  ],
+  "advanced_rule": "All predicted IDs must be present in OCR-parsed bibliography and nearby whole-OCR left/right lexical anchors must agree. This is a weak candidate, not a new verifier. Keep old whole output when new candidate rejected.",
+  "comparison": "B/C share identical crops and raw OCR; report common whole OCR separately; ordinary numeric mapping is not counted as innovation",
+  "negative_control": "After natural inference is saved, inject a different number that also exists in OCR bibliography at the same anchor. Report separately; no synthetic deletion mixed into natural outcomes.",
+  "metrics": [
+    "number exact",
+    "body anchor exact",
+    "bibliography target text aligned to JATS",
+    "all three correct",
+    "false insertion",
+    "wrong link",
+    "new correct gained",
+    "previous correct lost",
+    "local calls and canvas pixels"
+  ],
+  "evaluation": "JATS numeric bracket groups, rid->ref id, expand ranges via reference labels, align source PDF text only for scoring; manually inspect every included image anchor; exclude ambiguous/unmatched/multiline/unknown reference labels with reason",
+  "scope_limitations": "Numeric bracket citations only for this initial accessible corpus, not a demonstrated superscript benchmark; first4pages excludes later body; no independent confirmation claim",
+  "continue_only_if": "Data alignment valid AND naturally missing/misread citation relationships exist AND method C yields positive relation gain over B at nonincreased serious errors; numeric lookup alone insufficient",
+  "stop": "One frozen run, no threshold search or iterative source expansion; failure closes this version",
+  "resources": "Mac serial local Vision CPU-only request; OpenCV/BLAS2; Vision internal scheduling unbounded; no paid calls, training, GPU rental or model downloads",
+  "word_sha256": "dd00d31e8435e3da12a1d28642ae5df72c2063c9229c46dc038b1df03e4d5136",
+  "word_edit_allowed": false,
+  "automatic_insertion": false,
+  "grobid": "Not installed locally. Official native-PDF/layout-token pipeline is different input; no scores fabricated; evaluation-only PDF/JATS ceiling separately reported"
+}
