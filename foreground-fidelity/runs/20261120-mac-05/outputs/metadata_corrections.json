@@ -1,0 +1,6 @@
+{
+  "correction": "Renamed all_feature_encoding_wall_seconds to pipeline_wall_seconds_since_feature_encoding_start because the measured interval includes masks/scoring.",
+  "numerical_outputs_changed": false,
+  "reason": "Avoid mislabeling a whole-pipeline wall-clock interval as encoding-only time.",
+  "original_interval_seconds": 70.43827629194129
+}

@@ -1,0 +1,12 @@
+{
+  "method_sha256": "f1073d639525d9fab9472c57f1b814aea9017d361f4150cba85e9413f3213222",
+  "audit_sha256": "95bab51fa7c918967154b90f254172d776e40eab1cac776dbf584d7c7c205863",
+  "prior_source_metadata_sha256": "6e82f2c1a2ef906b487d56dc6f0c966cf35e4a4768b054ce9b668db8273a1ec8",
+  "prior_feature_sha256": "ce8bf3d9575fb0ea8cd4f865bf1b97749951b8822ca0ec31be1e5101cb432f41",
+  "dino_weight_sha256": "04d27f3400d059fc0cfd7d17dd1909a75bf3ea8fb3eeb48b97cb99e57ee20081",
+  "U2NETP_weight_sha256": "e7567cde013fb64813973ce6e1ecc25a80c05c3ca7adbc5a54f3c3d90991b854",
+  "pairs": 89,
+  "source_groups": 46,
+  "unique_images": 175,
+  "stage": "before_new_inference"
+}

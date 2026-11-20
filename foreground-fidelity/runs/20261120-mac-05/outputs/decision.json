@@ -1,0 +1,21 @@
+{
+  "status": "continue_pause_current_B3",
+  "finding": "Full-frame variants do not eliminate B3 deficit; cropping is not established as its sole explanation.",
+  "primary_letterbox": "all_free76/89;auto_r2_69/89",
+  "sensitivity_square_warp": "all_free77/89;all_r2_79/89;auto_r2_71/89",
+  "square_r2_vs_center_r2": {
+    "wins": 5,
+    "new_errors": 3,
+    "same_credit": 81,
+    "delta": 0.02247191011235955,
+    "source_group_95ci": [
+      -0.047619047619047616,
+      0.10347834803528479
+    ]
+  },
+  "research_gate": "Do not promote the best diagnostic cell to a confirmed method. Strong judge and independent confirmation still absent.",
+  "new_confirmation_predictions": 0,
+  "PVC_run": false,
+  "Word_taskbook": "v1.3 frozen unchanged",
+  "paid_resources_or_GPU": false
+}

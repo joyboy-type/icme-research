@@ -1,0 +1,6 @@
+{
+  "source_framing": "Inspect all46 source originals against center,letterbox,square_warp, in source-group first-appearance order.",
+  "source_regions": "Inspect all46 source auto-region overlays under all3 geometries; padding excluded from source/candidate patch matching as frozen.",
+  "candidate_sample": "For new letterbox_auto_r2 versus center_auto_r2 winner disagreements, inspect first12 pair IDs in lexical order, or all if fewer. Sheets contain original source/A/B only, no labels or method names. Full disagreement CSV retained locally.",
+  "limits": "Quality review is descriptive, not independent expert relabeling or a causal explanation. No geometry/threshold/radius changes from this inspection."
+}

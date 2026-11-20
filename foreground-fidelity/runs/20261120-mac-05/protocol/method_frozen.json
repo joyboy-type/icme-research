@@ -1,0 +1,22 @@
+{
+  "run_id": "20261120-mac-05",
+  "stage": "preprocessing_mechanism_diagnostic_only",
+  "frozen_before_new_inference_and_scoring": true,
+  "population": "Same89 previously inspected pairs,46 RGB source groups, snapshot-01. No confirmation inputs or labels used.",
+  "question": "Does preserving the whole source/candidate frame change the B3 deficit under the fixed224 token budget?",
+  "preprocessing": {
+    "center": "Exact prior DINO preprocessing: resize shorter side224 bicubic, center crop224; replay control, every patch eligible.",
+    "letterbox": "Primary full-frame diagnostic: resize longer side224 bicubic with shorter side int-round, centered padding to224. RGB fill124,116,104 (rounded ImageNet mean). Content support includes every14x14 patch with any non-padding pixel. Candidate pure-padding patches excluded from correspondence search.",
+    "square_warp": "Prespecified sensitivity: resize complete RGB frame directly to224x224 bicubic, with aspect-ratio distortion and no padding. Every patch eligible; do not choose preprocessing after scoring."
+  },
+  "features": "Fresh same frozen DINOv2 ViT-S/14 checkpoint,224 input,256 patch tokens plus CLS, per-token L2 norm, CPU2 and batch6. Verify center features/predictions against mac-02. No training, GPU or new weights.",
+  "source_masks": "Recompute official U2NETP source-only float probabilities with same320 normalization and first-output minmax, resized to original dimensions. Project float mask with the corresponding spatial transform, clip0..1, mean within14x14 patches, select>=0.5 and inside content support. If empty, choose argmax probability among valid content patches and flag. Exactly same source support for A/B.",
+  "region_controls": "All content patches; automatic source region; source CLS salient/random/center controls with identical K to automatic region, selected only among valid source content patches. Random seed hash(20261120|source_group) identical convention to mac-02.",
+  "correspondence": "Source selected to candidate valid content maximum cosine, unrestricted or fixed Chebyshev grid radius2. If any source token has no valid candidate within radius, mark that candidate and pair method invalid, credit0, retain record; do not silently search outside radius.",
+  "methods": "For each of3 transforms: global CLS; all free/r2; automatic source free/r2; equalK salient/random/center free/r2 =11 methods,33 total. CLS still sees padded image in letterbox.",
+  "scoring": "Labels opened only after supports and scores saved. Tie0.5, invalid0. Same source-group paired bootstrap4000 seed20261120. Report all89, fixed mac-04 eligible75, and fixed prior crop-truncation-flag subgroup; no new outcome-based exclusions.",
+  "comparisons": "Within each transform automatic_r2 vs all_free; free/r2 ablations. Across transforms same method versus center, especially all_free and automatic_r2. Report both predeclared full-frame variants; no best-variant or multiple-comparison superiority claim.",
+  "limits": "Changes jointly alter framing, content resolution, aspect shape or padding/context; no single-factor causal proof from accuracy alone. Prior crop flags are assistant observations, not expert annotations. All results remain repeated diagnostic exploration, no independent confirmation.",
+  "constraints": "Word taskbook frozen, no edit/copy/new version or writing script. No rented compute, GPU, model downloads, training, new dataset images or confirmation scoring. Maintain new complete local run; publish only allowed files in foreground-fidelity/.",
+  "execution": ["test geometry and valid-support behavior red/green", "fresh3-transform features and source masks, freeze outputs before scoring", "score and group-bootstrap", "review source framing and changed cases", "validate replay and privacy, independent scoped review", "archive and sync screened public results"]
+}
