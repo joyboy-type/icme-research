@@ -1,0 +1,25 @@
+{
+  "at_utc": "2026-11-20T16:33:06.438753+00:00",
+  "pairs_independently_rechecked": 8,
+  "unique_image_blobs": 14,
+  "image_git_blob_hashes_verified": true,
+  "license_files_verified": 2,
+  "license_versions_crosschecked": 6,
+  "design_lock_files_unchanged": 5,
+  "same_geometry_changed_pairs": 3,
+  "geometry_mismatch_pairs": 3,
+  "same_blob_identity_controls": 2,
+  "project_groups": 2,
+  "certified_atomic13_labels": 0,
+  "tests": {
+    "passed": 3,
+    "failed": 0,
+    "red_green_logs_retained": true
+  },
+  "word_unchanged_verified": true,
+  "old_confirmation_used": false,
+  "model_or_threshold_evaluation": false,
+  "source_mapping_git_blob_verified": true,
+  "independent_review": "outputs/review.json",
+  "independent_pixel_recomputation": "Pillow ImageChops difference, channelwise maximum and histogram, separate from NumPy extraction."
+}

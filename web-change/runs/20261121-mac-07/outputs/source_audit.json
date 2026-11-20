@@ -1,0 +1,135 @@
+{
+  "scope": "Bounded source audit, not exhaustive search",
+  "sources": [
+    {
+      "id": "Design2Code",
+      "url": "https://huggingface.co/datasets/SALT-NLP/Design2Code",
+      "revision": "e2f61f6e9d9b5ee201b81d8e0ae4d37aa13f8f25",
+      "license": "ODC-By",
+      "status": "484 processed real-source single-page snapshots; upstream page-ID-to-original-URL mapping verified. Not version-change pairs; all source images replaced by placeholder per official card.",
+      "version_pairs_verified": 0
+    },
+    {
+      "id": "WebSRC",
+      "url": "https://huggingface.co/datasets/X-LANCE/WebSRC_v1.0",
+      "revision": "7aa0bc6efc7ef43f68c192e2091108541acbaf1a",
+      "license": "CC-BY-4.0",
+      "status": "Official card describes 6.4K page segments with HTML/screenshot/metadata and70 websites, not verified same-page version pairs. Archives not downloaded for this bounded audit.",
+      "version_pairs_verified": 0
+    },
+    {
+      "id": "WebLINX",
+      "url": "https://huggingface.co/datasets/McGill-NLP/WebLINX-full",
+      "revision": "36ef9f79b43df50e25b7f3b68e5c9f6ccf4160e8",
+      "license": "Not verified from the inspected metadata",
+      "status": "Metadata lists interaction demonstrations and screenshots; no version-change pair or relevant category label verified in this audit.",
+      "version_pairs_verified": 0
+    },
+    {
+      "id": "WUICC-bench",
+      "url": "https://arxiv.org/abs/2607.01728",
+      "status": "Inspected paper describes LLM-driven atomic mutations over WebSight synthesized HTML, not observed real repository version changes.",
+      "version_pairs_verified": 0
+    },
+    {
+      "id": "DiffSpot",
+      "url": "https://huggingface.co/datasets/tencent/DiffSpot",
+      "revision": "c6dd79d5e1c0cbb4e7ca234c9f53c418a75e30ce",
+      "license": "MIT",
+      "status": "Existing CSS mutation benchmark; no website IDs in our archived evaluated records. Prior confirmations stay frozen; not reopened.",
+      "version_pairs_verified": 0
+    },
+    {
+      "id": "ant-design/ant-design",
+      "url": "https://github.com/ant-design/ant-design",
+      "inspected_tree_ref_returned_sha": "acddd249c2c238ad7fef72450ddc66ed9e89485e",
+      "truncated": false,
+      "matched_png_paths": 0,
+      "status": "No PNG baseline under snapshot/screenshot/visual/baseline/reference paths in inspected complete tree; no direct version pair verified. This does not establish absence of externally hosted tests."
+    },
+    {
+      "id": "primer/css",
+      "url": "https://github.com/primer/css",
+      "inspected_tree_ref_returned_sha": "d0cdad70d6c936501e9f8520212e00d0c4589f69",
+      "truncated": false,
+      "matched_png_paths": 0,
+      "status": "No PNG baseline under snapshot/screenshot/visual/baseline/reference paths in inspected complete tree; no direct version pair verified. This does not establish absence of externally hosted tests."
+    },
+    {
+      "id": "microsoft/fast",
+      "url": "https://github.com/microsoft/fast",
+      "inspected_tree_ref_returned_sha": "0bbb7f04048f70926aa3cf978265fc634c50a539",
+      "truncated": false,
+      "matched_png_paths": 0,
+      "status": "No PNG baseline under snapshot/screenshot/visual/baseline/reference paths in inspected complete tree; no direct version pair verified. This does not establish absence of externally hosted tests."
+    },
+    {
+      "id": "excalidraw/excalidraw",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "inspected_tree_ref_returned_sha": "2c3dcc06ec807e81ab9437eceb1a8f7a3c590743",
+      "truncated": false,
+      "matched_png_paths": 6,
+      "status": "Matched6 marketing/example screenshot assets; no paired change validated"
+    },
+    {
+      "id": "ionic-team/ionic-framework",
+      "url": "https://github.com/ionic-team/ionic-framework",
+      "inspected_tree_ref_returned_sha": "6e1610174f86cf3fa82bae9ae8781c24b98b3fed",
+      "truncated": false,
+      "matched_png_paths": 7402,
+      "status": "Recent versioned visual-regression baselines found; selected real2026 commits for byte/pixel verification"
+    },
+    {
+      "id": "adobe/spectrum-web-components",
+      "url": "https://github.com/adobe/spectrum-web-components",
+      "inspected_tree_ref_returned_sha": "c996a646b80611ce9f129a618f5ba80c469f782c",
+      "truncated": false,
+      "matched_png_paths": 0,
+      "status": "No PNG baseline under snapshot/screenshot/visual/baseline/reference paths in inspected complete tree; no direct version pair verified. This does not establish absence of externally hosted tests."
+    },
+    {
+      "id": "shoelace-style/shoelace",
+      "url": "https://github.com/shoelace-style/shoelace",
+      "inspected_tree_ref_returned_sha": "25bd8ec776609670a932f21390be59a495df497d",
+      "truncated": false,
+      "matched_png_paths": 0,
+      "status": "No PNG baseline under snapshot/screenshot/visual/baseline/reference paths in inspected complete tree; no direct version pair verified. This does not establish absence of externally hosted tests."
+    },
+    {
+      "id": "Esri/calcite-design-system",
+      "url": "https://github.com/Esri/calcite-design-system",
+      "inspected_tree_ref_returned_sha": "7391af08e4129a2daf4d3026daf9a98c73e7d67a",
+      "truncated": false,
+      "matched_png_paths": 0,
+      "status": "No PNG baseline under snapshot/screenshot/visual/baseline/reference paths in inspected complete tree; no direct version pair verified. This does not establish absence of externally hosted tests."
+    },
+    {
+      "id": "alphagov/govuk-frontend",
+      "url": "https://github.com/alphagov/govuk-frontend",
+      "inspected_tree_ref_returned_sha": "f0cc01482c75aba610a06450f50e699637ed3bb4",
+      "truncated": false,
+      "matched_png_paths": 0,
+      "status": "No PNG baseline under snapshot/screenshot/visual/baseline/reference paths in inspected complete tree; no direct version pair verified. This does not establish absence of externally hosted tests."
+    },
+    {
+      "id": "microsoft/TypeScript-Website",
+      "url": "https://github.com/microsoft/TypeScript-Website",
+      "inspected_tree_ref_returned_sha": "24166845f5de5562abd8618817377130ba46d3f0",
+      "truncated": false,
+      "matched_png_paths": 3,
+      "status": "Three versioned homepage baselines found; selected2021 real website change, historical only"
+    },
+    {
+      "id": "WordPress/gutenberg",
+      "url": "https://github.com/WordPress/gutenberg",
+      "status": "Full tree lookup failed twice with connector Transport closed. Source availability remains unresolved, not declared unavailable."
+    }
+  ],
+  "network_failures": [
+    {
+      "service": "HuggingFace dataset metadata batch",
+      "error": "One transient ProxyError; pinned Design2Code mapping/tree retrieval succeeded separately. Batch source_candidates file was not produced."
+    }
+  ],
+  "new_model_evaluation": false
+}

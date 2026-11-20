@@ -1,0 +1,20 @@
+{
+  "scope": "Bounded public source availability audit of real repository version screenshot pairs; no model evaluation or synthetic CSS changes.",
+  "pairs": 8,
+  "project_groups": [
+    "ionic-team/ionic-framework",
+    "microsoft/TypeScript-Website"
+  ],
+  "candidate_modified_pairs": 6,
+  "unchanged_controls": 2,
+  "same_geometry_pairs": 5,
+  "visible_changed_same_geometry_pairs": 3,
+  "unique_downloaded_image_blobs": 14,
+  "download_bytes": 4311873,
+  "licenses_verified": 2,
+  "seconds": 4.693838750012219,
+  "pixel_resizing_applied": false,
+  "synthetic_css_injection": false,
+  "models_or_thresholds_evaluated": false,
+  "word_unchanged_verified": true
+}

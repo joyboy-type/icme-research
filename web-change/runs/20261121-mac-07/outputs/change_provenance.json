@@ -1,0 +1,302 @@
+[
+  {
+    "key": "ionic_rtl",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "7ecca28c17913ac5bf062e8937954516f005c0eb",
+    "first_parent": "17326e1edce57938e416834a0dda96ca74890acb",
+    "date": "2026-11-18T20:28:38Z",
+    "title": "fix(rtl): use :dir() for rtl styles when the browser supports it (#31744)",
+    "url": "https://github.com/ionic-team/ionic-framework/commit/7ecca28c17913ac5bf062e8937954516f005c0eb",
+    "api_returned_files": 2,
+    "commit_file_list_complete": true,
+    "changed_source_files": [
+      {
+        "path": "core/src/themes/ionic.mixins.scss",
+        "status": "modified",
+        "blob_sha": "8d18b01c37cacdab80467638d6231ebdd7d76176"
+      }
+    ]
+  },
+  {
+    "key": "ionic_select",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "a35e13d59872c2136a3f44871fbb0146d0007c19",
+    "first_parent": "7a95d472de7239940c023f9b95e403887fcdffaa",
+    "date": "2026-06-25T21:08:22Z",
+    "title": "feat(select): add labelPlacement prop, justify prop, and rich content for select options (#31241)",
+    "url": "https://github.com/ionic-team/ionic-framework/commit/a35e13d59872c2136a3f44871fbb0146d0007c19",
+    "api_returned_files": 300,
+    "commit_file_list_complete": false,
+    "changed_source_files": [
+      {
+        "path": "core/src/components.d.ts",
+        "status": "modified",
+        "blob_sha": "f17aacb39e20bc133ae9498fde1cb673e8ed95e3"
+      },
+      {
+        "path": "core/src/components/action-sheet/action-sheet.ios.scss",
+        "status": "modified",
+        "blob_sha": "26710a4a36611422ee984bc08c02f71108ed37b9"
+      },
+      {
+        "path": "core/src/components/action-sheet/action-sheet.md.scss",
+        "status": "modified",
+        "blob_sha": "38075e28639af69bc343f2fb06624233373358c9"
+      },
+      {
+        "path": "core/src/components/action-sheet/action-sheet.scss",
+        "status": "modified",
+        "blob_sha": "ef1d5aec575a7322acc15039727a5060d54a2454"
+      },
+      {
+        "path": "core/src/components/action-sheet/action-sheet.tsx",
+        "status": "modified",
+        "blob_sha": "c48e95d862dea1684223da6c6e4abb69a32b6553"
+      },
+      {
+        "path": "core/src/components/action-sheet/test/basic/index.html",
+        "status": "modified",
+        "blob_sha": "73f78ca635da38cf5870395b1e7826f9c8d01d78"
+      },
+      {
+        "path": "core/src/components/action-sheet/test/states/action-sheet.e2e.ts",
+        "status": "added",
+        "blob_sha": "d3d7eac4b8b0dbbef34694ac476d003d232c7866"
+      },
+      {
+        "path": "core/src/components/action-sheet/test/states/index.html",
+        "status": "added",
+        "blob_sha": "5d5339d5d1b3d6b64cf7158b68d6882d4d32eaff"
+      },
+      {
+        "path": "core/src/components/alert/alert.ios.scss",
+        "status": "modified",
+        "blob_sha": "4241b89c5917728309bfc0eff989606c5fa21bdd"
+      },
+      {
+        "path": "core/src/components/alert/alert.md.scss",
+        "status": "modified",
+        "blob_sha": "951105c0818d7e60891f1e552f97f6c5edfe2615"
+      },
+      {
+        "path": "core/src/components/alert/alert.md.vars.scss",
+        "status": "modified",
+        "blob_sha": "df47f3d06642cbd64db7ed1a7704bd7726a7b9fd"
+      },
+      {
+        "path": "core/src/components/alert/alert.scss",
+        "status": "modified",
+        "blob_sha": "9d93a4e74d93b786f56651100209a7a026fc2cd5"
+      },
+      {
+        "path": "core/src/components/alert/alert.tsx",
+        "status": "modified",
+        "blob_sha": "3d5ed015873d05eca847048837b3a2bb73403cb3"
+      },
+      {
+        "path": "core/src/components/alert/test/basic/alert.e2e.ts",
+        "status": "modified",
+        "blob_sha": "558c13a228b3d896d442a9603ee008c3459a4651"
+      },
+      {
+        "path": "core/src/components/alert/test/label-placement/alert.e2e.ts",
+        "status": "added",
+        "blob_sha": "7d80bcb4181f6f3c34236ee391d387767ec325cd"
+      },
+      {
+        "path": "core/src/components/alert/test/label-placement/index.html",
+        "status": "added",
+        "blob_sha": "ffa252a212f4c46dc08c73fe9b3669ecb77d8f5c"
+      },
+      {
+        "path": "core/src/components/alert/test/states/alert.e2e.ts",
+        "status": "added",
+        "blob_sha": "3f6902fd84f79a6efe48ef4ba1f65369c437ee32"
+      },
+      {
+        "path": "core/src/components/alert/test/states/index.html",
+        "status": "added",
+        "blob_sha": "4591962127a393aa7b1458c8825f8589c3c6ba31"
+      },
+      {
+        "path": "core/src/components/popover/popover.scss",
+        "status": "modified",
+        "blob_sha": "5ae35171b3e35034fe24733a1c1eb1ec11869387"
+      },
+      {
+        "path": "core/src/components/select-modal/select-modal.ios.scss",
+        "status": "modified",
+        "blob_sha": "db1044badb10deb5457148781847750d111f0a07"
+      },
+      {
+        "path": "core/src/components/select-modal/select-modal.md.scss",
+        "status": "modified",
+        "blob_sha": "bf36299137bee191338dbc73cdc812f85c65f483"
+      },
+      {
+        "path": "core/src/components/select-modal/select-modal.tsx",
+        "status": "modified",
+        "blob_sha": "1e1b2ec0bbf06de778c3a8c577d0f8364c2d7e0e"
+      },
+      {
+        "path": "core/src/components/select-modal/test/states/index.html",
+        "status": "added",
+        "blob_sha": "5bd4553a7c921e5588ad3a5448118eac2fec7197"
+      },
+      {
+        "path": "core/src/components/select-modal/test/states/select-modal.e2e.ts",
+        "status": "added",
+        "blob_sha": "1001513de8b31aa12960c8f49e16a8481fe4dfe5"
+      },
+      {
+        "path": "core/src/components/select-option/select-option.ios.overlay.scss",
+        "status": "added",
+        "blob_sha": "4cecfc471eb665c4d14085a73422e94293d1b2f5"
+      },
+      {
+        "path": "core/src/components/select-option/select-option.md.overlay.scss",
+        "status": "added",
+        "blob_sha": "4720d9710ea6dd89c7a4bf491afe090a964da241"
+      },
+      {
+        "path": "core/src/components/select-option/select-option.overlay.scss",
+        "status": "added",
+        "blob_sha": "ba8c19ba5e0edec64de45523a4eaa5f506ba8feb"
+      },
+      {
+        "path": "core/src/components/select-option/select-option.scss",
+        "status": "modified",
+        "blob_sha": "b166e375c82793fc80e33a4338a433cb2a1ff20f"
+      },
+      {
+        "path": "core/src/components/select-option/select-option.tsx",
+        "status": "modified",
+        "blob_sha": "a26231897c6537a539041eb1a0411de9dca5ce0e"
+      },
+      {
+        "path": "core/src/components/select-option/test/label-placement/index.html",
+        "status": "added",
+        "blob_sha": "fdd0d235b5b39cea358f039fc5d236d0532f9224"
+      },
+      {
+        "path": "core/src/components/select-option/test/label-placement/select-option.e2e.ts",
+        "status": "added",
+        "blob_sha": "38f0d321cfd29351bc0bbcd0ec40fe2f50933de0"
+      },
+      {
+        "path": "core/src/components/select-popover/select-popover.ios.scss",
+        "status": "modified",
+        "blob_sha": "f5878be6b49bd354822ddfed77009ee03f67b761"
+      },
+      {
+        "path": "core/src/components/select-popover/select-popover.md.scss",
+        "status": "modified",
+        "blob_sha": "0f9c39328af003071151f5a0b66d515f15601c38"
+      },
+      {
+        "path": "core/src/components/select-popover/select-popover.tsx",
+        "status": "modified",
+        "blob_sha": "3734b71df61700506de605e32e9bf87eb3a4023e"
+      },
+      {
+        "path": "core/src/components/select-popover/test/basic/index.html",
+        "status": "modified",
+        "blob_sha": "679ec678d2c8e1b9c3ab626ea68acacd7dda0a72"
+      },
+      {
+        "path": "core/src/components/select-popover/test/states/index.html",
+        "status": "added",
+        "blob_sha": "154e4f6112983ba37a4560c3322b92d68710db65"
+      },
+      {
+        "path": "core/src/components/select-popover/test/states/select-popover.e2e.ts",
+        "status": "added",
+        "blob_sha": "fd796dc4ba3f10f7a3b3b19b395838ea667340d1"
+      },
+      {
+        "path": "core/src/components/select/select-interface.ts",
+        "status": "modified",
+        "blob_sha": "af1a397c9e1604449aabafe0e6e83078c436fea5"
+      },
+      {
+        "path": "core/src/components/select/select.scss",
+        "status": "modified",
+        "blob_sha": "98e9364271ee674eb7dc85875f06bb17043b93cb"
+      },
+      {
+        "path": "core/src/components/select/select.tsx",
+        "status": "modified",
+        "blob_sha": "2dcf7c5cb8f5e6201608d627bc9741aef9803aa7"
+      },
+      {
+        "path": "core/src/components/select/test/basic/index.html",
+        "status": "modified",
+        "blob_sha": "ebcc1286782b7db7065b0e8c6182af8cbdce661a"
+      },
+      {
+        "path": "core/src/components/select/test/disabled/select.e2e.ts",
+        "status": "modified",
+        "blob_sha": "e567e2ff82e5e428619a67fd16c3f875d7282cf8"
+      },
+      {
+        "path": "core/src/components/select/test/rich-content-option/index.html",
+        "status": "added",
+        "blob_sha": "78d3f3987c9941b189fb4aeb1146b58d77b95e89"
+      }
+    ],
+    "note": "Selected screenshot files individually verified despite API300-file page limit; this is not a complete commit inventory"
+  },
+  {
+    "key": "ts_fonts",
+    "repository": "microsoft/TypeScript-Website",
+    "commit": "f3e0a7b5435cffcc1a0f77b6ba6e8347a1d85dde",
+    "first_parent": "ab217051d751bf134c389f86ae250fe81bf896d1",
+    "date": "2021-02-12T09:13:23Z",
+    "title": "Adds support for custom fonts, and changes the colour selector to be a select dropdown",
+    "url": "https://github.com/microsoft/TypeScript-Website/commit/f3e0a7b5435cffcc1a0f77b6ba6e8347a1d85dde",
+    "api_returned_files": 16,
+    "commit_file_list_complete": true,
+    "changed_source_files": [
+      {
+        "path": "packages/typescriptlang-org/gatsby-ssr.js",
+        "status": "modified",
+        "blob_sha": "ea7faf1df54740699191155cce143edff62c6912"
+      },
+      {
+        "path": "packages/typescriptlang-org/src/components/layout/SiteFooter-Customize.tsx",
+        "status": "added",
+        "blob_sha": "3b74ce96a8ed03300a4d2d2d75702ab45f7f1d86"
+      },
+      {
+        "path": "packages/typescriptlang-org/src/components/layout/SiteFooter.scss",
+        "status": "modified",
+        "blob_sha": "edc33c866df7e7457e294949663cd84f46063194"
+      },
+      {
+        "path": "packages/typescriptlang-org/src/components/layout/SiteFooter.tsx",
+        "status": "modified",
+        "blob_sha": "cb3a434e434aa9ebdaad9c1b736e3422746e9849"
+      },
+      {
+        "path": "packages/typescriptlang-org/src/components/layout/fonts.scss",
+        "status": "modified",
+        "blob_sha": "154b643b82b7eb60d4331bf2f495144c34e6b6f9"
+      },
+      {
+        "path": "packages/typescriptlang-org/src/components/layout/main.scss",
+        "status": "modified",
+        "blob_sha": "2a813692917a217514325a1e7edd47909bb5e682"
+      },
+      {
+        "path": "packages/typescriptlang-org/src/style/globals.scss",
+        "status": "modified",
+        "blob_sha": "3dbf27554e86bb07888557ebcb3240bd53ea10e9"
+      },
+      {
+        "path": "packages/typescriptlang-org/src/templates/markdown-twoslash.scss",
+        "status": "modified",
+        "blob_sha": "8d85e88e916471896f4b882ec9d7d8c0ab85ed13"
+      }
+    ]
+  }
+]

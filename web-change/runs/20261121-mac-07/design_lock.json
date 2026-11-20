@@ -1,0 +1,11 @@
+{
+  "at_utc": "2026-11-20T16:26:50.024911+00:00",
+  "sha256": {
+    "protocol.json": "d1de64d30f73caf635c41d33b4ba1a923dc6fa82862e787bd34e0b83206dbd45",
+    "pair_specs.json": "265a5195e04d3dc2fe2c8e32a55883135936bd248cbf2a96932ebfe9c536fe21",
+    "code/acquire_pairs.py": "5d3ab10f271a2fa66c2774063b892ac6a51e8cb8d46dd9138c582d50d7b2f866",
+    "code/pair_audit.py": "da0bc20657dc1224d38bad1384ebafbc0fe80120b9ec3f27c83b88548a0b99e4",
+    "code/test_pair_audit.py": "a64e7e70bbf9cdcaac095a12f394f99762341a2c8d12b89942100726a8024ba7"
+  },
+  "policy": "Source audit only. No classifier, threshold, feature design or confirmation evaluation."
+}

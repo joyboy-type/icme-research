@@ -1,0 +1,38 @@
+{
+  "id": "20261121-mac-07",
+  "status": "complete_bounded_real_version_source_audit",
+  "scope": "Bounded public source availability audit of real repository version screenshot pairs; no model evaluation or synthetic CSS changes.",
+  "protocol": "protocol.json",
+  "protocol_sha256": "d1de64d30f73caf635c41d33b4ba1a923dc6fa82862e787bd34e0b83206dbd45",
+  "taskbook_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/\u7f51\u9875\u622a\u56fe\u7684\u7ec6\u5fae\u53d8\u66f4\u5206\u7c7b\uff5c\u5b9e\u9a8c\u4efb\u52a1\u4e66_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_unchanged_verified": true,
+  "candidate_modified_pairs": 6,
+  "unchanged_baseline_controls": 2,
+  "comparable_geometry_changed_pairs": 3,
+  "geometry_mismatch_pairs": 3,
+  "project_groups": 2,
+  "independent_site_confirmation": false,
+  "certified_atomic13_labels": 0,
+  "decision": "Public versioned screenshot route is viable, but2 projects and uncertified/mixed labels do not yield formal13-class data or noise controls. No model iteration or new generalization claim.",
+  "next_data_conditions": [
+    "More independent projects/sites for separate train/development/confirmation groups.",
+    "Matched capture geometry/environment for version pairs.",
+    "Verified justify/position and other classes with multi-source support.",
+    "Independent repeated same-version capture controls, not identical blob references."
+  ],
+  "paid_api_calls": 0,
+  "rented_compute": false,
+  "acquisition_seconds": 4.693838750012219,
+  "verification": "outputs/verification.json",
+  "outputs": [
+    "outputs/pair_audit.json",
+    "outputs/source_audit.json",
+    "outputs/annotation_review.json",
+    "outputs/verification.json"
+  ]
+}

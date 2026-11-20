@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "ionic-team/ionic-framework",
+    "commit": "7ecca28c17913ac5bf062e8937954516f005c0eb",
+    "path": "LICENSE",
+    "blob_sha": "92621d0bb42d8fcee2d0ec577a77ab0e46d2dccb",
+    "license": "MIT",
+    "url": "https://raw.githubusercontent.com/ionic-team/ionic-framework/7ecca28c17913ac5bf062e8937954516f005c0eb/LICENSE",
+    "sha256": "4862ae1846439cae0cc097120a14e93a142d36016a9fc609b5d23959e3ff041f",
+    "bytes": 1075,
+    "cache": false,
+    "local_path": "data/real-version-pairs-01/licenses/ionic-team__ionic-framework.txt"
+  },
+  {
+    "repository": "microsoft/TypeScript-Website",
+    "commit": "f3e0a7b5435cffcc1a0f77b6ba6e8347a1d85dde",
+    "path": "LICENSE",
+    "blob_sha": "085c3ca0c4920beedbf179f7987e705aec84115b",
+    "license": "CC-BY-4.0",
+    "url": "https://raw.githubusercontent.com/microsoft/TypeScript-Website/f3e0a7b5435cffcc1a0f77b6ba6e8347a1d85dde/LICENSE",
+    "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f",
+    "bytes": 19047,
+    "cache": false,
+    "local_path": "data/real-version-pairs-01/licenses/microsoft__TypeScript-Website.txt"
+  }
+]

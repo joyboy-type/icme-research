@@ -1,0 +1,353 @@
+[
+  {
+    "id": "ionic_rtl_0",
+    "repository": "ionic-team/ionic-framework",
+    "parent_commit": "17326e1edce57938e416834a0dda96ca74890acb",
+    "commit": "7ecca28c17913ac5bf062e8937954516f005c0eb",
+    "date": "2026-11-18T20:28:38Z",
+    "title": "fix(rtl): use :dir() for rtl styles when the browser supports it (#31744)",
+    "path": "core/src/components/popover/test/position/popover.e2e.ts-snapshots/popover-position-ios-rtl-Mobile-Chrome-linux.png",
+    "after_blob_sha": "494273cdc1bbb610d875ac897c1c699fd911fe3f",
+    "evidence_type": "real_component_project_version_snapshot",
+    "label_status": "requires_manual_review",
+    "sample_rule": "All modified PNGs for this selected change, capped as protocol",
+    "before_blob_sha": "192183c6e5b3be2f7787ac77e4febbce6f5f2f17",
+    "project_group": "ionic-team/ionic-framework",
+    "pair_basis": "Same repository path at commit and first parent; file status modified; pinned Git blob bytes",
+    "before_shape": [
+      1024,
+      768,
+      3
+    ],
+    "after_shape": [
+      1024,
+      768,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "043aa74f1525f803f9244eb692521486b0b233725110622402c1f49324e7f1bf",
+    "after_pixel_sha256": "e838ed909d06cf90ba951883f5c07ba877b13dae382aebd6a7fb6abe1d32032a",
+    "overlap_changed_pixels": 1569,
+    "overlap_changed_gt4": 120,
+    "overlap_shape": [
+      1024,
+      768
+    ],
+    "overlap_max_delta": 34,
+    "changed_pixels": 1569,
+    "changed_gt4": 120,
+    "changed_fraction": 0.001995086669921875,
+    "bbox_xyxy": [
+      5,
+      16,
+      763,
+      948
+    ],
+    "before_path": "data/real-version-pairs-01/blobs/192183c6e5b3be2f7787ac77e4febbce6f5f2f17.png",
+    "after_path": "data/real-version-pairs-01/blobs/494273cdc1bbb610d875ac897c1c699fd911fe3f.png"
+  },
+  {
+    "id": "ionic_select_0",
+    "repository": "ionic-team/ionic-framework",
+    "parent_commit": "7a95d472de7239940c023f9b95e403887fcdffaa",
+    "commit": "a35e13d59872c2136a3f44871fbb0146d0007c19",
+    "date": "2026-06-25T21:08:22Z",
+    "title": "feat(select): add labelPlacement prop, justify prop, and rich content for select options (#31241)",
+    "path": "core/src/components/alert/test/basic/alert-tablet.e2e.ts-snapshots/alert-tablet-checkboxes-md-ltr-Mobile-Chrome-linux.png",
+    "after_blob_sha": "53c925c731d20482b5f6cc823070efbc93400b93",
+    "evidence_type": "real_component_project_version_snapshot",
+    "label_status": "requires_manual_review",
+    "sample_rule": "First2 lexicographic modified alert/basic Mobile-Chrome PNGs from inspected commit file page; exploratory source sample, not exhaustive",
+    "before_blob_sha": "875ba984f0e37ecf9f5417b8e7a545f04bde4171",
+    "project_group": "ionic-team/ionic-framework",
+    "pair_basis": "Same repository path at commit and first parent; file status modified; pinned Git blob bytes",
+    "before_shape": [
+      900,
+      768,
+      3
+    ],
+    "after_shape": [
+      900,
+      768,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "280e6f9db53979b42d99d46df5eaee902e6c62507f63b72373d702a20a23e4ae",
+    "after_pixel_sha256": "ff0500d4bbc89f4827e57e89d999a6b5bd11660fed696d74c7e8094a21f639a9",
+    "overlap_changed_pixels": 61302,
+    "overlap_changed_gt4": 11520,
+    "overlap_shape": [
+      900,
+      768
+    ],
+    "overlap_max_delta": 255,
+    "changed_pixels": 61302,
+    "changed_gt4": 11520,
+    "changed_fraction": 0.08868923611111111,
+    "bbox_xyxy": [
+      56,
+      230,
+      712,
+      694
+    ],
+    "before_path": "data/real-version-pairs-01/blobs/875ba984f0e37ecf9f5417b8e7a545f04bde4171.png",
+    "after_path": "data/real-version-pairs-01/blobs/53c925c731d20482b5f6cc823070efbc93400b93.png"
+  },
+  {
+    "id": "ionic_select_1",
+    "repository": "ionic-team/ionic-framework",
+    "parent_commit": "7a95d472de7239940c023f9b95e403887fcdffaa",
+    "commit": "a35e13d59872c2136a3f44871fbb0146d0007c19",
+    "date": "2026-06-25T21:08:22Z",
+    "title": "feat(select): add labelPlacement prop, justify prop, and rich content for select options (#31241)",
+    "path": "core/src/components/alert/test/basic/alert-tablet.e2e.ts-snapshots/alert-tablet-radios-md-ltr-Mobile-Chrome-linux.png",
+    "after_blob_sha": "3deff89a5ef11f7a6f0ccd66af3c0897f4d43c24",
+    "evidence_type": "real_component_project_version_snapshot",
+    "label_status": "requires_manual_review",
+    "sample_rule": "First2 lexicographic modified alert/basic Mobile-Chrome PNGs from inspected commit file page; exploratory source sample, not exhaustive",
+    "before_blob_sha": "629f5524caf27ce19420c30a92fdc75531b6d206",
+    "project_group": "ionic-team/ionic-framework",
+    "pair_basis": "Same repository path at commit and first parent; file status modified; pinned Git blob bytes",
+    "before_shape": [
+      900,
+      768,
+      3
+    ],
+    "after_shape": [
+      900,
+      768,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "a0af647039c1cd86e22122731a5d8267d2bcd24cc8e0eba486bfcbe0cb702e32",
+    "after_pixel_sha256": "e142a1b048f05f97bd776d4e4fb4734070a25ad91be9e367144958faf61b09ea",
+    "overlap_changed_pixels": 57897,
+    "overlap_changed_gt4": 8193,
+    "overlap_shape": [
+      900,
+      768
+    ],
+    "overlap_max_delta": 255,
+    "changed_pixels": 57897,
+    "changed_gt4": 8193,
+    "changed_fraction": 0.08376302083333333,
+    "bbox_xyxy": [
+      56,
+      230,
+      712,
+      694
+    ],
+    "before_path": "data/real-version-pairs-01/blobs/629f5524caf27ce19420c30a92fdc75531b6d206.png",
+    "after_path": "data/real-version-pairs-01/blobs/3deff89a5ef11f7a6f0ccd66af3c0897f4d43c24.png"
+  },
+  {
+    "id": "ts_fonts_0",
+    "repository": "microsoft/TypeScript-Website",
+    "parent_commit": "ab217051d751bf134c389f86ae250fe81bf896d1",
+    "commit": "f3e0a7b5435cffcc1a0f77b6ba6e8347a1d85dde",
+    "date": "2021-02-12T09:13:23Z",
+    "title": "Adds support for custom fonts, and changes the colour selector to be a select dropdown",
+    "path": "packages/typescriptlang-org/_tests/backstop_data/bitmaps_reference/backstop_default_Index_0_document_0_phone.png",
+    "after_blob_sha": "12601dc48d5f695754b41007264156012a17b60b",
+    "evidence_type": "real_website_version_snapshot",
+    "label_status": "requires_manual_review",
+    "sample_rule": "All modified PNGs for this selected change, capped as protocol",
+    "before_blob_sha": "494941d6c4eb82ec9b9581e9316a6b833b98afb8",
+    "project_group": "microsoft/TypeScript-Website",
+    "pair_basis": "Same repository path at commit and first parent; file status modified; pinned Git blob bytes",
+    "before_shape": [
+      9619,
+      333,
+      3
+    ],
+    "after_shape": [
+      9600,
+      320,
+      3
+    ],
+    "same_geometry": false,
+    "before_pixel_sha256": "d3cf4483db56a342c227aa556c829c11342d1f990bb39ec819b6a87d8b01df05",
+    "after_pixel_sha256": "9bface592edd046c48256e058b28ad7a855183681bdc5d1ec60d67c6c4deb922",
+    "overlap_changed_pixels": 1150745,
+    "overlap_changed_gt4": 1104552,
+    "overlap_shape": [
+      9600,
+      320
+    ],
+    "overlap_max_delta": 255,
+    "changed_pixels": null,
+    "changed_gt4": null,
+    "changed_fraction": null,
+    "bbox_xyxy": null,
+    "before_path": "data/real-version-pairs-01/blobs/494941d6c4eb82ec9b9581e9316a6b833b98afb8.png",
+    "after_path": "data/real-version-pairs-01/blobs/12601dc48d5f695754b41007264156012a17b60b.png"
+  },
+  {
+    "id": "ts_fonts_1",
+    "repository": "microsoft/TypeScript-Website",
+    "parent_commit": "ab217051d751bf134c389f86ae250fe81bf896d1",
+    "commit": "f3e0a7b5435cffcc1a0f77b6ba6e8347a1d85dde",
+    "date": "2021-02-12T09:13:23Z",
+    "title": "Adds support for custom fonts, and changes the colour selector to be a select dropdown",
+    "path": "packages/typescriptlang-org/_tests/backstop_data/bitmaps_reference/backstop_default_Index_0_document_1_tablet.png",
+    "after_blob_sha": "c557b27f3e034d92e015d02b4277a032f3cb3b9b",
+    "evidence_type": "real_website_version_snapshot",
+    "label_status": "requires_manual_review",
+    "sample_rule": "All modified PNGs for this selected change, capped as protocol",
+    "before_blob_sha": "b7fba0fef834f952f4e28531af6dd111a7bee195",
+    "project_group": "microsoft/TypeScript-Website",
+    "pair_basis": "Same repository path at commit and first parent; file status modified; pinned Git blob bytes",
+    "before_shape": [
+      4027,
+      1032,
+      3
+    ],
+    "after_shape": [
+      4008,
+      1032,
+      3
+    ],
+    "same_geometry": false,
+    "before_pixel_sha256": "e1e48428cbd14f9642ef569e549eb977f6e50041ac589e4f232dd47772cc21e0",
+    "after_pixel_sha256": "b6627e4a63a3e935e9946063a2c01ef1820c073b3fbb34283b0424c6ee9bb206",
+    "overlap_changed_pixels": 141300,
+    "overlap_changed_gt4": 137905,
+    "overlap_shape": [
+      4008,
+      1032
+    ],
+    "overlap_max_delta": 255,
+    "changed_pixels": null,
+    "changed_gt4": null,
+    "changed_fraction": null,
+    "bbox_xyxy": null,
+    "before_path": "data/real-version-pairs-01/blobs/b7fba0fef834f952f4e28531af6dd111a7bee195.png",
+    "after_path": "data/real-version-pairs-01/blobs/c557b27f3e034d92e015d02b4277a032f3cb3b9b.png"
+  },
+  {
+    "id": "ts_fonts_2",
+    "repository": "microsoft/TypeScript-Website",
+    "parent_commit": "ab217051d751bf134c389f86ae250fe81bf896d1",
+    "commit": "f3e0a7b5435cffcc1a0f77b6ba6e8347a1d85dde",
+    "date": "2021-02-12T09:13:23Z",
+    "title": "Adds support for custom fonts, and changes the colour selector to be a select dropdown",
+    "path": "packages/typescriptlang-org/_tests/backstop_data/bitmaps_reference/backstop_default_Index_0_document_2_computer.png",
+    "after_blob_sha": "c6d138265e94052ceadcc1b3df98b12aa8762c39",
+    "evidence_type": "real_website_version_snapshot",
+    "label_status": "requires_manual_review",
+    "sample_rule": "All modified PNGs for this selected change, capped as protocol",
+    "before_blob_sha": "c2f365517d300347fc4cdb6212face2dd0d4d638",
+    "project_group": "microsoft/TypeScript-Website",
+    "pair_basis": "Same repository path at commit and first parent; file status modified; pinned Git blob bytes",
+    "before_shape": [
+      3961,
+      1280,
+      3
+    ],
+    "after_shape": [
+      3942,
+      1280,
+      3
+    ],
+    "same_geometry": false,
+    "before_pixel_sha256": "0b476510843973b300ef068fdc0485b7cfba4a52d8c89d6f7e84a80a6b1391b9",
+    "after_pixel_sha256": "76c3caf8ef1ddd46f2112651f89bee6a5228bf4291e446618f2def6fe3f54514",
+    "overlap_changed_pixels": 147886,
+    "overlap_changed_gt4": 144491,
+    "overlap_shape": [
+      3942,
+      1280
+    ],
+    "overlap_max_delta": 255,
+    "changed_pixels": null,
+    "changed_gt4": null,
+    "changed_fraction": null,
+    "bbox_xyxy": null,
+    "before_path": "data/real-version-pairs-01/blobs/c2f365517d300347fc4cdb6212face2dd0d4d638.png",
+    "after_path": "data/real-version-pairs-01/blobs/c6d138265e94052ceadcc1b3df98b12aa8762c39.png"
+  },
+  {
+    "id": "ionic_control_0",
+    "repository": "ionic-team/ionic-framework",
+    "project_group": "ionic-team/ionic-framework",
+    "parent_commit": "17326e1edce57938e416834a0dda96ca74890acb",
+    "commit": "7ecca28c17913ac5bf062e8937954516f005c0eb",
+    "date": "2026-11-18T20:28:38Z",
+    "title": "fix(rtl): use :dir() for rtl styles when the browser supports it (#31744)",
+    "path": "core/src/components/popover/test/position/popover.e2e.ts-snapshots/popover-position-ios-ltr-Mobile-Chrome-linux.png",
+    "before_blob_sha": "71994c09b3daf09f68b607f8337e3e98f02f3500",
+    "after_blob_sha": "71994c09b3daf09f68b607f8337e3e98f02f3500",
+    "pair_basis": "Path present in parent and not changed in complete2-file commit; exact child tree entry checked separately",
+    "evidence_type": "real_component_project_version_snapshot",
+    "expected_no_change": true,
+    "label_status": "expected_no_diff_pending_pixel_verification",
+    "before_shape": [
+      1024,
+      768,
+      3
+    ],
+    "after_shape": [
+      1024,
+      768,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "4a8abf5fe34e6ad5f6d673557921bcd2f1db2b63b09d3b01086893cc6d7d8a7b",
+    "after_pixel_sha256": "4a8abf5fe34e6ad5f6d673557921bcd2f1db2b63b09d3b01086893cc6d7d8a7b",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      1024,
+      768
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null,
+    "before_path": "data/real-version-pairs-01/blobs/71994c09b3daf09f68b607f8337e3e98f02f3500.png",
+    "after_path": "data/real-version-pairs-01/blobs/71994c09b3daf09f68b607f8337e3e98f02f3500.png"
+  },
+  {
+    "id": "ionic_control_1",
+    "repository": "ionic-team/ionic-framework",
+    "project_group": "ionic-team/ionic-framework",
+    "parent_commit": "17326e1edce57938e416834a0dda96ca74890acb",
+    "commit": "7ecca28c17913ac5bf062e8937954516f005c0eb",
+    "date": "2026-11-18T20:28:38Z",
+    "title": "fix(rtl): use :dir() for rtl styles when the browser supports it (#31744)",
+    "path": "core/src/components/popover/test/position/popover.e2e.ts-snapshots/popover-position-ios-rtl-Mobile-Firefox-linux.png",
+    "before_blob_sha": "8c49b5747f6f1c8489af5ea9a885c219ca109de9",
+    "after_blob_sha": "8c49b5747f6f1c8489af5ea9a885c219ca109de9",
+    "pair_basis": "Path present in parent and not changed in complete2-file commit; exact child tree entry checked separately",
+    "evidence_type": "real_component_project_version_snapshot",
+    "expected_no_change": true,
+    "label_status": "expected_no_diff_pending_pixel_verification",
+    "before_shape": [
+      1024,
+      768,
+      3
+    ],
+    "after_shape": [
+      1024,
+      768,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "07a6decd9c4915a122fcecd6e9421ba737dbd38cd0ca65b035b2ae61b6448b17",
+    "after_pixel_sha256": "07a6decd9c4915a122fcecd6e9421ba737dbd38cd0ca65b035b2ae61b6448b17",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      1024,
+      768
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null,
+    "before_path": "data/real-version-pairs-01/blobs/8c49b5747f6f1c8489af5ea9a885c219ca109de9.png",
+    "after_path": "data/real-version-pairs-01/blobs/8c49b5747f6f1c8489af5ea9a885c219ca109de9.png"
+  }
+]

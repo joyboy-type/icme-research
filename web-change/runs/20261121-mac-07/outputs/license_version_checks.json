@@ -1,0 +1,30 @@
+[
+  {
+    "repository": "ionic-team/ionic-framework",
+    "commit": "17326e1edce57938e416834a0dda96ca74890acb",
+    "license_blob_sha": "92621d0bb42d8fcee2d0ec577a77ab0e46d2dccb",
+    "expected_license_blob_sha": "92621d0bb42d8fcee2d0ec577a77ab0e46d2dccb",
+    "matches_verified_license": true
+  },
+  {
+    "repository": "ionic-team/ionic-framework",
+    "commit": "7a95d472de7239940c023f9b95e403887fcdffaa",
+    "license_blob_sha": "92621d0bb42d8fcee2d0ec577a77ab0e46d2dccb",
+    "expected_license_blob_sha": "92621d0bb42d8fcee2d0ec577a77ab0e46d2dccb",
+    "matches_verified_license": true
+  },
+  {
+    "repository": "ionic-team/ionic-framework",
+    "commit": "a35e13d59872c2136a3f44871fbb0146d0007c19",
+    "license_blob_sha": "92621d0bb42d8fcee2d0ec577a77ab0e46d2dccb",
+    "expected_license_blob_sha": "92621d0bb42d8fcee2d0ec577a77ab0e46d2dccb",
+    "matches_verified_license": true
+  },
+  {
+    "repository": "microsoft/TypeScript-Website",
+    "commit": "ab217051d751bf134c389f86ae250fe81bf896d1",
+    "license_blob_sha": "085c3ca0c4920beedbf179f7987e705aec84115b",
+    "expected_license_blob_sha": "085c3ca0c4920beedbf179f7987e705aec84115b",
+    "matches_verified_license": true
+  }
+]

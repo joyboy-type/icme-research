@@ -1,0 +1,15 @@
+{
+  "dataset_revision": "e2f61f6e9d9b5ee201b81d8e0ae4d37aa13f8f25",
+  "mapping_repository_commit": "7a575e4c33f417c4be5c64072b8f5798de0d0f99",
+  "mapping_git_blob_sha": "d3af52067bb194a61cf52361a4aeb1a78ddd593c",
+  "html_records": 484,
+  "mapped_records": 484,
+  "missing_mapping": [],
+  "registrable_site_groups": 466,
+  "site_parser": "tldextract installed bundled suffix snapshot including private domains; no network update",
+  "evidence_type": "Processed real-source single-page corpus with placeholder images, no version pairs",
+  "models_evaluated": false,
+  "metadata_error_corrected": "Installed tldextract uses registered_domain, not the newer top_domain_under_public_suffix property; initial metadata-only calculation failed before writing output.",
+  "html_files_archived_for_this_audit": 0,
+  "html_example_preview_fetched": 1
+}

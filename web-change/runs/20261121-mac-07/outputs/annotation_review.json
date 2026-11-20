@@ -1,0 +1,82 @@
+{
+  "review_by": "Assistant source/pixel inspection, not independent human13-class annotation",
+  "reviews": [
+    {
+      "pair_id": "ionic_rtl_0",
+      "project_group": "ionic-team/ionic-framework",
+      "status": "visually_reviewed_real_project_change",
+      "atomic13_label": null,
+      "observed_change": "Popover arrow points toward trigger after a real RTL selector fix. Direction/shape changes are not automatically a pure position-translation class.",
+      "source_change_isolated": true,
+      "nonzero_pixels": 1569,
+      "pixels_gt4": 120,
+      "nonzero_pixels_le4": 1449,
+      "bbox_gt4_xyxy": [
+        566,
+        913,
+        576,
+        931
+      ],
+      "note": "Low-amplitude differences exist outside substantive arrow change. No detector was evaluated."
+    },
+    {
+      "pair_id": "ionic_select_0",
+      "project_group": "ionic-team/ionic-framework",
+      "status": "visually_reviewed_mixed_real_project_change",
+      "atomic13_label": null,
+      "observed_change": "Control/label alignment and row spacing differ in existing alert examples; source change adds labelPlacement, justify and rich content together.",
+      "note": "Commit keyword justify does not establish an isolated justify ground truth. Require region-level review and separation of simultaneous source changes."
+    },
+    {
+      "pair_id": "ionic_select_1",
+      "project_group": "ionic-team/ionic-framework",
+      "status": "visually_reviewed_mixed_real_project_change",
+      "atomic13_label": null,
+      "observed_change": "Control/label alignment and row spacing differ in existing alert examples; source change adds labelPlacement, justify and rich content together.",
+      "note": "Commit keyword justify does not establish an isolated justify ground truth. Require region-level review and separation of simultaneous source changes."
+    },
+    {
+      "pair_id": "ts_fonts_0",
+      "project_group": "microsoft/TypeScript-Website",
+      "status": "geometry_mismatch_exclude_direct_pixel_metric",
+      "atomic13_label": null,
+      "observed_change": "Real website baseline updated with fonts/footer code, but screenshot dimensions differ.",
+      "note": "No resizing or whole-pair change rate. Need matching capture geometry and environment before a formal pair can be used."
+    },
+    {
+      "pair_id": "ts_fonts_1",
+      "project_group": "microsoft/TypeScript-Website",
+      "status": "geometry_mismatch_exclude_direct_pixel_metric",
+      "atomic13_label": null,
+      "observed_change": "Real website baseline updated with fonts/footer code, but screenshot dimensions differ.",
+      "note": "No resizing or whole-pair change rate. Need matching capture geometry and environment before a formal pair can be used."
+    },
+    {
+      "pair_id": "ts_fonts_2",
+      "project_group": "microsoft/TypeScript-Website",
+      "status": "geometry_mismatch_exclude_direct_pixel_metric",
+      "atomic13_label": null,
+      "observed_change": "Real website baseline updated with fonts/footer code, but screenshot dimensions differ.",
+      "note": "No resizing or whole-pair change rate. Need matching capture geometry and environment before a formal pair can be used."
+    },
+    {
+      "pair_id": "ionic_control_0",
+      "project_group": "ionic-team/ionic-framework",
+      "status": "verified_same_versioned_baseline_pixels",
+      "atomic13_label": null,
+      "note": "Same Git blob in both versions; not independent repeated capture and cannot estimate rendering noise or FPR."
+    },
+    {
+      "pair_id": "ionic_control_1",
+      "project_group": "ionic-team/ionic-framework",
+      "status": "verified_same_versioned_baseline_pixels",
+      "atomic13_label": null,
+      "note": "Same Git blob in both versions; not independent repeated capture and cannot estimate rendering noise or FPR."
+    }
+  ],
+  "certified_atomic13_change_labels": 0,
+  "confirmed_pure_justify_pairs": 0,
+  "confirmed_pure_position_translation_pairs": 0,
+  "group_count": 2,
+  "dataset_readiness": "Exploratory source evidence only; cannot form3 disjoint project splits from2 groups. No training/development/confirmation assignment."
+}

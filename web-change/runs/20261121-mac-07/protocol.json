@@ -1,0 +1,41 @@
+{
+  "run_id": "20261121-mac-07",
+  "scope": "Bounded public source availability audit of real repository version screenshot pairs; no model evaluation or synthetic CSS changes.",
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/网页截图的细微变更分类｜实验任务书_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_guard": {},
+  "sample": "6 candidate modified screenshot paths and2 unchanged controls from2 projects; exploratory source verification, not representative benchmark",
+  "pairing_rule": "Exact same repository path at a selected commit and its first parent; both Git blob hashes verified; unchanged controls child tree checked",
+  "licenses": [
+    {
+      "repository": "ionic-team/ionic-framework",
+      "commit": "7ecca28c17913ac5bf062e8937954516f005c0eb",
+      "path": "LICENSE",
+      "blob_sha": "92621d0bb42d8fcee2d0ec577a77ab0e46d2dccb",
+      "license": "MIT"
+    },
+    {
+      "repository": "microsoft/TypeScript-Website",
+      "commit": "f3e0a7b5435cffcc1a0f77b6ba6e8347a1d85dde",
+      "path": "LICENSE",
+      "blob_sha": "085c3ca0c4920beedbf179f7987e705aec84115b",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "pixel_rule": "Compare decoded RGB at original geometry; different dimensions flagged without resizing; report overlap difference separately",
+  "grouping_rule": "All commits, components, browsers and viewports within a repository are one project group; not independent websites",
+  "label_policy": "No automatic13-class labels from commit title. Review source changes and pixels; mixed or ambiguous change stays unlabelled. justify and position coverage only reported where supported.",
+  "budget": {
+    "max_pairs": 8,
+    "max_projects": 2,
+    "no_rental": true,
+    "paid_api_calls": 0,
+    "no_model_fit_or_threshold_tuning": true
+  },
+  "excluded": "Old419,355,155 and72 confirmation examples; all prior methods/results unchanged",
+  "export_policy": "Only code, configuration, hashes, source URLs and filtered audit metadata; no raw images, upstream source documents, full logs, weights or credentials"
+}
