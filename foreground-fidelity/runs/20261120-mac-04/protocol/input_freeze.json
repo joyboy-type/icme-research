@@ -1,0 +1,9 @@
+{
+  "features_sha256": "ce8bf3d9575fb0ea8cd4f865bf1b97749951b8822ca0ec31be1e5101cb432f41",
+  "annotations_sha256": "932549abb6d42ccbfd07c8a78c6ec08f5e687c2bc1f55a90ae2f49f2d674e168",
+  "method_sha256": "532561fbb33a41fb85dd5b5bc3550273def8cd0cbd175a4b9695a776bed31b55",
+  "source_groups": 46,
+  "pairs": 89,
+  "stage": "before_new_pair_scores",
+  "prior_feature_run": "20261120-mac-02"
+}

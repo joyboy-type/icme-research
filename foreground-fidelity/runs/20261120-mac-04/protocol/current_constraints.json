@@ -1,0 +1,6 @@
+{
+  "word_taskbook": "Frozen by a later user instruction received during this run. No edit, overwrite, new version, or taskbook-writing script is allowed unless explicitly requested by user.",
+  "precedence": "This user constraint supersedes the older Word-update sentence retained in diagnostic_frozen.json. That pre-scoring method snapshot remains unchanged for traceability.",
+  "recording": "Record this run's progress, results, failures and conclusions here and in the conversation; sync only allowed artifacts under the foreground-fidelity GitHub directory.",
+  "compute": "No rented compute, GPU, model downloads, training, or confirmation-set scoring. CPU/BLAS2 threads."
+}

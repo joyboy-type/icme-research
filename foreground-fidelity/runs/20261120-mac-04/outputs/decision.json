@@ -1,0 +1,20 @@
+{
+  "status": "continue_pause_current_B3",
+  "strongest_observed_local_baseline": "B1_all_free_77_of89",
+  "reviewed_region_result": "70/89 free,72/89 r2; eligible59/75 free,61/75 r2 versus B1_66/75",
+  "finding": "Reviewed boxes did not recover the B3 deficit. Radius2 adds2 correct on reviewed boxes but no net change on all/legacy-auto.",
+  "limits": [
+    "assistant boxes are not expert masks or an oracle upper bound",
+    "fallback contributes the net+1 reviewed_r2 versus legacy B3; eligible subset is -1",
+    "cropping loss observed, causal contribution not isolated",
+    "reused diagnostic pairs; no confirmation claim"
+  ],
+  "next_proposals_not_executed": [
+    "separate frozen full-frame preprocessing diagnostic",
+    "independent human segmentation audit",
+    "official PVC small batch when GPU is available"
+  ],
+  "word_taskbook": "frozen_v1.3_no_change",
+  "PVC": "not_run",
+  "confirmation": "not_scored"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "pairs": 89,
+  "source_groups": 46,
+  "eligible_pairs": 75,
+  "eligible_groups": 39,
+  "K_controls": "PASS",
+  "old_prediction_replay": "PASS_5_methods",
+  "independent_score_check": "PASS_2670_scores_max_error_1.11e-16",
+  "unit_tests": "3_PASS; red and green logs retained",
+  "source_group_bootstrap": "4000 seed20261120, independently reproduced",
+  "A_B_order_inconsistency": 0,
+  "frozen_annotation_and_method_hashes": "PASS",
+  "prior_archives_all_hashes": "unchanged",
+  "Word_taskbook": "v1.3_frozen_and_unchanged",
+  "confirmation_predictions": 0,
+  "GPU_or_paid_resources": false,
+  "public_screening": "PASS_no_images_weights_features_raw_logs_labels_or_private_paths"
+}

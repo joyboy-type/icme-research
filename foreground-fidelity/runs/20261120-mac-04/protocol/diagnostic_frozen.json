@@ -1,0 +1,16 @@
+{
+  "run_id": "20261120-mac-04",
+  "stage": "mechanism_diagnostic_only",
+  "scope": "89 previously inspected pairs /46 RGB source groups; cached DINO224 features from mac-02; no new confirmation inputs, model downloads, training, GPU or paid resources",
+  "question": "Does source region choice or radius2 position constraint account for the observed B3 deficit?",
+  "annotation": "Assistant visually proposes rectangular source regions from source-only contact sheets of all46 groups. No edited images or labels on annotation sheets. Reviewer knows earlier aggregate and disagreement results: not independent blinded expert annotation, ground truth segmentation, or a mathematical upper bound.",
+  "region_coordinates": "One or more boxes in cropped DINO16x16 patch-grid coordinates; select patches whose centers lie within any box, union without duplicates. Freeze annotation JSON and SHA before computing new pair scores.",
+  "unclear_source_policy": "If no defensible standalone preserved source object can be drawn, explicitly flag scene_ambiguous and fall back to all256 patches for the full89 diagnostic. Separately report pre-scoring source-eligible subset; no outcome-based exclusions.",
+  "matched_area_controls": "For reviewed region K, also take U2NETP topK probabilities, source CLS salient topK, random K, center K; exactly identical K in each group, same support for A/B. U2NETP threshold support remains legacy replay only.",
+  "correspondence": "Unchanged source-to-candidate maximum cosine then source-region mean; unrestricted or Chebyshev radius2 on16x16 grid. No radius or annotation tuning after scores.",
+  "matrix": "all/legacy_U2NETP/reviewed_box/U2NETP_topK/salient_topK/random_topK/center_topK times unrestricted/radius2, plus CLS replay",
+  "metrics": "Same expert preferences as mac-02; tie0.5; illegal0; report full89, source-eligible subset, unclear-source subset, fixes/newerrors, source-group paired bootstrap4000 seed20261120. Source-group counts and subgroup sample sizes explicit.",
+  "correspondence_diagnostic": "For source selected patches log fraction of unrestricted NN argmax displacements outside radius2 and score penalty from restricting positions. These are feature matches, not verified physical correspondences or causal labels.",
+  "decision": "Retain B1 as strongest observed baseline unless diagnostic supports a mechanism worth independently validating. Any improvement on reused diagnostic pairs is not a new confirmation result or sufficient novelty claim.",
+  "deliverables": "New local run with source review, frozen supports, per-pair scores, paired summaries, failures and QA; publish allowed code/configs/summary/screened pair metrics only under foreground-fidelity/. Update Word only if the resulting research decision changes materially."
+}
