@@ -1,0 +1,25 @@
+{
+  "run_id": "20261121-mac-07",
+  "status": "continue_pause_current_B3",
+  "label_scope_audit": "completed_from_official_sources_and_existing_development_label_lineage",
+  "supported_target": "instruction-conditioned visual-consistency preference on background-edit development subset",
+  "unsupported_targets": [
+    "pure foreground pixel-invariance ground truth",
+    "independent human masks or boxes",
+    "confirmed B3 superiority",
+    "independent confirmation from reused16 pairs"
+  ],
+  "AI_description_corrections": 2,
+  "AI_original_box_completeness_flags": 2,
+  "AI_original_modified": false,
+  "new_preference_scores": 0,
+  "new_confirmation_predictions": 0,
+  "confirmation20_groups37_pairs": "reserved_not_activated; no source or label files accessed in this run",
+  "PVC_inference": "NOT_RUN",
+  "GPU_or_rentals": false,
+  "Word_taskbook": "v1.3 frozen unchanged",
+  "next_if_existing_GPU": "32 ordered PVC diagnostic requests only, after real environment/model preflight; no model expansion",
+  "paid_expansion": "not justified for current B3",
+  "VRAM_latency_cost": "not measured",
+  "new_human_annotation": "not required for this audit; only reconsider if a precise attribute-level question cannot be answered by released VC preferences"
+}

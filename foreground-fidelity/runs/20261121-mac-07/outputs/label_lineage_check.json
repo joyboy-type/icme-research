@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "scope": "Existing development16 only; no new preference predictions or scores",
+  "dataset_revision": "4dfccf0bb4a4448aed140e8ff8ccb412e0f9b2d2",
+  "unique_pairs": 16,
+  "ordered_rows_checked": 32,
+  "tasks": [
+    "background_change"
+  ],
+  "per_order": {
+    "ab": {
+      "rows": 16,
+      "winner_mapping_mismatches": 0,
+      "instruction_mismatches": 0,
+      "task_mismatches": 0
+    },
+    "ba": {
+      "rows": 16,
+      "winner_mapping_mismatches": 0,
+      "instruction_mismatches": 0,
+      "task_mismatches": 0
+    }
+  },
+  "upstream_metadata_hashes": {
+    "data/snapshot-01/fixed_sample_manifest.json": "4c9448ae15be3289c62bc92cc213c972c5c238bb3150209145c9ff307e43d1c1",
+    "data/snapshot-01/replication/fixed_sample_manifest.json": "6dab3204fbb97d9870d51b02f71649a985bd2275ec5b9d6e9c311ca708675470",
+    "runs/20261120-mac-02/protocol/inputs.json": "94e1f4e5cb10d8a776cc5546679779f79edc8c9da35049576279c97540388a6d",
+    "runs/20261120-mac-02/server_batch/candidate_mapping.json": "2d61a308301461c8c205d749bb51f54e20cfa162534e6fa39b30d872f6f7683f",
+    "runs/20261120-mac-02/server_batch/batch_manifest.json": "d495d1e303415333292baabd546ddcedb78ca13ad6110748c9d4998c23a33045"
+  },
+  "parquet_projection": [
+    "key",
+    "instruction",
+    "winner",
+    "task"
+  ],
+  "image_columns_read": false,
+  "label_scope": "Released aggregated winner for visual consistency, according to official dataset card and paper; no subject-only component or individual rater ballots in released schema",
+  "instruction_scope_examples": [
+    {
+      "development_pair": "background_change_pair_000048",
+      "instruction": "Replace the current arid background with a vibrant, bustling city street scene at golden hour, featuring tall buildings, illuminated streetlights, and a warm, golden-orange sunset sky, ensuring the lighting on the subjects is seamlessly integrated with the new ambient light.",
+      "interpretation": "The instruction explicitly allows subject-lighting integration. Pixelwise/color invariance of the entire foreground is not implied by visual-consistency labels."
+    }
+  ],
+  "confirmation_files_opened_or_hashed": false
+}

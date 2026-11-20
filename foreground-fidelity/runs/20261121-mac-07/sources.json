@@ -1,0 +1,138 @@
+{
+  "run_id": "20261121-mac-07",
+  "access_date": "2026-11-21",
+  "evidence_status": "Official documentation and archived development data lineage; no independent reannotation",
+  "sources": [
+    {
+      "source_id": "dataset_README.md",
+      "url": "https://huggingface.co/datasets/GEditBench-v2/VCReward-Bench/raw/4dfccf0bb4a4448aed140e8ff8ccb412e0f9b2d2/README.md",
+      "canonical_version": "HF4dfccf0bb4a4448aed140e8ff8ccb412e0f9b2d2",
+      "local_file": "sources/dataset_README.md",
+      "sha256": "eaa9fecf8c6aafe3163e4d65060f18ad41ee92313c3dfea77e07352930c85fc5",
+      "bytes": 2254,
+      "reviewed": true
+    },
+    {
+      "source_id": "paper_abs.html",
+      "url": "https://arxiv.org/abs/2603.28547",
+      "canonical_version": "arXiv2603.28547v1",
+      "local_file": "sources/paper_abs.html",
+      "sha256": "dba20cc3d0dbdef1872e25804f2a946db87e6bca5c326b568c11f705991ae8ea",
+      "bytes": 42844,
+      "reviewed": true
+    },
+    {
+      "source_id": "paper.html",
+      "url": "https://arxiv.org/html/2603.28547",
+      "canonical_version": "arXiv2603.28547v1",
+      "local_file": "sources/paper.html",
+      "sha256": "c6d1a40d0d18fca2d8597d034b26471738a710ce60f203131ddc4219657c7a6b",
+      "bytes": 364338,
+      "reviewed": true
+    },
+    {
+      "source_id": "README.md",
+      "url": "https://github.com/ZhangqiJiang07/GEditBench_v2/blob/a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb/README.md",
+      "official_commit": "a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb",
+      "official_git_blob_sha": "12728cb7b25d6e7df216bcbcc6504ddb3f6a929d",
+      "local_file": "sources/official_repo_README.md",
+      "archive_sha256": "4159ccc77017fe079942fd18d7c58c352dfbb7d021b1c6694a3a96c40fb273cb",
+      "archive_note": "UTF-8 text from GitHub connector; final-newline normalization may differ from Git blob",
+      "reviewed": true
+    },
+    {
+      "source_id": "src/prompts/assets/vlm/assessment/visual_consistency/pairwise/v5.yaml",
+      "url": "https://github.com/ZhangqiJiang07/GEditBench_v2/blob/a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb/src/prompts/assets/vlm/assessment/visual_consistency/pairwise/v5.yaml",
+      "official_commit": "a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb",
+      "official_git_blob_sha": "9d190f64998078a67d111e0f7bd4e232bba24443",
+      "local_file": "sources/src__prompts__assets__vlm__assessment__visual_consistency__pairwise__v5.yaml",
+      "archive_sha256": "2694ade37cb144412c1e76d050596c0a76eae31f6e3ce585bb2678e540c2d525",
+      "archive_note": "UTF-8 text from GitHub connector; final-newline normalization may differ from Git blob",
+      "reviewed": true
+    },
+    {
+      "source_id": "src/prompts/assets/vlm/assessment/visual_consistency/pairwise/v1.yaml",
+      "url": "https://github.com/ZhangqiJiang07/GEditBench_v2/blob/a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb/src/prompts/assets/vlm/assessment/visual_consistency/pairwise/v1.yaml",
+      "official_commit": "a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb",
+      "official_git_blob_sha": "4c151029115bc9ee67a38c0089085adf39e2dfc1",
+      "local_file": "sources/src__prompts__assets__vlm__assessment__visual_consistency__pairwise__v1.yaml",
+      "archive_sha256": "20c93fdc9cc54f4ef3399cc1a05dabbfa1b0610ed6e7c0e0fd8bd4745e230ed9",
+      "archive_note": "UTF-8 text from GitHub connector; final-newline normalization may differ from Git blob",
+      "reviewed": true
+    },
+    {
+      "source_id": "src/inference/run_eval.py",
+      "url": "https://github.com/ZhangqiJiang07/GEditBench_v2/blob/a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb/src/inference/run_eval.py",
+      "official_commit": "a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb",
+      "official_git_blob_sha": "be56f392473ab5d77737eace3a60843390012121",
+      "local_file": "sources/src__inference__run_eval.py",
+      "archive_sha256": "39fcbfce4bd5ab66f3b53a7d06b9a0bd94f92ae2dcdce19436ddfa88c723d473",
+      "archive_note": "UTF-8 text from GitHub connector; final-newline normalization may differ from Git blob",
+      "reviewed": true
+    },
+    {
+      "source_id": "src/autopipeline/components/primitives/visual_consistency.py",
+      "url": "https://github.com/ZhangqiJiang07/GEditBench_v2/blob/a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb/src/autopipeline/components/primitives/visual_consistency.py",
+      "official_commit": "a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb",
+      "official_git_blob_sha": "d3371a1731a356d24e5808fa4f9f1cbeb81fac2e",
+      "local_file": "sources/src__autopipeline__components__primitives__visual_consistency.py",
+      "archive_sha256": "026c5873d200e4341e75ebb512547ff4059175928d22537e95c23219b7bb561a",
+      "archive_note": "UTF-8 text from GitHub connector; final-newline normalization may differ from Git blob",
+      "reviewed": true
+    },
+    {
+      "source_id": "data/z_reward_bench/README.md",
+      "url": "https://github.com/ZhangqiJiang07/GEditBench_v2/blob/a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb/data/z_reward_bench/README.md",
+      "official_commit": "a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb",
+      "official_git_blob_sha": "2fcca40dcbdb4350e6287a354145d5ef13071e66",
+      "local_file": "sources/data__z_reward_bench__README.md",
+      "archive_sha256": "79b6b28417ebef104ba7794cd251587a3b929ee9eabdde443ed6493f2c82f0c9",
+      "archive_note": "UTF-8 text from GitHub connector; final-newline normalization may differ from Git blob",
+      "reviewed": true
+    },
+    {
+      "source_id": "paper_AppendixD_Fig17",
+      "url": "https://arxiv.org/html/2603.28547v1/figs/reward_annotation.png",
+      "sha256": "ccef2e1d4f34e04af9e157b5d7794971ff41050d7f7096448fb2e6a9500599ff",
+      "bytes": 2842389,
+      "local_file": "sources/reward_annotation_fig17.png",
+      "reviewed": "Visually checked: separate IF/VQ/VC/Overall selectors; no sealed local confirmation data"
+    },
+    {
+      "source_id": "official_VCRewardBenchmark_loader",
+      "url": "https://github.com/ZhangqiJiang07/GEditBench_v2/blob/a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb/src/common_utils/dataset_loader.py#L128",
+      "archive_sha256": "915852c1aa3beb9110f4c6be370bfca458bbdd00770ee3577add4f80ec24b56b",
+      "existing_archive": "runs/20261120-mac-02/protocol/official_pvc/src__common_utils__dataset_loader.py",
+      "reviewed_lines": "128-154: direct winner mapping, no subject-only dimension field"
+    }
+  ],
+  "key_evidence": [
+    {
+      "source_id": "dataset_README.md",
+      "locator": "headline and YAML dataset_info.features",
+      "quote": "3,506 expert-annotated preference pairs for evaluating assessment models of image editing in Visual Consistency."
+    },
+    {
+      "source_id": "paper.html",
+      "locator": "§3.2, local paper.html.txt line223; https://arxiv.org/html/2603.28547v1#S3.SS2",
+      "quote": "Visual Consistency (VC): Assesses preservation of non-target regions, penalizing unintended changes outside the specified edit area."
+    },
+    {
+      "source_id": "paper.html",
+      "locator": "Appendix D, local text lines1234-1242; https://arxiv.org/html/2603.28547v1#A4",
+      "summary": "IF, VQ, VC and Overall are separately annotated; retained winner strictly preferred on VC and non-inferior on remaining dimensions."
+    },
+    {
+      "source_id": "src/prompts/assets/vlm/assessment/visual_consistency/pairwise/v5.yaml",
+      "locator": "user_prompt, background change example",
+      "quote": "If the instruction is \"change the background to a forest\", the main subject (e.g., a person, animal, or object in the foreground) is the uninvolved region."
+    }
+  ],
+  "source_discrepancy": {
+    "release_card_and_paper_main": 3506,
+    "paper_AppendixD": 3508,
+    "policy": "Retain discrepancy; local data revision authoritative for existing inputs; do not infer missing-pair reasons"
+  },
+  "human_annotation_manual_scope": "Appendix D and Fig17 reviewed; no claim to possess unreleased full annotator instructions or individual ballots",
+  "model_prompt_warning": "v1/v5 prompts support evaluator definitions, not proof of every individual human decision; prepared PVC commands remain v1"
+}

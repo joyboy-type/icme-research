@@ -1,0 +1,66 @@
+{
+  "run_id": "20261121-mac-07",
+  "annotation_origin": "AI_assisted_review_NOT_independent_human",
+  "original_submission_commit": "bb3e2a72a2f1e0e37c193a8f6d492ce7c7740bb6",
+  "original_submission_path": "foreground-fidelity/annotation-practice/dev6-v1/results/deepseek-v4-flash-vision-exp.json",
+  "original_submission_sha256": "8d623f3c5f62ebd06b6c02356ce50be821c7373774d9c1a7526fb41fc504b0a9",
+  "append_only": true,
+  "records": [
+    {
+      "image_id": "P003",
+      "source_image_sha256": "a0ae6e8315e257864fd8dccacef7a037afedf7a8d73cc1021e3d393552e11da9",
+      "original_reason": "橙色老爷车位于前景中央并占据主要视觉注意力，车顶、车身与四轮完整可见；后方蓝车、白车为背景。",
+      "corrected_reason_for_review": "橙色老爷车为前景主要主体，车顶、车身及可见侧车轮可辨；不能据此断言四个车轮全部完整可见。",
+      "review_basis": "原图为侧前方视角，远侧车轮并非全部完整展示；可见前轮底部与车顶的一小部分越过原框上下边。",
+      "original_box_xyxy": [
+        0.19,
+        0.27,
+        0.772,
+        0.87
+      ],
+      "original_status": "clear",
+      "original_truncated": false,
+      "description_error_confirmed_by_AI_visual_review": true,
+      "box_geometry_flags": [
+        "top_edge_clips_roof",
+        "bottom_edge_clips_visible_front_tire"
+      ],
+      "box_disposition": "not_accepted_as_complete_visible_subject_box",
+      "clear_subject_identity_retained": true,
+      "truncated_semantics": "Source-frame clipping, not omission by annotation box; source-frame flag not changed",
+      "replacement_box_supplied": false,
+      "scientific_scoring_performed": false,
+      "original_record_modified": false
+    },
+    {
+      "image_id": "P005",
+      "source_image_sha256": "fa569125f68cbd33d543150b53f7f6feb74f900600b1f675290a5074f0c79643",
+      "original_reason": "黄色救护车横贯画面中部，车身、警灯与四轮完整可见，是唯一主要主体；右下角深色轿车属背景。",
+      "corrected_reason_for_review": "黄色救护车为主要主体，车身、警灯和可见侧车轮可辨；车顶有细天线，不能断言四个车轮全部完整可见。",
+      "review_basis": "原图可见侧车轮不等于所有四轮完整显示；原框上方还有细天线，下边界切掉可见轮胎的一部分。",
+      "original_box_xyxy": [
+        0.14,
+        0.192,
+        0.892,
+        0.718
+      ],
+      "original_status": "clear",
+      "original_truncated": false,
+      "description_error_confirmed_by_AI_visual_review": true,
+      "box_geometry_flags": [
+        "roof_antennae_outside_top_edge",
+        "bottom_edge_clips_visible_tires"
+      ],
+      "box_disposition": "not_accepted_as_complete_visible_subject_box",
+      "clear_subject_identity_retained": true,
+      "truncated_semantics": "Source-frame clipping, not omission by annotation box; source-frame flag not changed",
+      "replacement_box_supplied": false,
+      "scientific_scoring_performed": false,
+      "original_record_modified": false
+    }
+  ],
+  "QA_local_only": "qa/two_vehicle_box_review.png",
+  "scope": "Two descriptions and original-box completeness only; no new masks, boxes, preference labels or scores",
+  "prior_results": "mac-04/05 read older frozen source_annotations_frozen.json; no historical scores changed",
+  "correction_to_previous_assistant_status": "The earlier status mentioned description errors without establishing box completeness. This review flags actual box boundary omissions as well."
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "run_id": "20261121-mac-07",
+  "scope": "Document and existing-input audit, not new model performance experiment",
+  "official_sources_reviewed": "pinned HF card, arXiv2603.28547v1 main/appendices/Fig17, pinned GitHub v1/v5 prompt and evaluator/loader",
+  "label_lineage": "16 development pairs ->32 ordered rows; 0 mapping differences; projected metadata columns only",
+  "source_count_discrepancy_recorded": {
+    "main_and_release": 3506,
+    "AppendixD": 3508
+  },
+  "AI_descriptions_corrected_append_only": 2,
+  "AI_original_boxes_flagged_incomplete": 2,
+  "AI_original_bytes_equal_published_commit": true,
+  "Word_sha256_unchanged": "1682914cc21d0db94763be41d40f16b8c66ea88fda66676609edb60d3dd4ac71",
+  "qualitative_review": "Assistant visual inspection of P003/P005 and original-box coordinate plots; not independent human truth",
+  "new_preference_predictions_or_scores": 0,
+  "new_boxes_masks_or_human_annotations": 0,
+  "confirmation_access": "No confirmation files opened or hashed; checks scoped to explicit development files, not whole-tree integrity rescan",
+  "PVC_or_model_inference": "NOT_RUN",
+  "GPU_rentals_training": false,
+  "historical_score_files_modified": false,
+  "public_export_policy": "Only new run code, screened records and provenance; no images, full paper, label values, private paths or future IDs",
+  "public_files": [
+    "code/check_label_lineage.py",
+    "code/make_box_review.py",
+    "outputs/RESULTS.md",
+    "outputs/AI_DESCRIPTION_CORRECTIONS.json",
+    "outputs/label_lineage_check.json",
+    "outputs/decision.json",
+    "sources.json",
+    "run.json",
+    "outputs/final_validation.json"
+  ]
+}

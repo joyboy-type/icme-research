@@ -1,0 +1,39 @@
+{
+  "run_id": "20261121-mac-07",
+  "date": "2026-11-21",
+  "direction": "03 / foreground-fidelity",
+  "purpose": "official label-scope audit plus append-only review corrections",
+  "taskbook_policy": "frozen v1.3; never write or copy Word",
+  "input_scope": "existing development16 label metadata and two of six development source images; public official documentation",
+  "software": "Python standard library + existing pyarrow/Pillow/matplotlib; no added dependencies",
+  "threads": 2,
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "code/check_label_lineage.py",
+        "--experiment-root",
+        "<EXPERIMENT_ROOT>",
+        "--output",
+        "outputs/label_lineage_check.json"
+      ],
+      "execution": "completed; local archived development metadata only"
+    },
+    {
+      "argv": [
+        "python",
+        "code/make_box_review.py",
+        "--practice-root",
+        "<DEV6_PRACTICE_ROOT>",
+        "--output-dir",
+        "qa"
+      ],
+      "execution": "completed; two existing source images and original coordinates; plot visually inspected"
+    }
+  ],
+  "new_model_inference": false,
+  "new_preference_scoring": false,
+  "source_document_review": "official dataset card pinned, paper v1 §3.2/4.4/Appendix D + Fig17/B.2, pinned GitHub prompts v1/v5, official loader/evaluator code",
+  "public_export": "only code, source provenance, summaries and correction notes; no images, full paper, original label metadata, model weights or private paths",
+  "unrelated_untracked_files": "left untouched"
+}
