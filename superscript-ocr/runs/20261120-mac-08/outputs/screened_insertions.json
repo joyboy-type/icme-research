@@ -1,0 +1,416 @@
+[
+  {
+    "case_id": "19f7bc96a9ec6a31",
+    "method": "uniform",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "6acd8619c9101ea4",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "ad683480c4f0c7e0",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "6c50fc4841bf85f3",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "26359c858032d358",
+    "method": "baseline",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "1e42860cc2097e10",
+    "method": "isolate",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "ffce560a3e2c3ed1",
+    "method": "baseline",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "c88cc22eb63609e8",
+    "method": "rerank",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "2f2b2064576d641d",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "51629bedff6bbcc7",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "6935e1c8f3a8b15f",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "259af32f4f2b55de",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "be160237b08495a2",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "e7bad296edd30355",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "da180407a53cbac0",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "b982351cc2f61761",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "b4bb6d280bef1842",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "46c376ddec5dff90",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "b366aa64b3c46d65",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "e68b726e978a881c",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "04f1ece46f87cdfe",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "57b9b6664102d5a5",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "6ed5d7329fb73c7d",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "dcf6136dec3e08cc",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "3028e537d1638c2d",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "c05b79a73979951c",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "5da2906391478003",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "df6cb51b9de39aca",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "334368fab780444d",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "9d63f50ab85d0de4",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "figure_title_footnote_outside_selected90"
+  },
+  {
+    "case_id": "890cbd64c5e7bde2",
+    "method": "baseline",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "48970c858014a382",
+    "method": "rerank",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "95d0a452e44fbbbe",
+    "method": "isolate",
+    "reviewed_truth": "wrong_number",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "7a6dcc3d58e23612",
+    "method": "rerank",
+    "reviewed_truth": "wrong_number",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "fc3e1f2a9f222bdb",
+    "method": "isolate",
+    "reviewed_truth": "wrong_number",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "5b3350eca882fa20",
+    "method": "baseline",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "6fe6eab9eabbb0d6",
+    "method": "baseline",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "358cf5127aa57d44",
+    "method": "rerank",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "c1125b116d761a9b",
+    "method": "rerank",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "266a389b3a179cb2",
+    "method": "isolate",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "94a4d058a7f5e56a",
+    "method": "isolate",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "061a14b8a7cbe588",
+    "method": "isolate",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "b63a1c0c34212ffe",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "f7ac92153e48a75c",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "2583b7fd5d1923c0",
+    "method": "rerank",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "d93e225d95995cf4",
+    "method": "rerank",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "565f0bc41b3d72d7",
+    "method": "rerank",
+    "reviewed_truth": "wrong_number",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "caca41dbfcea1cc3",
+    "method": "rerank",
+    "reviewed_truth": "wrong_number",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "2209ed650143fea6",
+    "method": "rerank",
+    "reviewed_truth": "wrong_number",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "df74bbc343cc6267",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "5a29712063ac297f",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "ffa0871f014b1f99",
+    "method": "isolate",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "4a18227ba713a5a1",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "cf2eeae89520266d",
+    "method": "isolate",
+    "reviewed_truth": "wrong_number",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "a619ea0410c77882",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "7ecef34ebf631f57",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "73687a6b08da35ce",
+    "method": "baseline",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "53838ea37d460d31",
+    "method": "baseline",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "75cc65824a8fbfaa",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "5fa64154f7c4a4bf",
+    "method": "baseline",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "e0e2331bf6ded0c6",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "b1bfdb747447d18b",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "5a603689d4ae875f",
+    "method": "rerank",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "c3a1179965b22215",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "132b6a8b619c4f89",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "body_reference"
+  },
+  {
+    "case_id": "054ecb52913b3110",
+    "method": "isolate",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  },
+  {
+    "case_id": "392c5ed1b4f1b996",
+    "method": "rerank",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "figure_title_footnote_outside_selected90"
+  },
+  {
+    "case_id": "16c602dcf6890f55",
+    "method": "isolate",
+    "reviewed_truth": "correct_number_and_word_anchor",
+    "marker_scope": "figure_title_footnote_outside_selected90"
+  },
+  {
+    "case_id": "2d17f74ab1311b6e",
+    "method": "uniform",
+    "reviewed_truth": "false_insertion",
+    "marker_scope": "nonreference_or_body_fragment"
+  }
+]

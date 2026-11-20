@@ -1,0 +1,174 @@
+{
+  "scope": "All90reference positions on24already-seen pages are development data. Recognition number+position is primary crop metric. Insertion metrics are pre-context-gate and require source review. Matched canvas baseline is rerun, not interchangeable with old archived scores.",
+  "splits": {
+    "development40": {
+      "markers": 40,
+      "methods": {
+        "baseline": {
+          "center_covered": 14,
+          "hit": 12,
+          "inserted_at_position": 3,
+          "inserted_at_anchor": 3
+        },
+        "rerank": {
+          "center_covered": 15,
+          "hit": 12,
+          "inserted_at_position": 3,
+          "inserted_at_anchor": 3
+        },
+        "isolate": {
+          "center_covered": 13,
+          "hit": 11,
+          "inserted_at_position": 3,
+          "inserted_at_anchor": 3
+        },
+        "uniform": {
+          "center_covered": 0,
+          "hit": 0,
+          "inserted_at_position": 0,
+          "inserted_at_anchor": 0
+        }
+      }
+    },
+    "previous33": {
+      "markers": 33,
+      "methods": {
+        "baseline": {
+          "center_covered": 8,
+          "hit": 7,
+          "inserted_at_position": 2,
+          "inserted_at_anchor": 2
+        },
+        "rerank": {
+          "center_covered": 21,
+          "hit": 17,
+          "inserted_at_position": 5,
+          "inserted_at_anchor": 5
+        },
+        "isolate": {
+          "center_covered": 17,
+          "hit": 18,
+          "inserted_at_position": 6,
+          "inserted_at_anchor": 6
+        },
+        "uniform": {
+          "center_covered": 0,
+          "hit": 0,
+          "inserted_at_position": 0,
+          "inserted_at_anchor": 0
+        }
+      }
+    },
+    "focus17": {
+      "markers": 17,
+      "methods": {
+        "baseline": {
+          "center_covered": 1,
+          "hit": 0,
+          "inserted_at_position": 0,
+          "inserted_at_anchor": 0
+        },
+        "rerank": {
+          "center_covered": 1,
+          "hit": 0,
+          "inserted_at_position": 0,
+          "inserted_at_anchor": 0
+        },
+        "isolate": {
+          "center_covered": 1,
+          "hit": 1,
+          "inserted_at_position": 0,
+          "inserted_at_anchor": 0
+        },
+        "uniform": {
+          "center_covered": 0,
+          "hit": 0,
+          "inserted_at_position": 0,
+          "inserted_at_anchor": 0
+        }
+      }
+    },
+    "all90": {
+      "markers": 90,
+      "methods": {
+        "baseline": {
+          "center_covered": 23,
+          "hit": 19,
+          "inserted_at_position": 5,
+          "inserted_at_anchor": 5
+        },
+        "rerank": {
+          "center_covered": 37,
+          "hit": 29,
+          "inserted_at_position": 8,
+          "inserted_at_anchor": 8
+        },
+        "isolate": {
+          "center_covered": 31,
+          "hit": 30,
+          "inserted_at_position": 9,
+          "inserted_at_anchor": 9
+        },
+        "uniform": {
+          "center_covered": 0,
+          "hit": 0,
+          "inserted_at_position": 0,
+          "inserted_at_anchor": 0
+        }
+      }
+    }
+  },
+  "all_proposed_insertions": {
+    "baseline": 17,
+    "rerank": 25,
+    "isolate": 25,
+    "uniform": 2
+  },
+  "insertion_review_pending": false,
+  "reviewed_insertions": {
+    "baseline": {
+      "all_inserted": 17,
+      "correct_number_and_word_anchor": 10,
+      "correct_body_reference": 10,
+      "correct_extra_figure_footnotes": 0,
+      "wrong_number": 0,
+      "false_insertion": 7
+    },
+    "rerank": {
+      "all_inserted": 25,
+      "correct_number_and_word_anchor": 14,
+      "correct_body_reference": 13,
+      "correct_extra_figure_footnotes": 1,
+      "wrong_number": 4,
+      "false_insertion": 7
+    },
+    "isolate": {
+      "all_inserted": 25,
+      "correct_number_and_word_anchor": 16,
+      "correct_body_reference": 14,
+      "correct_extra_figure_footnotes": 2,
+      "wrong_number": 3,
+      "false_insertion": 6
+    },
+    "uniform": {
+      "all_inserted": 2,
+      "correct_number_and_word_anchor": 0,
+      "correct_body_reference": 0,
+      "correct_extra_figure_footnotes": 0,
+      "wrong_number": 0,
+      "false_insertion": 2
+    }
+  },
+  "paired_against_baseline": {
+    "rerank": {
+      "gained_number_position_hits": 10,
+      "lost_number_position_hits": 0
+    },
+    "isolate": {
+      "gained_number_position_hits": 12,
+      "lost_number_position_hits": 1
+    }
+  },
+  "decision": "REMAIN_BACKUP; development number-position hits19->30, but all wrong additions7->9for isolate; focus17only0->1recognition and0body repairs. No fresh-document claim; no context gate or deployable pipeline validation.",
+  "review_scope": "69proposed insertions reviewed against source pixels and emitted lexical anchors. Caption footnotes reported separately from90selected body-reference positions. Word-level anchors, not character-perfect typography; original punctuation/OCR errors preserved."
+}

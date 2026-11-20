@@ -1,0 +1,134 @@
+{
+  "status": "remain_backup; crop reading improved on development but error count increased; no automatic deployment or unseen-document claim",
+  "primary_results": {
+    "baseline": 19,
+    "rerank": 29,
+    "isolate": 30,
+    "uniform": 0
+  },
+  "paired": {
+    "rerank": {
+      "gained_number_position_hits": 10,
+      "lost_number_position_hits": 0
+    },
+    "isolate": {
+      "gained_number_position_hits": 12,
+      "lost_number_position_hits": 1
+    }
+  },
+  "reviewed_insertions": {
+    "baseline": {
+      "all_inserted": 17,
+      "correct_number_and_word_anchor": 10,
+      "correct_body_reference": 10,
+      "correct_extra_figure_footnotes": 0,
+      "wrong_number": 0,
+      "false_insertion": 7
+    },
+    "rerank": {
+      "all_inserted": 25,
+      "correct_number_and_word_anchor": 14,
+      "correct_body_reference": 13,
+      "correct_extra_figure_footnotes": 1,
+      "wrong_number": 4,
+      "false_insertion": 7
+    },
+    "isolate": {
+      "all_inserted": 25,
+      "correct_number_and_word_anchor": 16,
+      "correct_body_reference": 14,
+      "correct_extra_figure_footnotes": 2,
+      "wrong_number": 3,
+      "false_insertion": 6
+    },
+    "uniform": {
+      "all_inserted": 2,
+      "correct_number_and_word_anchor": 0,
+      "correct_body_reference": 0,
+      "correct_extra_figure_footnotes": 0,
+      "wrong_number": 0,
+      "false_insertion": 2
+    }
+  },
+  "budget": {
+    "baseline": {
+      "calls": 768,
+      "input_pixels": 56696832,
+      "source_pixels": 290781,
+      "blank_slots": 75,
+      "ocr_ms": 13884.811916504987
+    },
+    "rerank": {
+      "calls": 768,
+      "input_pixels": 56696832,
+      "source_pixels": 313992,
+      "blank_slots": 133,
+      "ocr_ms": 12209.399497602135
+    },
+    "isolate": {
+      "calls": 768,
+      "input_pixels": 56696832,
+      "source_pixels": 256628,
+      "blank_slots": 133,
+      "ocr_ms": 11846.600250224583
+    },
+    "uniform": {
+      "calls": 768,
+      "input_pixels": 56696832,
+      "source_pixels": 309828,
+      "blank_slots": 0,
+      "ocr_ms": 10213.962292531505
+    }
+  },
+  "focus17": {
+    "markers": 17,
+    "methods": {
+      "baseline": {
+        "center_covered": 1,
+        "hit": 0,
+        "inserted_at_position": 0,
+        "inserted_at_anchor": 0
+      },
+      "rerank": {
+        "center_covered": 1,
+        "hit": 0,
+        "inserted_at_position": 0,
+        "inserted_at_anchor": 0
+      },
+      "isolate": {
+        "center_covered": 1,
+        "hit": 1,
+        "inserted_at_position": 0,
+        "inserted_at_anchor": 0
+      },
+      "uniform": {
+        "center_covered": 0,
+        "hit": 0,
+        "inserted_at_position": 0,
+        "inserted_at_anchor": 0
+      }
+    }
+  },
+  "interpretation": [
+    "Most measured improvement is from new ordering:19->29; component isolation adds a net1further hit, with12gains and1loss overall relative to baseline.",
+    "Chinese focus17improves only0->1crop reading; selected body references receive no correct new insertion.",
+    "All90markers/24pages were already inspected and are development data; prior holdout naming in source files does not create a fresh test.",
+    "Insertion review uses lexical anchors and preserves old OCR punctuation; no character-perfect typography or bibliography-graph evaluation.",
+    "Correct figure-footnote1and2found outside90selected body references are counted separately and verified against actual caption notes.",
+    "All methods use32slots/page with identical per-page canvases and4xscale; blank slots are charged and native source pixel counts differ. Native OCR timing is not claimed equal.",
+    "No extra context-gate OCR is included: insertions are pre-gate diagnostic outputs; no repair-quality claim for the earlier failed gate."
+  ],
+  "negative_examples": [
+    "Mathematical exponents became citations.",
+    "Author affiliations were admitted as references.",
+    "Number groups25,28,29and4,7,8were truncated.",
+    "One source26was read as9."
+  ],
+  "word_unchanged": true,
+  "focus_ranking_diagnosis": {
+    "complete_selected": 1,
+    "old_complete_proposals_lost_by_new_filter": 1,
+    "complete_candidates_still_after32": 10,
+    "interpretation": "The new height/elevation score did not fix ordering on these Chinese pages; do not tune it on this set and call it a new confirmation."
+  }
+}

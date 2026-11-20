@@ -1,0 +1,15 @@
+{
+  "max_crops": 32,
+  "scale": 4,
+  "canvas_padding": 32,
+  "component_area_min": 5,
+  "primary_height_fraction": 0.55,
+  "minimum_primary_line_fraction": 0.25,
+  "retained_edge_margin": 1,
+  "antialias_dilation": 1,
+  "height_target": 0.48,
+  "height_sigma": 0.2,
+  "elevation_target": 0.28,
+  "elevation_sigma": 0.18,
+  "nms_overlap": 0.5
+}

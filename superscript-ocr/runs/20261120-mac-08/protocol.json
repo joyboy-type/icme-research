@@ -1,0 +1,24 @@
+{
+  "scope": "development only on24already inspected pages/90selected reference groups; no independent test or new source images",
+  "frozen_taskbook": "local/frozen_taskbook.docx",
+  "variants": [
+    "old ranking/raw crop",
+    "new geometric ranking/raw crop",
+    "same new ranking/component-isolated crop",
+    "uniform locations"
+  ],
+  "budgets": "32slots/page/method, identical per-page canvas and4xscale; blank unused slots count; real source pixels separately recorded",
+  "generation": "unchanged old untruncated proposal pool; new algorithm uses only native OCR line geometry and raster components",
+  "attachment": "unchanged original word-boundary attach before the failed context gate; evaluate pre-gate errors, not an end-to-end gated system",
+  "selection": "one fixed geometric score and one component-isolation rule, specified before outputs; no hidden per-marker thresholds or gold selection",
+  "code_hashes": {
+    "test_candidates.py": "06f3b16d2b1979b88e80271dbfcbd12d4dc8ecb97f741afd3bf730549de8d176",
+    "run.py": "eb2d8dc5c7decbb77522211351b392c8ebfd7aeabdbc69566809a964e1f5128e",
+    "baseline.py": "7806a66bc431175f08403ecd35b6fb286b41cc3dfc66fd921c280529121ea347",
+    "recognize.swift": "0b0e936fd1740a737584abd11c567abeaf49fd0184617e4be8cb13ae33a4814d",
+    "evaluation.py": "19ce319363c81c7519bfa2a2a824df347eb19630f7c7b8ceb1e94b3465582d6d",
+    "candidates.py": "768a0ff94f7020e5ed04608dc7f7f0cac00872e4c892c7185bc5dafcdfce3cc4",
+    "score.py": "f94ca644558782d623e375c1c6ac4bd9ed879452cd204fd1ff58ba5b24cba51d"
+  },
+  "local_input_requirements": "Provide local24source images, cached native OCR page outputs from runs03,04,06, and licensed labels for scoring. The taskbook file is only hashed to verify it remains unchanged. Raw sources and OCR text are not redistributed."
+}

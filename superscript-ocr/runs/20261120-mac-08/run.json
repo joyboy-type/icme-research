@@ -1,0 +1,95 @@
+{
+  "id": "20261120-mac-08",
+  "status": "complete",
+  "type": "development reranking and component-isolation ablation",
+  "config": {
+    "max_crops": 32,
+    "scale": 4,
+    "canvas_padding": 32,
+    "component_area_min": 5,
+    "primary_height_fraction": 0.55,
+    "minimum_primary_line_fraction": 0.25,
+    "retained_edge_margin": 1,
+    "antialias_dilation": 1,
+    "height_target": 0.48,
+    "height_sigma": 0.2,
+    "elevation_target": 0.28,
+    "elevation_sigma": 0.18,
+    "nms_overlap": 0.5
+  },
+  "methods": [
+    "baseline",
+    "rerank",
+    "isolate",
+    "uniform"
+  ],
+  "pages": 24,
+  "uses_gold_boxes": false,
+  "paid_calls": 0,
+  "training": false,
+  "model_downloads": 0,
+  "execution": "local serial Vision requests CPU-only flag; OpenCV/BLAS2threads; Vision internal scheduling not exposed",
+  "budget_policy": "Exactly32calls per page per method, per-page common white canvas, common4x source scale. Missing proposals occupy blank slots. True source pixel counts separately reported.",
+  "common_preprocessing": "Same cached full-page OCR, grayscale source and adaptive-threshold components for all methods; fresh baseline uses common canvases and is not numerically interchangeable with archived old baseline.",
+  "budgets": {
+    "baseline": {
+      "calls": 768,
+      "input_pixels": 56696832,
+      "source_pixels": 290781,
+      "blank_slots": 75,
+      "ocr_ms": 13884.811916504987
+    },
+    "rerank": {
+      "calls": 768,
+      "input_pixels": 56696832,
+      "source_pixels": 313992,
+      "blank_slots": 133,
+      "ocr_ms": 12209.399497602135
+    },
+    "isolate": {
+      "calls": 768,
+      "input_pixels": 56696832,
+      "source_pixels": 256628,
+      "blank_slots": 133,
+      "ocr_ms": 11846.600250224583
+    },
+    "uniform": {
+      "calls": 768,
+      "input_pixels": 56696832,
+      "source_pixels": 309828,
+      "blank_slots": 0,
+      "ocr_ms": 10213.962292531505
+    }
+  },
+  "patches": {
+    "baseline": 17,
+    "rerank": 25,
+    "isolate": 25,
+    "uniform": 2
+  },
+  "actual_new_ocr_calls": 3072,
+  "environment": {
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "opencv": "4.9.0",
+    "numpy": "1.26.4"
+  },
+  "stage_decision": "remain_backup; crop reading improved on development but error count increased; no automatic deployment or unseen-document claim",
+  "word_unchanged": true,
+  "code_hashes": {
+    "focus_diagnosis.py": "e398a04382031d71c6ec2c309faf2d6618c2acec25f45912be8de72ce28e34f1",
+    "test_candidates.py": "06f3b16d2b1979b88e80271dbfcbd12d4dc8ecb97f741afd3bf730549de8d176",
+    "run.py": "eb2d8dc5c7decbb77522211351b392c8ebfd7aeabdbc69566809a964e1f5128e",
+    "baseline.py": "7806a66bc431175f08403ecd35b6fb286b41cc3dfc66fd921c280529121ea347",
+    "recognize.swift": "0b0e936fd1740a737584abd11c567abeaf49fd0184617e4be8cb13ae33a4814d",
+    "evaluation.py": "19ce319363c81c7519bfa2a2a824df347eb19630f7c7b8ceb1e94b3465582d6d",
+    "candidates.py": "768a0ff94f7020e5ed04608dc7f7f0cac00872e4c892c7185bc5dafcdfce3cc4",
+    "score.py": "f94ca644558782d623e375c1c6ac4bd9ed879452cd204fd1ff58ba5b24cba51d"
+  },
+  "data_scope": "90previously inspected reference groups; no independent confirmation",
+  "commands": [
+    "swiftc code/recognize.swift -o code/recognize",
+    "OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 VECLIB_MAXIMUM_THREADS=2 python code/run.py",
+    "python code/score.py"
+  ],
+  "preflight_failure": "Before OCR, input grayscale decoding mismatch was caught; exact historical color-to-gray conversion restored, all24old proposal lists then matched. No OCR output was discarded."
+}
