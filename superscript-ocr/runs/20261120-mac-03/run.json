@@ -1,0 +1,34 @@
+{
+  "id": "20261120-mac-03",
+  "status": "complete",
+  "gold_use": "No labels in proposal, OCR, acceptance or text insertion. Separate score.py after raw outputs saved.",
+  "budget": {
+    "candidate": {
+      "calls": 326,
+      "input_pixels": 6931632,
+      "ocr_ms": 4758.177582989447
+    },
+    "uniform": {
+      "calls": 326,
+      "input_pixels": 6931632,
+      "ocr_ms": 4211.689167423174
+    }
+  },
+  "actual_ocr_calls": 664,
+  "environment": {
+    "python": "<LOCAL>/miniconda3/bin/python",
+    "opencv": "existing user cv2 4.9.0 via workspace symlink",
+    "numpy": "1.26.4",
+    "dependency_installations": 0
+  },
+  "commands": [
+    "swiftc code/recognize.swift -o code/recognize",
+    "PYTHONPATH=<LOCAL>/work/superscript_mac03_deps OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 VECLIB_MAXIMUM_THREADS=2 <LOCAL>/miniconda3/bin/python code/run.py",
+    "<LOCAL>/miniconda3/bin/python code/score.py RUN_DIR LABEL_FILE [attachment_v2]"
+  ],
+  "protocol_after_sha256": "59e28f88dad3bf609028c084bdedd423fb26b6bb91e113044e3fd9f38d9ae408",
+  "protocol_after_version": "v1.2",
+  "run_id": "20261120-mac-03",
+  "data_source": "https://github.com/opendatalab/OmniDocBench",
+  "archive_scope": "Selected research records from the full local run."
+}

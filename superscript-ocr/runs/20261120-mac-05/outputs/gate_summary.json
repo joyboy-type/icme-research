@@ -1,0 +1,29 @@
+{
+  "pages": 18,
+  "budget": {
+    "candidate": {
+      "context_calls": 501,
+      "context_pixels": 92698192,
+      "ocr_ms": 21013.411627034657
+    },
+    "uniform": {
+      "context_calls": 501,
+      "context_pixels": 92698192,
+      "ocr_ms": 14493.626416660845
+    }
+  },
+  "patches_before": {
+    "candidate": 17,
+    "uniform": 3
+  },
+  "patches_after": {
+    "candidate": 0,
+    "uniform": 0
+  },
+  "rejections": {
+    "no_matching_context_number_at_position": 17,
+    "left_anchor_disagreement": 3
+  },
+  "wall_seconds": 38.83818033291027,
+  "scope": "Context gate reuses identical tight predictions. Extra context OCR for every paired crop; candidate/uniform exactly matched by page. Gate ablation is additional processing, not a no-extra-cost gain."
+}

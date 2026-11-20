@@ -1,0 +1,167 @@
+{
+  "protocol": "Fixed first64 released background_change expert preference pairs. Nominal first32 discovery, next32 holdout; identical-source groups are assigned wholly to the first occurring split before scoring. No parameter fitting or policy change after scoring. Official DINOv2 ViT-S/14 feature backbone (not PVC-Judge or a reproduced SOTA VLM). All policies use the same single forward-pass token bank per source/candidate. Source-only 25% selector uses patch/CLS cosine; nearest match over candidate patches.",
+  "selected": 64,
+  "executed": 64,
+  "encoding_seconds": 11.5942498750519,
+  "splits": {
+    "all": {
+      "n": 64,
+      "source_groups": 33,
+      "accuracy": {
+        "global_cls": 0.75,
+        "all_patch_mean": 0.828125,
+        "source_salient_quarter": 0.78125,
+        "random_quarter": 0.796875,
+        "center_quarter": 0.765625
+      },
+      "paired": {
+        "salient_minus_global_cls": {
+          "delta": 0.03125,
+          "win": 4,
+          "loss": 2,
+          "tie": 58,
+          "source_cluster_bootstrap_95ci": [
+            -0.04920081967213114,
+            0.11764705882352941
+          ]
+        },
+        "salient_minus_all_patch_mean": {
+          "delta": -0.046875,
+          "win": 1,
+          "loss": 4,
+          "tie": 59,
+          "source_cluster_bootstrap_95ci": [
+            -0.12280701754385964,
+            0.015151515151515152
+          ]
+        },
+        "salient_minus_random_quarter": {
+          "delta": -0.015625,
+          "win": 2,
+          "loss": 3,
+          "tie": 59,
+          "source_cluster_bootstrap_95ci": [
+            -0.09523809523809523,
+            0.047619047619047616
+          ]
+        },
+        "salient_minus_center_quarter": {
+          "delta": 0.015625,
+          "win": 3,
+          "loss": 2,
+          "tie": 59,
+          "source_cluster_bootstrap_95ci": [
+            -0.05454545454545454,
+            0.0821917808219178
+          ]
+        }
+      }
+    },
+    "discovery": {
+      "n": 33,
+      "source_groups": 15,
+      "accuracy": {
+        "global_cls": 0.7575757575757576,
+        "all_patch_mean": 0.8484848484848485,
+        "source_salient_quarter": 0.8484848484848485,
+        "random_quarter": 0.8484848484848485,
+        "center_quarter": 0.7878787878787878
+      },
+      "paired": {
+        "salient_minus_global_cls": {
+          "delta": 0.09090909090909091,
+          "win": 3,
+          "loss": 0,
+          "tie": 30,
+          "source_cluster_bootstrap_95ci": [
+            0.0,
+            0.2222222222222222
+          ]
+        },
+        "salient_minus_all_patch_mean": {
+          "delta": 0.0,
+          "win": 1,
+          "loss": 1,
+          "tie": 31,
+          "source_cluster_bootstrap_95ci": [
+            -0.0967741935483871,
+            0.08333333333333333
+          ]
+        },
+        "salient_minus_random_quarter": {
+          "delta": 0.0,
+          "win": 1,
+          "loss": 1,
+          "tie": 31,
+          "source_cluster_bootstrap_95ci": [
+            -0.09375,
+            0.08571428571428572
+          ]
+        },
+        "salient_minus_center_quarter": {
+          "delta": 0.06060606060606061,
+          "win": 3,
+          "loss": 1,
+          "tie": 29,
+          "source_cluster_bootstrap_95ci": [
+            -0.0625,
+            0.16216216216216217
+          ]
+        }
+      }
+    },
+    "holdout": {
+      "n": 31,
+      "source_groups": 18,
+      "accuracy": {
+        "global_cls": 0.7419354838709677,
+        "all_patch_mean": 0.8064516129032258,
+        "source_salient_quarter": 0.7096774193548387,
+        "random_quarter": 0.7419354838709677,
+        "center_quarter": 0.7419354838709677
+      },
+      "paired": {
+        "salient_minus_global_cls": {
+          "delta": -0.03225806451612903,
+          "win": 1,
+          "loss": 2,
+          "tie": 28,
+          "source_cluster_bootstrap_95ci": [
+            -0.14285714285714285,
+            0.06666666666666667
+          ]
+        },
+        "salient_minus_all_patch_mean": {
+          "delta": -0.0967741935483871,
+          "win": 0,
+          "loss": 3,
+          "tie": 28,
+          "source_cluster_bootstrap_95ci": [
+            -0.2,
+            0.0
+          ]
+        },
+        "salient_minus_random_quarter": {
+          "delta": -0.03225806451612903,
+          "win": 1,
+          "loss": 2,
+          "tie": 28,
+          "source_cluster_bootstrap_95ci": [
+            -0.14285714285714285,
+            0.06666666666666667
+          ]
+        },
+        "salient_minus_center_quarter": {
+          "delta": -0.03225806451612903,
+          "win": 0,
+          "loss": 1,
+          "tie": 30,
+          "source_cluster_bootstrap_95ci": [
+            -0.10714285714285714,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

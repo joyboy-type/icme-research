@@ -1,0 +1,39 @@
+{
+  "markers": 40,
+  "pages": 12,
+  "full_hit": 5,
+  "methods": {
+    "candidate": {
+      "covered": 14,
+      "hit": 12,
+      "inserted_at_position": 3,
+      "inserted_at_anchor": 3,
+      "union_hit": 8,
+      "patches": 11
+    },
+    "uniform": {
+      "covered": 0,
+      "hit": 0,
+      "inserted_at_position": 0,
+      "inserted_at_anchor": 0,
+      "union_hit": 5,
+      "patches": 2
+    }
+  },
+  "scope": "Known marker number+image-position scoring; automatic text-anchor check only for insertions. Full baseline anchor not independently scored. All inserted groups require pixel audit, especially unmatched annotations.",
+  "pixel_review": {
+    "candidate": {
+      "inserted": 11,
+      "correct_number_and_anchor": 8,
+      "false_insertion": 2,
+      "wrong_number": 1
+    },
+    "uniform": {
+      "inserted": 2,
+      "correct_number_and_anchor": 0,
+      "false_insertion": 2,
+      "wrong_number": 0
+    }
+  },
+  "development_status": "final attachment v2 selected on development; raw inference and initial attachment retained; no generalization claim"
+}

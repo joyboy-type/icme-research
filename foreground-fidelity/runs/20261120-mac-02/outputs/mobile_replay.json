@@ -1,0 +1,12 @@
+{
+  "pairs": 89,
+  "correct": 72,
+  "ties": 0,
+  "accuracy": 0.8089887640449438,
+  "fresh_replay_matches_72_of_89": true,
+  "time_seconds": 28.569765374995768,
+  "forward_seconds": 21.304488035966642,
+  "device": "cpu",
+  "threads": 2,
+  "open_clip_version": "4.2.2"
+}

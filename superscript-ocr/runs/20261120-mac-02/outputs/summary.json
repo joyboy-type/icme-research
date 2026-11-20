@@ -1,0 +1,33 @@
+{
+  "scope": "O5 diagnostic oracle boxes only; not deployable localization or same-budget method superiority; no textual-anchor or false-insertion score.",
+  "markers": 40,
+  "pages": 12,
+  "score_version": "numeric_identity_v2: NFKC,dash normalization,ignore outer[]; preserve numeric groups/ranges; top1primary,top3diagnostic only",
+  "engine": "Apple Vision accurate revision3,language correction off,automatic language detection,cpuOnly=true",
+  "methods": {
+    "tight_native": {
+      "calls": 40,
+      "top1_exact": 25,
+      "top1_exact_at_gold_box": 25,
+      "top3_contains_exact_at_box": 25,
+      "total_input_pixels": 189380,
+      "elapsed_ms": 669.8312914231792
+    },
+    "tight_4x": {
+      "calls": 40,
+      "top1_exact": 37,
+      "top1_exact_at_gold_box": 37,
+      "top3_contains_exact_at_box": 37,
+      "total_input_pixels": 1593984,
+      "elapsed_ms": 605.8194164652377
+    },
+    "context_4x": {
+      "calls": 40,
+      "top1_exact": 28,
+      "top1_exact_at_gold_box": 23,
+      "top3_contains_exact_at_box": 23,
+      "total_input_pixels": 8984320,
+      "elapsed_ms": 1802.7109999675304
+    }
+  }
+}

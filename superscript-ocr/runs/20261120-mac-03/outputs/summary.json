@@ -1,0 +1,24 @@
+{
+  "markers": 40,
+  "pages": 12,
+  "full_hit": 5,
+  "methods": {
+    "candidate": {
+      "covered": 14,
+      "hit": 12,
+      "inserted_at_position": 0,
+      "inserted_at_anchor": 0,
+      "union_hit": 5,
+      "patches": 7
+    },
+    "uniform": {
+      "covered": 0,
+      "hit": 0,
+      "inserted_at_position": 0,
+      "inserted_at_anchor": 0,
+      "union_hit": 5,
+      "patches": 6
+    }
+  },
+  "scope": "Known marker number+image-position scoring; automatic text-anchor check only for insertions. Full baseline anchor not independently scored. All inserted groups require pixel audit, especially unmatched annotations."
+}

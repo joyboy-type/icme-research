@@ -1,0 +1,11 @@
+__pycache__/
+.DS_Store
+.env
+.venv/
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.npz
+*.parquet
+*.zip

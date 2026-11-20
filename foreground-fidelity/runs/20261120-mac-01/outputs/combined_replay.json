@@ -1,0 +1,11 @@
+{
+  "pairs": 89,
+  "unique_source_groups": 46,
+  "correct_counts": {
+    "global_cls": 68,
+    "all_patch_mean": 77,
+    "source_salient_quarter": 70
+  },
+  "matches_previous_predictions": true,
+  "patch_protocol": "Each source patch independently matches its most similar patch anywhere in the edited image, then similarities are averaged."
+}

@@ -1,0 +1,17 @@
+{
+  "engine": "macOS Vision VNRecognizeTextRequest",
+  "configuration": {
+    "level": "accurate",
+    "language_correction": false,
+    "auto_language": true
+  },
+  "split": "discovery",
+  "pages": 12,
+  "lines": 1201,
+  "revision": [
+    3
+  ],
+  "median_page_ms": 415,
+  "max_page_ms": 747,
+  "note": "Fresh full-page OCR on development images. No marker scoring or repair comparison yet."
+}

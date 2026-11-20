@@ -1,0 +1,34 @@
+{
+  "n": 89,
+  "source_groups": 46,
+  "accuracy": {
+    "global_cls": 0.7640449438202247,
+    "all_patch_mean": 0.8651685393258427,
+    "source_salient_quarter": 0.7865168539325843,
+    "random_quarter": 0.8202247191011236,
+    "center_quarter": 0.8202247191011236,
+    "mobile": 0.8089887640449438
+  },
+  "paired": {
+    "allpatch_minus_global_cls": {
+      "delta": 0.10112359550561797,
+      "wins": 12,
+      "losses": 3,
+      "ties": 74,
+      "cluster_95ci": [
+        0.011494252873563218,
+        0.19101123595505617
+      ]
+    },
+    "allpatch_minus_mobile": {
+      "delta": 0.056179775280898875,
+      "wins": 10,
+      "losses": 5,
+      "ties": 74,
+      "cluster_95ci": [
+        -0.047619047619047616,
+        0.15730337078651685
+      ]
+    }
+  }
+}

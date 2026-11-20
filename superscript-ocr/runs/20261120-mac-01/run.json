@@ -1,0 +1,30 @@
+{
+  "id": "20261120-mac-01",
+  "type": "cache replay and fresh local discovery pilot",
+  "status": "complete",
+  "source": "https://github.com/opendatalab/OmniDocBench",
+  "cache_revision": "c1a3b252db592df3263f64702ab624d6048cbf6e",
+  "split": {
+    "discovery_markers": 40,
+    "discovery_pages": 12,
+    "prior_holdout_markers": 10
+  },
+  "environment": {
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "packages": {
+      "numpy": "1.26.4",
+      "opencv-python": "4.9.0.80",
+      "beautifulsoup4": "4.12.3"
+    }
+  },
+  "commands": [
+    "python reproduce.py",
+    "swiftc run.swift -o run",
+    "python pilot.py"
+  ],
+  "staging": "Cache replay takes data/snapshot-01 and run/code/cache_replay files in the same scratch directory. The original local pilot points to the earlier local work path. For a relocated run, set PREVIOUS in a scratch copy to a directory containing data/snapshot-01/images and sample.json and native_ocr/development_pages.jsonl from outputs/whole_page.",
+  "outcome": "Budget-matched tile selection covered 19 versus 11 annotations; each localized two exact numbers.",
+  "run_id": "20261120-mac-01",
+  "data_source": "https://github.com/opendatalab/OmniDocBench",
+  "archive_scope": "Selected research records from the full local run."
+}

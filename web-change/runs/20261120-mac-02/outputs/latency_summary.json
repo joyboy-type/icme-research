@@ -1,0 +1,26 @@
+{
+  "device": "Apple M4 CPU",
+  "timings": {
+    "W0": {
+      "feature_mean_ms": 27.278068999786086,
+      "classification_mean_ms": 0.03325621971309605,
+      "total_mean_ms": 27.31132521949918
+    },
+    "W1": {
+      "feature_mean_ms": 27.464722391073657,
+      "classification_mean_ms": 0.07933262820867165,
+      "total_mean_ms": 27.54405501928233
+    },
+    "W2": {
+      "feature_mean_ms": 28.040974390771712,
+      "classification_mean_ms": 0.034969250842089385,
+      "total_mean_ms": 28.0759436416138
+    },
+    "W4_dino_pixel_trees": {
+      "feature_mean_ms": 65.71008108300485,
+      "classification_mean_ms": 0.09494659713876079,
+      "total_mean_ms": 65.80502768014361
+    }
+  },
+  "scope": "Confirmation pairs; image IO and model load excluded; DINO batch8-pair amortized; OpenCV1 thread/Torch2 threads. All means descriptive, not concurrent-load guarantees."
+}

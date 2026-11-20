@@ -1,0 +1,28 @@
+{
+  "pages": 12,
+  "markers": 40,
+  "method": {
+    "full": {
+      "calls": 12,
+      "total_input_pixels": 44540287,
+      "markers_in_tile": 40,
+      "digit_location_hits": 4,
+      "additional_hits_over_full": 0
+    },
+    "uniform": {
+      "calls": 48,
+      "total_input_pixels": 11121084,
+      "markers_in_tile": 11,
+      "digit_location_hits": 2,
+      "additional_hits_over_full": 1
+    },
+    "candidate": {
+      "calls": 48,
+      "total_input_pixels": 11121084,
+      "markers_in_tile": 19,
+      "digit_location_hits": 2,
+      "additional_hits_over_full": 0
+    }
+  },
+  "scope": "Exploratory discovery-only token localization. No text-anchor verification or insertion scoring."
+}

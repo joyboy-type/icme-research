@@ -1,0 +1,32 @@
+{
+  "id": "20261120-mac-01",
+  "type": "baseline replay",
+  "status": "complete",
+  "source": "https://huggingface.co/datasets/tencent/DiffSpot",
+  "dataset_revision": "c6dd79d5e1c0cbb4e7ca234c9f53c418a75e30ce",
+  "split": {
+    "development": 84,
+    "diagnostic": 156,
+    "confirmation": 155
+  },
+  "environment": {
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "packages": {
+      "numpy": "1.26.4",
+      "scikit-learn": "1.5.1",
+      "opencv-python": "4.9.0.80",
+      "Pillow": "10.4.0",
+      "requests": "2.32.3"
+    }
+  },
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 /Applications/anaconda3/bin/python edge_holdout.py",
+  "staging": "Copy data/snapshot-01 and run/code contents into one new scratch directory.",
+  "outcome": "Predictions match the prior 155-pair report byte-for-byte.",
+  "seed": {
+    "classifier": 13,
+    "paired_bootstrap": 71
+  },
+  "run_id": "20261120-mac-01",
+  "data_source": "https://huggingface.co/datasets/tencent/DiffSpot",
+  "archive_scope": "Selected research records from the full local run."
+}

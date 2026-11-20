@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "official_commit": "a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb",
+  "official_source_sha256": "915852c1aa3beb9110f4c6be370bfca458bbdd00770ee3577add4f80ec24b56b",
+  "execution": "Exact AST-extracted VCRewardBenchmark.prepare_dataset method; module GPU/unrelated imports not executed",
+  "pairs_per_order": 16,
+  "source_groups": 16,
+  "ordered_inputs": 32,
+  "image_decodes": 96,
+  "candidate_and_label_swap": "PASS",
+  "dependencies": {
+    "datasets": "3.6.0",
+    "pyarrow": "16.1.0",
+    "Pillow": "10.4.0",
+    "multiprocess": "0.70.16",
+    "dill": "0.3.8",
+    "xxhash": "3.6.0",
+    "fsspec": "2024.6.1",
+    "huggingface-hub": "0.30.2"
+  },
+  "device": "CPU",
+  "thread_limit": 2,
+  "new_predictions": 0,
+  "model_weights_loaded": false,
+  "GPU_used": false,
+  "paid_resources_used": false,
+  "limitations": "Data loading verified locally; full official dependency environment, model loading and GPU inference remain untested."
+}

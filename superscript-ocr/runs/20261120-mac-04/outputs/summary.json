@@ -1,0 +1,46 @@
+{
+  "markers": 33,
+  "pages": 6,
+  "full_hit": 2,
+  "methods": {
+    "candidate": {
+      "covered": 8,
+      "hit": 7,
+      "inserted_at_position": 2,
+      "inserted_at_anchor": 2,
+      "union_hit": 4,
+      "patches": 6
+    },
+    "uniform": {
+      "covered": 0,
+      "hit": 0,
+      "inserted_at_position": 0,
+      "inserted_at_anchor": 0,
+      "union_hit": 2,
+      "patches": 1
+    }
+  },
+  "scope": "Known marker number+image-position scoring; automatic text-anchor check only for insertions. Full baseline anchor not independently scored. All inserted groups require pixel audit, especially unmatched annotations.",
+  "pixel_review": {
+    "candidate": {
+      "inserted": 6,
+      "correct_number_and_anchor": 2,
+      "false_insertion": 4,
+      "wrong_number": 0
+    },
+    "uniform": {
+      "inserted": 1,
+      "correct_number_and_anchor": 0,
+      "false_insertion": 1,
+      "wrong_number": 0
+    }
+  },
+  "decision": "REMAIN_BACKUP; controlled false-insertion requirement failed: candidate2correct/6patches,4false; true additions in1/6documentIDs. No deployable or robust generalization claim.",
+  "gold_audit": {
+    "source_pixels_reviewed": 33,
+    "wrong_identity_found": 0,
+    "affiliations_units_isotopes_excluded_before_ocr": true,
+    "complete_page_gt_audit": false
+  },
+  "primary_score_note": "full_hit uses localized numeral center, but Vision ranges may have whole-word boxes; it is a geometric proxy and NOT full-page textual citation recall. Do not interpret union_hit as independently validated end-to-end accuracy."
+}

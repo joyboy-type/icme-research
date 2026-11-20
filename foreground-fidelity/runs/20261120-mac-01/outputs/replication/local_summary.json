@@ -1,0 +1,61 @@
+{
+  "protocol": "Fixed first64 released background_change expert preference pairs. Nominal first32 discovery, next32 holdout; identical-source groups are assigned wholly to the first occurring split before scoring. No parameter fitting or policy change after scoring. Official DINOv2 ViT-S/14 feature backbone (not PVC-Judge or a reproduced SOTA VLM). All policies use the same single forward-pass token bank per source/candidate. Source-only 25% selector uses patch/CLS cosine; nearest match over candidate patches.",
+  "selected": 36,
+  "executed": 25,
+  "encoding_seconds": 4.998920541955158,
+  "splits": {
+    "replication": {
+      "n": 25,
+      "source_groups": 13,
+      "accuracy": {
+        "global_cls": 0.8,
+        "all_patch_mean": 0.96,
+        "source_salient_quarter": 0.8,
+        "random_quarter": 0.88,
+        "center_quarter": 0.96
+      },
+      "paired": {
+        "salient_minus_global_cls": {
+          "delta": 0.0,
+          "win": 2,
+          "loss": 2,
+          "tie": 21,
+          "source_cluster_bootstrap_95ci": [
+            -0.17391304347826086,
+            0.14814814814814814
+          ]
+        },
+        "salient_minus_all_patch_mean": {
+          "delta": -0.16,
+          "win": 0,
+          "loss": 4,
+          "tie": 21,
+          "source_cluster_bootstrap_95ci": [
+            -0.3333333333333333,
+            0.0
+          ]
+        },
+        "salient_minus_random_quarter": {
+          "delta": -0.08,
+          "win": 1,
+          "loss": 3,
+          "tie": 21,
+          "source_cluster_bootstrap_95ci": [
+            -0.28,
+            0.08695652173913043
+          ]
+        },
+        "salient_minus_center_quarter": {
+          "delta": -0.16,
+          "win": 0,
+          "loss": 4,
+          "tie": 21,
+          "source_cluster_bootstrap_95ci": [
+            -0.3333333333333333,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}
