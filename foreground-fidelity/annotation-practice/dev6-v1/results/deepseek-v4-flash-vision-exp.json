@@ -1,0 +1,132 @@
+{
+  "schema": "ai-source-box-v1",
+  "phase": "development_practice",
+  "annotation_origin": "AI_assisted_NOT_independent_human",
+  "agent_id": "deepseek-v4-flash-vision-exp",
+  "reviewed_other_agents_results": false,
+  "image_index": [
+    {
+      "image_id": "P001",
+      "file": "images/P001.jpg",
+      "width": 2000,
+      "height": 1782,
+      "sha256": "bfeca135d363943763d4d58cacc63806b38fc181da7a57a08315ca49cb84f41f"
+    },
+    {
+      "image_id": "P002",
+      "file": "images/P002.jpg",
+      "width": 3648,
+      "height": 2736,
+      "sha256": "9210b5f6e0c06f21bdb757137e2322e08020dd97576f5e02df3d1f70e68f8742"
+    },
+    {
+      "image_id": "P003",
+      "file": "images/P003.jpg",
+      "width": 3840,
+      "height": 1784,
+      "sha256": "a0ae6e8315e257864fd8dccacef7a037afedf7a8d73cc1021e3d393552e11da9"
+    },
+    {
+      "image_id": "P004",
+      "file": "images/P004.jpg",
+      "width": 960,
+      "height": 640,
+      "sha256": "aaae748266457cb89881420f3096a5288dc4e7abce1a821af6fe23f9afa0d9e2"
+    },
+    {
+      "image_id": "P005",
+      "file": "images/P005.jpg",
+      "width": 4592,
+      "height": 3056,
+      "sha256": "fa569125f68cbd33d543150b53f7f6feb74f900600b1f675290a5074f0c79643"
+    },
+    {
+      "image_id": "P006",
+      "file": "images/P006.jpg",
+      "width": 2480,
+      "height": 4416,
+      "sha256": "c817b2dbd03b83e3bb237a4652c19adc5cf6200e62e55753522e958022a239b0"
+    }
+  ],
+  "annotations": [
+    {
+      "image_id": "P001",
+      "status": "clear",
+      "box_xyxy": [
+        0.02,
+        0.01,
+        0.98,
+        0.99
+      ],
+      "truncated": false,
+      "note": "",
+      "reason": "白色背景上完整可见一只血压计（蓝色袖带、表盘、气囊与橡胶管），是画面唯一主要物体。"
+    },
+    {
+      "image_id": "P002",
+      "status": "clear",
+      "box_xyxy": [
+        0.16,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "truncated": true,
+      "note": "",
+      "reason": "画面主体是一艘灰色潜艇，艇身斜贯画面；桅杆触顶，艇体向右、向下出画。"
+    },
+    {
+      "image_id": "P003",
+      "status": "clear",
+      "box_xyxy": [
+        0.19,
+        0.27,
+        0.772,
+        0.87
+      ],
+      "truncated": false,
+      "note": "",
+      "reason": "橙色老爷车位于前景中央并占据主要视觉注意力，车顶、车身与四轮完整可见；后方蓝车、白车为背景。"
+    },
+    {
+      "image_id": "P004",
+      "status": "ambiguous",
+      "box_xyxy": [
+        0.315,
+        0.66,
+        0.82,
+        0.87
+      ],
+      "truncated": false,
+      "note": "泳池是视觉锚点，但主体边界不唯一（仅水面／含池畔石铺／含躺椅），整体也更接近庭院场景；此处按水面给暂定框。",
+      "reason": "画面为别墅庭院泳池全景，泳池水面与石铺池畔是视觉焦点，但躺椅、树木与草坪共同构成整体场景。"
+    },
+    {
+      "image_id": "P005",
+      "status": "clear",
+      "box_xyxy": [
+        0.14,
+        0.192,
+        0.892,
+        0.718
+      ],
+      "truncated": false,
+      "note": "",
+      "reason": "黄色救护车横贯画面中部，车身、警灯与四轮完整可见，是唯一主要主体；右下角深色轿车属背景。"
+    },
+    {
+      "image_id": "P006",
+      "status": "clear",
+      "box_xyxy": [
+        0.0,
+        0.215,
+        0.94,
+        1.0
+      ],
+      "truncated": true,
+      "note": "",
+      "reason": "橙红救生衣、白发的乘船者占据前景主要注意力，其背部贴左缘、腿部被下缘裁切。"
+    }
+  ],
+  "limitations": "Original-image localization only; no A/B preference, method performance, human ground truth, expert masks, or independent confirmation conclusions."
+}
