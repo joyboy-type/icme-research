@@ -1,0 +1,130 @@
+[
+  {
+    "id": "mdn_before",
+    "group": "mdn/css-examples",
+    "a": "data/real-version-replay-02/captures/mdn_before_1.png",
+    "b": "data/real-version-replay-02/captures/mdn_before_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "after_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "7febf928419db8ed118086686243effc049725caa6dd89de59e02c8e13d35dac",
+    "after_pixel_sha256": "7febf928419db8ed118086686243effc049725caa6dd89de59e02c8e13d35dac",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      1600,
+      1280
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  },
+  {
+    "id": "mdn_after",
+    "group": "mdn/css-examples",
+    "a": "data/real-version-replay-02/captures/mdn_after_1.png",
+    "b": "data/real-version-replay-02/captures/mdn_after_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "after_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "7febf928419db8ed118086686243effc049725caa6dd89de59e02c8e13d35dac",
+    "after_pixel_sha256": "7febf928419db8ed118086686243effc049725caa6dd89de59e02c8e13d35dac",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      1600,
+      1280
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  },
+  {
+    "id": "ionic_0",
+    "group": "ionic-team/ionic-framework",
+    "a": "data/real-version-replay-02/captures/ionic_0_1.png",
+    "b": "data/real-version-replay-02/captures/ionic_0_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "after_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "78fea33316c1709502596e3a8ae2bc29cd18914df0b95dfeaae21dbdadac63cb",
+    "after_pixel_sha256": "78fea33316c1709502596e3a8ae2bc29cd18914df0b95dfeaae21dbdadac63cb",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      1600,
+      1280
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  },
+  {
+    "id": "ionic_1",
+    "group": "ionic-team/ionic-framework",
+    "a": "data/real-version-replay-02/captures/ionic_1_1.png",
+    "b": "data/real-version-replay-02/captures/ionic_1_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "after_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "81e9786cfbf755e1dc5f06e227526c27e549c3e9295e4dd05d4b00aac99d199a",
+    "after_pixel_sha256": "81e9786cfbf755e1dc5f06e227526c27e549c3e9295e4dd05d4b00aac99d199a",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      1600,
+      1280
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  }
+]

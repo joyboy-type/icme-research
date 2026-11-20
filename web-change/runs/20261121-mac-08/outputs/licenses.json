@@ -1,0 +1,24 @@
+[
+  {
+    "repository": "ionic-team/ionic-framework",
+    "commit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "path": "LICENSE",
+    "blob_sha": "92621d0bb42d8fcee2d0ec577a77ab0e46d2dccb",
+    "license": "MIT",
+    "url": "https://raw.githubusercontent.com/ionic-team/ionic-framework/ee5da7a747c0a0b420c5e371a9fe9ec4938d179e/LICENSE",
+    "sha256": "4862ae1846439cae0cc097120a14e93a142d36016a9fc609b5d23959e3ff041f",
+    "bytes": 1075,
+    "cache": false
+  },
+  {
+    "repository": "mdn/css-examples",
+    "commit": "8a495aff51c8f6a4c26b86e8edb0e38938b0cc1f",
+    "path": "LICENSE",
+    "blob_sha": "670154e3538863b2d9891fd5483160fbdfc89164",
+    "license": "CC0-1.0",
+    "url": "https://raw.githubusercontent.com/mdn/css-examples/8a495aff51c8f6a4c26b86e8edb0e38938b0cc1f/LICENSE",
+    "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+    "bytes": 6555,
+    "cache": false
+  }
+]

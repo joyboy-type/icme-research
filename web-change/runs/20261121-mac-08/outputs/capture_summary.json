@@ -1,0 +1,13 @@
+{
+  "counted_capture_images": 8,
+  "independent_processes_launched": 8,
+  "control_pairs": 4,
+  "valid_same_artifact_repeat_pairs": 4,
+  "failures": [],
+  "groups": [
+    "mdn/css-examples",
+    "ionic-team/ionic-framework"
+  ],
+  "synthetic_css_or_dom_changes": false,
+  "seed_acquisitions_not_counted_as_controls": true
+}

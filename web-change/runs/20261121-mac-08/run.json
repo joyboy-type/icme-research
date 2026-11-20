@@ -1,0 +1,38 @@
+{
+  "id": "20261121-mac-08",
+  "status": "complete_bounded_real_change_and_independent_replay_pilot",
+  "scope": "Bounded source-grounded single-mechanism audit and independently launched repeated browser captures. No model fitting, tuning or synthetic CSS changes.",
+  "protocol": "protocol.json",
+  "protocol_sha256": "e957801a479af047514c447a3723ae57354f5c9b69eddcaae013e41d022fc045",
+  "taskbook_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/\u7f51\u9875\u622a\u56fe\u7684\u7ec6\u5fae\u53d8\u66f4\u5206\u7c7b\uff5c\u5b9e\u9a8c\u4efb\u52a1\u4e66_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_unchanged_verified": true,
+  "narrow_class": "contrast_recovery_candidate",
+  "real_snapshot_instances": 6,
+  "independent_change_units": 1,
+  "repeat_pairs": 4,
+  "fully_resource_crosschecked_repeat_pairs": 3,
+  "partial_resource_check_repeat_pairs": 1,
+  "scope_exclusions": [
+    "Not6 independent edits or multiple positive projects.",
+    "Not atomic13 or independently human-labelled gold data.",
+    "MDN source change produced no visible change and is not a layout positive.",
+    "Live Ionic commit identity not exposed; replay controls do not match historical2024 versions/platforms.",
+    "No pure justify/position new examples or robust JPEG fix."
+  ],
+  "decision": "Retain a narrowed contrast-recovery candidate pilot and fixed-artifact repeat controls with quality flags. Dataset remains insufficient for independent training/development/confirmation or a robust detector claim.",
+  "continue_conditions": [
+    "Multiple real independently traceable commits and projects in the retained narrow category.",
+    "Independent label/region review before formal scoring.",
+    "Matched historical build/version/capture environment controls, with fetch/SVG completion checks.",
+    "Fresh source-isolated confirmation before any revised method claim."
+  ],
+  "verification": "outputs/verification.json",
+  "paid_api_calls": 0,
+  "rented_compute": false,
+  "training_or_tuning": false
+}

@@ -1,0 +1,9 @@
+{
+  "reason": "The network audit stores URL as a string, while aggregation called it as a Playwright method. Replaced with typed object property aggregation and regression coverage.",
+  "original_code_sha256": "1aa6ceb589f24b1f478793937a369f5d89e0a16e809be2485be4631c3d364a11",
+  "corrected_code_sha256": "68371d4c5ec734cba30a329454809185462c4b13251c881b27e8db364afb9449",
+  "original_attempt": "attempts/capture01",
+  "excluded_uncounted_pngs": 4,
+  "live_seed_acquisitions_repeated": 0,
+  "pixel_or_label_selection_changes": false
+}

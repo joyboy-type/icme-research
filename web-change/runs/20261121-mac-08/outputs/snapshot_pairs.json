@@ -1,0 +1,272 @@
+[
+  {
+    "id": "ionic_color_0",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "parent_commit": "c4bfc783e0d475276efc36ae61afdfecbaf5af99",
+    "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-ltr-dark-Mobile-Chrome-linux.png",
+    "after_blob_sha": "05cc450018d9ae88cd0d3a82b5e2881a1714b0c8",
+    "project_group": "ionic-team/ionic-framework",
+    "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "date": "2024-04-02T20:25:19Z",
+    "title": "fix(button): activated outline button in toolbar no longer blends into background on MD dark mode (#29216)",
+    "label_status": "pending_source_and_pixel_review",
+    "before_blob_sha": "fe3b2e9352f1d17ee83fdeefd4be9726b66705dc",
+    "before_shape": [
+      224,
+      393,
+      3
+    ],
+    "after_shape": [
+      224,
+      393,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "491496b96211104c56e1033df4f585427574e81bc2cf3bcc56223e2d5f1f9c26",
+    "after_pixel_sha256": "e36708a830979c42850662b9d0a5818e5addb4c8a74cc8cb74a53bc46d6a946b",
+    "overlap_changed_pixels": 848,
+    "overlap_changed_gt4": 823,
+    "overlap_shape": [
+      224,
+      393
+    ],
+    "overlap_max_delta": 224,
+    "changed_pixels": 848,
+    "changed_gt4": 823,
+    "changed_fraction": 0.009632860777898947,
+    "bbox_xyxy": [
+      217,
+      180,
+      300,
+      212
+    ],
+    "before_path": "data/real-version-replay-02/blobs/fe3b2e9352f1d17ee83fdeefd4be9726b66705dc.png",
+    "after_path": "data/real-version-replay-02/blobs/05cc450018d9ae88cd0d3a82b5e2881a1714b0c8.png"
+  },
+  {
+    "id": "ionic_color_1",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "parent_commit": "c4bfc783e0d475276efc36ae61afdfecbaf5af99",
+    "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-ltr-dark-Mobile-Firefox-linux.png",
+    "after_blob_sha": "39e62a7b9cdcf8ae02b5d22c8eba28440d6143c0",
+    "project_group": "ionic-team/ionic-framework",
+    "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "date": "2024-04-02T20:25:19Z",
+    "title": "fix(button): activated outline button in toolbar no longer blends into background on MD dark mode (#29216)",
+    "label_status": "pending_source_and_pixel_review",
+    "before_blob_sha": "eb2596c5261e2bdd91c4b6a68f0d01b782524134",
+    "before_shape": [
+      224,
+      393,
+      3
+    ],
+    "after_shape": [
+      224,
+      393,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "1e516a9cba895b06036fd463ede9518e804ab6fb7324f1ef6ca2a26c27f06b0c",
+    "after_pixel_sha256": "5956a10d77e8551f8ab2c94f8cd726b20ca058a802bad06262593658f75aed27",
+    "overlap_changed_pixels": 866,
+    "overlap_changed_gt4": 840,
+    "overlap_shape": [
+      224,
+      393
+    ],
+    "overlap_max_delta": 225,
+    "changed_pixels": 866,
+    "changed_gt4": 840,
+    "changed_fraction": 0.009837331879316612,
+    "bbox_xyxy": [
+      218,
+      180,
+      301,
+      212
+    ],
+    "before_path": "data/real-version-replay-02/blobs/eb2596c5261e2bdd91c4b6a68f0d01b782524134.png",
+    "after_path": "data/real-version-replay-02/blobs/39e62a7b9cdcf8ae02b5d22c8eba28440d6143c0.png"
+  },
+  {
+    "id": "ionic_color_2",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "parent_commit": "c4bfc783e0d475276efc36ae61afdfecbaf5af99",
+    "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-ltr-dark-Mobile-Safari-linux.png",
+    "after_blob_sha": "df6e2e9655b9a95dc6da49741800a0341f0b8b55",
+    "project_group": "ionic-team/ionic-framework",
+    "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "date": "2024-04-02T20:25:19Z",
+    "title": "fix(button): activated outline button in toolbar no longer blends into background on MD dark mode (#29216)",
+    "label_status": "pending_source_and_pixel_review",
+    "before_blob_sha": "8468e1b081860c6c5ecba175b3fc52fbb9bf5378",
+    "before_shape": [
+      224,
+      390,
+      3
+    ],
+    "after_shape": [
+      224,
+      390,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "7f8b1fe562c0860a9024815a01c31afc41dddefcbd02ee22d44133a8e50f2802",
+    "after_pixel_sha256": "1927073dae6e8c9d3f7dc872a8e166ab2a45a6abe126f212ed953e533b0c5fea",
+    "overlap_changed_pixels": 882,
+    "overlap_changed_gt4": 871,
+    "overlap_shape": [
+      224,
+      390
+    ],
+    "overlap_max_delta": 224,
+    "changed_pixels": 882,
+    "changed_gt4": 871,
+    "changed_fraction": 0.010096153846153847,
+    "bbox_xyxy": [
+      214,
+      180,
+      297,
+      212
+    ],
+    "before_path": "data/real-version-replay-02/blobs/8468e1b081860c6c5ecba175b3fc52fbb9bf5378.png",
+    "after_path": "data/real-version-replay-02/blobs/df6e2e9655b9a95dc6da49741800a0341f0b8b55.png"
+  },
+  {
+    "id": "ionic_color_3",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "parent_commit": "c4bfc783e0d475276efc36ae61afdfecbaf5af99",
+    "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-rtl-dark-Mobile-Chrome-linux.png",
+    "after_blob_sha": "619557d7b1138171bc7e92828611a3d5b3a4460e",
+    "project_group": "ionic-team/ionic-framework",
+    "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "date": "2024-04-02T20:25:19Z",
+    "title": "fix(button): activated outline button in toolbar no longer blends into background on MD dark mode (#29216)",
+    "label_status": "pending_source_and_pixel_review",
+    "before_blob_sha": "6dae9a96f1f37cb6778d9480963ae7c49b70b712",
+    "before_shape": [
+      224,
+      393,
+      3
+    ],
+    "after_shape": [
+      224,
+      393,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "2adea13c9fffda0d123742f203435fc5214163063b31ddc964cb1e21b5969128",
+    "after_pixel_sha256": "a5640e4c6eb7e55b186201781811bb1a1797ee15d1417b2954a228b4b4f41f9c",
+    "overlap_changed_pixels": 848,
+    "overlap_changed_gt4": 823,
+    "overlap_shape": [
+      224,
+      393
+    ],
+    "overlap_max_delta": 224,
+    "changed_pixels": 848,
+    "changed_gt4": 823,
+    "changed_fraction": 0.009632860777898947,
+    "bbox_xyxy": [
+      93,
+      180,
+      176,
+      212
+    ],
+    "before_path": "data/real-version-replay-02/blobs/6dae9a96f1f37cb6778d9480963ae7c49b70b712.png",
+    "after_path": "data/real-version-replay-02/blobs/619557d7b1138171bc7e92828611a3d5b3a4460e.png"
+  },
+  {
+    "id": "ionic_color_4",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "parent_commit": "c4bfc783e0d475276efc36ae61afdfecbaf5af99",
+    "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-rtl-dark-Mobile-Firefox-linux.png",
+    "after_blob_sha": "43172465ecb4a2641337c0be60673bffdf5fef99",
+    "project_group": "ionic-team/ionic-framework",
+    "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "date": "2024-04-02T20:25:19Z",
+    "title": "fix(button): activated outline button in toolbar no longer blends into background on MD dark mode (#29216)",
+    "label_status": "pending_source_and_pixel_review",
+    "before_blob_sha": "3d2dc7b669b635cb4becf2117a93ed340baf80c3",
+    "before_shape": [
+      224,
+      393,
+      3
+    ],
+    "after_shape": [
+      224,
+      393,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "4cc92249573a5dabbf0e269630db5712a0669eabea89cf98174e2220686e08ca",
+    "after_pixel_sha256": "f3856abe6d867c0d29bb812d20c8f0e050d9f7ab09896898db69ab85a45710b8",
+    "overlap_changed_pixels": 869,
+    "overlap_changed_gt4": 839,
+    "overlap_shape": [
+      224,
+      393
+    ],
+    "overlap_max_delta": 225,
+    "changed_pixels": 869,
+    "changed_gt4": 839,
+    "changed_fraction": 0.009871410396219556,
+    "bbox_xyxy": [
+      92,
+      180,
+      175,
+      212
+    ],
+    "before_path": "data/real-version-replay-02/blobs/3d2dc7b669b635cb4becf2117a93ed340baf80c3.png",
+    "after_path": "data/real-version-replay-02/blobs/43172465ecb4a2641337c0be60673bffdf5fef99.png"
+  },
+  {
+    "id": "ionic_color_5",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "parent_commit": "c4bfc783e0d475276efc36ae61afdfecbaf5af99",
+    "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-rtl-dark-Mobile-Safari-linux.png",
+    "after_blob_sha": "66e25a966c591040634c32cb5cab4fea06f5f801",
+    "project_group": "ionic-team/ionic-framework",
+    "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "date": "2024-04-02T20:25:19Z",
+    "title": "fix(button): activated outline button in toolbar no longer blends into background on MD dark mode (#29216)",
+    "label_status": "pending_source_and_pixel_review",
+    "before_blob_sha": "8622d21a508156bbf6c1558c320d119cb4a2cb38",
+    "before_shape": [
+      224,
+      390,
+      3
+    ],
+    "after_shape": [
+      224,
+      390,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "502df265909a3cbd2078d316984d05983865a88e74dc350d298adc187eea55f8",
+    "after_pixel_sha256": "d2bfc8f98800b25abbe9b0fc1f9709a99a8ef1c1b69daccde075a95de92a6beb",
+    "overlap_changed_pixels": 884,
+    "overlap_changed_gt4": 873,
+    "overlap_shape": [
+      224,
+      390
+    ],
+    "overlap_max_delta": 224,
+    "changed_pixels": 884,
+    "changed_gt4": 873,
+    "changed_fraction": 0.01011904761904762,
+    "bbox_xyxy": [
+      93,
+      180,
+      176,
+      212
+    ],
+    "before_path": "data/real-version-replay-02/blobs/8622d21a508156bbf6c1558c320d119cb4a2cb38.png",
+    "after_path": "data/real-version-replay-02/blobs/66e25a966c591040634c32cb5cab4fea06f5f801.png"
+  }
+]

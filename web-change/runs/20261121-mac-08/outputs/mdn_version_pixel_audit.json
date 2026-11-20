@@ -1,0 +1,60 @@
+[
+  {
+    "rep": 1,
+    "before_path": "data/real-version-replay-02/captures/mdn_before_1.png",
+    "after_path": "data/real-version-replay-02/captures/mdn_after_1.png",
+    "before_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "after_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "7febf928419db8ed118086686243effc049725caa6dd89de59e02c8e13d35dac",
+    "after_pixel_sha256": "7febf928419db8ed118086686243effc049725caa6dd89de59e02c8e13d35dac",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      1600,
+      1280
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  },
+  {
+    "rep": 2,
+    "before_path": "data/real-version-replay-02/captures/mdn_before_2.png",
+    "after_path": "data/real-version-replay-02/captures/mdn_after_2.png",
+    "before_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "after_shape": [
+      1600,
+      1280,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "7febf928419db8ed118086686243effc049725caa6dd89de59e02c8e13d35dac",
+    "after_pixel_sha256": "7febf928419db8ed118086686243effc049725caa6dd89de59e02c8e13d35dac",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      1600,
+      1280
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  }
+]

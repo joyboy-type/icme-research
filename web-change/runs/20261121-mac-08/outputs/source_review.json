@@ -1,0 +1,942 @@
+[
+  {
+    "id": "checkbox_alignment",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "88b701363c1865e81d7d136acab4b9fef3b1ab7a",
+    "parent": "f1d50c0f645b3adf51426c24a1da0bbd1223f1d5",
+    "date": "2024-09-10T14:24:07Z",
+    "title": "fix(checkbox): align checkbox properly in item using start alignment (#29850)",
+    "api_file_count": 16,
+    "complete_file_list": true,
+    "changed_files": [
+      {
+        "path": "core/src/components/checkbox/checkbox.scss",
+        "status": "modified",
+        "blob_sha": "ccfe42c863c6bd1bd18894e2a51413d2a9e58f2a"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts",
+        "status": "modified",
+        "blob_sha": "5f9f78ab8b571b73ceb7450bb566cd8400256b3e"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-long-label-in-item-align-start-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "2827fa674aa909295b57170de594124f65e61508"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-long-label-in-item-align-start-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "9e7cdfbb748dd5fac9ff952848594938a92be11b"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-long-label-in-item-align-start-ios-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "38779ba2fa67a05a851646326e4e42401a16a8b8"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-long-label-in-item-align-start-md-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "bc4950a8f3a7119f08095a4508b619d0a0b08876"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-long-label-in-item-align-start-md-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "d00491b631ec98e85fefdc585bf735b03826c230"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-long-label-in-item-align-start-md-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "4ebcedcdf2299869877739ec5b0a22cbca45740e"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-long-label-in-item-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "b173f84108b157979e7fce29cb2c5bcbd9660850"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-long-label-in-item-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "61d5c272f0ce2da2474095b991c02d11920b20db"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-long-label-in-item-ios-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "dfc7039b005a49561286bb37aa832a27da84ad92"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-stacked-label-in-item-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "eb4f8184a08ab1102e42ee670ab8a703796f5b43"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-stacked-label-in-item-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "7b3edcd67cb166e41480694c04e7b593ee80d38e"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/checkbox.e2e.ts-snapshots/checkbox-stacked-label-in-item-ios-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "122e52d2267099a5876ae06e04a869786e9b6bc4"
+      },
+      {
+        "path": "core/src/components/checkbox/test/item/index.html",
+        "status": "modified",
+        "blob_sha": "43d2cd640d3b50a2d110ab2232033ff3612a8c13"
+      },
+      {
+        "path": "core/src/components/checkbox/test/label/index.html",
+        "status": "modified",
+        "blob_sha": "213c7289f32e4e9740b876484956cb92e5ec48b7"
+      }
+    ],
+    "status": "No modified pre-existing PNG paths. New regression baseline files have no parent counterpart; exact historical build/reproducer not run in this bounded audit."
+  },
+  {
+    "id": "button_color",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "parent": "c4bfc783e0d475276efc36ae61afdfecbaf5af99",
+    "date": "2024-04-02T20:25:19Z",
+    "title": "fix(button): activated outline button in toolbar no longer blends into background on MD dark mode (#29216)",
+    "api_file_count": 10,
+    "complete_file_list": true,
+    "changed_files": [
+      {
+        "path": "core/src/components/button/button.ios.scss",
+        "status": "modified",
+        "blob_sha": "6a520b2ee8a53a1c4c62710ffc64e71c0ea68c60"
+      },
+      {
+        "path": "core/src/components/button/button.md.scss",
+        "status": "modified",
+        "blob_sha": "d6a51da87be833e80cc7b067fd2f60ca91e66965"
+      },
+      {
+        "path": "core/src/components/button/button.scss",
+        "status": "modified",
+        "blob_sha": "563c9e895947c2a433984e245b8c1e21e8e8598e"
+      },
+      {
+        "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-ltr-dark-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "05cc450018d9ae88cd0d3a82b5e2881a1714b0c8"
+      },
+      {
+        "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-ltr-dark-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "39e62a7b9cdcf8ae02b5d22c8eba28440d6143c0"
+      },
+      {
+        "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-ltr-dark-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "df6e2e9655b9a95dc6da49741800a0341f0b8b55"
+      },
+      {
+        "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-rtl-dark-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "619557d7b1138171bc7e92828611a3d5b3a4460e"
+      },
+      {
+        "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-rtl-dark-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "43172465ecb4a2641337c0be60673bffdf5fef99"
+      },
+      {
+        "path": "core/src/components/toolbar/test/basic/toolbar.e2e.ts-snapshots/toolbar-basic-text-icon-buttons-md-rtl-dark-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "66e25a966c591040634c32cb5cab4fea06f5f801"
+      },
+      {
+        "path": "core/src/themes/test/css-variables/css/dark.css",
+        "status": "modified",
+        "blob_sha": "6082882391f6131aa339a2409a1410ad2d4ac652"
+      }
+    ],
+    "status": "6 modified same-path snapshots; narrow color/contrast recovery mechanism requires source+pixel review, not automatic atomic13 labels."
+  },
+  {
+    "id": "button_round",
+    "repository": "ionic-team/ionic-framework",
+    "commit": "44529f0a62f1b1ce42750a20f19e829b2789febd",
+    "parent": "500854d9299e70a645218d1fe427c616319ef701",
+    "date": "2024-03-21T18:49:26Z",
+    "title": "feat(button): add circular shape as round (#29161)",
+    "api_file_count": 145,
+    "complete_file_list": true,
+    "changed_files": [
+      {
+        "path": "core/src/components/button/button.ios.scss",
+        "status": "modified",
+        "blob_sha": "d157e0cc88b9eee31c4b0649c73de368ee5dcb98"
+      },
+      {
+        "path": "core/src/components/button/button.md.scss",
+        "status": "modified",
+        "blob_sha": "b73065a2a051b3026613e3c523376b597186b977"
+      },
+      {
+        "path": "core/src/components/button/button.scss",
+        "status": "modified",
+        "blob_sha": "99c187beac2f9552d5f6916957eec5707ebbeeef"
+      },
+      {
+        "path": "core/src/components/button/button.tsx",
+        "status": "modified",
+        "blob_sha": "b3dda48877e429610be6781dd66a78ea45593615"
+      },
+      {
+        "path": "core/src/components/button/button.vars.scss",
+        "status": "modified",
+        "blob_sha": "448cc7b0064507c8398bf67210ec889ea33e3bb0"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "99343bf67bbacae389cea94b4e6377be3f43815b"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "381c1c865081d4b3a3f8f24c3f739458a0f9044e"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "5d58d23a10a15674694ca8047fbb0f168617cb2c"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-ios-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "eaab63f282a1ae61b4c7d2776adf81667c1a8c75"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-ios-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "26d658853e359ad5851db8c1d853f12b8ce975fd"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-ios-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "4632a4cab8ede32b75164645f7db6a1ae595b880"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "85dd907f2fc2d424e7362a1e84c90af50b330b12"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "ed51e623bc38dbcc4381c190f3e57508dca3feed"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "61670430f757d3f29a8d5c5ca73a42e58bf14370"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-md-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "477ae42f9289225e13314103adb3441ae9d8e339"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-md-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "bb58587c5f5728b52a033e1bc1a54b3195d0a899"
+      },
+      {
+        "path": "core/src/components/button/test/icon/button.e2e.ts-snapshots/button-icon-md-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "effa8dfac4be6999d5622029728b4c3564a783d2"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts",
+        "status": "modified",
+        "blob_sha": "b61a6307367653b17ab9db2894a8b6ee329399d2"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-clear-round-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "8ddf3c4d2c278a7b4a8fc371f8c2fec3faa0c145"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-clear-round-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "740dc013def118eaca30d4c8725d478e33f4b44d"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-clear-round-ios-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "23366f1336c3b46217546f704c0cb491f2aaa67e"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-clear-round-md-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "0d4f2cedcce151df0c85ca93d0c4671dfbda6103"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-clear-round-md-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "dfced59ebb78bbeae7df580fc38854d5cd356887"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-clear-round-md-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "64abd2f067ee237723602dc35666f4d8e70618ed"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-color-round-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "0cc61087b9063d201cfa6eba944c3cd43cef0e99"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-color-round-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "4e23c35df846e1ffb15066d14cdb8616ef58410b"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-color-round-ios-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "a5829ed62313f8d0be42ce9be89ce7e0f76c8bc3"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-color-round-md-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "473740a72df53a78ac383a82c739154c7fda7f81"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-color-round-md-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "b2e57299279bd876ed93b08b25455c215caa2054"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-color-round-md-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "e6a8f6a2036a362eb74314b904bcf3484f4e5e43"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-expand-round-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "a5c9f030b037e457f9c427a2313e40ba44b9539d"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-expand-round-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "c630af3765c38fd7de1c81f1df935b980473b9c5"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-expand-round-ios-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "4833224fcf4348dc9bd83c39c07723a5120d0210"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-expand-round-md-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "4bfa5e391005eb940dccd105e58457ba54fc60d8"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-expand-round-md-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "6e64830f36a966bff040bf21638ac5e1006ae7c4"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-expand-round-md-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "f8f53630acb44a866192ca02c6a31503b913e401"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-outline-round-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "662c58ce0b4d161e33e5c8921912f8752f7b492b"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-outline-round-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "626798b2ba827096ef916df3c96e4b3c2c58b67c"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-outline-round-ios-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "77a49a72a1f86f109f294dea3400d6ca77794cb6"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-outline-round-md-ltr-Mobile-Chrome-linux.png",
+        "status": "added",
+        "blob_sha": "59cddc74d5688284efb42f55bc0b98981654a41d"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-outline-round-md-ltr-Mobile-Firefox-linux.png",
+        "status": "added",
+        "blob_sha": "46a0045606edcef43766f66d885cc55e6a00ea09"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-outline-round-md-ltr-Mobile-Safari-linux.png",
+        "status": "added",
+        "blob_sha": "0cff4c94b55f4e55a016a63119d8ee7e2117fb1e"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-round-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "462ae469f40cb5e7eb530f91165dc6911945acc7"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-round-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "5b90f069bda360f26cdd30dafe017ef824adefb5"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-round-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "98fcc46aea0be552b2205b75b500c3bca9e87c42"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-round-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "dd97f87f422ea2c33ba07973f4952caada83a548"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-round-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "ca027b9d8249d35a718f9e7e09e68f9693bf6de5"
+      },
+      {
+        "path": "core/src/components/button/test/round/button.e2e.ts-snapshots/button-round-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "f56460f727a200d736bba54285ede920747faa2f"
+      },
+      {
+        "path": "core/src/components/button/test/round/index.html",
+        "status": "modified",
+        "blob_sha": "61dd2b5b43452721bf7ff1cfbfc0a63299a1603b"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "a61eeaea74b1ae5fa7557f2169abbd604ccbfb59"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "ab3abb13f74e1020a98d25944555829ccdf1b17d"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "997e2a00d50dbab1e9feac8d9840aa23dcb031b7"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-ios-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "44cc3e6c0f938c00d6356fb7cc6818ce4d48e1f2"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-ios-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "2bf1539e2e11f145882cb1aff6a5308349940007"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-ios-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "b393cf5df7df815c867ae1897334b97fb11ac434"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "928f0ef4cfcf82b0336f89429e35dc457e9dd776"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "e4db1074bf160ee8f87f869a21678bc7d232bbbd"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "199464e5f3b3ad75bf2e3ff5ecc22499dfa73680"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-md-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "e8770755e8fe98c973ab0293fbb3be406046b806"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-md-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "f2aad74651898813d7f76fe9ba04c6563b8b9ff9"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-floating-md-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "b80cba1350740788ba3e32ea94c35de0513ec1a9"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "a089a86cc103467aa7bc7f804e780236e3809aaa"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "8246b4b0338622fbe85264fef18a22455616f42c"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "c67daf50b429136463f404218fbe1ba445fbb7ea"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-ios-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "d991ef03918a304430f6646f389aa76f28804725"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-ios-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "2b2b6fcac6b665d386fa5cba5c7109c9a95d9005"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-ios-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "982cc63d3e17696f82f9b264a3bbd0aff0243264"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "f009f2aac4fc6fe085f0d03caac5a80dfef28f46"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "12a1644a2cfd9b5637e6e0b48162e202c5ad6331"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "07ecb4a47c704ef2000bece41f07d78c1aaf66a0"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-md-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "9e951886d5391b7d7f303ecd1175dce1750a855b"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-md-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "87b1c19f38663b4111435a8cb3b35a2cb84ebc30"
+      },
+      {
+        "path": "core/src/components/input/test/slot/input.e2e.ts-snapshots/input-slots-label-start-md-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "2e9df324a131a8bea4ee96bc5cc9a8cc3d1d2e6d"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "770e0c652de6b126ce6c72f1c1c6870b36a0e05b"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "1cdfcd8854085c21dd811b1773950db5349b411a"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "a590c0ba1f1cb7f84810b7aab49296f77b879f67"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-ios-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "f7f6a26efb35cbab1a9930f417f4d3bfcd7e17db"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-ios-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "22d3d3f24bfd4f38f733355d0f5097c5311eba5b"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-ios-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "79eb585174342f761e2a26eb12a5b5e1ebe6b977"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "2225e3fe0c895a511fb2be8ac927e93c7a30ed90"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "48e4f420f600fcc2805c4b8295cd29f83d346ec5"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "ddd83d8d1b6bc7579a42ed83b18dfd194873432b"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-md-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "f225b7516be47360a134549e653967263a6547da"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-md-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "8d311895bb8a48e87931ee71f758ebdec4544a84"
+      },
+      {
+        "path": "core/src/components/item/test/buttons/item.e2e.ts-snapshots/item-buttons-diff-md-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "13c715aa8f07c54dc877a0eb36c4ded4b87467f5"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "6d704b69876220d82c41dde49df915a6c4d44aee"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "76f65167b14df9525ff8c908fad8463ad8b6c771"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "b584c99992d9d9cc186bdaee7d8d3ee384026475"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-ios-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "e0c3f694f444a2030dc55c4c24f347d9e2c93052"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-ios-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "c8d7d6da90c751f42d42b2e4af6ff52f92e7142f"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-ios-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "07ea2cb150ef953274a5633ba608e9776ea0cba6"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "f7d541a7e7e1cb4a060fc87600772e198fd80958"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "6892db02e11b054efd3d9104fc854f37195acce9"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "4c88ad917ded4e680ce76c321133772178b750ae"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-md-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "cfbbcbe8c0f06a6c6a1d5599335f3bed87647158"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-md-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "3e0038f7d243d8c7adb5c98ecfe26a90d04dacba"
+      },
+      {
+        "path": "core/src/components/item/test/dividers/item.e2e.ts-snapshots/item-dividers-diff-md-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "f9dc7ddd4dbf26f227154153b017a47846f1b974"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "4768ee4ce7a1221a1880df84dc546e1e0f605261"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "1fdd08afad40108b1016ac8d6eb69c9519799cd2"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "07adde5f884dae1752da8c6bbe9934128ca8bd99"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-ios-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "05059f258553c956b40e697b0e8b59e10ff2bb39"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-ios-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "06d594030582ef5994d2cd541bb4a89d3c2d03f4"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-ios-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "92e6048bb571d7664773f24b9241dfe9c18c6d84"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "fce53f9f3683279eb4e263aef4a847975ac6e601"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "25d1b0a8a28f87085e52808d77a456fa0ed7df91"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "4f63547b13f330098d1aca60bf209413da0fa8cc"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-md-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "487dbddb4d42c62c41da9696fd8493ae2b5f1e3c"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-md-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "1621c288692ed8227a34c233bae8de42692303e7"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-floating-md-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "3adb1ce4989d84903029953b3d246e1f2ab0a0b6"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "2bc8c7490a7dca375743dd0e921ea03baab65d98"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "28ffa1e4388213a21c67b280dc5ee3db16ed81f1"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "ad1fc265dbca5a94fa703d5775affd8e9bd0b508"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-ios-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "827ab4cba61a9bb463ca37d5c53977d2721304db"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-ios-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "2a9ea007576229c7a26d7949eea54bc6830c54fb"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-ios-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "1cde30daf1eea444e4219d068e00b03eaf2bbf3b"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "f918adf1b69fee2df24c213086c2f8cec9cb5cc3"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "96f9e48866da1cd19efbc50554482491befc7aaf"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "c58e8367442ccd8b8c12f4e044d0dc5de4683914"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-md-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "6998d44c00719323793f79811276a7b73b2ded7a"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-md-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "25397a569bdd208b0ee16efbaf8eeffdb8b46acd"
+      },
+      {
+        "path": "core/src/components/select/test/slot/select.e2e.ts-snapshots/select-slots-label-start-md-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "9cb946ff9581fee1130aa68a559b59609e1cccfd"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "28d675c45331362e207728db1b3d1c9b7ecd638d"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "7943791f49aae6b0c509c5026ff9fd5445e9b5af"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "5588676d51c33f1be4078f59059e353f6c5e3805"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-ios-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "5168c90888546571ecd168bfb463bd326c01af6f"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-ios-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "eb56106be3ad3858ee95355d1a4cadfac24948ce"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-ios-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "50a7b96f55c6a5651971a6846f423ced8db10220"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "50604e2f614ef09c4d9db778637155e90b36a0d4"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "6bfcf01b110566e03b7f395b0009cfe73db0f14e"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "0c8f25d35f394956468b84427c8b5c9aa3e9b4a7"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-md-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "b394f35e703a7fc3fe3804aef03c313309f3e75a"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-md-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "f85097e4a9199ed747de068b46cf26763460b508"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-floating-md-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "15fe597337b51e0dc96c3eb77a4839eff8cde54d"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-ios-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "c0a94b73413707e918a207b2cd3319d02dc5dbad"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-ios-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "c42dddaea16762719b4f4a74ceb821bca7060b21"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-ios-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "ebcc8b5ff0b45508c45a6b8dd3db6a1149ab1d53"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-ios-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "0057e8617bb0e019933c991000be1d371b3c15f1"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-ios-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "28f7544868f031637a15819183ca7495adbd6cd0"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-ios-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "8f8e830beb76dead2b3d1db9827d60c70474e269"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-md-ltr-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "3cf6499f7121315d6eac2a02ef4c58c0482b92c0"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-md-ltr-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "c6dc89b25ef80bdbb09632de04c3fddb554959b0"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-md-ltr-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "98df9b9694c8ba66001f43e80e0809f342ae1bcf"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-md-rtl-Mobile-Chrome-linux.png",
+        "status": "modified",
+        "blob_sha": "b028b0c087ec90cc48ae5daf7452bc560f6b17e5"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-md-rtl-Mobile-Firefox-linux.png",
+        "status": "modified",
+        "blob_sha": "c0c21e4c869dc17fb1001067717367e455c15a2c"
+      },
+      {
+        "path": "core/src/components/textarea/test/slot/textarea.e2e.ts-snapshots/textarea-slots-label-start-md-rtl-Mobile-Safari-linux.png",
+        "status": "modified",
+        "blob_sha": "3df5ee04b4bd609005f128e10a6f55525ef5f796"
+      }
+    ],
+    "status": "Changes icon font size, button min dimensions/padding and round capture region; exclude as a pure rounded label."
+  },
+  {
+    "id": "mdn_grid",
+    "repository": "mdn/css-examples",
+    "commit": "8a495aff51c8f6a4c26b86e8edb0e38938b0cc1f",
+    "parent": "f93caa6b95108bde7d96ba684673bfc449886943",
+    "date": "2026-03-20T12:12:09Z",
+    "title": "fix(css-cookbook): Add `display:grid` to `.media-flip` (#212)",
+    "api_file_count": 2,
+    "complete_file_list": true,
+    "changed_files": [
+      {
+        "path": "css-cookbook/media-objects--download.html",
+        "status": "modified",
+        "blob_sha": "e57643030885b464460b103202364892428ffb82"
+      },
+      {
+        "path": "css-cookbook/media-objects.html",
+        "status": "modified",
+        "blob_sha": "78de84ef8c8823a0a2210a67e749a8bb03721709"
+      }
+    ],
+    "status": "Verified original source versions rendered; both independent before-after comparisons have0 changed pixels at1280x1600. Exclude visible layout positive."
+  },
+  {
+    "id": "mdn_logical",
+    "repository": "mdn/css-examples",
+    "commit": "319601537968277697030054d65e8637ccf2176c",
+    "parent": "8a495aff51c8f6a4c26b86e8edb0e38938b0cc1f",
+    "date": "2026-04-22T10:58:03Z",
+    "title": "fix(writing-modes): Make the logical-width-height-download.html and logical-width-height.html files consistent (#213)",
+    "api_file_count": 2,
+    "complete_file_list": true,
+    "changed_files": [
+      {
+        "path": "learn/tasks/writing-modes/logical-width-height-download.html",
+        "status": "modified",
+        "blob_sha": "fbed1e0811794b8c915f93cb3902c61c1b5d1fdc"
+      },
+      {
+        "path": "learn/tasks/writing-modes/logical-width-height.html",
+        "status": "modified",
+        "blob_sha": "35bc9e017d6b73da2eb08a0c98b1af7b47b8c2c7"
+      }
+    ],
+    "status": "CSS order/editor text moves; not rendered in this bounded run and not assumed a visible single-class positive."
+  }
+]

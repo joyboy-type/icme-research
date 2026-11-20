@@ -1,0 +1,30 @@
+{
+  "scope": "Bounded source-grounded single-mechanism audit and independently launched repeated browser captures. No model fitting, tuning or synthetic CSS changes.",
+  "real_modified_snapshot_instances": 6,
+  "independent_real_change_units": 1,
+  "positive_project_groups": 1,
+  "narrow_candidate_classes": [
+    "contrast_recovery"
+  ],
+  "certified_atomic13_labels": 0,
+  "independent_human_gold_labels": 0,
+  "new_counted_captures": 8,
+  "independent_repeat_pairs": 4,
+  "repeat_pairs_with_zero_pixel_difference": 4,
+  "full_resource_crosschecked_repeat_pairs": 3,
+  "partial_resource_instrumentation_repeat_pairs": 1,
+  "repeat_source_project_groups": 2,
+  "mdn_real_code_change_visible_pairs": 0,
+  "pure_justify_or_position_examples_added": 0,
+  "historical_version_matched_noise_controls": 0,
+  "jpeg_error_evaluation": "Not run; no model/threshold scored. Existing result remains unresolved.",
+  "same_artifact_repeat_controls_are_population_fpr_estimate": false,
+  "initial_recording_failure_preserved": true,
+  "new_live_acquisitions": 2,
+  "live_acquisitions_repeated_after_fix": 0,
+  "training_or_tuning": false,
+  "paid_api_calls": 0,
+  "rented_compute": false,
+  "word_unchanged_verified": true,
+  "decision": "Retain a narrowed contrast-recovery candidate pilot and fixed-artifact repeat controls with quality flags. Dataset remains insufficient for independent training/development/confirmation or a robust detector claim."
+}

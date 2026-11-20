@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ionic_0",
+    "url": "https://ionic-framework.vercel.app/src/components/checkbox/test/basic",
+    "artifact_sha256": "bf40038fc54f3417114e5a3388b38a21ef144677bdb7f155ea28fc2305004cb0",
+    "har": "data/real-version-replay-02/har/ionic_0.har",
+    "response_bytes": 782641,
+    "request_count": 31,
+    "ready_state": {
+      "title": "Checkbox - Basic",
+      "body_text_length": 179,
+      "images": [],
+      "scroll_height": 1600,
+      "fonts": "loaded",
+      "ionic_mode": "md"
+    },
+    "commit_identity": "Not exposed by live alias; artifact bytes only, not claimed to reproduce2024 commits.",
+    "reused_after_logging_fix": true
+  },
+  {
+    "id": "ionic_1",
+    "url": "https://ionic-framework.vercel.app/src/components/toolbar/test/basic",
+    "artifact_sha256": "cb0af3480fcce0ed7eef1a4891eef154c5981bac9556d0502be0600d6899f1ca",
+    "har": "data/real-version-replay-02/har/ionic_1.har",
+    "response_bytes": 820041,
+    "request_count": 39,
+    "ready_state": {
+      "title": "Toolbar - Basic",
+      "body_text_length": 679,
+      "images": [],
+      "scroll_height": 1600,
+      "fonts": "loaded",
+      "ionic_mode": "md"
+    },
+    "commit_identity": "Not exposed by live alias; artifact bytes only, not claimed to reproduce2024 commits.",
+    "reused_after_logging_fix": true
+  }
+]

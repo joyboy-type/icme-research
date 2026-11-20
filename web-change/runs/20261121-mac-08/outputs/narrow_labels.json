@@ -1,0 +1,87 @@
+{
+  "instances": [
+    {
+      "id": "ionic_color_0",
+      "project_group": "ionic-team/ionic-framework",
+      "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+      "narrow_candidate_label": "contrast_recovery",
+      "label_description": "Activated outline control becomes legible through foreground/background/theme color correction.",
+      "basis": "Pinned real commit plus localized matching before-after pixel change; source and visual review independently agreed.",
+      "atomic13_label": null,
+      "single_css_property": false,
+      "independent_human_annotation": false,
+      "training_split": null,
+      "status": "source_and_pixel_supported_narrow_candidate"
+    },
+    {
+      "id": "ionic_color_1",
+      "project_group": "ionic-team/ionic-framework",
+      "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+      "narrow_candidate_label": "contrast_recovery",
+      "label_description": "Activated outline control becomes legible through foreground/background/theme color correction.",
+      "basis": "Pinned real commit plus localized matching before-after pixel change; source and visual review independently agreed.",
+      "atomic13_label": null,
+      "single_css_property": false,
+      "independent_human_annotation": false,
+      "training_split": null,
+      "status": "source_and_pixel_supported_narrow_candidate"
+    },
+    {
+      "id": "ionic_color_2",
+      "project_group": "ionic-team/ionic-framework",
+      "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+      "narrow_candidate_label": "contrast_recovery",
+      "label_description": "Activated outline control becomes legible through foreground/background/theme color correction.",
+      "basis": "Pinned real commit plus localized matching before-after pixel change; source and visual review independently agreed.",
+      "atomic13_label": null,
+      "single_css_property": false,
+      "independent_human_annotation": false,
+      "training_split": null,
+      "status": "source_and_pixel_supported_narrow_candidate"
+    },
+    {
+      "id": "ionic_color_3",
+      "project_group": "ionic-team/ionic-framework",
+      "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+      "narrow_candidate_label": "contrast_recovery",
+      "label_description": "Activated outline control becomes legible through foreground/background/theme color correction.",
+      "basis": "Pinned real commit plus localized matching before-after pixel change; source and visual review independently agreed.",
+      "atomic13_label": null,
+      "single_css_property": false,
+      "independent_human_annotation": false,
+      "training_split": null,
+      "status": "source_and_pixel_supported_narrow_candidate"
+    },
+    {
+      "id": "ionic_color_4",
+      "project_group": "ionic-team/ionic-framework",
+      "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+      "narrow_candidate_label": "contrast_recovery",
+      "label_description": "Activated outline control becomes legible through foreground/background/theme color correction.",
+      "basis": "Pinned real commit plus localized matching before-after pixel change; source and visual review independently agreed.",
+      "atomic13_label": null,
+      "single_css_property": false,
+      "independent_human_annotation": false,
+      "training_split": null,
+      "status": "source_and_pixel_supported_narrow_candidate"
+    },
+    {
+      "id": "ionic_color_5",
+      "project_group": "ionic-team/ionic-framework",
+      "change_unit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+      "narrow_candidate_label": "contrast_recovery",
+      "label_description": "Activated outline control becomes legible through foreground/background/theme color correction.",
+      "basis": "Pinned real commit plus localized matching before-after pixel change; source and visual review independently agreed.",
+      "atomic13_label": null,
+      "single_css_property": false,
+      "independent_human_annotation": false,
+      "training_split": null,
+      "status": "source_and_pixel_supported_narrow_candidate"
+    }
+  ],
+  "independent_change_units": 1,
+  "project_groups": 1,
+  "independent_human_gold_labels": 0,
+  "certified_atomic13_labels": 0,
+  "scope": "One real2024 color/contrast correction,6 browser/direction variants. Stable multi-project collection not established."
+}

@@ -1,0 +1,72 @@
+{
+  "run_id": "20261121-mac-08",
+  "scope": "Bounded source-grounded single-mechanism audit and independently launched repeated browser captures. No model fitting, tuning or synthetic CSS changes.",
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/网页截图的细微变更分类｜实验任务书_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_guard": {},
+  "positive_candidates": {
+    "ionic_color_commit": "ee5da7a747c0a0b420c5e371a9fe9ec4938d179e",
+    "max_existing_png_pairs": 6,
+    "grouping": "All browser/direction snapshots of one commit are one change unit and one project; not6 independent edits.",
+    "category_rule": "Source and pixel review may support narrowed color/contrast mechanism. No automatic atomic13 gold label; multi-property or test-environment changes retained as limitations."
+  },
+  "reviewed_but_not_assumed_positive": [
+    "Ionic checkbox alignment commit adds new test screenshots, without matched parent PNGs.",
+    "Ionic round-button commit changes size, icon font, padding and capture region; mixed not pure rounded.",
+    "MDN display:grid addition may be redundant with existing media class; render before claiming any visible layout change."
+  ],
+  "replay": {
+    "browser": "Existing installed Google Chrome via bundled Playwright",
+    "viewport": [
+      1280,
+      1600
+    ],
+    "device_scale_factor": 1,
+    "locale": "en-US",
+    "timezone": "Asia/Shanghai",
+    "color_scheme": "light",
+    "animations": "Browser screenshot animations disabled; no injected CSS or DOM mutation",
+    "independence": "Fresh browser process, fresh context and load for every counted capture; PNG not reused. Two captures per fixed artifact.",
+    "local_mdn": {
+      "repository": "mdn/css-examples",
+      "before_commit": "f93caa6b95108bde7d96ba684673bfc449886943",
+      "after_commit": "8a495aff51c8f6a4c26b86e8edb0e38938b0cc1f",
+      "path": "css-cookbook/media-objects--download.html",
+      "assets": [
+        "css-cookbook/balloon-sq2.jpg",
+        "css-cookbook/sharp-account_box-24px.svg"
+      ],
+      "versions": 2,
+      "captures_per_version": 2,
+      "policy": "Serve verified original files locally without HTML/CSS edits. Block external network. MDN documentation example is not production-site evidence."
+    },
+    "ionic_archive": {
+      "urls": [
+        "https://ionic-framework.vercel.app/src/components/checkbox/test/basic",
+        "https://ionic-framework.vercel.app/src/components/toolbar/test/basic"
+      ],
+      "artifact_policy": "One bounded public-page acquisition to HAR per page, then2 separately launched browsers replay the same archived bytes offline. Seed acquisition is not a repeat control.",
+      "max_acquisition_attempts_per_url": 1,
+      "acquisition_timeout_ms": 45000,
+      "network_requests_per_page_cap": 100,
+      "total_response_bytes_per_page_cap": 30000000,
+      "historical_commit_relation": "Live alias may not expose exact Git commit. Record content hash/version evidence; do not claim these controls reproduce2024 snapshots.",
+      "failure_policy": "Record failed acquisition/replay or missing resources and exclude from valid controls, do not hide failures."
+    }
+  },
+  "pixel_rule": "Original RGB shapes; compare exact and>4 differences using run07 audit helper; do not resize or choose thresholds. Same-version repeat stability is descriptive, not population FPR.",
+  "excluded": "All419 opened confirmation examples and historical155/355/72 controls; no training/threshold changes.",
+  "budget": {
+    "local_mac_only": true,
+    "paid_api_calls": 0,
+    "rental": false,
+    "max_positive_pairs": 6,
+    "max_counted_capture_images": 8,
+    "max_seed_page_acquisitions": 2
+  },
+  "export_policy": "Only scripts/config/source pointers/hashes/filtered decisions; no images, upstream source files, HAR, raw logs, models or credentials"
+}

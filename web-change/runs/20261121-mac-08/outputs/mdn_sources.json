@@ -1,0 +1,24 @@
+[
+  {
+    "version": "before",
+    "commit": "f93caa6b95108bde7d96ba684673bfc449886943",
+    "path": "css-cookbook/media-objects--download.html",
+    "blob_sha": "1dd5b69da89001f4220def35b6da4c3193785e8f",
+    "url": "https://raw.githubusercontent.com/mdn/css-examples/f93caa6b95108bde7d96ba684673bfc449886943/css-cookbook/media-objects--download.html",
+    "sha256": "8af35240e49ff9b6f0c65bfedae395e03959ff7b93d562adf65b55f548b9a147",
+    "bytes": 4071,
+    "cache": false,
+    "local_path": "data/real-version-replay-02/mdn/before/media-objects--download.html"
+  },
+  {
+    "version": "after",
+    "commit": "8a495aff51c8f6a4c26b86e8edb0e38938b0cc1f",
+    "path": "css-cookbook/media-objects--download.html",
+    "blob_sha": "e57643030885b464460b103202364892428ffb82",
+    "url": "https://raw.githubusercontent.com/mdn/css-examples/8a495aff51c8f6a4c26b86e8edb0e38938b0cc1f/css-cookbook/media-objects--download.html",
+    "sha256": "aaf56a3150e2fe6a87f3f953c5c260a8675f16ff13e268a1b26e769cd4cecf04",
+    "bytes": 4096,
+    "cache": false,
+    "local_path": "data/real-version-replay-02/mdn/after/media-objects--download.html"
+  }
+]

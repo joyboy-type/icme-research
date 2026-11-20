@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-11-20T17:31:55.712663+00:00",
+  "source_lock_files_verified": 5,
+  "capture_lock_files_verified": 4,
+  "original_snapshot_pairs_git_and_independent_pillow_checked": 6,
+  "independent_capture_png_files_verified": 8,
+  "independent_repeats_pixel_recomputed": 4,
+  "mdn_before_after_compared": 2,
+  "original_source_html_css_modified_by_us": false,
+  "source_images_and_licenses_git_blob_verified": true,
+  "capture_failure_and_fix_provenance_verified": true,
+  "tests": {
+    "node_passed": 4,
+    "failed": 0,
+    "red_green_logs_retained": true
+  },
+  "word_unchanged_verified": true,
+  "old_confirmation_used": false,
+  "models_loaded_or_thresholds_evaluated": false,
+  "partial_capture_resource_scope": "outputs/control_quality.json"
+}

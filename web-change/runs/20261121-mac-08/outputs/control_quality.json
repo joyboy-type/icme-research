@@ -1,0 +1,56 @@
+{
+  "controls": [
+    {
+      "id": "mdn_before",
+      "independent_launches": 2,
+      "fixed_artifact_and_offline_replay_verified": true,
+      "captured_pixels_identical": true,
+      "all_archived_render_resources_machine_crosschecked": true,
+      "unrecorded_resource_urls": [],
+      "status": "complete_under_fixed_artifact_contract",
+      "note": "Every archived/rendered document, script, CSS and image byte hash matched recorded capture responses."
+    },
+    {
+      "id": "mdn_after",
+      "independent_launches": 2,
+      "fixed_artifact_and_offline_replay_verified": true,
+      "captured_pixels_identical": true,
+      "all_archived_render_resources_machine_crosschecked": true,
+      "unrecorded_resource_urls": [],
+      "status": "complete_under_fixed_artifact_contract",
+      "note": "Every archived/rendered document, script, CSS and image byte hash matched recorded capture responses."
+    },
+    {
+      "id": "ionic_0",
+      "independent_launches": 2,
+      "fixed_artifact_and_offline_replay_verified": true,
+      "captured_pixels_identical": true,
+      "all_archived_render_resources_machine_crosschecked": true,
+      "unrecorded_resource_urls": [],
+      "status": "complete_under_fixed_artifact_contract",
+      "note": "Every archived/rendered document, script, CSS and image byte hash matched recorded capture responses."
+    },
+    {
+      "id": "ionic_1",
+      "independent_launches": 2,
+      "fixed_artifact_and_offline_replay_verified": true,
+      "captured_pixels_identical": true,
+      "all_archived_render_resources_machine_crosschecked": false,
+      "unrecorded_resource_urls": [
+        "https://ionic-framework.vercel.app/dist/ionic/svg/ellipsis-vertical.svg",
+        "https://ionic-framework.vercel.app/dist/ionic/svg/help-circle.svg",
+        "https://ionic-framework.vercel.app/dist/ionic/svg/information-circle.svg",
+        "https://ionic-framework.vercel.app/dist/ionic/svg/person-circle.svg",
+        "https://ionic-framework.vercel.app/dist/ionic/svg/search.svg",
+        "https://ionic-framework.vercel.app/dist/ionic/svg/star.svg"
+      ],
+      "status": "partial_resource_instrumentation_review_only",
+      "note": "All6 SVG fetches exist in fixed HAR and icons are visually present, but fetch failure/readiness events were not instrumented."
+    }
+  ],
+  "independent_repeat_pairs": 4,
+  "full_resource_crosschecked_pairs": 3,
+  "partial_resource_instrumentation_pairs": 1,
+  "population_fpr_claim": false,
+  "historical2024_version_or_platform_match": false
+}
