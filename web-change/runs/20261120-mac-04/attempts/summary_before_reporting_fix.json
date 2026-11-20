@@ -1,0 +1,157 @@
+{
+  "scope": "Nested development OOF only; JPEG90/98 excluded from fitting and calibration",
+  "originals": 240,
+  "feature_rows": 3360,
+  "features": 88,
+  "metrics": {
+    "area_blur8": {
+      "recall": {
+        "clean": 0.25833333333333336,
+        "jpeg90": 0.38333333333333336,
+        "jpeg95": 0.3458333333333333,
+        "jpeg95_shift_x1": 0.3458333333333333,
+        "jpeg98": 0.32083333333333336,
+        "shift_x1": 0.25833333333333336
+      },
+      "fpr": {
+        "identity": 0.0,
+        "jpeg90": 0.09583333333333334,
+        "jpeg95": 0.058333333333333334,
+        "jpeg95_shift_x1": 0.058333333333333334,
+        "jpeg98": 0.029166666666666667,
+        "shift_x1": 0.0,
+        "shift_xy1": 0.0,
+        "shift_y1": 0.0
+      },
+      "per_class_clean_recall": {
+        "border": 0.0,
+        "color": 0.0,
+        "font_size": 0.0,
+        "font_weight": 0.0,
+        "gradient": 0.0,
+        "justify": 0.0,
+        "letter_spacing": 0.0,
+        "line_height": 0.0,
+        "opacity": 0.0,
+        "position": 0.0,
+        "rounded": 0.0,
+        "spacing": 0.0,
+        "text": 0.0
+      },
+      "worst_seen_fpr": 0.058333333333333334,
+      "worst_unseen_codec_fpr": 0.09583333333333334
+    },
+    "max_local32": {
+      "recall": {
+        "clean": 0.8916666666666667,
+        "jpeg90": 0.9291666666666667,
+        "jpeg95": 0.9166666666666666,
+        "jpeg95_shift_x1": 0.9166666666666666,
+        "jpeg98": 0.9125,
+        "shift_x1": 0.8916666666666667
+      },
+      "fpr": {
+        "identity": 0.0,
+        "jpeg90": 0.1125,
+        "jpeg95": 0.05416666666666667,
+        "jpeg95_shift_x1": 0.05416666666666667,
+        "jpeg98": 0.020833333333333332,
+        "shift_x1": 0.0,
+        "shift_xy1": 0.0,
+        "shift_y1": 0.0
+      },
+      "per_class_clean_recall": {
+        "border": 0.0,
+        "color": 0.0,
+        "font_size": 0.0,
+        "font_weight": 0.0,
+        "gradient": 0.0,
+        "justify": 0.0,
+        "letter_spacing": 0.0,
+        "line_height": 0.0,
+        "opacity": 0.0,
+        "position": 0.0,
+        "rounded": 0.0,
+        "spacing": 0.0,
+        "text": 0.0
+      },
+      "worst_seen_fpr": 0.05416666666666667,
+      "worst_unseen_codec_fpr": 0.1125
+    },
+    "largest_component8": {
+      "recall": {
+        "clean": 0.5416666666666666,
+        "jpeg90": 0.5833333333333334,
+        "jpeg95": 0.55,
+        "jpeg95_shift_x1": 0.55,
+        "jpeg98": 0.5458333333333333,
+        "shift_x1": 0.5416666666666666
+      },
+      "fpr": {
+        "identity": 0.0,
+        "jpeg90": 0.075,
+        "jpeg95": 0.05,
+        "jpeg95_shift_x1": 0.05,
+        "jpeg98": 0.0375,
+        "shift_x1": 0.0,
+        "shift_xy1": 0.0,
+        "shift_y1": 0.0
+      },
+      "per_class_clean_recall": {
+        "border": 0.0,
+        "color": 0.0,
+        "font_size": 0.0,
+        "font_weight": 0.0,
+        "gradient": 0.0,
+        "justify": 0.0,
+        "letter_spacing": 0.0,
+        "line_height": 0.0,
+        "opacity": 0.0,
+        "position": 0.0,
+        "rounded": 0.0,
+        "spacing": 0.0,
+        "text": 0.0
+      },
+      "worst_seen_fpr": 0.05,
+      "worst_unseen_codec_fpr": 0.075
+    },
+    "learned_local": {
+      "recall": {
+        "clean": 1.0,
+        "jpeg90": 0.9833333333333333,
+        "jpeg95": 0.9791666666666666,
+        "jpeg95_shift_x1": 0.9791666666666666,
+        "jpeg98": 0.9833333333333333,
+        "shift_x1": 1.0
+      },
+      "fpr": {
+        "identity": 0.0,
+        "jpeg90": 0.0625,
+        "jpeg95": 0.0375,
+        "jpeg95_shift_x1": 0.0375,
+        "jpeg98": 0.058333333333333334,
+        "shift_x1": 0.0,
+        "shift_xy1": 0.0,
+        "shift_y1": 0.0
+      },
+      "per_class_clean_recall": {
+        "border": 0.0,
+        "color": 0.0,
+        "font_size": 0.0,
+        "font_weight": 0.0,
+        "gradient": 0.0,
+        "justify": 0.0,
+        "letter_spacing": 0.0,
+        "line_height": 0.0,
+        "opacity": 0.0,
+        "position": 0.0,
+        "rounded": 0.0,
+        "spacing": 0.0,
+        "text": 0.0
+      },
+      "worst_seen_fpr": 0.0375,
+      "worst_unseen_codec_fpr": 0.0625
+    }
+  },
+  "seconds": 582.3564043330261
+}

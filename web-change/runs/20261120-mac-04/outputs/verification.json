@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-11-20T15:29:01.333176+00:00",
+  "summary_cells_recomputed_from_saved_decisions": 108,
+  "prediction_rows": 13440,
+  "original_design_lock_preserved": true,
+  "reporting_fix_provenance_verified": true,
+  "word_unchanged_verified": true,
+  "prior_integrity_entries_verified": 2026,
+  "prior_integrity_mismatches": [],
+  "tests": {
+    "passed": 5,
+    "failed": 0,
+    "log": "outputs/final_tests.log"
+  }
+}

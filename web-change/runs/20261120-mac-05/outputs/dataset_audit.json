@@ -1,0 +1,81 @@
+{
+  "pairs": 868,
+  "baselines": 32,
+  "pair_split": {
+    "confirmation": 419,
+    "train": 292,
+    "development": 157
+  },
+  "baseline_split": {
+    "confirmation": 16,
+    "train": 10,
+    "development": 6
+  },
+  "family_pairs": {
+    "pico": 90,
+    "bootstrap": 25,
+    "spectre": 89,
+    "materialize": 87,
+    "semantic": 91,
+    "uikit": 90,
+    "skeleton": 20,
+    "milligram": 90,
+    "pure": 21,
+    "chota": 68,
+    "mvp": 101,
+    "newcss": 96
+  },
+  "class_split": {
+    "train": {
+      "text": 21,
+      "font_size": 30,
+      "font_weight": 30,
+      "letter_spacing": 30,
+      "line_height": 29,
+      "spacing": 30,
+      "position": 5,
+      "color": 30,
+      "opacity": 30,
+      "rounded": 21,
+      "gradient": 21,
+      "border": 15
+    },
+    "development": {
+      "text": 14,
+      "font_size": 18,
+      "font_weight": 18,
+      "letter_spacing": 18,
+      "line_height": 18,
+      "spacing": 18,
+      "position": 2,
+      "color": 18,
+      "opacity": 18,
+      "gradient": 9,
+      "rounded": 6
+    },
+    "confirmation": {
+      "text": 37,
+      "font_size": 42,
+      "font_weight": 36,
+      "letter_spacing": 42,
+      "line_height": 42,
+      "border": 24,
+      "rounded": 33,
+      "spacing": 42,
+      "color": 42,
+      "opacity": 42,
+      "gradient": 30,
+      "position": 5,
+      "justify": 2
+    }
+  },
+  "restoration_all_identical": true,
+  "exact_baseline_duplicates_across_families": 0,
+  "cross_split_pixel_duplicates": 0,
+  "source_families": 12,
+  "zero_training_support": [
+    "justify"
+  ],
+  "manual_baseline_visual_review": "32-view contact sheet inspected; source content present; two Pure views have no eligible mutations but remain negative controls",
+  "manual_mutation_visual_review": "13-label contact sheet inspected before any model scores; before/after and amplified residual visible; no annotations enter image descriptors"
+}

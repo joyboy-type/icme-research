@@ -1,0 +1,26 @@
+{
+  "at_utc": "2026-11-20T15:35:53.677477+00:00",
+  "frozen_hashes_verified": 33,
+  "summary_cells_recomputed_from_saved_decisions": 100,
+  "classification_prediction_rows": 1676,
+  "detection_prediction_rows": 5412,
+  "all_detection_decisions_match_frozen_threshold": true,
+  "confirmation_negative_rows_per_method": 96,
+  "unique_confirmation_control_baselines": 16,
+  "confirmation_families": 6,
+  "tests": {
+    "python_pass": 8,
+    "node_mutation_pass": 5,
+    "failed": 0
+  },
+  "first3_pixel_features_match_legacy_baseline": true,
+  "cross_split_exact_pixel_duplicates": 0,
+  "source_provenance": "outputs/provenance_verification.json",
+  "restoration_checks": "outputs/render_audit.json",
+  "word_unchanged_verified": true,
+  "old355_historical155_controls72_used": false,
+  "paid_api_calls": 0,
+  "rented_compute": false,
+  "independent_readonly_review": "outputs/review.json",
+  "decision_export_lossless": true
+}

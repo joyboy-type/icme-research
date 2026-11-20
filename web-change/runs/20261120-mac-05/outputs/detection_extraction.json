@@ -1,0 +1,8 @@
+{
+  "seconds": 492.9840629999526,
+  "rows": 2796,
+  "positive_pairs": 868,
+  "unique_control_baselines": 32,
+  "features": 88,
+  "no_annotation_features": true
+}

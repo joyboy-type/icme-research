@@ -1,0 +1,7 @@
+{
+  "reason": "Integer0 mixed with booleans produced integer indexing in per-class summary. Changed to explicit bool mask.",
+  "affected": "per_class_clean_recall only; aggregate scores, decisions, calibration and frozen model unchanged",
+  "original_code_sha256": "d723c1a6d67aeb9e665c5deb4b0060ae50817f1cd9138b2a24a42c1c71f598bf",
+  "corrected_code_sha256": "c577e7cb302840d860953222a13b746a1bb4faac45cab3342dc6c301914f1faa",
+  "regression_test": "test_probe_metrics.py"
+}

@@ -1,0 +1,1523 @@
+{
+  "classification": {
+    "pixel_ET": {
+      "n": 157,
+      "accuracy": 0.43312101910828027,
+      "macro_f1_fixed13": 0.3662495499919044,
+      "macro_f1_fixed12_excluding_untrained_justify": 0.3967703458245631,
+      "per_class": {
+        "text": {
+          "precision": 0.20588235294117646,
+          "recall": 1.0,
+          "f1-score": 0.34146341463414637,
+          "support": 14.0
+        },
+        "font_size": {
+          "precision": 0.5714285714285714,
+          "recall": 0.4444444444444444,
+          "f1-score": 0.5,
+          "support": 18.0
+        },
+        "font_weight": {
+          "precision": 0.5,
+          "recall": 0.1111111111111111,
+          "f1-score": 0.18181818181818182,
+          "support": 18.0
+        },
+        "letter_spacing": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 18.0
+        },
+        "line_height": {
+          "precision": 1.0,
+          "recall": 0.1111111111111111,
+          "f1-score": 0.2,
+          "support": 18.0
+        },
+        "border": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "rounded": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "spacing": {
+          "precision": 0.3333333333333333,
+          "recall": 0.05555555555555555,
+          "f1-score": 0.09523809523809523,
+          "support": 18.0
+        },
+        "justify": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "position": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "color": {
+          "precision": 0.7,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.7368421052631579,
+          "support": 18.0
+        },
+        "opacity": {
+          "precision": 0.75,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.7058823529411765,
+          "support": 18.0
+        },
+        "gradient": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 9.0
+        },
+        "accuracy": 0.43312101910828027,
+        "macro avg": {
+          "precision": 0.46620340443869857,
+          "recall": 0.39743589743589747,
+          "f1-score": 0.3662495499919044,
+          "support": 157.0
+        },
+        "weighted avg": {
+          "precision": 0.5558475619547182,
+          "recall": 0.43312101910828027,
+          "f1-score": 0.4034174588507583,
+          "support": 157.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          14,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          8,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          16,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          17,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          2,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          15,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9
+        ]
+      ]
+    },
+    "pixel_HOG_ET": {
+      "n": 157,
+      "accuracy": 0.554140127388535,
+      "macro_f1_fixed13": 0.46476700427225165,
+      "macro_f1_fixed12_excluding_untrained_justify": 0.5034975879616059,
+      "per_class": {
+        "text": {
+          "precision": 0.3870967741935484,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.5333333333333333,
+          "support": 14.0
+        },
+        "font_size": {
+          "precision": 0.6,
+          "recall": 0.5,
+          "f1-score": 0.5454545454545454,
+          "support": 18.0
+        },
+        "font_weight": {
+          "precision": 0.16666666666666666,
+          "recall": 0.05555555555555555,
+          "f1-score": 0.08333333333333333,
+          "support": 18.0
+        },
+        "letter_spacing": {
+          "precision": 0.5454545454545454,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.41379310344827586,
+          "support": 18.0
+        },
+        "line_height": {
+          "precision": 0.9,
+          "recall": 0.5,
+          "f1-score": 0.6428571428571429,
+          "support": 18.0
+        },
+        "border": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "rounded": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "spacing": {
+          "precision": 0.35714285714285715,
+          "recall": 0.5555555555555556,
+          "f1-score": 0.43478260869565216,
+          "support": 18.0
+        },
+        "justify": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "position": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "color": {
+          "precision": 0.7058823529411765,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.6857142857142857,
+          "support": 18.0
+        },
+        "opacity": {
+          "precision": 0.6842105263157895,
+          "recall": 0.7222222222222222,
+          "f1-score": 0.7027027027027027,
+          "support": 18.0
+        },
+        "gradient": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 9.0
+        },
+        "accuracy": 0.554140127388535,
+        "macro avg": {
+          "precision": 0.4881887479011218,
+          "recall": 0.4761904761904762,
+          "f1-score": 0.46476700427225165,
+          "support": 157.0
+        },
+        "weighted avg": {
+          "precision": 0.5839985981661675,
+          "recall": 0.554140127388535,
+          "f1-score": 0.5453639851361372,
+          "support": 157.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          12,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          9,
+          0,
+          3,
+          1,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          1,
+          6,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          9,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          13,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9
+        ]
+      ]
+    },
+    "pixel_edges_ET": {
+      "n": 157,
+      "accuracy": 0.45222929936305734,
+      "macro_f1_fixed13": 0.39663972924842494,
+      "macro_f1_fixed12_excluding_untrained_justify": 0.429693040019127,
+      "per_class": {
+        "text": {
+          "precision": 0.21212121212121213,
+          "recall": 1.0,
+          "f1-score": 0.35,
+          "support": 14.0
+        },
+        "font_size": {
+          "precision": 0.6,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.42857142857142855,
+          "support": 18.0
+        },
+        "font_weight": {
+          "precision": 0.5,
+          "recall": 0.1111111111111111,
+          "f1-score": 0.18181818181818182,
+          "support": 18.0
+        },
+        "letter_spacing": {
+          "precision": 0.75,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.2727272727272727,
+          "support": 18.0
+        },
+        "line_height": {
+          "precision": 1.0,
+          "recall": 0.2777777777777778,
+          "f1-score": 0.43478260869565216,
+          "support": 18.0
+        },
+        "border": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "rounded": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "spacing": {
+          "precision": 0.5,
+          "recall": 0.05555555555555555,
+          "f1-score": 0.1,
+          "support": 18.0
+        },
+        "justify": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "position": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "color": {
+          "precision": 0.6842105263157895,
+          "recall": 0.7222222222222222,
+          "f1-score": 0.7027027027027027,
+          "support": 18.0
+        },
+        "opacity": {
+          "precision": 0.7058823529411765,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.6857142857142857,
+          "support": 18.0
+        },
+        "gradient": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 9.0
+        },
+        "accuracy": 0.45222929936305734,
+        "macro avg": {
+          "precision": 0.534785699336783,
+          "recall": 0.4102564102564103,
+          "f1-score": 0.39663972924842494,
+          "support": 157.0
+        },
+        "weighted avg": {
+          "precision": 0.6579068076198875,
+          "recall": 0.45222929936305734,
+          "f1-score": 0.4484948830836396,
+          "support": 157.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          14,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          6,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          16,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          15,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          5,
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          15,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9
+        ]
+      ]
+    },
+    "DINO_pixel_ET": {
+      "n": 157,
+      "accuracy": 0.6942675159235668,
+      "macro_f1_fixed13": 0.565176767423078,
+      "macro_f1_fixed12_excluding_untrained_justify": 0.6122748313750012,
+      "per_class": {
+        "text": {
+          "precision": 0.6363636363636364,
+          "recall": 1.0,
+          "f1-score": 0.7777777777777778,
+          "support": 14.0
+        },
+        "font_size": {
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1-score": 0.6,
+          "support": 18.0
+        },
+        "font_weight": {
+          "precision": 0.46153846153846156,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.3870967741935484,
+          "support": 18.0
+        },
+        "letter_spacing": {
+          "precision": 0.65,
+          "recall": 0.7222222222222222,
+          "f1-score": 0.6842105263157895,
+          "support": 18.0
+        },
+        "line_height": {
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.7272727272727273,
+          "support": 18.0
+        },
+        "border": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "rounded": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "spacing": {
+          "precision": 0.5714285714285714,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.6153846153846154,
+          "support": 18.0
+        },
+        "justify": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "position": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "color": {
+          "precision": 0.7777777777777778,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.7777777777777778,
+          "support": 18.0
+        },
+        "opacity": {
+          "precision": 0.7777777777777778,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.7777777777777778,
+          "support": 18.0
+        },
+        "gradient": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 9.0
+        },
+        "accuracy": 0.6942675159235668,
+        "macro avg": {
+          "precision": 0.5711450942220172,
+          "recall": 0.5726495726495726,
+          "f1-score": 0.565176767423078,
+          "support": 157.0
+        },
+        "weighted avg": {
+          "precision": 0.7012897930095382,
+          "recall": 0.6942675159235668,
+          "f1-score": 0.6887914169801856,
+          "support": 157.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          14,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          9,
+          1,
+          1,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          5,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          1,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          12,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          1,
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9
+        ]
+      ]
+    }
+  },
+  "detection": {
+    "whole_area_blur8": {
+      "recall": {
+        "clean": {
+          "n": 157,
+          "detected": 18,
+          "rate": 0.11464968152866242
+        },
+        "jpeg95": {
+          "n": 157,
+          "detected": 85,
+          "rate": 0.5414012738853503
+        },
+        "shift_x1": {
+          "n": 157,
+          "detected": 18,
+          "rate": 0.11464968152866242
+        }
+      },
+      "fpr": {
+        "identity": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg90": {
+          "n": 6,
+          "detected": 3,
+          "rate": 0.5
+        },
+        "jpeg95": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg95_shift_x1": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg98": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "shift_x1": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        }
+      },
+      "per_class_clean_recall": {
+        "color": {
+          "n": 18,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "font_size": {
+          "n": 18,
+          "detected": 9,
+          "rate": 0.5
+        },
+        "font_weight": {
+          "n": 18,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "gradient": {
+          "n": 9,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "letter_spacing": {
+          "n": 18,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "line_height": {
+          "n": 18,
+          "detected": 9,
+          "rate": 0.5
+        },
+        "opacity": {
+          "n": 18,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "position": {
+          "n": 2,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "rounded": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "spacing": {
+          "n": 18,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "text": {
+          "n": 14,
+          "detected": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    "local_max32": {
+      "recall": {
+        "clean": {
+          "n": 157,
+          "detected": 115,
+          "rate": 0.732484076433121
+        },
+        "jpeg95": {
+          "n": 157,
+          "detected": 119,
+          "rate": 0.7579617834394905
+        },
+        "shift_x1": {
+          "n": 157,
+          "detected": 115,
+          "rate": 0.732484076433121
+        }
+      },
+      "fpr": {
+        "identity": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg90": {
+          "n": 6,
+          "detected": 3,
+          "rate": 0.5
+        },
+        "jpeg95": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg95_shift_x1": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg98": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "shift_x1": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        }
+      },
+      "per_class_clean_recall": {
+        "color": {
+          "n": 18,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "font_size": {
+          "n": 18,
+          "detected": 18,
+          "rate": 1.0
+        },
+        "font_weight": {
+          "n": 18,
+          "detected": 18,
+          "rate": 1.0
+        },
+        "gradient": {
+          "n": 9,
+          "detected": 6,
+          "rate": 0.6666666666666666
+        },
+        "letter_spacing": {
+          "n": 18,
+          "detected": 18,
+          "rate": 1.0
+        },
+        "line_height": {
+          "n": 18,
+          "detected": 17,
+          "rate": 0.9444444444444444
+        },
+        "opacity": {
+          "n": 18,
+          "detected": 4,
+          "rate": 0.2222222222222222
+        },
+        "position": {
+          "n": 2,
+          "detected": 2,
+          "rate": 1.0
+        },
+        "rounded": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "spacing": {
+          "n": 18,
+          "detected": 18,
+          "rate": 1.0
+        },
+        "text": {
+          "n": 14,
+          "detected": 14,
+          "rate": 1.0
+        }
+      }
+    },
+    "learned_local_gate": {
+      "recall": {
+        "clean": {
+          "n": 157,
+          "detected": 147,
+          "rate": 0.9363057324840764
+        },
+        "jpeg95": {
+          "n": 157,
+          "detected": 117,
+          "rate": 0.7452229299363057
+        },
+        "shift_x1": {
+          "n": 157,
+          "detected": 147,
+          "rate": 0.9363057324840764
+        }
+      },
+      "fpr": {
+        "identity": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg90": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg95": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg95_shift_x1": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        },
+        "jpeg98": {
+          "n": 6,
+          "detected": 1,
+          "rate": 0.16666666666666666
+        },
+        "shift_x1": {
+          "n": 6,
+          "detected": 0,
+          "rate": 0.0
+        }
+      },
+      "per_class_clean_recall": {
+        "color": {
+          "n": 18,
+          "detected": 13,
+          "rate": 0.7222222222222222
+        },
+        "font_size": {
+          "n": 18,
+          "detected": 18,
+          "rate": 1.0
+        },
+        "font_weight": {
+          "n": 18,
+          "detected": 18,
+          "rate": 1.0
+        },
+        "gradient": {
+          "n": 9,
+          "detected": 9,
+          "rate": 1.0
+        },
+        "letter_spacing": {
+          "n": 18,
+          "detected": 18,
+          "rate": 1.0
+        },
+        "line_height": {
+          "n": 18,
+          "detected": 17,
+          "rate": 0.9444444444444444
+        },
+        "opacity": {
+          "n": 18,
+          "detected": 18,
+          "rate": 1.0
+        },
+        "position": {
+          "n": 2,
+          "detected": 2,
+          "rate": 1.0
+        },
+        "rounded": {
+          "n": 6,
+          "detected": 2,
+          "rate": 0.3333333333333333
+        },
+        "spacing": {
+          "n": 18,
+          "detected": 18,
+          "rate": 1.0
+        },
+        "text": {
+          "n": 14,
+          "detected": 14,
+          "rate": 1.0
+        }
+      }
+    }
+  },
+  "fit_positive_rows": 876,
+  "fit_negative_rows": 40,
+  "calibration_negative_rows": 24,
+  "calibration_unique_baselines": 6,
+  "zero_train_support": [
+    "justify"
+  ],
+  "no_selection_from_development_metrics": true,
+  "seconds": 12.475803458015434
+}

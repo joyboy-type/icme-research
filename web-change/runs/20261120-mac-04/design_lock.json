@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-11-20T15:05:33.170111+00:00",
+  "protocol_sha256": "63ff733ab33a5319c7adf62339fd533c5b27a23cc2926ea0fb8e32d7ef2f0087",
+  "code_sha256": {
+    "registration.py": "6829c450d8274a2969dfadc2512e775c8b62942844c64370d60512e6b5075404",
+    "local_features.py": "d83ff30885a1e516bc6651ec5b6ee646957a73cae10f8d6ec9827a6e09595a0b",
+    "test_local_features.py": "7ce9264e0209d846dcb47a591278d17084b35d8c7d106ea61291a138858a39e8",
+    "run_local.py": "d723c1a6d67aeb9e665c5deb4b0060ae50817f1cd9138b2a24a42c1c71f598bf"
+  }
+}

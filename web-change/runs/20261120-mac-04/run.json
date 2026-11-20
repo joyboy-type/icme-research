@@ -1,0 +1,38 @@
+{
+  "id": "20261120-mac-04",
+  "status": "complete_development_diagnostic",
+  "type": "nested original-screenshot-group development OOF; no site-isolation evidence",
+  "protocol": "protocol.json",
+  "protocol_sha256": "63ff733ab33a5319c7adf62339fd533c5b27a23cc2926ea0fb8e32d7ef2f0087",
+  "taskbook_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/\u7f51\u9875\u622a\u56fe\u7684\u7ec6\u5fae\u53d8\u66f4\u5206\u7c7b\uff5c\u5b9e\u9a8c\u4efb\u52a1\u4e66_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "data_snapshot": "snapshot-02 development240 only; old355 confirmation, historical155 and72 controls not used",
+  "device": "Apple M4 CPU",
+  "rented_compute": false,
+  "paid_api_calls": 0,
+  "originals": 240,
+  "feature_rows": 3360,
+  "features": 88,
+  "wall_seconds": 582.3564043330261,
+  "outputs": [
+    "outputs/summary.json",
+    "outputs/predictions.csv",
+    "outputs/thresholds.json",
+    "outputs/freeze.json",
+    "outputs/reporting_fix.json",
+    "outputs/verification.json"
+  ],
+  "decision": "Strong development OOF signal from local image features; independent framework-family probe follows in run05. No production or publication claim.",
+  "limitations": [
+    "Synthetic known nuisances; JPEG90/98 held out from fit/calibration.",
+    "Original screenshot grouping, not known websites.",
+    "Final-model probability scale may differ from OOF calibration.",
+    "Per-class reporting bug corrected; aggregate predictions and frozen model unchanged."
+  ],
+  "verification": "outputs/verification.json",
+  "word_unchanged_verified": true
+}

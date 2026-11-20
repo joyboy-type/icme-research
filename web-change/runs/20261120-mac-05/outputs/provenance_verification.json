@@ -1,0 +1,7 @@
+{
+  "families": 12,
+  "git_blobs_verified": 38,
+  "cdn_bytes_match_frozen_expected_sha256": 2,
+  "sanitized_pages_reproduced_from_originals": 12,
+  "source_manifest_sha256": "7c5d6a8a141dd437ea3cc382cf4a9f01f1ab2aab113f36ffd013da194c629db8"
+}

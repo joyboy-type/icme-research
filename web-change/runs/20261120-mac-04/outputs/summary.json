@@ -1,0 +1,157 @@
+{
+  "scope": "Nested development OOF only; JPEG90/98 excluded from fitting and calibration",
+  "originals": 240,
+  "feature_rows": 3360,
+  "features": 88,
+  "metrics": {
+    "area_blur8": {
+      "recall": {
+        "clean": 0.25833333333333336,
+        "jpeg90": 0.38333333333333336,
+        "jpeg95": 0.3458333333333333,
+        "jpeg95_shift_x1": 0.3458333333333333,
+        "jpeg98": 0.32083333333333336,
+        "shift_x1": 0.25833333333333336
+      },
+      "fpr": {
+        "identity": 0.0,
+        "jpeg90": 0.09583333333333334,
+        "jpeg95": 0.058333333333333334,
+        "jpeg95_shift_x1": 0.058333333333333334,
+        "jpeg98": 0.029166666666666667,
+        "shift_x1": 0.0,
+        "shift_xy1": 0.0,
+        "shift_y1": 0.0
+      },
+      "per_class_clean_recall": {
+        "border": 0.043478260869565216,
+        "color": 0.21739130434782608,
+        "font_size": 0.5555555555555556,
+        "font_weight": 0.08333333333333333,
+        "gradient": 1.0,
+        "justify": 0.47619047619047616,
+        "letter_spacing": 0.4117647058823529,
+        "line_height": 0.6,
+        "opacity": 0.3333333333333333,
+        "position": 0.0,
+        "rounded": 0.0,
+        "spacing": 0.4117647058823529,
+        "text": 0.0
+      },
+      "worst_seen_fpr": 0.058333333333333334,
+      "worst_unseen_codec_fpr": 0.09583333333333334
+    },
+    "max_local32": {
+      "recall": {
+        "clean": 0.8916666666666667,
+        "jpeg90": 0.9291666666666667,
+        "jpeg95": 0.9166666666666666,
+        "jpeg95_shift_x1": 0.9166666666666666,
+        "jpeg98": 0.9125,
+        "shift_x1": 0.8916666666666667
+      },
+      "fpr": {
+        "identity": 0.0,
+        "jpeg90": 0.1125,
+        "jpeg95": 0.05416666666666667,
+        "jpeg95_shift_x1": 0.05416666666666667,
+        "jpeg98": 0.020833333333333332,
+        "shift_x1": 0.0,
+        "shift_xy1": 0.0,
+        "shift_y1": 0.0
+      },
+      "per_class_clean_recall": {
+        "border": 0.4782608695652174,
+        "color": 0.8260869565217391,
+        "font_size": 1.0,
+        "font_weight": 1.0,
+        "gradient": 1.0,
+        "justify": 1.0,
+        "letter_spacing": 1.0,
+        "line_height": 1.0,
+        "opacity": 0.9583333333333334,
+        "position": 1.0,
+        "rounded": 0.5789473684210527,
+        "spacing": 1.0,
+        "text": 0.9523809523809523
+      },
+      "worst_seen_fpr": 0.05416666666666667,
+      "worst_unseen_codec_fpr": 0.1125
+    },
+    "largest_component8": {
+      "recall": {
+        "clean": 0.5416666666666666,
+        "jpeg90": 0.5833333333333334,
+        "jpeg95": 0.55,
+        "jpeg95_shift_x1": 0.55,
+        "jpeg98": 0.5458333333333333,
+        "shift_x1": 0.5416666666666666
+      },
+      "fpr": {
+        "identity": 0.0,
+        "jpeg90": 0.075,
+        "jpeg95": 0.05,
+        "jpeg95_shift_x1": 0.05,
+        "jpeg98": 0.0375,
+        "shift_x1": 0.0,
+        "shift_xy1": 0.0,
+        "shift_y1": 0.0
+      },
+      "per_class_clean_recall": {
+        "border": 0.8260869565217391,
+        "color": 0.13043478260869565,
+        "font_size": 1.0,
+        "font_weight": 0.7916666666666666,
+        "gradient": 1.0,
+        "justify": 0.5714285714285714,
+        "letter_spacing": 0.7058823529411765,
+        "line_height": 0.8,
+        "opacity": 0.2916666666666667,
+        "position": 0.5294117647058824,
+        "rounded": 0.0,
+        "spacing": 0.7647058823529411,
+        "text": 0.2857142857142857
+      },
+      "worst_seen_fpr": 0.05,
+      "worst_unseen_codec_fpr": 0.075
+    },
+    "learned_local": {
+      "recall": {
+        "clean": 1.0,
+        "jpeg90": 0.9833333333333333,
+        "jpeg95": 0.9791666666666666,
+        "jpeg95_shift_x1": 0.9791666666666666,
+        "jpeg98": 0.9833333333333333,
+        "shift_x1": 1.0
+      },
+      "fpr": {
+        "identity": 0.0,
+        "jpeg90": 0.0625,
+        "jpeg95": 0.0375,
+        "jpeg95_shift_x1": 0.0375,
+        "jpeg98": 0.058333333333333334,
+        "shift_x1": 0.0,
+        "shift_xy1": 0.0,
+        "shift_y1": 0.0
+      },
+      "per_class_clean_recall": {
+        "border": 1.0,
+        "color": 1.0,
+        "font_size": 1.0,
+        "font_weight": 1.0,
+        "gradient": 1.0,
+        "justify": 1.0,
+        "letter_spacing": 1.0,
+        "line_height": 1.0,
+        "opacity": 1.0,
+        "position": 1.0,
+        "rounded": 1.0,
+        "spacing": 1.0,
+        "text": 1.0
+      },
+      "worst_seen_fpr": 0.0375,
+      "worst_unseen_codec_fpr": 0.0625
+    }
+  },
+  "seconds": 582.3564043330261
+}

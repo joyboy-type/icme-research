@@ -1,0 +1,62 @@
+{
+  "id": "20261120-mac-05",
+  "status": "complete_frozen_source_framework_confirmation",
+  "scope": "Source-framework-family isolated controlled screenshot probes, not real production sites or independent authored-page corpus. Original upstream HTML/CSS are sanitized for offline rendering; no common content scaffold is added.",
+  "protocol": "protocol.json",
+  "protocol_sha256": "47648f5e461b1cfdeb7bba9d5ce5f6859f37b92b8e00824ff47f0b017b6b663b",
+  "evaluation_config": "evaluation_config.json",
+  "confirmation_lock_sha256": "6c12dcb5aee21a249fd04b216851a95f95ef85671a03a8a169608cfbd714760e",
+  "taskbook_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/网页截图的细微变更分类｜实验任务书_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_unchanged_verified": true,
+  "dataset": "data/template-probes-01",
+  "families": {
+    "train": 4,
+    "development": 2,
+    "confirmation": 6
+  },
+  "positive_pairs": {
+    "train": 292,
+    "development": 157,
+    "confirmation": 419
+  },
+  "unique_baseline_views": {
+    "train": 10,
+    "development": 6,
+    "confirmation": 16
+  },
+  "zero_training_support": [
+    "justify"
+  ],
+  "device": "Apple M4 CPU",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "wall_seconds": {
+    "classification_features": 80.92005904193502,
+    "detection_features": 492.9840629999526,
+    "fit": 12.475803458015434,
+    "confirmation": 0.6406309159938246
+  },
+  "paid_api_calls": 0,
+  "rented_compute": false,
+  "outputs": [
+    "outputs/confirmation_summary.json",
+    "outputs/public_dataset_index.json",
+    "outputs/public_decisions.json",
+    "outputs/verification.json"
+  ],
+  "decision": "Local round complete. Learned local gate improves clean recall but fails observed5% FPR target on JPEG conditions; direct run04 transfer severely fails compression. No usable robust detector or paper-ready contribution established. Keep this confirmation frozen; a future revision needs fresh confirmation.",
+  "limitations": [
+    "Sanitized framework probes, not real production sites.",
+    "Only6 confirmation families; bootstrap conditional on fitted models and thresholds.",
+    "Calibration has6 views from2 families. Observed FPR is not population guarantee.",
+    "justify has0 training examples; position has5.",
+    "Repeated scroll views and CSS levels are dependent; family is resampling unit.",
+    "Run04 external detector is a separate transfer diagnostic."
+  ],
+  "verification": "outputs/verification.json"
+}

@@ -1,0 +1,11 @@
+{
+  "prior_protocol_sha256": "cdd78344c5282081dde43369c75af3974f10881fe0ac1cea14d501c1af7010a5",
+  "revision": "before model evaluation",
+  "reasons": [
+    "Fix CSS token parsing for quoted SVG URLs.",
+    "Reload pristine DOM for each mutation and verify baseline stability.",
+    "Add fixed scroll views for more unique controls; retain family grouping and deduplicate negatives.",
+    "Measure target rectangles before mutation."
+  ],
+  "failed_attempt": "data/template-probes-01/failed_attempt01"
+}

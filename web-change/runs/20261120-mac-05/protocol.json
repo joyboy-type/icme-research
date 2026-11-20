@@ -1,0 +1,108 @@
+{
+  "run_id": "20261120-mac-05",
+  "scope": "Source-framework-family isolated controlled screenshot probes, not real production sites or independent authored-page corpus. Original upstream HTML/CSS are sanitized for offline rendering; no common content scaffold is added.",
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/网页截图的细微变更分类｜实验任务书_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_guard": {},
+  "family_split": {
+    "materialize": "train",
+    "uikit": "train",
+    "bootstrap": "train",
+    "milligram": "train",
+    "spectre": "development",
+    "chota": "development",
+    "newcss": "confirmation",
+    "mvp": "confirmation",
+    "pico": "confirmation",
+    "semantic": "confirmation",
+    "skeleton": "confirmation",
+    "pure": "confirmation"
+  },
+  "generation": {
+    "viewport": [
+      1280,
+      800
+    ],
+    "device_scale_factor": 1,
+    "locale": "en-US",
+    "color_scheme": "light",
+    "network": "blocked during render",
+    "external_assets": "scripts, images/media, external fonts and CSS url() are removed; HTML/CSS source hashes retained",
+    "labels": [
+      "text",
+      "font_size",
+      "font_weight",
+      "letter_spacing",
+      "line_height",
+      "border",
+      "rounded",
+      "spacing",
+      "justify",
+      "position",
+      "color",
+      "opacity",
+      "gradient"
+    ],
+    "levels": 3,
+    "targets": "Deterministically selected visible existing text, box and flex elements. No ground-truth region is supplied to the models.",
+    "ineligible_policy": "Record skip when no valid element or no visible pixels changed. Do not replace after seeing model results.",
+    "order": "All plans and source-family split frozen before feature/model evaluation.",
+    "scroll_views": [
+      0,
+      320,
+      640
+    ],
+    "deduplication": "Exact baseline pixel hashes collapse duplicate scroll views; exact after hashes per baseline keep first only."
+  },
+  "evaluation": {
+    "classification": [
+      "pixel_ET",
+      "pixel_HOG_ET",
+      "pixel_edges_ET",
+      "DINO_pixel_ET"
+    ],
+    "detectors": [
+      "whole_area_blur8",
+      "local_max32",
+      "learned_local_gate"
+    ],
+    "fit": "Classification and learned gate fit only source train families; detector thresholds calibrated only development-family negatives. Existing DiffSpot240 used only to design fixed features.",
+    "confirmation": "Open once after all models and thresholds frozen; no adjustment after reveal.",
+    "nuisance": [
+      "identity",
+      "jpeg95",
+      "shift_x1",
+      "jpeg95_shift_x1",
+      "jpeg90",
+      "jpeg98"
+    ],
+    "main_metrics": [
+      "fixed13 macro-F1",
+      "accuracy",
+      "per-class F1",
+      "detection recall by condition",
+      "FPR by nuisance",
+      "source-family paired bootstrap"
+    ],
+    "limits": "Only6 confirmation families; intervals have low group count. Controlled CSS probes and sanitized pages do not establish unseen real-site generalization.",
+    "negative_controls": "Unique baseline screenshot and nuisance only; never repeated once per mutation. Report actual independent baseline count and family count, not a supported5% bound."
+  },
+  "budget": {
+    "local_cpu": true,
+    "rental": false,
+    "paid_api": false,
+    "max_families": 12,
+    "max_clean_positive_pairs": 1404
+  },
+  "plan": [
+    "Download pinned HTML/CSS/license source bytes and verify Git blob hashes.",
+    "Sanitize network-dependent content, render baseline and three-level13 CSS modifications, audit changed pixels and deterministic restoration.",
+    "Fit frozen methods only on source train families; calibrate on source development families.",
+    "Seal model/config hashes before one confirmation evaluation.",
+    "Record failures and limits, publish only scripts/configuration/filtered results; Word and raw media remain local."
+  ]
+}

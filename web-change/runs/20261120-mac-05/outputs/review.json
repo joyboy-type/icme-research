@@ -1,0 +1,16 @@
+{
+  "scope": [
+    "source sanitizer fixes",
+    "renderer restoration and before-mutation target coordinates",
+    "run04 nested calibration and reporting fix",
+    "run05 extractor and evaluation role separation, deduplicated controls, freeze and bootstrap"
+  ],
+  "important_unresolved_implementation_issues": [],
+  "reporting_limits": [
+    "justify train/dev/confirmation=0/0/2; position=5/2/5",
+    "fixed12 is macro-average over12 labels on all samples, not a filtered12-class subset",
+    "calibration6 views from2 families; confirmation6 families; intervals conditional on fitted models/thresholds",
+    "external run04 is diagnostic transfer; DiffSpot has no true website IDs"
+  ],
+  "verification": "read-only independent review before confirmation; revisions after review only add provenance files to freeze hashes"
+}

@@ -1,0 +1,20 @@
+{
+  "seconds": 80.92005904193502,
+  "pairs": 868,
+  "through_model_load_seconds": 42.17127787496429,
+  "device": "CPU",
+  "threads": 2,
+  "batch_pairs": 8,
+  "weights_sha256": {
+    "config.json": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+    "model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+    "preprocessor_config.json": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+  },
+  "dimensions": {
+    "pixel_ET": 325,
+    "pixel_HOG_ET": 2089,
+    "pixel_edges_ET": 390,
+    "DINO_pixel_ET": 2245
+  },
+  "input": "RGB screenshots, shared pixel-difference crop; no DOM/bbox/label supplied to descriptor"
+}

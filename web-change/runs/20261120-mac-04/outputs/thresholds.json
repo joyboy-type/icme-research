@@ -1,0 +1,74 @@
+[
+  {
+    "fold": 0,
+    "method": "area_blur8",
+    "threshold": 0.00820806333778032,
+    "calibration": "outer training negatives"
+  },
+  {
+    "fold": 0,
+    "method": "max_local32",
+    "threshold": 0.02450980432331562,
+    "calibration": "outer training negatives"
+  },
+  {
+    "fold": 0,
+    "method": "largest_component8",
+    "threshold": 0.000827854011816276,
+    "calibration": "outer training negatives"
+  },
+  {
+    "fold": 0,
+    "method": "learned_local",
+    "threshold": 0.36333333333333334,
+    "calibration": "inner OOF"
+  },
+  {
+    "fold": 1,
+    "method": "area_blur8",
+    "threshold": 0.00627938186900451,
+    "calibration": "outer training negatives"
+  },
+  {
+    "fold": 1,
+    "method": "max_local32",
+    "threshold": 0.023651961237192154,
+    "calibration": "outer training negatives"
+  },
+  {
+    "fold": 1,
+    "method": "largest_component8",
+    "threshold": 0.0010144685852233023,
+    "calibration": "outer training negatives"
+  },
+  {
+    "fold": 1,
+    "method": "learned_local",
+    "threshold": 0.20666666666666667,
+    "calibration": "inner OOF"
+  },
+  {
+    "fold": 2,
+    "method": "area_blur8",
+    "threshold": 0.007674028016009148,
+    "calibration": "outer training negatives"
+  },
+  {
+    "fold": 2,
+    "method": "max_local32",
+    "threshold": 0.023651961237192154,
+    "calibration": "outer training negatives"
+  },
+  {
+    "fold": 2,
+    "method": "largest_component8",
+    "threshold": 0.000827854011816276,
+    "calibration": "outer training negatives"
+  },
+  {
+    "fold": 2,
+    "method": "learned_local",
+    "threshold": 0.21666666666666667,
+    "calibration": "inner OOF"
+  }
+]

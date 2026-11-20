@@ -1,0 +1,299 @@
+{
+  "browser_version": "158.0.8127.36",
+  "families": [
+    {
+      "family": "pico",
+      "baseline_id": "pico_v0",
+      "before_sha256": "7cfa06ed5d08be3ffdb76feb4ff43c9b4751bc4c7b71b3c79c457b93b9f40717",
+      "restored_sha256": "7cfa06ed5d08be3ffdb76feb4ff43c9b4751bc4c7b71b3c79c457b93b9f40717",
+      "restoration_identical": true,
+      "accepted": 33,
+      "visible_nodes": 24
+    },
+    {
+      "family": "pico",
+      "baseline_id": "pico_v320",
+      "before_sha256": "a554780d377b5e861275ee2c9641313c25c048b2588fa6bb31fcba215b1c4d68",
+      "restored_sha256": "a554780d377b5e861275ee2c9641313c25c048b2588fa6bb31fcba215b1c4d68",
+      "restoration_identical": true,
+      "accepted": 33,
+      "visible_nodes": 17
+    },
+    {
+      "family": "pico",
+      "baseline_id": "pico_v640",
+      "before_sha256": "add0c9ab8a0ecd6c764284fa33e054b0cfeb0a8e924ff0af7a6410613b96e64a",
+      "restored_sha256": "add0c9ab8a0ecd6c764284fa33e054b0cfeb0a8e924ff0af7a6410613b96e64a",
+      "restoration_identical": true,
+      "accepted": 24,
+      "visible_nodes": 19
+    },
+    {
+      "family": "bootstrap",
+      "baseline_id": "bootstrap_v0",
+      "before_sha256": "9365483b2f26aaf0842e6431c35b4049cf9a75c6e9f01b2693c16b05a6c08fd3",
+      "restored_sha256": "9365483b2f26aaf0842e6431c35b4049cf9a75c6e9f01b2693c16b05a6c08fd3",
+      "restoration_identical": true,
+      "accepted": 25,
+      "visible_nodes": 15
+    },
+    {
+      "family": "spectre",
+      "baseline_id": "spectre_v0",
+      "before_sha256": "d0de1d433bc82bb9ab3dc316f13bfdd2af941a91074d9663950b7344d736c630",
+      "restored_sha256": "d0de1d433bc82bb9ab3dc316f13bfdd2af941a91074d9663950b7344d736c630",
+      "restoration_identical": true,
+      "accepted": 29,
+      "visible_nodes": 134
+    },
+    {
+      "family": "spectre",
+      "baseline_id": "spectre_v320",
+      "before_sha256": "c926d0c5ef6e38d7dde355570c49d88f78bafc8bff90aa3bc7c26ccdac3c95ea",
+      "restored_sha256": "c926d0c5ef6e38d7dde355570c49d88f78bafc8bff90aa3bc7c26ccdac3c95ea",
+      "restoration_identical": true,
+      "accepted": 30,
+      "visible_nodes": 155
+    },
+    {
+      "family": "spectre",
+      "baseline_id": "spectre_v640",
+      "before_sha256": "6d4080b8bdf51a3c18f4ee275d28498a308ab19752189aa66ec11f85cc718aa5",
+      "restored_sha256": "6d4080b8bdf51a3c18f4ee275d28498a308ab19752189aa66ec11f85cc718aa5",
+      "restoration_identical": true,
+      "accepted": 30,
+      "visible_nodes": 114
+    },
+    {
+      "family": "materialize",
+      "baseline_id": "materialize_v0",
+      "before_sha256": "26a2a0389934a1aac743aa93865dd5576120d962c86423e310cc14bccf2c1898",
+      "restored_sha256": "26a2a0389934a1aac743aa93865dd5576120d962c86423e310cc14bccf2c1898",
+      "restoration_identical": true,
+      "accepted": 31,
+      "visible_nodes": 17
+    },
+    {
+      "family": "materialize",
+      "baseline_id": "materialize_v320",
+      "before_sha256": "c90b3fa77be62d2fb3a16ac2ef53b192bbb7e24b3dbea3f28ae9f2eb420a67c1",
+      "restored_sha256": "c90b3fa77be62d2fb3a16ac2ef53b192bbb7e24b3dbea3f28ae9f2eb420a67c1",
+      "restoration_identical": true,
+      "accepted": 32,
+      "visible_nodes": 38
+    },
+    {
+      "family": "materialize",
+      "baseline_id": "materialize_v640",
+      "before_sha256": "0a346e8290dfe8553f2663574cc0b90aeb5ac576bfba11910c4bffa0c4c996c9",
+      "restored_sha256": "0a346e8290dfe8553f2663574cc0b90aeb5ac576bfba11910c4bffa0c4c996c9",
+      "restoration_identical": true,
+      "accepted": 24,
+      "visible_nodes": 50
+    },
+    {
+      "family": "semantic",
+      "baseline_id": "semantic_v0",
+      "before_sha256": "a1170aa9c728d1c6dbc8717b593901c2c48cd568a42f7798e2dae6b01424b477",
+      "restored_sha256": "a1170aa9c728d1c6dbc8717b593901c2c48cd568a42f7798e2dae6b01424b477",
+      "restoration_identical": true,
+      "accepted": 33,
+      "visible_nodes": 16
+    },
+    {
+      "family": "semantic",
+      "baseline_id": "semantic_v320",
+      "before_sha256": "972cc3481dfed8ede1aa190bd7498dbf416a7dae779907c42bf76a2302864a7e",
+      "restored_sha256": "972cc3481dfed8ede1aa190bd7498dbf416a7dae779907c42bf76a2302864a7e",
+      "restoration_identical": true,
+      "accepted": 29,
+      "visible_nodes": 8
+    },
+    {
+      "family": "semantic",
+      "baseline_id": "semantic_v640",
+      "before_sha256": "dc01a408c9c1a0ef1afce0738a4738a18de66de4521b88630c3dad630421f2ad",
+      "restored_sha256": "dc01a408c9c1a0ef1afce0738a4738a18de66de4521b88630c3dad630421f2ad",
+      "restoration_identical": true,
+      "accepted": 29,
+      "visible_nodes": 17
+    },
+    {
+      "family": "uikit",
+      "baseline_id": "uikit_v0",
+      "before_sha256": "c650eba922230d4de5a66156e3171a57f836603a9f53cc94d2f5bc430548b73a",
+      "restored_sha256": "c650eba922230d4de5a66156e3171a57f836603a9f53cc94d2f5bc430548b73a",
+      "restoration_identical": true,
+      "accepted": 30,
+      "visible_nodes": 22
+    },
+    {
+      "family": "uikit",
+      "baseline_id": "uikit_v320",
+      "before_sha256": "a14a648bf3d2ff9ca8411cf5ac30f67b2389736b704e816c8c39fb648e913015",
+      "restored_sha256": "a14a648bf3d2ff9ca8411cf5ac30f67b2389736b704e816c8c39fb648e913015",
+      "restoration_identical": true,
+      "accepted": 30,
+      "visible_nodes": 22
+    },
+    {
+      "family": "uikit",
+      "baseline_id": "uikit_v640",
+      "before_sha256": "a131ddcb6f35b05f921d16d7e611d082ac92f6c525520b9a8ae264db16c00d46",
+      "restored_sha256": "a131ddcb6f35b05f921d16d7e611d082ac92f6c525520b9a8ae264db16c00d46",
+      "restoration_identical": true,
+      "accepted": 30,
+      "visible_nodes": 20
+    },
+    {
+      "family": "skeleton",
+      "baseline_id": "skeleton_v0",
+      "before_sha256": "407b7415208a8b2eea0253275cd8804dadf1a66071691787ba0edc5bf1d5f2be",
+      "restored_sha256": "407b7415208a8b2eea0253275cd8804dadf1a66071691787ba0edc5bf1d5f2be",
+      "restoration_identical": true,
+      "accepted": 20,
+      "visible_nodes": 4
+    },
+    {
+      "family": "milligram",
+      "baseline_id": "milligram_v0",
+      "before_sha256": "27b820e25123662721e2c4f076acc9f4ad7484585ff8b318e9a229185485635e",
+      "restored_sha256": "27b820e25123662721e2c4f076acc9f4ad7484585ff8b318e9a229185485635e",
+      "restoration_identical": true,
+      "accepted": 24,
+      "visible_nodes": 46
+    },
+    {
+      "family": "milligram",
+      "baseline_id": "milligram_v320",
+      "before_sha256": "cd0c47c3c9b7d56f78cbe0c4bedc9b1034a73ece2d84974d597f26a57dfd0c5f",
+      "restored_sha256": "cd0c47c3c9b7d56f78cbe0c4bedc9b1034a73ece2d84974d597f26a57dfd0c5f",
+      "restoration_identical": true,
+      "accepted": 33,
+      "visible_nodes": 45
+    },
+    {
+      "family": "milligram",
+      "baseline_id": "milligram_v640",
+      "before_sha256": "9e852b3b5c54699882126b8eec56d946b7bb76b834d2401c50bb7d5bcf4e21f4",
+      "restored_sha256": "9e852b3b5c54699882126b8eec56d946b7bb76b834d2401c50bb7d5bcf4e21f4",
+      "restoration_identical": true,
+      "accepted": 33,
+      "visible_nodes": 54
+    },
+    {
+      "family": "pure",
+      "baseline_id": "pure_v0",
+      "before_sha256": "220082d93b49e2a4b9a88c327c37fb655e0163d9aa1622409ce275ca3ae36ac2",
+      "restored_sha256": "220082d93b49e2a4b9a88c327c37fb655e0163d9aa1622409ce275ca3ae36ac2",
+      "restoration_identical": true,
+      "accepted": 0,
+      "visible_nodes": 0
+    },
+    {
+      "family": "pure",
+      "baseline_id": "pure_v320",
+      "before_sha256": "b410bb29dfb71202cda5cd80b648e732779a694f9c54061c37326879180a685d",
+      "restored_sha256": "b410bb29dfb71202cda5cd80b648e732779a694f9c54061c37326879180a685d",
+      "restoration_identical": true,
+      "accepted": 0,
+      "visible_nodes": 0
+    },
+    {
+      "family": "pure",
+      "baseline_id": "pure_v640",
+      "before_sha256": "03a9bae102e6b426cd8400ce520e7a52e781fa4658ed30f8a55ebdd96b735b37",
+      "restored_sha256": "03a9bae102e6b426cd8400ce520e7a52e781fa4658ed30f8a55ebdd96b735b37",
+      "restoration_identical": true,
+      "accepted": 21,
+      "visible_nodes": 1
+    },
+    {
+      "family": "chota",
+      "baseline_id": "chota_v0",
+      "before_sha256": "570a5647df626c3c796a211a097b6f83321052e442edf0956e0fa46f5c1715bf",
+      "restored_sha256": "570a5647df626c3c796a211a097b6f83321052e442edf0956e0fa46f5c1715bf",
+      "restoration_identical": true,
+      "accepted": 24,
+      "visible_nodes": 62
+    },
+    {
+      "family": "chota",
+      "baseline_id": "chota_v320",
+      "before_sha256": "83319e63e5a7fbed2a000442a94c4cb41e48b85f6793f3d68a43eb14638c3d69",
+      "restored_sha256": "83319e63e5a7fbed2a000442a94c4cb41e48b85f6793f3d68a43eb14638c3d69",
+      "restoration_identical": true,
+      "accepted": 22,
+      "visible_nodes": 44
+    },
+    {
+      "family": "chota",
+      "baseline_id": "chota_v640",
+      "before_sha256": "30d1fcc48c62343fbc143b060b1f4babcf6a8c91294c0b6831ace1da6a2bb369",
+      "restored_sha256": "30d1fcc48c62343fbc143b060b1f4babcf6a8c91294c0b6831ace1da6a2bb369",
+      "restoration_identical": true,
+      "accepted": 22,
+      "visible_nodes": 27
+    },
+    {
+      "family": "mvp",
+      "baseline_id": "mvp_v0",
+      "before_sha256": "87ee0d3a98505ec4ac850f99d2295246a5527760484150b8364a127363683238",
+      "restored_sha256": "87ee0d3a98505ec4ac850f99d2295246a5527760484150b8364a127363683238",
+      "restoration_identical": true,
+      "accepted": 38,
+      "visible_nodes": 22
+    },
+    {
+      "family": "mvp",
+      "baseline_id": "mvp_v320",
+      "before_sha256": "9e2b643921d3c1b5a563d60328d65bdcc2fd01be59ffb787c115c9983bca7176",
+      "restored_sha256": "9e2b643921d3c1b5a563d60328d65bdcc2fd01be59ffb787c115c9983bca7176",
+      "restoration_identical": true,
+      "accepted": 33,
+      "visible_nodes": 13
+    },
+    {
+      "family": "mvp",
+      "baseline_id": "mvp_v640",
+      "before_sha256": "88b33ba5a9ed03f40d8a092187134ad5f368c421ae2ff2888713630cee255de4",
+      "restored_sha256": "88b33ba5a9ed03f40d8a092187134ad5f368c421ae2ff2888713630cee255de4",
+      "restoration_identical": true,
+      "accepted": 30,
+      "visible_nodes": 18
+    },
+    {
+      "family": "newcss",
+      "baseline_id": "newcss_v0",
+      "before_sha256": "69cdf5aae3df08eafe062a072a5da55982d0fc7c5b9a59072bef5ae56a11b978",
+      "restored_sha256": "69cdf5aae3df08eafe062a072a5da55982d0fc7c5b9a59072bef5ae56a11b978",
+      "restoration_identical": true,
+      "accepted": 30,
+      "visible_nodes": 18
+    },
+    {
+      "family": "newcss",
+      "baseline_id": "newcss_v320",
+      "before_sha256": "e5d0760bdb099ba6d11f7af749cecea6f7c0a70430fff777a023a1d6a787d777",
+      "restored_sha256": "e5d0760bdb099ba6d11f7af749cecea6f7c0a70430fff777a023a1d6a787d777",
+      "restoration_identical": true,
+      "accepted": 33,
+      "visible_nodes": 24
+    },
+    {
+      "family": "newcss",
+      "baseline_id": "newcss_v640",
+      "before_sha256": "984aa22a6796c08a778d11d261400f3bd07f591ef6d4b465db956c5701c0bfbb",
+      "restored_sha256": "984aa22a6796c08a778d11d261400f3bd07f591ef6d4b465db956c5701c0bfbb",
+      "restoration_identical": true,
+      "accepted": 33,
+      "visible_nodes": 26
+    }
+  ],
+  "blocked_request_count": 0,
+  "network_policy": "all requests aborted; source and CSS supplied inline",
+  "pairs": 868,
+  "unique_baselines": 32,
+  "skipped": 384,
+  "per_pair_pristine_check": true
+}

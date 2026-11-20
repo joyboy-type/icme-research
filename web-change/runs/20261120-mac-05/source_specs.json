@@ -1,0 +1,241 @@
+{
+  "status": "acquisition plan only; source-family controlled probe corpus",
+  "families": [
+    {
+      "family": "pico",
+      "html": "v2-html-classless/index.html",
+      "license": "LICENSE.md",
+      "css": [
+        {
+          "url": "https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css",
+          "name": "pico.css",
+          "expected_sha256": "61207a40ffc02a42d1e50143651c121beab70ed413c934c1ff84fa263ba436b0"
+        }
+      ],
+      "repository": "picocss/examples",
+      "commit_sha": "b16820790d80d95d0dea55415cf72b75da9cfde1",
+      "source_blobs": {
+        "LICENSE.md": "275ca7e9e3ffa3e9b3531656021e0caf8dbc994b",
+        "v2-html-classless/index.html": "364304101eb8c028b81197ac66b8549aba98105c"
+      }
+    },
+    {
+      "family": "bootstrap",
+      "html": "dist/index.html",
+      "license": "LICENSE",
+      "css": [
+        {
+          "path": "dist/css/styles.css",
+          "name": "bootstrap.css"
+        }
+      ],
+      "repository": "StartBootstrap/startbootstrap-bare",
+      "commit_sha": "9e17b3746e253e04eef809c9b5c8a303cb98ca13",
+      "source_blobs": {
+        "LICENSE": "5ff52f416ad2c5d5f875a44712cd0f5517904ed6",
+        "dist/css/styles.css": "41cb9d2184238f83e5220b96da20eaf7854e0d25",
+        "dist/index.html": "534c67e37a01c8ab4a77d05f0f6ec1bbc1bf52af"
+      }
+    },
+    {
+      "family": "spectre",
+      "html": "docs/components/panels.html",
+      "license": "LICENSE",
+      "css": [
+        {
+          "path": "dist/spectre.min.css",
+          "name": "spectre.css"
+        },
+        {
+          "path": "docs/dist/docs.min.css",
+          "name": "docs.css"
+        }
+      ],
+      "repository": "picturepan2/spectre",
+      "commit_sha": "8847251d71b4dac27e8407cbdb71ae89ce156a43",
+      "source_blobs": {
+        "LICENSE": "7d4eb706fc08fa6a6ec6684111f910d2f148cc71",
+        "dist/spectre.min.css": "0fe23d9c09d9a4f3a75f1c5086151d1aa5991df4",
+        "docs/components/panels.html": "e510a913e93a2c55123aab2c7900ee2e02449e37",
+        "docs/dist/docs.min.css": "035f451be704867ed41918e38917fac35cf837d8"
+      }
+    },
+    {
+      "family": "materialize",
+      "html": "templates/starter-template/index.html",
+      "license": "templates/starter-template/LICENSE",
+      "css": [
+        {
+          "path": "dist/css/materialize.min.css",
+          "name": "materialize.css"
+        },
+        {
+          "path": "templates/starter-template/css/style.css",
+          "name": "custom.css"
+        }
+      ],
+      "repository": "Dogfalo/materialize",
+      "commit_sha": "824e78248b3de81e383445e76ffb04cc3264fe7d",
+      "source_blobs": {
+        "dist/css/materialize.min.css": "74b1741b62ee5a7e575b0f2df568cf3c4d5428cb",
+        "templates/starter-template/LICENSE": "c795dcc1904892fc81160ee33beed5fc2323a1fa",
+        "templates/starter-template/css/style.css": "2e8db1f319a8d04a2515e05f6f1d134532d69455",
+        "templates/starter-template/index.html": "b2a4fd9a4a1479e5b6988817c51ff84014b7173c"
+      }
+    },
+    {
+      "family": "semantic",
+      "html": "examples/homepage.html",
+      "license": "LICENSE.md",
+      "css": [
+        {
+          "path": "dist/semantic.min.css",
+          "name": "semantic.css"
+        }
+      ],
+      "repository": "Semantic-Org/Semantic-UI",
+      "commit_sha": "597843ab84d565cccfd8fd7719416350ae73e734",
+      "source_blobs": {
+        "LICENSE.md": "62df7662bf426fb7b13ecea97368fcc804de203b",
+        "dist/semantic.min.css": "f3cb6cbc368c572c289098923a9a55e9f61ba4b5",
+        "examples/homepage.html": "c236f2b4c3760538a32cc660c515ec2951602884"
+      }
+    },
+    {
+      "family": "uikit",
+      "html": "tests/card.html",
+      "license": "LICENSE.md",
+      "css": [
+        {
+          "path": "dist/css/uikit.min.css",
+          "name": "uikit.css"
+        }
+      ],
+      "repository": "uikit/uikit",
+      "commit_sha": "1a5774785ea47f65f83449b8b18485b4fabb308a",
+      "source_blobs": {
+        "LICENSE.md": "a8d7b5b8eb92ab06f75b417815118154a5d01ef0",
+        "dist/css/uikit.min.css": "622c3a501e89fd68320e3590a5f0a2ce1db2c2fd",
+        "tests/card.html": "c3b339c64eaeb9803f3d59096a69061b51070f2e"
+      }
+    },
+    {
+      "family": "skeleton",
+      "html": "index.html",
+      "license": "LICENSE.md",
+      "css": [
+        {
+          "path": "css/normalize.css",
+          "name": "normalize.css"
+        },
+        {
+          "path": "css/skeleton.css",
+          "name": "skeleton.css"
+        }
+      ],
+      "repository": "dhg/Skeleton",
+      "commit_sha": "88f03612b05f093e3f235ced77cf89d3a8fcf846",
+      "source_blobs": {
+        "LICENSE.md": "32a62b300f2700fc2db92c3376b16bd7d00353ab",
+        "css/normalize.css": "81c6f31ea4b8d36d19133c690c0701c240200e7e",
+        "css/skeleton.css": "f28bf6c596e70b5adc60595fd61f99d9b08cdecf",
+        "index.html": "c81c190741a4b4d82859e4e986928fceb0025530"
+      }
+    },
+    {
+      "family": "milligram",
+      "html": "test/index.html",
+      "license": "license",
+      "css": [
+        {
+          "path": "dist/milligram.min.css",
+          "name": "milligram.css"
+        }
+      ],
+      "repository": "milligram/milligram",
+      "commit_sha": "5e56af462aea08baf5011a045bf1bfaaef72552c",
+      "source_blobs": {
+        "dist/milligram.min.css": "5e8955c3fdd5851f74347262e5b5b602217dc190",
+        "license": "f7b1b3587ee80fe0d26d1248ca9f3d64e53f99c3",
+        "test/index.html": "3710fe5f458b4ec0e31d7ac887730c154ac11e2f"
+      }
+    },
+    {
+      "family": "pure",
+      "html": "views/pages/layouts/examples/pricing.handlebars",
+      "license": "LICENSE.md",
+      "css": [
+        {
+          "path": "public/css/layouts/pricing.css",
+          "name": "pricing.css"
+        },
+        {
+          "url": "https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css",
+          "name": "pure.css",
+          "expected_sha256": "01757dff5e174cd963090a7bbb79f4d95222600202abca1c5e4735d6bbcc952c"
+        }
+      ],
+      "repository": "pure-css/pure-site",
+      "commit_sha": "8bd7b328cd77d1682cbc82c146c0fa5e94ac6a28",
+      "source_blobs": {
+        "LICENSE.md": "66a9342bcf2d01938f763031e960c7c432047e8e",
+        "public/css/layouts/pricing.css": "1523102c5065a2adfd413c2e15044e7c85ef2a2d",
+        "views/pages/layouts/examples/pricing.handlebars": "49fa2c86b3c48fdda3740aab248dca5dab9034b5"
+      }
+    },
+    {
+      "family": "chota",
+      "html": "test/index.html",
+      "license": "LICENSE",
+      "css": [
+        {
+          "path": "dist/chota.min.css",
+          "name": "chota.css"
+        }
+      ],
+      "repository": "jenil/chota",
+      "commit_sha": "7d780731421fc987d8f7a1c8f66c730d8573684c",
+      "source_blobs": {
+        "LICENSE": "869751e0b65b6a89b34ba6542827fbabe24e7e99",
+        "dist/chota.min.css": "423ea2911d0321e13801051c8464b19e7183d1b9",
+        "test/index.html": "89967af9a34942859b3f988b8a0ffd5967851f72"
+      }
+    },
+    {
+      "family": "mvp",
+      "html": "index.html",
+      "license": "LICENSE",
+      "css": [
+        {
+          "path": "mvp.css",
+          "name": "mvp.css"
+        }
+      ],
+      "repository": "andybrewer/mvp",
+      "commit_sha": "629ba5eb91362afe2504fdd09a1ac039e2fca420",
+      "source_blobs": {
+        "LICENSE": "0acc1d816e360d29626c810c1c919635503a5bef",
+        "index.html": "134662438f0c008cdeed497be0820caf9606ee15",
+        "mvp.css": "7f4bdeec2821137c5e9a443e917d80bdad3e4686"
+      }
+    },
+    {
+      "family": "newcss",
+      "html": "demo.html",
+      "license": "LICENSE",
+      "css": [
+        {
+          "path": "new.css",
+          "name": "new.css"
+        }
+      ],
+      "repository": "xz/new.css",
+      "commit_sha": "375a937537159abd11c89a07137e53d2411b4487",
+      "source_blobs": {
+        "LICENSE": "0f58a6dd408a7fb59a0c153f82ebdf231fc74ed8",
+        "demo.html": "0b0c5e1f48e5d720e2a5c02406106e8fd10e394a",
+        "new.css": "586a693843a2abca1de7db29ec9ac9daeb4630d8"
+      }
+    }
+  ]
+}

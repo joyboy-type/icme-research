@@ -1,0 +1,45 @@
+{
+  "at_utc": "2026-11-20T15:24:36.574706+00:00",
+  "classification_conditions": [
+    "clean"
+  ],
+  "positive_detection_conditions": [
+    "clean",
+    "jpeg95",
+    "shift_x1"
+  ],
+  "negative_conditions": [
+    "identity",
+    "jpeg95",
+    "shift_x1",
+    "jpeg95_shift_x1",
+    "jpeg90",
+    "jpeg98"
+  ],
+  "calibration_negative_conditions": [
+    "identity",
+    "jpeg95",
+    "shift_x1",
+    "jpeg95_shift_x1"
+  ],
+  "unseen_codecs": [
+    "jpeg90",
+    "jpeg98"
+  ],
+  "model": {
+    "n_estimators": 300,
+    "max_features": 0.7,
+    "class_weight": "balanced",
+    "random_state": 13,
+    "n_jobs": 1
+  },
+  "classification_fit": "train families only; clean screenshots; no method selection",
+  "detection_fit": "train families; all three positive conditions and four seen negative conditions; each baseline/condition appears once",
+  "threshold": "max across four calibration conditions of empirical .95 higher quantile; development unique baselines only; strict score > threshold",
+  "classification_primary": "fixed13 macroF1 including zero training support justify",
+  "classification_secondary": "Macro-average over12 labels excluding justify, evaluated on all confirmation examples; justify examples may contribute false positives to other classes. Not a sample-filtered12-class score.",
+  "paired_bootstrap": "2000 source-family resamples seed71; conditional on fitted models and thresholds",
+  "fpr_claim": "Observed rates only, six calibration baseline views from two families; no proven population5% guarantee",
+  "scope": "Sanitized upstream framework HTML/CSS probes, not real-site benchmark",
+  "external_gate": "run04 frozen gate, if reported, is transfer diagnostic only and uses its existing threshold"
+}
