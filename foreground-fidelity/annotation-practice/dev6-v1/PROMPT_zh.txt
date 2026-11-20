@@ -1,0 +1,27 @@
+请对以下仓库里的 6 张开发原图做“AI 辅助主体定位诊断”。你不是独立人工标注者，所有输出必须注明 AI 来源。
+
+仓库：https://github.com/joyboy-type/icme-research
+材料目录：foreground-fidelity/annotation-practice/dev6-v1/
+
+操作：
+1. 获取仓库，阅读该目录 README.md 与“正式规则与空模板.json”。只在本次材料目录内工作，不读取其他实验结果、原始数据标签或确认集。
+2. 在仓库根目录运行：
+   python3 foreground-fidelity/annotation-practice/dev6-v1/fetch_images.py
+   必须看到 6/6 校验通过。图片缺失、版本或校验不符时停止并报告；不要换图、猜测或下载整个数据集。
+3. 实际打开并逐张查看 images/P001.jpg 到 P006.jpg。若你没有图像查看能力，请报告这个限制，不要根据文件名、尺寸或代码生成答案。可以打开 index.html 拖框，也可以直接填写归一化坐标。
+4. 复制 AI_RESULT_TEMPLATE.json，填写 agent_id，独立完成 6 条记录：
+   - clear：有明确主要视觉主体，给出紧贴其可见完整范围的框。
+   - no_clear：没有明确可单独圈出的主体，box_xyxy=null；不以整图框代替。
+   - ambiguous：多个主体同等重要、主体边界难分，或只凭原图无法确定时，写明歧义；框可为空。
+   坐标 box_xyxy=[left,top,right,bottom]，以原图宽高归一化到 0–1，原点左上。主体出画只框可见部分并设置 truncated=true。各图提供一句基于可见内容的 reason；ambiguous 还须填写 note。不要强行消除不确定性。
+5. 保存为 results/<你的代号>.json，运行：
+   python3 foreground-fidelity/annotation-practice/dev6-v1/validate_result.py foreground-fidelity/annotation-practice/dev6-v1/results/<你的代号>.json
+   交付完整 JSON、校验输出和简短问题列表。校验通过只表示格式正确，不表示答案正确。
+
+约束：
+- 只处理这 6 张开发原图。不查看或推测 A/B、偏好标签、历史框、方法名称、预测、得分或预留确认数据。
+- source_fetch.json 和取图脚本只用于获取原图，不另外查询或展示数据集中的编辑图、指令和偏好字段。
+- 若有其他智能体参与，各自先独立完成，勿先看他人结果；如已看过，reviewed_other_agents_results 必须如实设为 true。比较时保留各自原答案，再单独列出分歧，不覆盖答案来制造一致。
+- 不用检测、分割或裁判模型代替你的看图，不运行已有实验评分，不根据旧方法调框。
+- 不租卡、不调用付费服务、不训练、不跑 PVC-Judge、不改 Word、不自行提交或推送结果。
+- 不声称这些框是人工真值、专家标注、独立确认结果，或能证明方法性能提高。

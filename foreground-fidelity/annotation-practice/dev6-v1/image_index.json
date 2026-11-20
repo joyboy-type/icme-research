@@ -1,0 +1,44 @@
+[
+  {
+    "image_id": "P001",
+    "file": "images/P001.jpg",
+    "width": 2000,
+    "height": 1782,
+    "sha256": "bfeca135d363943763d4d58cacc63806b38fc181da7a57a08315ca49cb84f41f"
+  },
+  {
+    "image_id": "P002",
+    "file": "images/P002.jpg",
+    "width": 3648,
+    "height": 2736,
+    "sha256": "9210b5f6e0c06f21bdb757137e2322e08020dd97576f5e02df3d1f70e68f8742"
+  },
+  {
+    "image_id": "P003",
+    "file": "images/P003.jpg",
+    "width": 3840,
+    "height": 1784,
+    "sha256": "a0ae6e8315e257864fd8dccacef7a037afedf7a8d73cc1021e3d393552e11da9"
+  },
+  {
+    "image_id": "P004",
+    "file": "images/P004.jpg",
+    "width": 960,
+    "height": 640,
+    "sha256": "aaae748266457cb89881420f3096a5288dc4e7abce1a821af6fe23f9afa0d9e2"
+  },
+  {
+    "image_id": "P005",
+    "file": "images/P005.jpg",
+    "width": 4592,
+    "height": 3056,
+    "sha256": "fa569125f68cbd33d543150b53f7f6feb74f900600b1f675290a5074f0c79643"
+  },
+  {
+    "image_id": "P006",
+    "file": "images/P006.jpg",
+    "width": 2480,
+    "height": 4416,
+    "sha256": "c817b2dbd03b83e3bb237a4652c19adc5cf6200e62e55753522e958022a239b0"
+  }
+]

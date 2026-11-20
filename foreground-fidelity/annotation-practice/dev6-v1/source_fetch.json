@@ -1,0 +1,33 @@
+{
+  "dataset": "GEditBench-v2/VCReward-Bench",
+  "revision": "4dfccf0bb4a4448aed140e8ff8ccb412e0f9b2d2",
+  "config": "default",
+  "split": "train",
+  "scope": "six previously used DEVELOPMENT originals only; no edited images or confirmation data",
+  "images": [
+    {
+      "image_id": "P001",
+      "row_index": 41
+    },
+    {
+      "image_id": "P002",
+      "row_index": 24
+    },
+    {
+      "image_id": "P003",
+      "row_index": 5
+    },
+    {
+      "image_id": "P004",
+      "row_index": 76
+    },
+    {
+      "image_id": "P005",
+      "row_index": 82
+    },
+    {
+      "image_id": "P006",
+      "row_index": 29
+    }
+  ]
+}
