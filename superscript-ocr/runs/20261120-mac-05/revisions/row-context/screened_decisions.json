@@ -1,0 +1,162 @@
+[
+  {
+    "case_id": "30912ec32ca5aa5a",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "wrong_number",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "1d5ec23dd679cbc3",
+    "source_run": "20261120-mac-03",
+    "method": "uniform",
+    "reviewed_truth": "false_insertion",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "e788dd13b9743ef9",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": true,
+    "decision_reason": "context_number_anchor_and_format_agree"
+  },
+  {
+    "case_id": "302c53dddf99a139",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "false_insertion",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "8f51f3a8f874fd17",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "false_insertion",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "23cae83aaccac7b9",
+    "source_run": "20261120-mac-03",
+    "method": "uniform",
+    "reviewed_truth": "false_insertion",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "7756205c9b9e5f1e",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "c50c77df9b103e26",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "34c12008465cbe87",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": true,
+    "decision_reason": "context_number_anchor_and_format_agree"
+  },
+  {
+    "case_id": "882c803593f39581",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": true,
+    "decision_reason": "context_number_anchor_and_format_agree"
+  },
+  {
+    "case_id": "86b1cee891e8b4d1",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "8a901354c69e1734",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "accb55b737d72449",
+    "source_run": "20261120-mac-03",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "9140218ae4692f5d",
+    "source_run": "20261120-mac-04",
+    "method": "uniform",
+    "reviewed_truth": "false_insertion",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "b03b7913fdc9def3",
+    "source_run": "20261120-mac-04",
+    "method": "candidate",
+    "reviewed_truth": "false_insertion",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "7b61046b96463121",
+    "source_run": "20261120-mac-04",
+    "method": "candidate",
+    "reviewed_truth": "false_insertion",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "678e420e0f74e17c",
+    "source_run": "20261120-mac-04",
+    "method": "candidate",
+    "reviewed_truth": "false_insertion",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "65e2f8c94b3f1436",
+    "source_run": "20261120-mac-04",
+    "method": "candidate",
+    "reviewed_truth": "false_insertion",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "1cbfff08f47a7fb3",
+    "source_run": "20261120-mac-04",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  },
+  {
+    "case_id": "a3f949fb4d4b5cef",
+    "source_run": "20261120-mac-04",
+    "method": "candidate",
+    "reviewed_truth": "correct_number_and_anchor",
+    "accepted": false,
+    "decision_reason": "no_matching_context_number_at_position"
+  }
+]

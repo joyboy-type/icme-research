@@ -1,0 +1,31 @@
+{
+  "gate": {
+    "context_scale": 4,
+    "context_padding": 32,
+    "context_width_min": 180,
+    "context_width_max": 420,
+    "context_extra_width": 180,
+    "context_height_min": 36,
+    "context_extra_height": 12,
+    "anchor_chars": 12,
+    "anchor_similarity": 0.75,
+    "right_similarity": 0.7,
+    "minimum_anchor_chars": 4
+  },
+  "selection_seed": "superscript-rejection-confirmation-v1",
+  "selection_rule": "six hash-ranked unseen Chinese report documentIDs with numeric body reference annotations; all eligible groups on selected page; prior downloaded/inspected documentIDs excluded",
+  "sources_schema": [
+    {
+      "id": "20261120-mac-06-base",
+      "outputs": "path/to/RUN_DIRECTORY/base/outputs",
+      "patches": "path/to/RUN_DIRECTORY/base/outputs/patches.json"
+    }
+  ],
+  "pages_schema": [
+    {
+      "page_id": "LOCAL_PAGE_ID",
+      "path": "path/to/local/source_image.jpg"
+    }
+  ],
+  "data_not_bundled": true
+}

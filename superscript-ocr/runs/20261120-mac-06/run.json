@@ -1,0 +1,29 @@
+{
+  "id": "20261120-mac-06",
+  "status": "complete",
+  "type": "frozen new-document diagnostic",
+  "taskbook_version": "v1.3",
+  "new_document_ids": 6,
+  "reference_groups": 17,
+  "language": "Chinese",
+  "domain": "reports",
+  "charged_calls": 0,
+  "model_downloads": 0,
+  "training": false,
+  "engine": "Apple Vision accurate revision3, language correction off, automatic language detection, CPU-only request flag",
+  "execution": "Serial local requests; BLAS/OpenCV thread limits2; Vision internal scheduling not exposed",
+  "commands": [
+    "swiftc base/code/recognize.swift -o base/code/recognize",
+    "python base/code/run.py RUN_DIRECTORY/base",
+    "swiftc code/recognize.swift -o code/recognize",
+    "python code/context_run.py RUN_DIRECTORY"
+  ],
+  "frozen_before_selection": true,
+  "hashes": {
+    "gate.py": "e5c4391042774c3a90e96a81dc3dc5cdf678b5cc3df74db43da1a389cf566dde",
+    "context_run.py": "c1ffd89d79d7b006112ccf3f34dcc822f1d3ade60568e751beab01d1fa0b1d76",
+    "base_method.py": "7806a66bc431175f08403ecd35b6fb286b41cc3dfc66fd921c280529121ea347",
+    "recognize.swift": "5239b799e94a557e508c19cb7ac78d29674f45838d0b4ea126506be4ae769188"
+  },
+  "decision": "No gain; zero additions is not evidence of safe reference recognition."
+}

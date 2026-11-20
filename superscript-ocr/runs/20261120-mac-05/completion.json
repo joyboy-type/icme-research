@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "final_revision": "revisions/row-context",
+  "historical_root_files": "Preserved as initially published during development; use final_revision for completed results.",
+  "taskbook_version": "v1.3",
+  "correct_retained": 3,
+  "correct_before": 10,
+  "false_before": 6,
+  "false_after": 0,
+  "wrong_number_before": 1,
+  "wrong_number_after": 0,
+  "decision": "remain_backup"
+}

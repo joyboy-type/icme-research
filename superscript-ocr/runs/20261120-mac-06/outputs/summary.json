@@ -1,0 +1,55 @@
+{
+  "reference_positions": 17,
+  "unseen_document_ids": 6,
+  "language": "Chinese",
+  "source_domain": "reports",
+  "base_candidate_number_position_hits": 0,
+  "base_candidate_reference_positions_covered": 1,
+  "base_uniform_hits": 0,
+  "ungated_insertions": 0,
+  "gated_insertions": 0,
+  "correct_additions": 0,
+  "wrong_additions": 0,
+  "insertion_precision": null,
+  "interpretation": "No gain. No candidate additions reached gate; zero errors is not evidence of gate effectiveness. New-language/domain sample does not establish English generalization.",
+  "source_pixels_reviewed": 17,
+  "invalid_selected_reference_labels_found": 0,
+  "frozen_hash_checks": {
+    "gate.py": true,
+    "context_run.py": true,
+    "base_method.py": true,
+    "recognize.swift": true
+  },
+  "charged_calls": 0,
+  "new_models": 0,
+  "context_budget": {
+    "candidate": {
+      "context_calls": 192,
+      "context_pixels": 35046848,
+      "ocr_ms": 9758.97287542466
+    },
+    "uniform": {
+      "context_calls": 192,
+      "context_pixels": 35046848,
+      "ocr_ms": 5037.743708235212
+    }
+  },
+  "tight_crop_budget": {
+    "candidate": {
+      "calls": 192,
+      "input_pixels": 3628080,
+      "ocr_ms": 2838.4066248545423
+    },
+    "uniform": {
+      "calls": 192,
+      "input_pixels": 3628080,
+      "ocr_ms": 2051.174291293137
+    }
+  },
+  "common_page_ocr": {
+    "calls": 6,
+    "input_pixels": 22826118,
+    "ocr_ms": 3237.9730417160317
+  },
+  "decision": "remain_backup; no new-document gain and no actual gate opportunities"
+}

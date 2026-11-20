@@ -1,0 +1,67 @@
+{
+  "run_id": "20261120-mac-05",
+  "revision": "row-context",
+  "status": "complete",
+  "development_pages": 18,
+  "selected_reference_positions": 73,
+  "tradeoff": {
+    "candidate": {
+      "before": {
+        "correct_number_and_anchor": 10,
+        "false_insertion": 6,
+        "wrong_number": 1
+      },
+      "after": {
+        "correct_number_and_anchor": 3,
+        "false_insertion": 0,
+        "wrong_number": 0
+      },
+      "rejected": {
+        "correct_number_and_anchor": 7,
+        "false_insertion": 6,
+        "wrong_number": 1
+      },
+      "correct_retention": 0.3,
+      "lost_correct_fraction": 0.7
+    },
+    "uniform": {
+      "before": {
+        "correct_number_and_anchor": 0,
+        "false_insertion": 3,
+        "wrong_number": 0
+      },
+      "after": {
+        "correct_number_and_anchor": 0,
+        "false_insertion": 0,
+        "wrong_number": 0
+      },
+      "rejected": {
+        "correct_number_and_anchor": 0,
+        "false_insertion": 3,
+        "wrong_number": 0
+      }
+    }
+  },
+  "negative_inventory": {
+    "negative_positions": 24,
+    "source_pixels_reviewed": 24,
+    "actual_false_insertion_cases_gate_tested": 9,
+    "actual_false_cases_rejected": 9,
+    "additional_nonreference_annotations": 15,
+    "additional_annotations_forced_gate_tested": 0,
+    "scope": "15 annotation negatives are an inventory, not counted as successful rejections. Not an unbiased page-level false-positive estimate."
+  },
+  "context_budget": {
+    "candidate": {
+      "context_calls": 501,
+      "context_pixels": 92698192,
+      "ocr_ms": 21013.411627034657
+    },
+    "uniform": {
+      "context_calls": 501,
+      "context_pixels": 92698192,
+      "ocr_ms": 14493.626416660845
+    }
+  },
+  "interpretation": "Known false additions removed by abstention, but only3/10correct additions retained; not a validated citation classifier. Extra OCR cost is reported explicitly. Run03 and04 are now development data."
+}

@@ -1,0 +1,30 @@
+{
+  "revision": "row-context",
+  "gate": {
+    "context_scale": 4,
+    "context_padding": 32,
+    "context_width_min": 180,
+    "context_width_max": 420,
+    "context_extra_width": 180,
+    "context_height_min": 36,
+    "context_extra_height": 12,
+    "anchor_chars": 12,
+    "anchor_similarity": 0.75,
+    "right_similarity": 0.7,
+    "minimum_anchor_chars": 4
+  },
+  "input_schema": {
+    "sources.json": [
+      {
+        "id": "prior-run",
+        "outputs": "path/to/local/prior/outputs",
+        "patches": "path/to/local/prior/outputs/patches.json"
+      }
+    ]
+  },
+  "commands": [
+    "swiftc code/recognize.swift -o code/recognize",
+    "OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 VECLIB_MAXIMUM_THREADS=2 python code/context_run.py RUN_DIRECTORY"
+  ],
+  "data_requirements": "Original page images and prior OCR outputs are intentionally excluded; provide them locally through sources.json. No source text layers or labels are used by the gate."
+}
