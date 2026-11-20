@@ -1,0 +1,20 @@
+{
+  "verified_at": "2026-11-20T15:33:32.522169+00:00",
+  "targeted_tests_passed": 8,
+  "all_old_local_archive_files_unchanged": true,
+  "old_archive_file_count": 6684,
+  "frozen_word_hash_unchanged": true,
+  "frozen_gate_and_engine_hashes_match": true,
+  "run08_inputs_unchanged": true,
+  "decisions_with_reviewed_truth": 42,
+  "review_only_candidates": 25,
+  "unique_evidence": 29,
+  "cached_evidence": 20,
+  "new_local_ocr_calls": 9,
+  "new_raw_returns_paired_to_images": true,
+  "no_repaired_transcript_emitted": true,
+  "primary_net_correct": -5,
+  "correct_retention": 0.3125,
+  "development_passed": false,
+  "automatic_insertion": false
+}

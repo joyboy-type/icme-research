@@ -1,0 +1,10 @@
+{
+  "status": "automatic_insertion_suspended",
+  "run_id": "20261120-mac-09",
+  "reason": "Correct net gain and frozen80%retention requirements failed",
+  "automatic_insertion": false,
+  "human_review_only": true,
+  "new_data_expansion": false,
+  "word_edit_allowed": false,
+  "thresholds_unchanged": true
+}

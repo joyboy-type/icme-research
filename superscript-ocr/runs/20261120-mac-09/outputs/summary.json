@@ -1,0 +1,96 @@
+{
+  "scope": "Development-only fixed-gate audit on already reviewed run08 candidates; all old17hard cases remain diagnostic. Includes all proposed insertions, with figure footnotes separate from90body-reference denominator.",
+  "methods": {
+    "baseline": {
+      "before": {
+        "total": 17,
+        "correct": 10,
+        "wrong_number": 0,
+        "false_insertion": 7,
+        "correct_figure_footnotes": 0,
+        "serious_errors": 7
+      },
+      "after": {
+        "total": 3,
+        "correct": 3,
+        "wrong_number": 0,
+        "false_insertion": 0,
+        "correct_figure_footnotes": 0,
+        "serious_errors": 0
+      },
+      "rejected": {
+        "total": 14,
+        "correct": 7,
+        "wrong_number": 0,
+        "false_insertion": 7,
+        "correct_figure_footnotes": 0,
+        "serious_errors": 7
+      }
+    },
+    "isolate": {
+      "before": {
+        "total": 25,
+        "correct": 16,
+        "wrong_number": 3,
+        "false_insertion": 6,
+        "correct_figure_footnotes": 2,
+        "serious_errors": 9
+      },
+      "after": {
+        "total": 5,
+        "correct": 5,
+        "wrong_number": 0,
+        "false_insertion": 0,
+        "correct_figure_footnotes": 0,
+        "serious_errors": 0
+      },
+      "rejected": {
+        "total": 20,
+        "correct": 11,
+        "wrong_number": 3,
+        "false_insertion": 6,
+        "correct_figure_footnotes": 2,
+        "serious_errors": 9
+      }
+    }
+  },
+  "primary_reference": "Ungated run08 baseline, not the weakened gated baseline",
+  "primary_comparison": {
+    "correct_before": 10,
+    "correct_after": 5,
+    "net_correct": -5,
+    "new_correct_gained": 2,
+    "previous_correct_lost": 7,
+    "serious_before": 7,
+    "serious_after": 0
+  },
+  "retention": {
+    "correct_retained": 5,
+    "correct_available": 16,
+    "fraction": 0.3125,
+    "required_count": 13,
+    "required_fraction": 0.8
+  },
+  "secondary_gated_baseline_comparison": {
+    "baseline_correct": 3,
+    "isolate_correct": 5,
+    "difference": 2,
+    "warning": "This secondary+2comparison cannot replace the primary-5comparison against the original baseline."
+  },
+  "criteria": {
+    "correct_net_gain": false,
+    "serious_errors_nonincrease": true,
+    "frozen_80percent_retention": false
+  },
+  "development_passed": false,
+  "automatic_insertion": false,
+  "decision": "SUSPEND_AUTOMATIC_INSERTION; retain review candidates only; close this development line without expanding data or tuning thresholds",
+  "review_policy": "Every candidate remains auto_insert=false; prior repaired transcripts are archived diagnostic outputs, not authorized production edits.",
+  "new_confirmation_run": false,
+  "threshold_search": false,
+  "limitations": [
+    "Zero observed accepted errors is not a population error-rate guarantee.",
+    "Gate uses word-level anchors and does not repair original punctuation or perform bibliography-graph checks.",
+    "Nine new local context OCR calls supplement exact cached evidence; this is not an equal-new-cost benchmark."
+  ]
+}

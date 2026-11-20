@@ -1,0 +1,29 @@
+{
+  "experiment": "One frozen admission-gate replay on run08 baseline and isolate outputs, using exact cached visual context whenever available; fresh local OCR only for cache misses.",
+  "scope": "development only; all24pages and old17hard cases already inspected; no threshold search and no expanded data",
+  "frozen_gate_origin": "20261120-mac-05/frozen_method.json",
+  "frozen_hash_checks": {
+    "gate.py": true,
+    "recognize.swift": true
+  },
+  "frozen_gate_sha256": "e5c4391042774c3a90e96a81dc3dc5cdf678b5cc3df74db43da1a389cf566dde",
+  "engine_sha256": "5239b799e94a557e508c19cb7ac78d29674f45838d0b4ea126506be4ae769188",
+  "visual_evidence": "Unmasked source context must repeat numeral at source location and agree on surrounding lexical anchors and reference format. Units/isotopes abstain.",
+  "context_definition": "For both baseline and isolated rendering, context is anchored on unchanged parent raw proposal box, not the foreground-only trimmed rendering box. Isolate parent is run08 new_proposals[index].raw_box, chosen without gold. This keeps frozen context geometry and permits exact cache reuse.",
+  "cache_match": "same source-image SHA256, same context xywh/dimensions, exact rendered context pixels, same recognition engine/settings; never reuse merely nearby context",
+  "primary_comparator": {
+    "run08_ungated_baseline_correct": 10,
+    "run08_ungated_baseline_serious": 7,
+    "candidate_ungated_correct": 16,
+    "candidate_ungated_serious": 9
+  },
+  "acceptance": {
+    "correct_net_gain": "gated isolate correct additions >10, using the original ungated baseline; figure footnotes counted separately as before",
+    "serious_errors_nonincrease": "gated isolate wrong-number plus false-insertion <=7",
+    "existing_frozen_retention": "gated isolate correct additions >=ceil(0.8*16)=13",
+    "secondary_comparator": "same frozen gate on baseline, reported for diagnosis only; cannot replace primary baseline",
+    "decision": "If any criterion fails, close and suspend automatic insertion; output candidates for human review only. No new confirmation set.",
+    "no_population_safety_claim": "Zero observed errors is not an error-rate guarantee."
+  },
+  "taskbook_frozen_sha256": "dd00d31e8435e3da12a1d28642ae5df72c2063c9229c46dc038b1df03e4d5136"
+}
