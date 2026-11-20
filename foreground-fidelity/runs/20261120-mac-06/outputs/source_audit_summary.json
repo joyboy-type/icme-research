@@ -1,0 +1,36 @@
+{
+  "reserved_groups": 20,
+  "reserved_pairs": 37,
+  "development_groups": 46,
+  "development_pairs": 89,
+  "cross_comparisons": 920,
+  "within_comparisons": 190,
+  "exact_cross_RGB_matches": 0,
+  "exact_within_RGB_matches": 0,
+  "flagged_cross_pairs": 0,
+  "flagged_within_pairs": 0,
+  "status": "source_audit_complete_retained_not_scored",
+  "confirmation_preference_labels_opened": false,
+  "confirmation_AB_images_opened": false,
+  "preference_model_or_scores_run": false,
+  "manifest_sha256": "96cb886877069fdab4228f20461a7c445609dfe4298ac17d941785028872a2a2",
+  "frozen_protocol_sha256": "baad1748df8a7a9c4304aca3dfa7fb852f5a188b7251c4170ae0c4bad06cfb4c",
+  "retained_groups": 20,
+  "retained_pairs": 37,
+  "excluded_groups": 0,
+  "quarantined_groups": 0,
+  "nearest_source_visual_comparisons": 60,
+  "visual_review_sheets": 7,
+  "visual_reviewer": "assistant, not independent human expert",
+  "cross_minimum_distances": {
+    "phash_full": 16,
+    "phash_any_full_crop": 16,
+    "dhash_full": 17
+  },
+  "within_minimum_distances": {
+    "phash_full": 22,
+    "phash_any_full_crop": 20,
+    "dhash_full": 22
+  },
+  "limitations": "Archived JPEG source previews and hash/nearest-neighbor visual screening only. No observed same-photo duplicates; no proof of all semantic or identity disjointness. Reserved groups not activated, no confirmation preferences opened or scored."
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "20261120-mac-06",
+  "scope": "Source-only duplicate review of reserved20 groups/37 pairs versus old46 groups/89 development pairs, plus PVC handoff validation. No preference labels of confirmation data, edited images, model features, preference scoring, training, GPU, rentals, or Word writes.",
+  "allowed_confirmation_files": "snapshot-03-confirmation-reserved/manifest.json and the source JPEGs referenced there only. Never read sealed_labels.json, future_rows_*.json, or raw confirmation metadata with winners.",
+  "exact_checks": "File SHA256, RGB-only SHA256 (legacy group definition), and dimensions-plus-RGB SHA256. Check cross development and within reserved groups.",
+  "near_checks": "63-bit DCT pHash of full source and fixed centered80-percent crop,64-bit horizontal dHash of full source. Flag any full/crop pHash pair distance<=12 or full dHash<=10. These thresholds only select visual review cases and never automatically certify disjointness or exclude a source.",
+  "visual_review": "Inspect all20 reserved originals with the nearest3 development candidates selected across full pHash,crop pHash,dHash. Inspect all threshold-flagged cross or within-reservation pairs. Record assistant visual source comparison explicitly, not independent human expert verification.",
+  "retention": "Exact/same underlying photograph under crop/resize/recompression => exclude from future independent set. Distinct photograph with similar subject => keep only with explicit semantic-overlap note. Uncertain same-photo => quarantine. Do not replace excluded groups or change method here. Preserve original reservation snapshot; save new eligible index in this run.",
+  "PVC": "Check existing32 diagnostic inputs and archive hashes, AB/BA candidate/label inversions, official argparse against generated commands, prompt asset path resolution, shell syntax and argument-only dry run. Do not load a judge or execute real inference. Record missing actual server/model/LoRA/environment paths as dependencies.",
+  "Word_taskbook": "Frozen v1.3, no edit/copy/new version. All outcomes in this new local run and screened foreground-fidelity GitHub run only."
+}

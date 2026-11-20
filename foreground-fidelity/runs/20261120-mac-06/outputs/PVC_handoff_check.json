@@ -1,0 +1,27 @@
+{
+  "status": "local_handoff_checks_PASS_inference_NOT_RUN",
+  "package_sha256": "b91cfee63a609a01bad7563d2d394ced6fd7c9a8835b7d17bd1ad0d8ff40a797",
+  "pairs_per_order": 16,
+  "source_groups": 16,
+  "orders": 2,
+  "expected_inference_requests": 32,
+  "image_decodes": 96,
+  "package_integrity": "PASS",
+  "AB_BA_images_and_labels_swap": "PASS",
+  "official_data_loader": "Prior mac-03 PASS; package Parquet bytes verified identical in this run",
+  "official_argparse": "PASS for both generated commands",
+  "shell_syntax": "PASS",
+  "spaces_and_PYTHONPATH": "PASS in argument-only recorder dry run",
+  "separate_output_directories": "PASS",
+  "prompt_path_independent_of_working_directory": "PASS via exact official path methods",
+  "real_model_or_script_launched": false,
+  "GPU_or_paid_resources_used": false,
+  "dependencies_remaining": [
+    "actual accessible GPU server and login",
+    "pinned official checkout and complete compatible CUDA/vLLM/flash-attn environment",
+    "actual Qwen3-VL-8B-Instruct base model and PVC LoRA paths and hashes",
+    "server writable cache/output paths and measured VRAM/latency",
+    "real32 inference attempts and raw outputs including missing/invalid cases"
+  ],
+  "correction": "Old mac-02 handoff text predates successful local datasets loader check. Local data loading is tested; full server environment and inference are not."
+}

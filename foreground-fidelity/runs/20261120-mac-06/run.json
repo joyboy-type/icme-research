@@ -1,0 +1,42 @@
+{
+  "run_id": "20261120-mac-06",
+  "status": "local_source_audit_and_PVC_handoff_complete",
+  "source_audit": {
+    "development_groups": 46,
+    "development_pairs": 89,
+    "reserved_groups_retained": 20,
+    "reserved_pairs_retained": 37,
+    "cross_comparisons": 920,
+    "within_comparisons": 190,
+    "exact_duplicates": 0,
+    "threshold_flags": 0,
+    "excluded_groups": 0,
+    "quarantined_groups": 0,
+    "visual_review": "assistant source-only,7sheets60nearest comparisons,not independent human expert"
+  },
+  "commands": [
+    "python code/audit_sources.py",
+    "python code/check_pvc_handoff.py",
+    "python code/finalize_audit.py"
+  ],
+  "input_manifest_sha256": "96cb886877069fdab4228f20461a7c445609dfe4298ac17d941785028872a2a2",
+  "protocol_sha256": "baad1748df8a7a9c4304aca3dfa7fb852f5a188b7251c4170ae0c4bad06cfb4c",
+  "PVC_status": "local_handoff_PASS_actual_inference_NOT_RUN",
+  "Word": "frozen unchanged, no edit/copy/version",
+  "confirmation_preference_labels_or_future_rows_opened_or_hashed": false,
+  "confirmation_AB_images_opened": false,
+  "new_confirmation_preference_scores": 0,
+  "GPU_rented_compute_or_model_execution": false,
+  "prior_runs": "unchanged; new retention index and current handoff kept in this run",
+  "review": "outputs/code_review.json",
+  "validation": "outputs/final_validation.json",
+  "next_dependencies": [
+    "actual accessible GPU server and login",
+    "pinned official checkout and complete compatible CUDA/vLLM/flash-attn environment",
+    "actual Qwen3-VL-8B-Instruct base model and PVC LoRA paths and hashes",
+    "server writable cache/output paths and measured VRAM/latency",
+    "real32 inference attempts and raw outputs including missing/invalid cases"
+  ],
+  "publication_scope": "new foreground-fidelity run only; source images,raw labels,complete logs and private paths remain local",
+  "archive_scope": "Screened public derivative. Future confirmation pair IDs,source photos,raw metadata and labels stay private. Complete allowed source/PVC snapshots needed for replay."
+}

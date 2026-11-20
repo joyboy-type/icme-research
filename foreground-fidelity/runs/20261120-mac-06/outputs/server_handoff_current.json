@@ -1,0 +1,55 @@
+{
+  "status": "local_input_and_command_handoff_ready_actual_inference_NOT_RUN",
+  "input_archive": "deliveries/PVC-Judge_16对双顺序输入_20261120.zip",
+  "archive_sha256": "b91cfee63a609a01bad7563d2d394ced6fd7c9a8835b7d17bd1ad0d8ff40a797",
+  "official_commit": "a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb",
+  "steps": [
+    {
+      "purpose": "After extracting the existing input package, verify official checkout and base/LoRA model hashes",
+      "execution": "operator/server prerequisite, not performed locally"
+    },
+    {
+      "purpose": "Verify the real server datasets environment before model load",
+      "argv": [
+        "python",
+        "code/check_pvc_loader_on_server.py",
+        "/ABS/EXTRACTED_ROOT/server_batch"
+      ]
+    },
+    {
+      "purpose": "Regenerate paths for the actual server; generation does not run inference",
+      "argv": [
+        "python",
+        "code/configure_pvc_server.py",
+        "--batch-root",
+        "/ABS/EXTRACTED_ROOT/server_batch",
+        "--repo-root",
+        "/ABS/GEditBench_v2",
+        "--base-model",
+        "/ABS/Qwen3-VL-8B-Instruct",
+        "--lora",
+        "/ABS/PVC_LORA"
+      ]
+    },
+    {
+      "purpose": "Run only after prerequisites are met on an available authorized GPU",
+      "argv": [
+        "bash",
+        "/ABS/EXTRACTED_ROOT/server_batch/commands_to_review.sh"
+      ],
+      "status": "NOT_EXECUTED"
+    }
+  ],
+  "expected_requests": 32,
+  "expected_pairs_per_order": 16,
+  "output_rule": "AB and BA separate dirs; preserve stdout and raw results; compare against16 expected keys per order. Official reward evaluator skips invalid predictions, so its built-in denominator alone is insufficient; explicitly count missing/invalid attempts as0 and report them separately. Existing frozen scoring: tie0.5, missing/invalid0. Map AB/BA back to canonical candidate IDs, report each order separately and count order inconsistency; no post-label selection or unspecified combined-order accuracy.",
+  "server_dependencies_remaining": [
+    "actual accessible GPU server and login",
+    "pinned official checkout and complete compatible CUDA/vLLM/flash-attn environment",
+    "actual Qwen3-VL-8B-Instruct base model and PVC LoRA paths and hashes",
+    "server writable cache/output paths and measured VRAM/latency",
+    "real32 inference attempts and raw outputs including missing/invalid cases"
+  ],
+  "scope_correction": "Old mac-02 handoff text predates successful local datasets loader check. Local data loading is tested; full server environment and inference are not.",
+  "temporary_example_warning": "validated_command_example_NOT_EXECUTED.sh is only a test transcript using temporary paths; regenerate on the server, do not use it as the deployment script."
+}

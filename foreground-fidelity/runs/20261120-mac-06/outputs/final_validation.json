@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "source_originals_reviewed": 66,
+  "reserved_groups_retained": 20,
+  "reserved_pairs_retained": 37,
+  "cross_comparisons": 920,
+  "within_comparisons": 190,
+  "exact_duplicates": 0,
+  "threshold_flags": 0,
+  "assistant_visual_review": "20 reserved sources ×3 nearest development originals,7sheets; no expert-human guarantee",
+  "PVC_expected_requests": 32,
+  "PVC_ordered_inputs": "16AB+16BA,16diagnostic source groups",
+  "PVC_image_decodes": 96,
+  "PVC_command_and_package_checks": "PASS",
+  "real_PVC_inference": "NOT_RUN",
+  "confirmation_preference_labels_future_rows_opened_or_hashed": false,
+  "confirmation_AB_opened": false,
+  "confirmation_preference_scoring": false,
+  "Word_frozen_unchanged": true,
+  "GPU_rentals_training_model_execution": false,
+  "public_screening": "PASS",
+  "prior_label_files_integrity_policy": "Reuse old index records; do not open preference files even for hashing in this source-only audit."
+}
