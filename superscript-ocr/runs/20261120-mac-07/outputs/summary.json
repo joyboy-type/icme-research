@@ -1,0 +1,80 @@
+{
+  "markers": 17,
+  "pages": 6,
+  "methods": {
+    "tight_native": {
+      "calls": 17,
+      "top1_exact": 8,
+      "top1_exact_at_box": 8,
+      "top3_contains_exact_at_box": 8,
+      "pixels": 72019,
+      "elapsed_ms": 447.7602915139869
+    },
+    "tight_4x": {
+      "calls": 17,
+      "top1_exact": 10,
+      "top1_exact_at_box": 10,
+      "top3_contains_exact_at_box": 10,
+      "pixels": 497584,
+      "elapsed_ms": 215.85991699248552
+    }
+  },
+  "stage_counts": {
+    "complete_crop_but_number_not_read": 1,
+    "no_reference_ink_in_selected_crops": 16
+  },
+  "complete_crop_present_before_top32": 10,
+  "complete_crop_excluded_by_top32": 9,
+  "scope": "17 previously inspected references on6Chinese report pages; oracle boxes only; not a new confirmation set or deployable performance.",
+  "coverage_note": "Coverage uses source pixels gray<180 within annotated box; complete means>=98% of that ink in one crop. This is an evaluation proxy requiring visual review, not an inference feature.",
+  "taskbook_unchanged": true,
+  "glyph_only4x_posthoc": {
+    "calls": 17,
+    "top1_exact": 10,
+    "top3_contains_exact": 10,
+    "pixels": 182656,
+    "elapsed_ms": 291.6682086652145,
+    "gold_guided": true,
+    "posthoc": true
+  },
+  "glyph_only_complete_before_top32": 12,
+  "glyph_only_complete_excluded_by_top32": 11,
+  "findings": {
+    "status": "diagnostic_completed_no_method_upgrade",
+    "actual_pipeline_failure_counts": {
+      "selected_crops_miss_reference_ink": 16,
+      "selected_crop_contains_full_reference_but_OCR_omits_it": 1,
+      "partial_selected_reference_crops": 0,
+      "correct_candidate_numbers_rejected_by_attachment_or_gate": 0
+    },
+    "visual_audit": {
+      "annotation_crops_and_pure_digit_crops_checked": 17,
+      "remaining_wrong_gold_identities_found": 0,
+      "only_selected_reference_crop": "Source reference7 at selected rank16 shares crop with a percent symbol; it is omitted in old crop and annotation+margin crop but recognized in pure digit crop."
+    },
+    "glyph_only_posthoc": {
+      "two_digit_correct": 9,
+      "two_digit_n": 9,
+      "single_digit_correct": 1,
+      "single_digit_n": 8,
+      "failures_all_return_no_observations": true,
+      "interpretation": "small, font-confounded sample; not proof that digit count causes failure; Vision detects and recognizes jointly"
+    },
+    "generation_ranking": {
+      "complete_digit-containing_proposals": 12,
+      "excluded_by_top32": 11,
+      "oracle_readable_references_with_complete_proposal_after_rank32": 6,
+      "oracle_readable_but_no_complete_proposal_even_without_budget": 3,
+      "warning": "Untruncated boxes may still contain neighboring body symbols; no OCR was run on those boxes, so rank recovery is not a measured recognition gain."
+    },
+    "next_test": "Within fixed32crop budget, test different proposal ranking plus numeral/body separation on development only; separately characterize unstable single-character recognition before another fresh-document test. Do not add another insertion gate first.",
+    "limitations": [
+      "All17references were already inspected; not a new confirmation set.",
+      "Pure glyph extraction is gold-guided and post hoc, not a deployable method.",
+      "Native and4xconditions differ in pixels; not a matched-budget superiority claim.",
+      "Top3 inclusion not used to choose predicted truth.",
+      "No text-anchor, false-insertion or reference-graph evaluation is supplied by this oracle diagnostic."
+    ],
+    "taskbook_unchanged": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    "tight_native",
+    "tight_4x"
+  ],
+  "margin_source_pixels": 2,
+  "scale": {
+    "tight_native": 1,
+    "tight_4x": 4
+  },
+  "padding": {
+    "tight_native": 16,
+    "tight_4x": 32
+  },
+  "minimum_canvas": 64,
+  "ink_threshold": 180,
+  "complete_ink_fraction": 0.98,
+  "score": "numeric_identity_v2; first candidate primary, top3 inclusion diagnostic only",
+  "scope": "17 previously inspected references on6Chinese report pages; oracle boxes only; not a new confirmation set or deployable performance."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "20261120-mac-07",
+  "status": "complete",
+  "taskbook_unchanged": true,
+  "taskbook_frozen_sha256": "dd00d31e8435e3da12a1d28642ae5df72c2063c9229c46dc038b1df03e4d5136",
+  "sample": "17previously inspected numeric references on6Chinese report pages from run06",
+  "paid_calls": 0,
+  "model_downloads": 0,
+  "training": false,
+  "actual_ocr_calls": 51,
+  "uses_gold_boxes": true,
+  "posthoc_glyph_condition": true,
+  "engine": "Apple Vision accurate revision3,CPU-only request flag,language correction off,automatic language detection",
+  "execution": "serial local requests; OpenCV/BLAS2thread limits; Vision internal scheduling not exposed",
+  "code_sha256": {
+    "glyph_probe.py": "fdf378960b46323cf30de1f13f2e3395a8bab6f8f42e75ff86c80292cea66b26",
+    "recognize.swift": "0b0e936fd1740a737584abd11c567abeaf49fd0184617e4be8cb13ae33a4814d",
+    "diagnose.py": "580a27ac76eb6ee461057c52ec0481356aed0d5cd589f6571aa688396669440c",
+    "test_geometry.py": "0417ed8d9fe71f002e7bfb7284efbad65dde4037080ddbe9083e2bc5d9de698a"
+  },
+  "commands": [
+    "swiftc code/recognize.swift -o code/recognize",
+    "python code/diagnose.py OPTIONAL_FROZEN_TASKBOOK_PATH",
+    "python code/glyph_probe.py"
+  ],
+  "required_local_inputs": "Licensed source images and evaluation/native OCR outputs from sibling run06; excluded from public archive. Prior detector code is reused only to enumerate original proposals for diagnosis.",
+  "limitations": "Oracle and post hoc diagnostic; no claim of automatic-method accuracy or independent confirmation."
+}

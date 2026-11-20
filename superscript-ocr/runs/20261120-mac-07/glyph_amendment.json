@@ -1,0 +1,6 @@
+{
+  "reason": "Visual audit found sentence punctuation and neighboring glyph fragments inside/adjacent to annotated boxes; isolate only top-aligned numeral components to separate crop contamination from recognition.",
+  "selection": "gray<180 components within annotation, area>=3px; keep components whose top<=minimum component top+2px, visually inspect every final crop; zero source margin, white padding32, scale4",
+  "post_hoc": true,
+  "uses_gold": true
+}
