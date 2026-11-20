@@ -1,0 +1,98 @@
+{
+  "run_id": "20261120-mac-03",
+  "created_at_utc": "2026-11-20T14:28:55.330808+00:00",
+  "stage": "development-only diagnostic; not a new confirmation",
+  "plan": [
+    "Freeze 240-development input IDs and Word hashes.",
+    "Test bounded full-page and tile-consensus translation on synthetic nuisances and local changes.",
+    "Compute raw and aligned pixel/blur residuals on fixed negative and positive conditions.",
+    "Calibrate thresholds on train folds only; evaluate paired out-of-fold detection, FPR by nuisance, class retention, and registration failures.",
+    "Inspect failures, check reusable licensed source candidates, publish allowlisted text artifacts under web-change only."
+  ],
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/网页截图的细微变更分类｜实验任务书_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "inputs": {
+    "development_count": 240,
+    "manifest_sha256": "69039a46818dad1fd301a2a7fb3c73bab57f31c53a95dad994456fa8a58dbba2",
+    "excluded": "Historical155 and all 355 confirmation pairs and 72 confirmation controls. No data expansion."
+  },
+  "registration": [
+    "none",
+    "global_phase",
+    "tile_consensus"
+  ],
+  "registration_rules": {
+    "max_integer_shift": 3,
+    "phase_min_response": 0.2,
+    "tile_grid": [
+      4,
+      4
+    ],
+    "tile_min_gray_std": 3.0,
+    "min_voting_tiles": 3,
+    "min_vote_fraction": 0.6,
+    "min_covered_quadrants": 3,
+    "rounding": "nearest integer; outside allowed range rejected",
+    "fallback": "zero shift; no pair dropped"
+  },
+  "residuals": {
+    "pixel4": "fraction of pixels with max RGB absolute difference >4",
+    "blur8": "same fraction after 3x3 Gaussian blur sigma=.6 with difference threshold >8"
+  },
+  "common_border_exclusion_pixels": 4,
+  "negative_conditions": [
+    "identity",
+    "jpeg95",
+    "shift_x1",
+    "shift_y1",
+    "shift_xy1",
+    "jpeg95_shift_x1"
+  ],
+  "positive_conditions": [
+    "clean",
+    "jpeg95",
+    "shift_x1",
+    "jpeg95_shift_x1"
+  ],
+  "jpeg": {
+    "quality": 95,
+    "subsampling": "Pillow default"
+  },
+  "shift": "integer global shift with replicated border; JPEG before shift in combined condition",
+  "validation": {
+    "folds": 3,
+    "splitter": "StratifiedGroupKFold",
+    "seed": 20261120,
+    "group": "original before-image proxy group; derived cases stay with original",
+    "threshold": "max of per-negative-condition .95 higher quantile on training folds; strict greater-than",
+    "max_target_calibration_fpr_per_condition": 0.05,
+    "notes": "Held-out fold FPR can exceed5%; report observed values. No claim of an unseen-site split."
+  },
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 71,
+    "unit": "original screenshot group",
+    "scope": "descriptive paired intervals conditional on fixed folds and calibrated thresholds; no selection-adjusted inference"
+  },
+  "budget": {
+    "device": "local Mac CPU",
+    "opencv_threads": 1,
+    "BLAS_threads": 1,
+    "paid_api_calls": 0,
+    "rented_compute": false,
+    "original_pairs": 240,
+    "derived_cases": 2400
+  },
+  "scope_limits": [
+    "Development OOF only; 355 already-unblinded confirmation examples untouched.",
+    "Synthetic nuisances are controlled approximations, not real browser regression gold standard.",
+    "A3 is a fixed preprocessing diagnostic, not an established innovation."
+  ],
+  "word_guard": {},
+  "public_export_note": "Machine-specific read-only Word guard paths omitted. Frozen Word version/hash retained. This is a development-only diagnostic, not a formal protocol change.",
+  "local_protocol_sha256": "b97d056e72c51532b0f2fb59054548b15d0c8c9543da4b698e49f0e9cb95d46d"
+}

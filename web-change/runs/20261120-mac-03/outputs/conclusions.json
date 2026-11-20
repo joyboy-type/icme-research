@@ -1,0 +1,28 @@
+{
+  "finding": "Alignment plus fixed smoothing improves development detection under a nominal per-condition5% calibration goal, but sensitivity remains low and observed FPR differs.",
+  "clean_recall": {
+    "global_phase_blur8": 0.25833333333333336,
+    "global_phase_pixel4": 0.06666666666666667,
+    "none_blur8": 0.016666666666666666,
+    "none_pixel4": 0.016666666666666666,
+    "tile_consensus_blur8": 0.225,
+    "tile_consensus_pixel4": 0.0625
+  },
+  "worst_observed_fpr": {
+    "global_phase_blur8": 0.058333333333333334,
+    "global_phase_pixel4": 0.058333333333333334,
+    "none_blur8": 0.07083333333333333,
+    "none_pixel4": 0.04583333333333333,
+    "tile_consensus_blur8": 0.05416666666666667,
+    "tile_consensus_pixel4": 0.05
+  },
+  "critical_failures": [
+    "Clean position, text and rounded recall are0 for both blur8 registration variants.",
+    "Tile consensus accepted one incorrect diagonal capture shift.",
+    "JPEG-only extra detections can be caused by noise."
+  ],
+  "decision": "Development diagnostic only; keep expansion and rental paused. No frontier-model call, new confirmation, or Word change.",
+  "proposed_next_hypothesis": "Use local residual strength/connected regions or a compression-noise model rather than whole-page changed-area fraction; independently develop and verify before selecting a new confirmation.",
+  "data_sources": "Three pinned MIT families identified; dependencies/assets and sufficient independent family coverage still need preparation.",
+  "comparability": "Do not directly compare these development recall figures with the prior355 confirmation4.23% recall: sample split, nuisance set and calibration target differ."
+}

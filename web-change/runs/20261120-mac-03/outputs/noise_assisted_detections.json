@@ -1,0 +1,53 @@
+{
+  "global_phase_blur8": {
+    "detected_only_after_jpeg": 21,
+    "lost_after_jpeg": 0,
+    "jpeg_only_ids": [
+      "235f9e28-5198-4702-9597-896b5cfc9078",
+      "d4085d28-9e4b-4e4a-b422-e689a79471ef",
+      "8ab4fa44-3b16-49ac-bb47-4fc5d6c72f78",
+      "d566df54-01fd-42e8-a060-12d0786adf60",
+      "ed1cc599-4b24-41b5-b629-43f86fac68c8",
+      "cecb2a50-9b97-4631-934b-f45ecbc2581b",
+      "80558f05-76ca-4d87-992d-b4d1ccc5ad05",
+      "a2cdddc7-f153-44fd-9aa2-af828c88c6da",
+      "243854a8-5ad7-44e2-8c03-ccf2b21d1d12",
+      "e6bc2104-f343-4842-8b8c-ef669f82ddcf",
+      "2f7b2cba-098f-43e0-8370-c76874527d8d",
+      "6a28b9e3-f5d1-4f0b-9dc0-79315d7926d0",
+      "4454be42-883c-49a6-975c-0937d4e8b588",
+      "7b9ec938-3d2f-46ff-ab3b-aabc8b640461",
+      "f6fbd17d-906d-429b-9170-85396d54b9af",
+      "016ce0f6-939e-4347-bcff-e0dc38f512f0",
+      "6cda31bf-a375-4e09-a25f-0ac2f582d092",
+      "1873fcdd-fec2-42d1-9863-505bcf4d682d",
+      "65f50f22-2d5a-4e5b-ad06-d573d06bce6b",
+      "5f50607e-c17d-4124-8ad9-c204add390d5",
+      "806fcd9a-b08f-4e18-aab2-11f6b815a2fa"
+    ],
+    "interpretation": "Noise-assisted threshold crossings; not evidence of improved semantic sensitivity."
+  },
+  "tile_consensus_blur8": {
+    "detected_only_after_jpeg": 16,
+    "lost_after_jpeg": 0,
+    "jpeg_only_ids": [
+      "8ab4fa44-3b16-49ac-bb47-4fc5d6c72f78",
+      "d566df54-01fd-42e8-a060-12d0786adf60",
+      "ed1cc599-4b24-41b5-b629-43f86fac68c8",
+      "cecb2a50-9b97-4631-934b-f45ecbc2581b",
+      "80558f05-76ca-4d87-992d-b4d1ccc5ad05",
+      "a2cdddc7-f153-44fd-9aa2-af828c88c6da",
+      "187cf980-5d8b-4e70-9829-5daa7652763e",
+      "e6bc2104-f343-4842-8b8c-ef669f82ddcf",
+      "2e247e40-ab47-40c0-8812-95b767c95c92",
+      "7b9ec938-3d2f-46ff-ab3b-aabc8b640461",
+      "016ce0f6-939e-4347-bcff-e0dc38f512f0",
+      "65f50f22-2d5a-4e5b-ad06-d573d06bce6b",
+      "a5dc0062-63c7-4433-bb95-8b2fb48a7b64",
+      "73ac7086-1be1-40d9-8cbe-d37cff16b592",
+      "e38ebcef-1bbb-4205-8cd9-1bb883841b24",
+      "5f50607e-c17d-4124-8ad9-c204add390d5"
+    ],
+    "interpretation": "Noise-assisted threshold crossings; not evidence of improved semantic sensitivity."
+  }
+}

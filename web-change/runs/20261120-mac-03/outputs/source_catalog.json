@@ -1,0 +1,83 @@
+{
+  "status": "source candidates verified, no benchmark images generated",
+  "sources": [
+    {
+      "source_family": "pico",
+      "repository": "picocss/examples",
+      "repository_url": "https://github.com/picocss/examples",
+      "commit_sha": "b16820790d80d95d0dea55415cf72b75da9cfde1",
+      "source_path": "v2-html-classless/index.html",
+      "source_blob_sha": "364304101eb8c028b81197ac66b8549aba98105c",
+      "source_url": "https://github.com/picocss/examples/blob/b16820790d80d95d0dea55415cf72b75da9cfde1/v2-html-classless/index.html",
+      "license": "MIT",
+      "license_path": "LICENSE.md",
+      "license_blob_sha": "275ca7e9e3ffa3e9b3531656021e0caf8dbc994b",
+      "license_url": "https://github.com/picocss/examples/blob/b16820790d80d95d0dea55415cf72b75da9cfde1/LICENSE.md",
+      "original_source_available": true,
+      "benchmark_ready": false,
+      "external_references_detected": [
+        "https://cdn.j",
+        "https://un",
+        "https://picoc",
+        "https://github.com/picoc"
+      ],
+      "pending": [
+        "Pin or vendor CSS/JS dependencies and browser version.",
+        "Remove or separately verify third-party assets."
+      ],
+      "grouping_rule": "All pages derived from this repository/template family remain in one split; not independent real websites."
+    },
+    {
+      "source_family": "tailblocks",
+      "repository": "mertJF/tailblocks",
+      "repository_url": "https://github.com/mertJF/tailblocks",
+      "commit_sha": "34943e63da6a2d45a55a076ea18312a1c1098957",
+      "source_path": "src/blocks/pricing/light/a.js",
+      "source_blob_sha": "5a5ff36ccbbadc950a0e6ed38c125961d28c3be7",
+      "source_url": "https://github.com/mertJF/tailblocks/blob/34943e63da6a2d45a55a076ea18312a1c1098957/src/blocks/pricing/light/a.js",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_blob_sha": "1185a25f7b139d3403b1a081f8ab29386b3994be",
+      "license_url": "https://github.com/mertJF/tailblocks/blob/34943e63da6a2d45a55a076ea18312a1c1098957/LICENSE",
+      "original_source_available": true,
+      "benchmark_ready": false,
+      "external_references_detected": [],
+      "pending": [
+        "Pin React/Tailwind build dependencies and safelist dynamic color classes.",
+        "Render only a static deterministic component configuration."
+      ],
+      "grouping_rule": "All pages derived from this repository/template family remain in one split; not independent real websites."
+    },
+    {
+      "source_family": "bootstrap",
+      "repository": "StartBootstrap/startbootstrap-bare",
+      "repository_url": "https://github.com/StartBootstrap/startbootstrap-bare",
+      "commit_sha": "9e17b3746e253e04eef809c9b5c8a303cb98ca13",
+      "source_path": "dist/index.html",
+      "source_blob_sha": "534c67e37a01c8ab4a77d05f0f6ec1bbc1bf52af",
+      "source_url": "https://github.com/StartBootstrap/startbootstrap-bare/blob/9e17b3746e253e04eef809c9b5c8a303cb98ca13/dist/index.html",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_blob_sha": "5ff52f416ad2c5d5f875a44712cd0f5517904ed6",
+      "license_url": "https://github.com/StartBootstrap/startbootstrap-bare/blob/9e17b3746e253e04eef809c9b5c8a303cb98ca13/LICENSE",
+      "original_source_available": true,
+      "benchmark_ready": false,
+      "external_references_detected": [
+        "https://cdn.j"
+      ],
+      "pending": [
+        "Pin or vendor CSS/JS dependencies and browser version.",
+        "Remove or separately verify third-party assets."
+      ],
+      "grouping_rule": "All pages derived from this repository/template family remain in one split; not independent real websites."
+    }
+  ],
+  "scope": "Three MIT code/template families with immutable source identifiers; no claim of real-website isolation or sufficient benchmark coverage.",
+  "requirements_before_new_confirmation": [
+    "Expand to enough independently authored template families for train/development/confirmation; retain whole-family separation.",
+    "Preserve code copyright notices and independently check external image/font assets.",
+    "Pin browser, viewport, dependencies and source URL/commit/path; use local deterministic assets.",
+    "Define 13 CSS changes with computed-style and pixel support checks, include no-change and nuisance pairs.",
+    "Freeze generation and split policy before generating and scoring a new confirmation set."
+  ]
+}

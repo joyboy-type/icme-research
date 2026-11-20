@@ -1,0 +1,41 @@
+{
+  "id": "20261120-mac-03",
+  "type": "development-only anti-nuisance diagnostic",
+  "taskbook_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/网页截图的细微变更分类｜实验任务书_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_policy": "FROZEN; no Word was edited, overwritten or saved as a new version.",
+  "device": "Apple M4 CPU",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.1",
+    "opencv-python": "4.9.0.80",
+    "Pillow": "10.4.0"
+  },
+  "scope": "240 original development pairs; 3-fold OOF, no independent confirmation and no website-isolation claim",
+  "originals": 240,
+  "derived_cases": 2400,
+  "score_rows": 14400,
+  "wall_seconds": 259.2062208330026,
+  "rented_compute": false,
+  "paid_api_calls": 0,
+  "decision": "Local-development signal only. Do not expand or rent GPUs. No usable detector or site-isolation claim. Position/text/rounded clean recall remains0; observed FPR differs between methods.",
+  "limitations": [
+    "Known synthetic nuisances, integer capture shifts<=3px, 4px border excluded.",
+    "All results development OOF; no independent confirmation.",
+    "Nominal5% calibration target is not equal observed FPR.",
+    "Conditional bootstrap ignores threshold-training variation and multiple-variant selection.",
+    "JPEG-driven extra detections can be noise assisted."
+  ],
+  "completed_at_utc": "2026-11-20T14:39:53.339193+00:00",
+  "status": "complete_development_diagnostic",
+  "protocol": "protocol.json",
+  "local_protocol_sha256": "b97d056e72c51532b0f2fb59054548b15d0c8c9543da4b698e49f0e9cb95d46d",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/run_pilot.py --project /path/to/restored-web-change",
+  "data_note": "Restore only the240 development images listed in inputs/development_manifest.json from the official DiffSpot revision. Original images and full logs are retained locally.",
+  "results_note": "Per-method CSV files retain all240 original-level OOF decisions for all10 conditions plus clean scores/thresholds. Full per-case alignment logs are local only."
+}

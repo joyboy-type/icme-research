@@ -1,0 +1,79 @@
+{
+  "global_phase_pixel4": {
+    "shift_x1": {
+      "n": 240,
+      "known_shift_correct": 240,
+      "accepted_wrong_shift": 0,
+      "reasons": {
+        "accepted": 240
+      }
+    },
+    "shift_y1": {
+      "n": 240,
+      "known_shift_correct": 240,
+      "accepted_wrong_shift": 0,
+      "reasons": {
+        "accepted": 240
+      }
+    },
+    "shift_xy1": {
+      "n": 240,
+      "known_shift_correct": 240,
+      "accepted_wrong_shift": 0,
+      "reasons": {
+        "accepted": 240
+      }
+    },
+    "jpeg95_shift_x1": {
+      "n": 240,
+      "known_shift_correct": 240,
+      "accepted_wrong_shift": 0,
+      "reasons": {
+        "accepted": 240
+      }
+    }
+  },
+  "tile_consensus_pixel4": {
+    "shift_x1": {
+      "n": 240,
+      "known_shift_correct": 232,
+      "accepted_wrong_shift": 0,
+      "reasons": {
+        "accepted": 232,
+        "localized_support": 6,
+        "zero_estimate": 1,
+        "no_consensus": 1
+      }
+    },
+    "shift_y1": {
+      "n": 240,
+      "known_shift_correct": 233,
+      "accepted_wrong_shift": 0,
+      "reasons": {
+        "accepted": 233,
+        "localized_support": 7
+      }
+    },
+    "shift_xy1": {
+      "n": 240,
+      "known_shift_correct": 231,
+      "accepted_wrong_shift": 1,
+      "reasons": {
+        "accepted": 232,
+        "localized_support": 7,
+        "no_consensus": 1
+      }
+    },
+    "jpeg95_shift_x1": {
+      "n": 240,
+      "known_shift_correct": 232,
+      "accepted_wrong_shift": 0,
+      "reasons": {
+        "accepted": 232,
+        "localized_support": 6,
+        "zero_estimate": 1,
+        "no_consensus": 1
+      }
+    }
+  }
+}
