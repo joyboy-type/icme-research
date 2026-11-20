@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-11-20T17:52:38.603Z",
+  "hashes": {
+    "protocol.json": "b81be541e07e7dd184db549fef786fe513770b13dbc13c329418a8f3c282a5b4",
+    "source_specs.json": "e5828067c473d2a506ebc0f681e812c45c127e6bffdfe72f00775820a6433dee",
+    "code/capture.mjs": "d2b79cb05af50bc2f3b61115690cd8bef3d5498ba4b2623b049dfe55019710bc",
+    "code/contract.mjs": "3d4e29bab00f1dfe97e8ba2bd400601b7160c1b2b5eb67f06d0b361ae277ebe3"
+  }
+}

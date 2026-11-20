@@ -1,0 +1,198 @@
+{
+  "cases": [
+    {
+      "id": "simple_disabled",
+      "repository": "kevquirk/simple.css",
+      "project_group": "kevquirk/simple.css",
+      "fixture_family": "cbracco/html5-test-page-derived",
+      "commit": "5a9740742420f6b92ae6879425990fd20250390a",
+      "parent_commit": "71641c3856c561fd43a8fec11ef906d179fdd354",
+      "title": "[input] fix contrast issue on disabled buttons",
+      "date": "2022-12-24T17:35:47Z",
+      "license": "MIT",
+      "entry": "index.html",
+      "target": "#forms__action",
+      "theme_action": "none",
+      "versions": [
+        {
+          "name": "before",
+          "commit": "71641c3856c561fd43a8fec11ef906d179fdd354",
+          "files": [
+            {
+              "path": "index.html",
+              "blob_sha": "1039ca7e83e56614e570bb822c96f936325758b4",
+              "size": 33270
+            },
+            {
+              "path": "simple.css",
+              "blob_sha": "0c222d4db804890b31e3f1e0f3f3ee2cff614f45",
+              "size": 11246
+            },
+            {
+              "path": "LICENSE",
+              "blob_sha": "c496ecf45e92d5d7b79fc976afcedf9bd1221e7e",
+              "size": 1079
+            }
+          ]
+        },
+        {
+          "name": "after",
+          "commit": "5a9740742420f6b92ae6879425990fd20250390a",
+          "files": [
+            {
+              "path": "index.html",
+              "blob_sha": "1039ca7e83e56614e570bb822c96f936325758b4",
+              "size": 33270
+            },
+            {
+              "path": "simple.css",
+              "blob_sha": "1d90d97b9d1cb98cde5d43626f6b5bd809f7d309",
+              "size": 11275
+            },
+            {
+              "path": "LICENSE",
+              "blob_sha": "c496ecf45e92d5d7b79fc976afcedf9bd1221e7e",
+              "size": 1079
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simple_border",
+      "repository": "kevquirk/simple.css",
+      "project_group": "kevquirk/simple.css",
+      "fixture_family": "cbracco/html5-test-page-derived",
+      "commit": "166419c24a712c072d492b72e07e4564729af03f",
+      "parent_commit": "74f69aa84476f69dcdae13467289da0725c970cd",
+      "title": "[css] >3:1 contrast ratio for border color",
+      "date": "2022-09-23T15:58:39Z",
+      "license": "MIT",
+      "entry": "index.html",
+      "target": "#forms__action",
+      "theme_action": "none",
+      "versions": [
+        {
+          "name": "before",
+          "commit": "74f69aa84476f69dcdae13467289da0725c970cd",
+          "files": [
+            {
+              "path": "index.html",
+              "blob_sha": "e76a3ff7be450bc30e918b8ef9febf6788dfe460",
+              "size": 30268
+            },
+            {
+              "path": "simple.css",
+              "blob_sha": "861269247f256578c9b55f3f0cf9926056b2e953",
+              "size": 11303
+            },
+            {
+              "path": "LICENSE",
+              "blob_sha": "c496ecf45e92d5d7b79fc976afcedf9bd1221e7e",
+              "size": 1079
+            }
+          ]
+        },
+        {
+          "name": "after",
+          "commit": "166419c24a712c072d492b72e07e4564729af03f",
+          "files": [
+            {
+              "path": "index.html",
+              "blob_sha": "e76a3ff7be450bc30e918b8ef9febf6788dfe460",
+              "size": 30268
+            },
+            {
+              "path": "simple.css",
+              "blob_sha": "919990f23a03d1e3c161115b78c0e8b64e7d6189",
+              "size": 11283
+            },
+            {
+              "path": "LICENSE",
+              "blob_sha": "c496ecf45e92d5d7b79fc976afcedf9bd1221e7e",
+              "size": 1079
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sakura_earthly",
+      "repository": "oxalorg/sakura",
+      "project_group": "oxalorg/sakura",
+      "fixture_family": "cbracco/html5-test-page-derived",
+      "commit": "3feda2f06e6c7721688aa09b7923a794e23e3f14",
+      "parent_commit": "2fb9de845d34cf18a1b347ddc7512edb6eb2ab45",
+      "title": "feat: sakura earthly contrast accessible colors",
+      "date": "2020-09-23T07:21:38Z",
+      "license": "MIT",
+      "entry": "test.html",
+      "target": "#forms__action",
+      "theme_action": "upstream_switch_once",
+      "versions": [
+        {
+          "name": "before",
+          "commit": "2fb9de845d34cf18a1b347ddc7512edb6eb2ab45",
+          "files": [
+            {
+              "path": "test.html",
+              "blob_sha": "cda50525835d32810c04bd232fc052a8f825ee0a",
+              "size": 24722
+            },
+            {
+              "path": "css/normalize.css",
+              "blob_sha": "9b77e0eb4d9f82c934b0fc011c26e429c4036aab",
+              "size": 8053
+            },
+            {
+              "path": "css/sakura.css",
+              "blob_sha": "bb166f067f9612d5e66dc7fb36f9fa70afedc456",
+              "size": 3915
+            },
+            {
+              "path": "css/sakura-earthly.css",
+              "blob_sha": "93cff8265630cbc45347cd5c353fb50a74216eb6",
+              "size": 3916
+            },
+            {
+              "path": "LICENSE.txt",
+              "blob_sha": "5c6f3e4dd655abfe37cceffe8e2e94249453257d",
+              "size": 1068
+            }
+          ]
+        },
+        {
+          "name": "after",
+          "commit": "3feda2f06e6c7721688aa09b7923a794e23e3f14",
+          "files": [
+            {
+              "path": "test.html",
+              "blob_sha": "cda50525835d32810c04bd232fc052a8f825ee0a",
+              "size": 24722
+            },
+            {
+              "path": "css/normalize.css",
+              "blob_sha": "9b77e0eb4d9f82c934b0fc011c26e429c4036aab",
+              "size": 8053
+            },
+            {
+              "path": "css/sakura.css",
+              "blob_sha": "bb166f067f9612d5e66dc7fb36f9fa70afedc456",
+              "size": 3915
+            },
+            {
+              "path": "css/sakura-earthly.css",
+              "blob_sha": "4e172bae89fcad07a708acf956779d27eebfbb6c",
+              "size": 3922
+            },
+            {
+              "path": "LICENSE.txt",
+              "blob_sha": "5c6f3e4dd655abfe37cceffe8e2e94249453257d",
+              "size": 1068
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

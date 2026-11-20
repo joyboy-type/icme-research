@@ -1,0 +1,230 @@
+[
+  {
+    "id": "simple_disabled",
+    "rep": 1,
+    "before_path": "data/contrast-source-03/captures/simple_disabled_before_1.png",
+    "after_path": "data/contrast-source-03/captures/simple_disabled_after_1.png",
+    "matched_semantic_state_and_geometry": true,
+    "before_commit": "71641c3856c561fd43a8fec11ef906d179fdd354",
+    "after_commit": "5a9740742420f6b92ae6879425990fd20250390a",
+    "before_shape": [
+      343,
+      684,
+      3
+    ],
+    "after_shape": [
+      343,
+      684,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "cedc2127e7c283f500085c6d623cfe5d70a1abbe0843cfecc890471e423cc3be",
+    "after_pixel_sha256": "cd47f85f592fdb14f0e3442f2774aa73aab7f02dd64826c5406173f9991ae3bb",
+    "overlap_changed_pixels": 12522,
+    "overlap_changed_gt4": 12512,
+    "overlap_shape": [
+      343,
+      684
+    ],
+    "overlap_max_delta": 167,
+    "changed_pixels": 12522,
+    "changed_gt4": 12512,
+    "changed_fraction": 0.05337322899084446,
+    "bbox_xyxy": [
+      17,
+      127,
+      173,
+      299
+    ]
+  },
+  {
+    "id": "simple_disabled",
+    "rep": 2,
+    "before_path": "data/contrast-source-03/captures/simple_disabled_before_2.png",
+    "after_path": "data/contrast-source-03/captures/simple_disabled_after_2.png",
+    "matched_semantic_state_and_geometry": true,
+    "before_commit": "71641c3856c561fd43a8fec11ef906d179fdd354",
+    "after_commit": "5a9740742420f6b92ae6879425990fd20250390a",
+    "before_shape": [
+      343,
+      684,
+      3
+    ],
+    "after_shape": [
+      343,
+      684,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "cedc2127e7c283f500085c6d623cfe5d70a1abbe0843cfecc890471e423cc3be",
+    "after_pixel_sha256": "cd47f85f592fdb14f0e3442f2774aa73aab7f02dd64826c5406173f9991ae3bb",
+    "overlap_changed_pixels": 12522,
+    "overlap_changed_gt4": 12512,
+    "overlap_shape": [
+      343,
+      684
+    ],
+    "overlap_max_delta": 167,
+    "changed_pixels": 12522,
+    "changed_gt4": 12512,
+    "changed_fraction": 0.05337322899084446,
+    "bbox_xyxy": [
+      17,
+      127,
+      173,
+      299
+    ]
+  },
+  {
+    "id": "simple_border",
+    "rep": 1,
+    "before_path": "data/contrast-source-03/captures/simple_border_before_1.png",
+    "after_path": "data/contrast-source-03/captures/simple_border_after_1.png",
+    "matched_semantic_state_and_geometry": true,
+    "before_commit": "74f69aa84476f69dcdae13467289da0725c970cd",
+    "after_commit": "166419c24a712c072d492b72e07e4564729af03f",
+    "before_shape": [
+      343,
+      684,
+      3
+    ],
+    "after_shape": [
+      343,
+      684,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "b1c39c2857e29a716865bdca721f55523f088e4b0d79fa39974bd829edfd48cc",
+    "after_pixel_sha256": "2c106ecb80e9a49adf84e2d8bec3ae5bef31018d4aaec8b218a4999f95dd7174",
+    "overlap_changed_pixels": 1916,
+    "overlap_changed_gt4": 1904,
+    "overlap_shape": [
+      343,
+      684
+    ],
+    "overlap_max_delta": 79,
+    "changed_pixels": 1916,
+    "changed_gt4": 1904,
+    "changed_fraction": 0.00816667519137981,
+    "bbox_xyxy": [
+      0,
+      14,
+      684,
+      342
+    ]
+  },
+  {
+    "id": "simple_border",
+    "rep": 2,
+    "before_path": "data/contrast-source-03/captures/simple_border_before_2.png",
+    "after_path": "data/contrast-source-03/captures/simple_border_after_2.png",
+    "matched_semantic_state_and_geometry": true,
+    "before_commit": "74f69aa84476f69dcdae13467289da0725c970cd",
+    "after_commit": "166419c24a712c072d492b72e07e4564729af03f",
+    "before_shape": [
+      343,
+      684,
+      3
+    ],
+    "after_shape": [
+      343,
+      684,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "b1c39c2857e29a716865bdca721f55523f088e4b0d79fa39974bd829edfd48cc",
+    "after_pixel_sha256": "2c106ecb80e9a49adf84e2d8bec3ae5bef31018d4aaec8b218a4999f95dd7174",
+    "overlap_changed_pixels": 1916,
+    "overlap_changed_gt4": 1904,
+    "overlap_shape": [
+      343,
+      684
+    ],
+    "overlap_max_delta": 79,
+    "changed_pixels": 1916,
+    "changed_gt4": 1904,
+    "changed_fraction": 0.00816667519137981,
+    "bbox_xyxy": [
+      0,
+      14,
+      684,
+      342
+    ]
+  },
+  {
+    "id": "sakura_earthly",
+    "rep": 1,
+    "before_path": "data/contrast-source-03/captures/sakura_earthly_before_1.png",
+    "after_path": "data/contrast-source-03/captures/sakura_earthly_after_1.png",
+    "matched_semantic_state_and_geometry": true,
+    "before_commit": "2fb9de845d34cf18a1b347ddc7512edb6eb2ab45",
+    "after_commit": "3feda2f06e6c7721688aa09b7923a794e23e3f14",
+    "before_shape": [
+      257,
+      680,
+      3
+    ],
+    "after_shape": [
+      257,
+      680,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "312f208f34b3c36ebe9da29ef63a454fbb3288dbc062fbe94fe761429fb8a5ac",
+    "after_pixel_sha256": "230e73d43ac2814a9921b4376c8c5e006b35cd6697597dc288ac2eec41964eaa",
+    "overlap_changed_pixels": 43794,
+    "overlap_changed_gt4": 41247,
+    "overlap_shape": [
+      257,
+      680
+    ],
+    "overlap_max_delta": 22,
+    "changed_pixels": 43794,
+    "changed_gt4": 41247,
+    "changed_fraction": 0.25059510185397116,
+    "bbox_xyxy": [
+      12,
+      41,
+      592,
+      217
+    ]
+  },
+  {
+    "id": "sakura_earthly",
+    "rep": 2,
+    "before_path": "data/contrast-source-03/captures/sakura_earthly_before_2.png",
+    "after_path": "data/contrast-source-03/captures/sakura_earthly_after_2.png",
+    "matched_semantic_state_and_geometry": true,
+    "before_commit": "2fb9de845d34cf18a1b347ddc7512edb6eb2ab45",
+    "after_commit": "3feda2f06e6c7721688aa09b7923a794e23e3f14",
+    "before_shape": [
+      257,
+      680,
+      3
+    ],
+    "after_shape": [
+      257,
+      680,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "312f208f34b3c36ebe9da29ef63a454fbb3288dbc062fbe94fe761429fb8a5ac",
+    "after_pixel_sha256": "230e73d43ac2814a9921b4376c8c5e006b35cd6697597dc288ac2eec41964eaa",
+    "overlap_changed_pixels": 43794,
+    "overlap_changed_gt4": 41247,
+    "overlap_shape": [
+      257,
+      680
+    ],
+    "overlap_max_delta": 22,
+    "changed_pixels": 43794,
+    "changed_gt4": 41247,
+    "changed_fraction": 0.25059510185397116,
+    "bbox_xyxy": [
+      12,
+      41,
+      592,
+      217
+    ]
+  }
+]

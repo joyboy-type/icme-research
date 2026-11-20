@@ -1,0 +1,226 @@
+[
+  {
+    "case": "simple_disabled",
+    "source_before_commit": "71641c3856c561fd43a8fec11ef906d179fdd354",
+    "source_after_commit": "5a9740742420f6b92ae6879425990fd20250390a",
+    "browser_version": "158.0.8127.36",
+    "before_after_same_semantic_state_and_geometry": true,
+    "target_dimensions": [
+      684,
+      341.28125
+    ],
+    "target_font_families": [
+      "-apple-system, \"system-ui\", \"Avenir Next\", Avenir, \"Nimbus Sans L\", Roboto, \"Noto Sans\", \"Segoe UI\", Arial, Helvetica, \"Helvetica Neue\", sans-serif",
+      "Arial"
+    ],
+    "changed_control_styles": [
+      {
+        "control_index": 3,
+        "tag": "INPUT",
+        "type": "submit",
+        "disabled": true,
+        "properties": {
+          "color": {
+            "before": "rgb(255, 255, 255)",
+            "after": "rgb(88, 88, 88)"
+          },
+          "borderColor": {
+            "before": "rgb(255, 255, 255)",
+            "after": "rgb(88, 88, 88)"
+          },
+          "opacity": {
+            "before": "0.5",
+            "after": "1"
+          }
+        }
+      },
+      {
+        "control_index": 7,
+        "tag": "BUTTON",
+        "type": "button",
+        "disabled": true,
+        "properties": {
+          "color": {
+            "before": "rgb(255, 255, 255)",
+            "after": "rgb(88, 88, 88)"
+          },
+          "backgroundColor": {
+            "before": "rgb(13, 71, 161)",
+            "after": "rgb(239, 239, 239)"
+          },
+          "borderColor": {
+            "before": "rgb(255, 255, 255)",
+            "after": "rgb(88, 88, 88)"
+          },
+          "opacity": {
+            "before": "0.5",
+            "after": "1"
+          }
+        }
+      }
+    ],
+    "scope": "Computed source styles are evidence, not a WCAG compliance or perception score. Fieldset boundary colors may change without per-control style change."
+  },
+  {
+    "case": "simple_border",
+    "source_before_commit": "74f69aa84476f69dcdae13467289da0725c970cd",
+    "source_after_commit": "166419c24a712c072d492b72e07e4564729af03f",
+    "browser_version": "158.0.8127.36",
+    "before_after_same_semantic_state_and_geometry": true,
+    "target_dimensions": [
+      684,
+      341.28125
+    ],
+    "target_font_families": [
+      "-apple-system, \"system-ui\", \"Avenir Next\", Avenir, \"Nimbus Sans L\", Roboto, \"Noto Sans\", \"Segoe UI\", Arial, Helvetica, \"Helvetica Neue\", sans-serif",
+      "Arial"
+    ],
+    "changed_control_styles": [],
+    "scope": "Computed source styles are evidence, not a WCAG compliance or perception score. Fieldset boundary colors may change without per-control style change."
+  },
+  {
+    "case": "sakura_earthly",
+    "source_before_commit": "2fb9de845d34cf18a1b347ddc7512edb6eb2ab45",
+    "source_after_commit": "3feda2f06e6c7721688aa09b7923a794e23e3f14",
+    "browser_version": "158.0.8127.36",
+    "before_after_same_semantic_state_and_geometry": true,
+    "target_dimensions": [
+      680,
+      255.65625
+    ],
+    "target_font_families": [
+      "sans-serif"
+    ],
+    "changed_control_styles": [
+      {
+        "control_index": 0,
+        "tag": "INPUT",
+        "type": "submit",
+        "disabled": false,
+        "properties": {
+          "backgroundColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          },
+          "borderColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          }
+        }
+      },
+      {
+        "control_index": 1,
+        "tag": "INPUT",
+        "type": "button",
+        "disabled": false,
+        "properties": {
+          "backgroundColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          },
+          "borderColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          }
+        }
+      },
+      {
+        "control_index": 2,
+        "tag": "INPUT",
+        "type": "reset",
+        "disabled": false,
+        "properties": {
+          "backgroundColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          },
+          "borderColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          }
+        }
+      },
+      {
+        "control_index": 3,
+        "tag": "INPUT",
+        "type": "submit",
+        "disabled": true,
+        "properties": {
+          "backgroundColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          },
+          "borderColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          }
+        }
+      },
+      {
+        "control_index": 4,
+        "tag": "BUTTON",
+        "type": "submit",
+        "disabled": false,
+        "properties": {
+          "backgroundColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          },
+          "borderColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          }
+        }
+      },
+      {
+        "control_index": 5,
+        "tag": "BUTTON",
+        "type": "button",
+        "disabled": false,
+        "properties": {
+          "backgroundColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          },
+          "borderColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          }
+        }
+      },
+      {
+        "control_index": 6,
+        "tag": "BUTTON",
+        "type": "reset",
+        "disabled": false,
+        "properties": {
+          "backgroundColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          },
+          "borderColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          }
+        }
+      },
+      {
+        "control_index": 7,
+        "tag": "BUTTON",
+        "type": "button",
+        "disabled": true,
+        "properties": {
+          "backgroundColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          },
+          "borderColor": {
+            "before": "rgb(0, 139, 106)",
+            "after": "rgb(0, 117, 89)"
+          }
+        }
+      }
+    ],
+    "scope": "Computed source styles are evidence, not a WCAG compliance or perception score. Fieldset boundary colors may change without per-control style change."
+  }
+]

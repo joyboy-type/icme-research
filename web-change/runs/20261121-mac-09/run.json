@@ -1,0 +1,25 @@
+{
+  "id": "20261121-mac-09",
+  "status": "complete_bounded_matched_source_audit_gate_stop",
+  "scope": "Bounded cross-project real contrast-change source audit with source-version-matched fresh capture controls; no training, tuning or GPU.",
+  "protocol": "protocol.json",
+  "protocol_sha256": "b81be541e07e7dd184db549fef786fe513770b13dbc13c329418a8f3c282a5b4",
+  "taskbook_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/\u7f51\u9875\u622a\u56fe\u7684\u7ec6\u5fae\u53d8\u66f4\u5206\u7c7b\uff5c\u5b9e\u9a8c\u4efb\u52a1\u4e66_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_unchanged_verified": true,
+  "new_projects_replayed": 2,
+  "new_real_source_commits_replayed": 3,
+  "independent_fixture_families": 1,
+  "candidate_labels": "outputs/candidate_labels.json",
+  "matched_repeat_pairs": 6,
+  "comparison_gate": "outputs/comparison_gate.json",
+  "decision": "Retain version-matched real CSS project contrast candidates and repeat controls; stop before detector evaluation because only one independent fixture family remains.",
+  "training_or_tuning": false,
+  "paid_api_calls": 0,
+  "rented_compute": false,
+  "verification": "outputs/verification.json"
+}

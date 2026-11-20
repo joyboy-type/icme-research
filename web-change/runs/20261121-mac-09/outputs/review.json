@@ -1,0 +1,11 @@
+{
+  "important_implementation_issues_unresolved": [],
+  "independent_review": "Source versions, locks, capture isolation, required response hashes and candidate scope reviewed.",
+  "conclusions": [
+    "12 distinct launch IDs, one Chrome version;6 identical same-version repeat pairs.",
+    "All3 cases have equal semantic state/font declarations/geometry across source versions.",
+    "Contrast-change candidates supported with subtype restrictions; not atomic13 or human gold labels.",
+    "One shared cbracco fixture family; do not run detector/JPEG comparison.",
+    "Water historical build not run, not a failed build."
+  ]
+}

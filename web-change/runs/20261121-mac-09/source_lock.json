@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-11-20T17:50:11.510526+00:00",
+  "hashes": {
+    "runs/20261121-mac-09/protocol.json": "b81be541e07e7dd184db549fef786fe513770b13dbc13c329418a8f3c282a5b4",
+    "runs/20261121-mac-09/source_specs.json": "e5828067c473d2a506ebc0f681e812c45c127e6bffdfe72f00775820a6433dee",
+    "runs/20261121-mac-09/code/acquire.py": "c2f32fee3f247e66606101f1480f1cee9c3198928af1f3bac3da3f3b061aa606",
+    "runs/20261121-mac-07/code/acquire_pairs.py": "5d3ab10f271a2fa66c2774063b892ac6a51e8cb8d46dd9138c582d50d7b2f866",
+    "runs/20261121-mac-07/code/pair_audit.py": "da0bc20657dc1224d38bad1384ebafbc0fe80120b9ec3f27c83b88548a0b99e4"
+  }
+}

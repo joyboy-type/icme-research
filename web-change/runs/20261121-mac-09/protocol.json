@@ -1,0 +1,86 @@
+{
+  "run_id": "20261121-mac-09",
+  "scope": "Bounded cross-project real contrast-change source audit with source-version-matched fresh capture controls; no training, tuning or GPU.",
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/网页截图的细微变更分类｜实验任务书_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_guard": {},
+  "candidate_cases": [
+    {
+      "id": "simple_disabled",
+      "repository": "kevquirk/simple.css",
+      "commit": "5a9740742420f6b92ae6879425990fd20250390a",
+      "fixture": "index.html",
+      "target": "#forms__action",
+      "state": "disabled/enabled native controls, light mode, pointer outside target"
+    },
+    {
+      "id": "simple_border",
+      "repository": "kevquirk/simple.css",
+      "commit": "166419c24a712c072d492b72e07e4564729af03f",
+      "fixture": "index.html",
+      "target": "#forms__action",
+      "state": "native controls and fieldset boundary, light mode, pointer outside target"
+    },
+    {
+      "id": "sakura_earthly",
+      "repository": "oxalorg/sakura",
+      "commit": "3feda2f06e6c7721688aa09b7923a794e23e3f14",
+      "fixture": "test.html",
+      "target": "#forms__action",
+      "state": "Click upstream Switch theme button once to select earthly; source-supported UI action, no CSS/DOM injection"
+    }
+  ],
+  "capture": {
+    "viewport": [
+      1280,
+      1000
+    ],
+    "device_scale_factor": 1,
+    "locale": "en-US",
+    "timezone": "Asia/Shanghai",
+    "color_scheme": "light",
+    "browser": "Existing installed Google Chrome, same binary/version for all captures",
+    "repetitions_per_version": 2,
+    "independence": "Fresh browser process and context for every counted image, no PNG reuse.",
+    "version_rule": "Use exact Git commit and first parent, verified original test HTML/CSS. Captured target states match between versions and repeats.",
+    "region_rule": "Capture original upstream action-controls fieldset only. Selector fixed before pixel results; do not move crop to optimize scores.",
+    "network_policy": "Only verified local HTML/CSS resources allowed. External images/media/iframes from unrelated demo sections blocked and explicitly excluded from evidence. Reject if captured fieldset contains external media or active style/script dependencies are missing.",
+    "expected_assets": "Simple index+simple.css; Sakura test+normalize.css+default CSS+earthly CSS. Record all requests, including fetch/xhr and failed requests; required asset responses must match source hashes.",
+    "font_rule": "Original stylesheet system fonts; document.fonts loaded; record computed fonts on target controls.",
+    "state_checks": [
+      "Same target dimensions and document/element state across captures",
+      "Same active theme, focus and pointer policy",
+      "No active CSS transition/animation at screenshot; screenshot animations disabled"
+    ],
+    "max_captures": 12
+  },
+  "source_grouping": {
+    "project_groups": "Repository is minimum shared unit; all commits in a repo grouped.",
+    "fixture_families": "Merge shared upstream test-page families, even across different repositories. Simple and Sakura both credit cbracco/html5-test-page; verify before declaring cross-source independence."
+  },
+  "annotation_policy": "Use source diffs plus pixels/computed target styles; keep contrast-change candidate or exclude mixed/no-visible states. No certified human gold labels inferred from commit titles.",
+  "comparison_gate": {
+    "must_have": [
+      "At least3 independent project/fixture groups with visible source-verified changes",
+      "At least1 independently reviewed contrast change per retained group",
+      "Version/browser/viewport/font/state-matched independent repeat controls, complete target resource checks",
+      "A source-isolated development/confirmation assignment frozen before scoring"
+    ],
+    "if_fail": "Do not run pixel/edge detector evaluation, choose thresholds, train, or use opened419. Pixel difference validation alone is source evidence, not a benchmark score."
+  },
+  "limits": {
+    "max_source_repositories_queried": 4,
+    "max_real_commits_inspected": 6,
+    "max_replayed_cases": 3,
+    "max_counted_images": 12,
+    "new_dependency_installations": 0,
+    "paid_calls": 0,
+    "rented_compute": false
+  },
+  "excluded": "No opened419,355,155 or72 controls for selection/tuning; prior runs unchanged. No synthetic CSS-property injection.",
+  "scope_limit": "Original stylesheet test fixtures and real upstream changes are project-level evidence, not independent production websites."
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "simple_disabled",
+    "version": "before",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/simple_disabled_before_1.png",
+    "b": "data/contrast-source-03/captures/simple_disabled_before_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      343,
+      684,
+      3
+    ],
+    "after_shape": [
+      343,
+      684,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "cedc2127e7c283f500085c6d623cfe5d70a1abbe0843cfecc890471e423cc3be",
+    "after_pixel_sha256": "cedc2127e7c283f500085c6d623cfe5d70a1abbe0843cfecc890471e423cc3be",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      343,
+      684
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  },
+  {
+    "id": "simple_disabled",
+    "version": "after",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/simple_disabled_after_1.png",
+    "b": "data/contrast-source-03/captures/simple_disabled_after_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      343,
+      684,
+      3
+    ],
+    "after_shape": [
+      343,
+      684,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "cd47f85f592fdb14f0e3442f2774aa73aab7f02dd64826c5406173f9991ae3bb",
+    "after_pixel_sha256": "cd47f85f592fdb14f0e3442f2774aa73aab7f02dd64826c5406173f9991ae3bb",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      343,
+      684
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  },
+  {
+    "id": "simple_border",
+    "version": "before",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/simple_border_before_1.png",
+    "b": "data/contrast-source-03/captures/simple_border_before_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      343,
+      684,
+      3
+    ],
+    "after_shape": [
+      343,
+      684,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "b1c39c2857e29a716865bdca721f55523f088e4b0d79fa39974bd829edfd48cc",
+    "after_pixel_sha256": "b1c39c2857e29a716865bdca721f55523f088e4b0d79fa39974bd829edfd48cc",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      343,
+      684
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  },
+  {
+    "id": "simple_border",
+    "version": "after",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/simple_border_after_1.png",
+    "b": "data/contrast-source-03/captures/simple_border_after_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      343,
+      684,
+      3
+    ],
+    "after_shape": [
+      343,
+      684,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "2c106ecb80e9a49adf84e2d8bec3ae5bef31018d4aaec8b218a4999f95dd7174",
+    "after_pixel_sha256": "2c106ecb80e9a49adf84e2d8bec3ae5bef31018d4aaec8b218a4999f95dd7174",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      343,
+      684
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  },
+  {
+    "id": "sakura_earthly",
+    "version": "before",
+    "project": "oxalorg/sakura",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/sakura_earthly_before_1.png",
+    "b": "data/contrast-source-03/captures/sakura_earthly_before_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      257,
+      680,
+      3
+    ],
+    "after_shape": [
+      257,
+      680,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "312f208f34b3c36ebe9da29ef63a454fbb3288dbc062fbe94fe761429fb8a5ac",
+    "after_pixel_sha256": "312f208f34b3c36ebe9da29ef63a454fbb3288dbc062fbe94fe761429fb8a5ac",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      257,
+      680
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  },
+  {
+    "id": "sakura_earthly",
+    "version": "after",
+    "project": "oxalorg/sakura",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/sakura_earthly_after_1.png",
+    "b": "data/contrast-source-03/captures/sakura_earthly_after_2.png",
+    "valid": true,
+    "reasons": [],
+    "before_shape": [
+      257,
+      680,
+      3
+    ],
+    "after_shape": [
+      257,
+      680,
+      3
+    ],
+    "same_geometry": true,
+    "before_pixel_sha256": "230e73d43ac2814a9921b4376c8c5e006b35cd6697597dc288ac2eec41964eaa",
+    "after_pixel_sha256": "230e73d43ac2814a9921b4376c8c5e006b35cd6697597dc288ac2eec41964eaa",
+    "overlap_changed_pixels": 0,
+    "overlap_changed_gt4": 0,
+    "overlap_shape": [
+      257,
+      680
+    ],
+    "overlap_max_delta": 0,
+    "changed_pixels": 0,
+    "changed_gt4": 0,
+    "changed_fraction": 0.0,
+    "bbox_xyxy": null
+  }
+]

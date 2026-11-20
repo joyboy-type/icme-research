@@ -1,0 +1,62 @@
+[
+  {
+    "id": "simple_disabled",
+    "version": "before",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/simple_disabled_before_1.png",
+    "b": "data/contrast-source-03/captures/simple_disabled_before_2.png",
+    "valid": true,
+    "reasons": []
+  },
+  {
+    "id": "simple_disabled",
+    "version": "after",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/simple_disabled_after_1.png",
+    "b": "data/contrast-source-03/captures/simple_disabled_after_2.png",
+    "valid": true,
+    "reasons": []
+  },
+  {
+    "id": "simple_border",
+    "version": "before",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/simple_border_before_1.png",
+    "b": "data/contrast-source-03/captures/simple_border_before_2.png",
+    "valid": true,
+    "reasons": []
+  },
+  {
+    "id": "simple_border",
+    "version": "after",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/simple_border_after_1.png",
+    "b": "data/contrast-source-03/captures/simple_border_after_2.png",
+    "valid": true,
+    "reasons": []
+  },
+  {
+    "id": "sakura_earthly",
+    "version": "before",
+    "project": "oxalorg/sakura",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/sakura_earthly_before_1.png",
+    "b": "data/contrast-source-03/captures/sakura_earthly_before_2.png",
+    "valid": true,
+    "reasons": []
+  },
+  {
+    "id": "sakura_earthly",
+    "version": "after",
+    "project": "oxalorg/sakura",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "a": "data/contrast-source-03/captures/sakura_earthly_after_1.png",
+    "b": "data/contrast-source-03/captures/sakura_earthly_after_2.png",
+    "valid": true,
+    "reasons": []
+  }
+]

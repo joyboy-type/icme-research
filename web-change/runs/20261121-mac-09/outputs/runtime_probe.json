@@ -1,0 +1,12 @@
+{
+  "scope": "Selected existing bundled runtime only, not an exhaustive filesystem search",
+  "modules_resolved": {
+    "postcss": false,
+    "postcss-import": false,
+    "postcss-color-mod-function": false,
+    "postcss-inline-svg": false,
+    "cssnano": false
+  },
+  "new_dependencies_installed": false,
+  "historical_build_executed": false
+}

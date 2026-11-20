@@ -1,0 +1,53 @@
+[
+  {
+    "case": "simple_disabled",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "independent_change_unit": "5a9740742420f6b92ae6879425990fd20250390a",
+    "source_commit_date": "2022-12-24T17:35:47Z",
+    "candidate_family": "contrast_change",
+    "candidate_subtype": "disabled_control_opacity_foreground_background_change",
+    "core_fill_text_recovery_candidate": true,
+    "replicated_before_after_instances": 2,
+    "source_and_pixel_review_supported": true,
+    "matched_semantic_state_and_geometry": true,
+    "certified_atomic13_label": null,
+    "independent_human_annotation": false,
+    "scope": "Region from original upstream test page, actual source versions; not a production-site sample or injected CSS mutation.",
+    "restriction": "Border case is a fieldset boundary, not text/fill recovery; disabled case is multi-property; Sakura hover/focus effects not tested."
+  },
+  {
+    "case": "simple_border",
+    "project": "kevquirk/simple.css",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "independent_change_unit": "166419c24a712c072d492b72e07e4564729af03f",
+    "source_commit_date": "2022-09-23T15:58:39Z",
+    "candidate_family": "contrast_change",
+    "candidate_subtype": "fieldset_boundary_color_change",
+    "core_fill_text_recovery_candidate": false,
+    "replicated_before_after_instances": 2,
+    "source_and_pixel_review_supported": true,
+    "matched_semantic_state_and_geometry": true,
+    "certified_atomic13_label": null,
+    "independent_human_annotation": false,
+    "scope": "Region from original upstream test page, actual source versions; not a production-site sample or injected CSS mutation.",
+    "restriction": "Border case is a fieldset boundary, not text/fill recovery; disabled case is multi-property; Sakura hover/focus effects not tested."
+  },
+  {
+    "case": "sakura_earthly",
+    "project": "oxalorg/sakura",
+    "fixture_family": "cbracco/html5-test-page-derived",
+    "independent_change_unit": "3feda2f06e6c7721688aa09b7923a794e23e3f14",
+    "source_commit_date": "2020-09-23T07:21:38Z",
+    "candidate_family": "contrast_change",
+    "candidate_subtype": "normal_state_button_palette_change",
+    "core_fill_text_recovery_candidate": true,
+    "replicated_before_after_instances": 2,
+    "source_and_pixel_review_supported": true,
+    "matched_semantic_state_and_geometry": true,
+    "certified_atomic13_label": null,
+    "independent_human_annotation": false,
+    "scope": "Region from original upstream test page, actual source versions; not a production-site sample or injected CSS mutation.",
+    "restriction": "Border case is a fieldset boundary, not text/fill recovery; disabled case is multi-property; Sakura hover/focus effects not tested."
+  }
+]

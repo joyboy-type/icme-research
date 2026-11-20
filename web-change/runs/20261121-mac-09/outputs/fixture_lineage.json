@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "case": "simple_disabled",
+      "repository": "kevquirk/simple.css",
+      "upstream_credit_urls": [
+        "http://github.com/cbracco/html5-test-page"
+      ],
+      "target_markup_sha256_normalized": "2320ae1f792ebde7ed2e31a5c45630f719d36b21143695abd53227fa3c169122",
+      "fixture_family": "cbracco/html5-test-page-derived"
+    },
+    {
+      "case": "simple_border",
+      "repository": "kevquirk/simple.css",
+      "upstream_credit_urls": [
+        "http://github.com/cbracco/html5-test-page"
+      ],
+      "target_markup_sha256_normalized": "2320ae1f792ebde7ed2e31a5c45630f719d36b21143695abd53227fa3c169122",
+      "fixture_family": "cbracco/html5-test-page-derived"
+    },
+    {
+      "case": "sakura_earthly",
+      "repository": "oxalorg/sakura",
+      "upstream_credit_urls": [
+        "http://github.com/cbracco/html5-test-page"
+      ],
+      "target_markup_sha256_normalized": "2320ae1f792ebde7ed2e31a5c45630f719d36b21143695abd53227fa3c169122",
+      "fixture_family": "cbracco/html5-test-page-derived"
+    }
+  ],
+  "conservative_group_count": 1,
+  "not_3_independent_fixture_groups": true
+}

@@ -1,0 +1,26 @@
+{
+  "predeclared_gate": "protocol.json comparison_gate",
+  "new_replayed_projects": 2,
+  "real_replayed_commits": 3,
+  "conservative_independent_fixture_groups": 1,
+  "required_independent_groups": 3,
+  "source_grouping_pass": false,
+  "matched_repeat_capture_pass": true,
+  "source_pixel_label_review_pass_for_candidates": true,
+  "independent_human_gold_labels": 0,
+  "comparison_authorized_by_data_gate": false,
+  "pixel_or_edge_detector_evaluated": false,
+  "jpeg_detector_evaluated": false,
+  "thresholds_selected": false,
+  "why_stop": [
+    "Two repositories inherit identical target markup and the same upstream fixture; do not split by repository alone.",
+    "Existing run08 Ionic snapshots lack historical version/platform matched repeats and do not fill the gate.",
+    "Water source fixes require official build outputs not present in the checked tree; selected runtime modules missing. No new dependencies or historical build attempted."
+  ],
+  "continue_conditions": [
+    "Additional genuinely independent fixture/page families with traceable real contrast fixes.",
+    "Independent label/region review, separating fieldset boundary from fill/text restoration.",
+    "Matched source revision/browser/theme/viewport/font/state repeats with complete target dependencies.",
+    "Freeze an actual source-isolated comparison split before pixel/edge or JPEG scoring."
+  ]
+}

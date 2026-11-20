@@ -1,0 +1,22 @@
+{
+  "at_utc": "2026-11-20T17:57:30.240371+00:00",
+  "source_file_references_git_verified": 22,
+  "unique_source_blobs": 13,
+  "capture_png_hashes_verified": 12,
+  "unique_browser_launch_records": 12,
+  "same_browser_version": true,
+  "no_required_target_resource_failures": true,
+  "all_recorded_source_response_hashes_match_git_verified_files": true,
+  "independent_repeat_pixel_pairs_checked": 6,
+  "visible_version_pairs_independently_histogram_checked": 6,
+  "identical_normalized_target_markup_hashes": true,
+  "source_capture_locks_unchanged": true,
+  "tests": {
+    "node_passed": 3,
+    "failed": 0,
+    "red_green_logs_retained": true
+  },
+  "word_unchanged_verified": true,
+  "models_loaded_or_thresholds_evaluated": false,
+  "independent_review": "outputs/review.json"
+}

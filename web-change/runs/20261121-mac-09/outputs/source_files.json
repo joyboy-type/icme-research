@@ -1,0 +1,178 @@
+[
+  {
+    "case": "simple_disabled",
+    "version": "before",
+    "path": "index.html",
+    "git_blob_sha": "1039ca7e83e56614e570bb822c96f936325758b4",
+    "sha256": "ccb6e01b9d5e6b4858c0031adaa60a0dfb81ca27ba170bcc8882acf454588e35",
+    "bytes": 33270
+  },
+  {
+    "case": "simple_disabled",
+    "version": "before",
+    "path": "simple.css",
+    "git_blob_sha": "0c222d4db804890b31e3f1e0f3f3ee2cff614f45",
+    "sha256": "69c6117cf14cc86f73acb3c66dc21a4840a45363240e36bbad654bd3dfa6d395",
+    "bytes": 11246
+  },
+  {
+    "case": "simple_disabled",
+    "version": "before",
+    "path": "LICENSE",
+    "git_blob_sha": "c496ecf45e92d5d7b79fc976afcedf9bd1221e7e",
+    "sha256": "1ef4fc06668c7a5158662e118b3c56ab8ef3cadfb69e6056a58c03c094e15290",
+    "bytes": 1079
+  },
+  {
+    "case": "simple_disabled",
+    "version": "after",
+    "path": "index.html",
+    "git_blob_sha": "1039ca7e83e56614e570bb822c96f936325758b4",
+    "sha256": "ccb6e01b9d5e6b4858c0031adaa60a0dfb81ca27ba170bcc8882acf454588e35",
+    "bytes": 33270
+  },
+  {
+    "case": "simple_disabled",
+    "version": "after",
+    "path": "simple.css",
+    "git_blob_sha": "1d90d97b9d1cb98cde5d43626f6b5bd809f7d309",
+    "sha256": "9a9a5ca94025ef4f9aa58792381fde5770a0d17fdef8445843d7db4cfcd0cdb1",
+    "bytes": 11275
+  },
+  {
+    "case": "simple_disabled",
+    "version": "after",
+    "path": "LICENSE",
+    "git_blob_sha": "c496ecf45e92d5d7b79fc976afcedf9bd1221e7e",
+    "sha256": "1ef4fc06668c7a5158662e118b3c56ab8ef3cadfb69e6056a58c03c094e15290",
+    "bytes": 1079
+  },
+  {
+    "case": "simple_border",
+    "version": "before",
+    "path": "index.html",
+    "git_blob_sha": "e76a3ff7be450bc30e918b8ef9febf6788dfe460",
+    "sha256": "3c0478dca54edea69dd2f25d6e798db42b0e9b1e673f7ce61568a16ff7c6db6f",
+    "bytes": 30268
+  },
+  {
+    "case": "simple_border",
+    "version": "before",
+    "path": "simple.css",
+    "git_blob_sha": "861269247f256578c9b55f3f0cf9926056b2e953",
+    "sha256": "464911919bcc6a87afa8e07ac6d67cf0a4bc9dfb5d4dc5b33b6538189e98d31f",
+    "bytes": 11303
+  },
+  {
+    "case": "simple_border",
+    "version": "before",
+    "path": "LICENSE",
+    "git_blob_sha": "c496ecf45e92d5d7b79fc976afcedf9bd1221e7e",
+    "sha256": "1ef4fc06668c7a5158662e118b3c56ab8ef3cadfb69e6056a58c03c094e15290",
+    "bytes": 1079
+  },
+  {
+    "case": "simple_border",
+    "version": "after",
+    "path": "index.html",
+    "git_blob_sha": "e76a3ff7be450bc30e918b8ef9febf6788dfe460",
+    "sha256": "3c0478dca54edea69dd2f25d6e798db42b0e9b1e673f7ce61568a16ff7c6db6f",
+    "bytes": 30268
+  },
+  {
+    "case": "simple_border",
+    "version": "after",
+    "path": "simple.css",
+    "git_blob_sha": "919990f23a03d1e3c161115b78c0e8b64e7d6189",
+    "sha256": "0ef669ac1ec31c02399c9f496d6c8900f0d1c3717fabb606e8d221fc21e45240",
+    "bytes": 11283
+  },
+  {
+    "case": "simple_border",
+    "version": "after",
+    "path": "LICENSE",
+    "git_blob_sha": "c496ecf45e92d5d7b79fc976afcedf9bd1221e7e",
+    "sha256": "1ef4fc06668c7a5158662e118b3c56ab8ef3cadfb69e6056a58c03c094e15290",
+    "bytes": 1079
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "before",
+    "path": "test.html",
+    "git_blob_sha": "cda50525835d32810c04bd232fc052a8f825ee0a",
+    "sha256": "d2ef9e313bb26b5c32b17dbffa7bc1068fbef10c61852fb7368642dedd983a13",
+    "bytes": 24722
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "before",
+    "path": "css/normalize.css",
+    "git_blob_sha": "9b77e0eb4d9f82c934b0fc011c26e429c4036aab",
+    "sha256": "b87bb63007752ef08e544021bcc95de0ba498bb754192ec6573bc6ff9077865a",
+    "bytes": 8053
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "before",
+    "path": "css/sakura.css",
+    "git_blob_sha": "bb166f067f9612d5e66dc7fb36f9fa70afedc456",
+    "sha256": "fb1de93a41f68e425bcac7e683922096fcd3ec7c03d2ad365f9eeee392111885",
+    "bytes": 3915
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "before",
+    "path": "css/sakura-earthly.css",
+    "git_blob_sha": "93cff8265630cbc45347cd5c353fb50a74216eb6",
+    "sha256": "1d2233229bd9e2b60c49557bdaff73b2cb306585dd79fcbc4df0bdecbe15ea3b",
+    "bytes": 3916
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "before",
+    "path": "LICENSE.txt",
+    "git_blob_sha": "5c6f3e4dd655abfe37cceffe8e2e94249453257d",
+    "sha256": "2b225c797073b287572ceefd27af71cf209d413c90938ddc87b5cb58b8e69209",
+    "bytes": 1068
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "after",
+    "path": "test.html",
+    "git_blob_sha": "cda50525835d32810c04bd232fc052a8f825ee0a",
+    "sha256": "d2ef9e313bb26b5c32b17dbffa7bc1068fbef10c61852fb7368642dedd983a13",
+    "bytes": 24722
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "after",
+    "path": "css/normalize.css",
+    "git_blob_sha": "9b77e0eb4d9f82c934b0fc011c26e429c4036aab",
+    "sha256": "b87bb63007752ef08e544021bcc95de0ba498bb754192ec6573bc6ff9077865a",
+    "bytes": 8053
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "after",
+    "path": "css/sakura.css",
+    "git_blob_sha": "bb166f067f9612d5e66dc7fb36f9fa70afedc456",
+    "sha256": "fb1de93a41f68e425bcac7e683922096fcd3ec7c03d2ad365f9eeee392111885",
+    "bytes": 3915
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "after",
+    "path": "css/sakura-earthly.css",
+    "git_blob_sha": "4e172bae89fcad07a708acf956779d27eebfbb6c",
+    "sha256": "a8bad9c01b64a64a798a7f2eb37e842e4f51d4f5f359f7f5197d6c8b3e046b50",
+    "bytes": 3922
+  },
+  {
+    "case": "sakura_earthly",
+    "version": "after",
+    "path": "LICENSE.txt",
+    "git_blob_sha": "5c6f3e4dd655abfe37cceffe8e2e94249453257d",
+    "sha256": "2b225c797073b287572ceefd27af71cf209d413c90938ddc87b5cb58b8e69209",
+    "bytes": 1068
+  }
+]

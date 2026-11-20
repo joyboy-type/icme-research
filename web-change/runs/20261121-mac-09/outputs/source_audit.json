@@ -1,0 +1,192 @@
+{
+  "scope": "Bounded source audit; not exhaustive search",
+  "commits": [
+    {
+      "id": "simple_disabled",
+      "repository": "kevquirk/simple.css",
+      "commit": "5a9740742420f6b92ae6879425990fd20250390a",
+      "parent_commits": [
+        "71641c3856c561fd43a8fec11ef906d179fdd354"
+      ],
+      "date": "2022-12-24T17:35:47Z",
+      "title": "[input] fix contrast issue on disabled buttons",
+      "complete_file_list": true,
+      "files": [
+        {
+          "path": "simple.css",
+          "status": "modified",
+          "blob_sha": "1d90d97b9d1cb98cde5d43626f6b5bd809f7d309"
+        }
+      ]
+    },
+    {
+      "id": "simple_border",
+      "repository": "kevquirk/simple.css",
+      "commit": "166419c24a712c072d492b72e07e4564729af03f",
+      "parent_commits": [
+        "74f69aa84476f69dcdae13467289da0725c970cd"
+      ],
+      "date": "2022-09-23T15:58:39Z",
+      "title": "[css] >3:1 contrast ratio for border color",
+      "complete_file_list": true,
+      "files": [
+        {
+          "path": "simple.css",
+          "status": "modified",
+          "blob_sha": "919990f23a03d1e3c161115b78c0e8b64e7d6189"
+        }
+      ]
+    },
+    {
+      "id": "sakura_accessible",
+      "repository": "oxalorg/sakura",
+      "commit": "1e6ea3b7df0c49549aa12f2dbae19072e9133be0",
+      "parent_commits": [
+        "3feda2f06e6c7721688aa09b7923a794e23e3f14"
+      ],
+      "date": "2020-09-23T07:24:00Z",
+      "title": "feat: color accessible contrast fixes #7",
+      "complete_file_list": true,
+      "files": [
+        {
+          "path": "scss/sakura.scss",
+          "status": "modified",
+          "blob_sha": "26c6651227920136afac1e0bfcda22eec39c9131"
+        }
+      ]
+    },
+    {
+      "id": "sakura_earthly",
+      "repository": "oxalorg/sakura",
+      "commit": "3feda2f06e6c7721688aa09b7923a794e23e3f14",
+      "parent_commits": [
+        "2fb9de845d34cf18a1b347ddc7512edb6eb2ab45"
+      ],
+      "date": "2020-09-23T07:21:38Z",
+      "title": "feat: sakura earthly contrast accessible colors",
+      "complete_file_list": true,
+      "files": [
+        {
+          "path": "css/sakura-earthly.css",
+          "status": "modified",
+          "blob_sha": "4e172bae89fcad07a708acf956779d27eebfbb6c"
+        },
+        {
+          "path": "scss/sakura-earthly.scss",
+          "status": "modified",
+          "blob_sha": "d4124664b24515a128a7f2f34fedbde8f7d5d342"
+        }
+      ]
+    },
+    {
+      "id": "water_buttons",
+      "repository": "kognise/water.css",
+      "commit": "eac795d1d8d4d1a92f9bc0749cee776f9265f3d8",
+      "parent_commits": [
+        "83e916f66c21a94ffa1155229543abd8a9e969d9"
+      ],
+      "date": "2020-10-10T04:49:27Z",
+      "title": "added contrast in buttons",
+      "complete_file_list": true,
+      "files": [
+        {
+          "path": "src/parts/_forms.css",
+          "status": "modified",
+          "blob_sha": "ad5742a78b0738442c74a84c497497ce7b34d8cf"
+        },
+        {
+          "path": "src/variables-dark.css",
+          "status": "modified",
+          "blob_sha": "6b4222a6e301c2a6b01164d97bc9343dd54a2b14"
+        },
+        {
+          "path": "src/variables-light.css",
+          "status": "modified",
+          "blob_sha": "84cc0b39387e025e20d38430ed3cfd215e416f4a"
+        }
+      ]
+    },
+    {
+      "id": "water_merge",
+      "repository": "kognise/water.css",
+      "commit": "c6265a06e8795a0e92940e015c6edc04489fd2f6",
+      "parent_commits": [
+        "7daa3e23668a46befa89971be44761e05759579f",
+        "164d96d385b138f568fdb13f30e1616d0c17e825"
+      ],
+      "date": "2021-08-11T18:46:18Z",
+      "title": "Merge pull request #229 from HimanshuPandey2002/himanshu",
+      "complete_file_list": true,
+      "files": [
+        {
+          "path": ".changeset/rude-pots-sort.md",
+          "status": "added",
+          "blob_sha": "6ce3df080954929ec315446f3c7ebf09b88d48b3"
+        },
+        {
+          "path": ".changeset/stale-dodos-chew.md",
+          "status": "removed",
+          "blob_sha": "4a52517b69c4cd009da59e6aeca9ed6be3d5595a"
+        },
+        {
+          "path": "src/parts/_forms.css",
+          "status": "modified",
+          "blob_sha": "868575cdf64fd2b3954c9472a43b6607a0425dcf"
+        },
+        {
+          "path": "src/variables-dark.css",
+          "status": "modified",
+          "blob_sha": "3b1b8008783d081940c172b7231753de8ef55c8d"
+        },
+        {
+          "path": "src/variables-light.css",
+          "status": "modified",
+          "blob_sha": "222f26aa5332f88b87dd63699c1693f253f95951"
+        }
+      ]
+    }
+  ],
+  "water_build": {
+    "official_output": "out/*.css",
+    "output_present_in_inspected_tree": false,
+    "unchanged_tracked_artifacts": [
+      {
+        "path": "dist/dark.css",
+        "before": "43a72e950bdef508941389432e3e9d2940921daf",
+        "after": "43a72e950bdef508941389432e3e9d2940921daf"
+      },
+      {
+        "path": "dist/light.css",
+        "before": "e2ea9a868efdb2e9fd42d3114cf1e141b7464770",
+        "after": "e2ea9a868efdb2e9fd42d3114cf1e141b7464770"
+      },
+      {
+        "path": "docs/index.html",
+        "before": "d6ffd9d8a6915856016063c8bfb260ebace5670b",
+        "after": "d6ffd9d8a6915856016063c8bfb260ebace5670b"
+      },
+      {
+        "path": "docs/style.css",
+        "before": "a0c3fc9291972a337dc2a4ba12ce9c2eaca1e848",
+        "after": "a0c3fc9291972a337dc2a4ba12ce9c2eaca1e848"
+      }
+    ],
+    "inspected_package_build_command": "gulp build",
+    "selected_runtime_modules_not_resolved": [
+      "postcss",
+      "postcss-import",
+      "postcss-color-mod-function",
+      "postcss-inline-svg",
+      "cssnano"
+    ],
+    "new_dependencies_installed": 0,
+    "historical_build_executed": false,
+    "not_a_claim_that_build_is_impossible": true
+  },
+  "no_hit_query": {
+    "repository": "sindresorhus/github-markdown-css",
+    "query": "contrast",
+    "returned_commits": 0,
+    "not_exhaustive_absence": true
+  }
+}
