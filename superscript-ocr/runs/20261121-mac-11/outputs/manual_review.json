@@ -1,0 +1,143 @@
+{
+  "confirmed": [
+    {
+      "case_id": "review-01",
+      "source_span_index": 18,
+      "page_case": "page-05",
+      "printed_numbers": [
+        "26"
+      ],
+      "model_statuses": {
+        "olmo2": "omitted",
+        "deepseek": "omitted",
+        "qwen": "misread_or_other_content"
+      },
+      "classification": "two_model_omission_third_partial_misread",
+      "source_image_checked": true,
+      "raw_output_anchor_context_checked": true,
+      "annotation_identity_checked": true,
+      "review_required": false
+    },
+    {
+      "case_id": "review-02",
+      "source_span_index": 26,
+      "page_case": "page-09",
+      "printed_numbers": [
+        "7"
+      ],
+      "model_statuses": {
+        "olmo2": "correct",
+        "deepseek": "omitted",
+        "qwen": "omitted"
+      },
+      "classification": "two_model_omission_third_correct",
+      "source_image_checked": true,
+      "raw_output_anchor_context_checked": true,
+      "annotation_identity_checked": true,
+      "review_required": false
+    },
+    {
+      "case_id": "review-03",
+      "source_span_index": 34,
+      "page_case": "page-11",
+      "printed_numbers": [
+        "1"
+      ],
+      "model_statuses": {
+        "olmo2": "correct",
+        "deepseek": "omitted",
+        "qwen": "omitted"
+      },
+      "classification": "two_model_omission_third_correct",
+      "source_image_checked": true,
+      "raw_output_anchor_context_checked": true,
+      "annotation_identity_checked": true,
+      "review_required": false
+    },
+    {
+      "case_id": "review-04",
+      "source_span_index": 35,
+      "page_case": "page-11",
+      "printed_numbers": [
+        "2"
+      ],
+      "model_statuses": {
+        "olmo2": "correct",
+        "deepseek": "omitted",
+        "qwen": "omitted"
+      },
+      "classification": "two_model_omission_third_correct",
+      "source_image_checked": true,
+      "raw_output_anchor_context_checked": true,
+      "annotation_identity_checked": true,
+      "review_required": false
+    },
+    {
+      "case_id": "review-05",
+      "source_span_index": 36,
+      "page_case": "page-11",
+      "printed_numbers": [
+        "3"
+      ],
+      "model_statuses": {
+        "olmo2": "correct",
+        "deepseek": "omitted",
+        "qwen": "omitted"
+      },
+      "classification": "two_model_omission_third_correct",
+      "source_image_checked": true,
+      "raw_output_anchor_context_checked": true,
+      "annotation_identity_checked": true,
+      "review_required": false
+    },
+    {
+      "case_id": "review-06",
+      "source_span_index": 37,
+      "page_case": "page-11",
+      "printed_numbers": [
+        "4",
+        "5"
+      ],
+      "model_statuses": {
+        "olmo2": "correct",
+        "deepseek": "omitted",
+        "qwen": "omitted"
+      },
+      "classification": "two_model_omission_third_correct",
+      "source_image_checked": true,
+      "raw_output_anchor_context_checked": true,
+      "annotation_identity_checked": true,
+      "review_required": false
+    },
+    {
+      "case_id": "review-07",
+      "source_span_index": 38,
+      "page_case": "page-11",
+      "printed_numbers": [
+        "6",
+        "7"
+      ],
+      "model_statuses": {
+        "olmo2": "correct",
+        "deepseek": "omitted",
+        "qwen": "omitted"
+      },
+      "classification": "two_model_omission_third_correct",
+      "source_image_checked": true,
+      "raw_output_anchor_context_checked": true,
+      "annotation_identity_checked": true,
+      "review_required": false
+    }
+  ],
+  "rejected_initial_candidates": [
+    {
+      "candidate_id": "cand-001",
+      "reason": "Not a pure all-model omission: actual26is absent in2caches and partially read as2inQwen; source spacing normalized"
+    },
+    {
+      "candidate_id": "cand-002",
+      "reason": "Angstrom rendered asÅor\\AAis present inall3outputs; notation equivalence, not an omission"
+    }
+  ],
+  "review_scope": "7pairwise short-symbol candidates image+raw contexts reviewed; 96body blocks were algorithmically screened, not all manually transcribed;25short anchors unresolved"
+}

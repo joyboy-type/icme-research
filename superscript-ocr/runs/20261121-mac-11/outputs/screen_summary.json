@@ -1,0 +1,16 @@
+{
+  "pages": 18,
+  "eligible_blocks": 96,
+  "eligible_tokens": 7417,
+  "numeric_footnote_spans": 59,
+  "all_normal_looking_pages": 18,
+  "candidate_runs": 0,
+  "candidate_types": {},
+  "short_spans_shared_deleted": 0,
+  "short_spans_all_anchors_evaluable": 34,
+  "short_spans_all_omitted": 0,
+  "short_spans_all_not_correct": 1,
+  "truth_status": "unreviewed alignment candidates, not confirmed omissions",
+  "finish_reasons_available": false,
+  "new_ocr_calls": 0
+}

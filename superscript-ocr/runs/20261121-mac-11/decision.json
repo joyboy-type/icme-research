@@ -1,0 +1,9 @@
+{
+  "status": "data_gate_stopped",
+  "reason": "Existing fixed development batch does not establish the intended broader shared-omission population or normal-completion provenance",
+  "automatic_insertion": false,
+  "word_edit_allowed": false,
+  "gpu_rental_justified": false,
+  "matched_budget_comparison_ran": false,
+  "further_data_expansion": false
+}

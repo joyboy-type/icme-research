@@ -1,0 +1,6 @@
+{
+  "reason": "Manual audit identified Angstrom notation equivalence and spaced footnote digits; corrected before accepting omission labels",
+  "initial_candidates": 2,
+  "initial_candidates_accepted": 0,
+  "new_ocr_calls": 0
+}

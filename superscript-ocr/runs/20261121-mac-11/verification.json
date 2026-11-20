@@ -1,0 +1,19 @@
+{
+  "tests_passed": 7,
+  "selected_pages": 18,
+  "historical_output_files_hash_checked": 54,
+  "input_image_files_hash_checked": 18,
+  "source_annotation_hash_checked": true,
+  "source_sizes_match_gt": true,
+  "old_archive_files_unchanged": 6888,
+  "word_hash_unchanged": true,
+  "manual_image_and_cache_reviews": 7,
+  "normalization_false_alarm_removed": true,
+  "normal_termination_not_claimed": true,
+  "unrun_comparisons_not_reported_as_zero": true,
+  "new_ocr_calls": 0,
+  "new_detector_calls": 0,
+  "paid_calls": 0,
+  "protocol_sha256": "9d29dbfb7fecbc9e3445e0b3b38225810cf92e46add71ea2b892b1728f1e86ce",
+  "verified_at": "2026-11-20T17:28:37.199799+00:00"
+}

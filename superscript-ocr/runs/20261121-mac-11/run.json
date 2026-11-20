@@ -1,0 +1,25 @@
+{
+  "id": "20261121-mac-11",
+  "status": "complete_data_gate_stopped",
+  "scope": "fixed existing-cache development audit only",
+  "started_at": "2026-11-20T17:17:15.715284+00:00",
+  "completed_at": "2026-11-20T17:27:47.668942+00:00",
+  "historical_outputs": 54,
+  "pages": 18,
+  "new_ocr_calls": 0,
+  "new_detector_calls": 0,
+  "paid_calls": 0,
+  "model_downloads": 0,
+  "training": false,
+  "automatic_insertion": false,
+  "word_edit_allowed": false,
+  "tests_passed": 7,
+  "summary": "outputs/summary.json",
+  "decision": "decision.json",
+  "protocol_sha256": "9d29dbfb7fecbc9e3445e0b3b38225810cf92e46add71ea2b892b1728f1e86ce",
+  "code_sha256": {
+    "test_omissions.py": "4ab6cecbce04b7a1be6b2f8547db37d7415cb74f1b9ffe01bf020ab6ac9cb80e",
+    "audit_cache.py": "7a900e9170f53e3390b871f32cd0024edfd1b0ea9fa20ee5df22f1b09d6a2246",
+    "omissions.py": "dc23a912e9fa58fb6b4b2cf6382ed85ee5aaf74c4ecb8bd1f95a73e59f236260"
+  }
+}

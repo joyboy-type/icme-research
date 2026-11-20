@@ -1,0 +1,70 @@
+{
+  "id": "20261121-mac-11",
+  "stage": "cache_and_source_image_data_gate",
+  "selected_pages": 18,
+  "eligible_english_text_pages": 17,
+  "eligible_body_blocks": 96,
+  "eligible_normalized_body_tokens": 7417,
+  "numeric_footnote_spans": 59,
+  "short_spans_jointly_anchor_evaluable": 34,
+  "short_spans_not_jointly_anchor_evaluable": 25,
+  "normal_looking_outputs_pages": 18,
+  "normal_termination_proven": false,
+  "finish_reasons_available": false,
+  "primary_three_model_screen": {
+    "long_contiguous_deletion_candidates": 0,
+    "all_model_pure_omitted_numeric_markers": 0,
+    "denominator_anchor_evaluable_markers": 34,
+    "confirmed_whole_line_or_region_common_omissions": 0,
+    "interpretation": "No verified target pool established by this conservative screen; not a proof that omissions are absent. Replacements, ambiguous alignments and uninspected positions remain outside this finding."
+  },
+  "supplementary_pairwise_audit": {
+    "confirmed_two_models_omit_third_correct": 6,
+    "source_pages": 2,
+    "confirmed_two_omit_third_partial_misread": 1,
+    "mixed_source_pages": 1,
+    "short_symbols_only": true,
+    "not_a_new_method_gain": true,
+    "selection": "Exploratory secondary count on the same frozen18pages, not a new confirmatory endpoint"
+  },
+  "matched_budget_experiment": {
+    "status": "not_run",
+    "ordinary_text_detection_plus_local_reread": "not_run",
+    "confidence_ranking": "not_run",
+    "consensus_ranking": "not_run",
+    "recovered_content": null,
+    "false_insertions": null,
+    "harmful_edits": null,
+    "reason": "Data gate did not establish a representative localized normal-output whole-line/region common-omission pool. Pairwise cases are old narrow superscript examples with a third cached recognizer already correct. Do not substitute them for a broad new-task validation."
+  },
+  "resource_use": {
+    "historical_cached_model_outputs": 54,
+    "new_ocr_calls": 0,
+    "new_detector_calls": 0,
+    "model_downloads": 0,
+    "training": false,
+    "paid_calls": 0,
+    "gpu_rental": false
+  },
+  "limitations": [
+    "This fixed batch was previously selected for citation studies, so its proportions are not prevalence estimates for scientific documents.",
+    "A shared image identifier does not verify identical historical resize, prompt, image bytes or postprocessing across public OCR caches.",
+    "The two markdown caches include cleaned outputs; their raw decode completion and postprocessing effects are unavailable.",
+    "All outputs passed a nonempty/nonrepetition proxy, but true normal termination cannot be established without finish metadata.",
+    "25of59short-symbol locations lack simultaneous unambiguous anchors; zero on34does not imply zero on59.",
+    "No new algorithm or recovery/error-rate improvement was evaluated."
+  ],
+  "blocking_evidence": [
+    "No manually confirmed whole-line/region shared-omission population from this allowed existing-image/cache batch",
+    "Unresolved source-position alignment at25short markers",
+    "Original completion and preprocessing provenance missing from historical caches"
+  ],
+  "decision": "STOP_AT_DATA_GATE; no GPU justification and no confirmation expansion",
+  "automatic_insertion": false,
+  "word_edit_allowed": false,
+  "restart_conditions": [
+    "First obtain a suitable fixed development batch with source-position labels and traceable normal-completion OCR outputs",
+    "Validate actual whole-line/region omissions or an explicitly separate short-symbol task with independent document groups",
+    "Before any fresh calls freeze equal call/pixel budget for ordinary detection+reread and confidence/consensus controls; only net recovery beyond strong controls at nonincreased harm can justify continuation"
+  ]
+}

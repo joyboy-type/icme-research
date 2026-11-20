@@ -1,0 +1,33 @@
+{
+  "id": "20261121-mac-11",
+  "frozen_at": "2026-11-20T17:17:15.715284+00:00",
+  "scope": "Fixed entire intersection of18already-local pages, three historical OCR caches and source image; development stress batch preselected for old citation studies, not a random corpus or independent confirmation",
+  "source_selection": "All18eligible intersections; no selecting pages by shared omission outcome",
+  "cache_models": [
+    "Qwen3.5-122B-A10B (third-party public token cache)",
+    "olmOCR2(public markdown cache)",
+    "DeepSeek-OCR(public cleaned markdown cache)"
+  ],
+  "cache_provenance": "Other-model repository alphaXiv/DeepSeek-OCR-OmniDocBench revision1b5cbe081c15b8548d8b45dc22c9ef369ac7248c; Qwen dataset revisionc1a3b252db592df3263f64702ab624d6048cbf6e",
+  "independence_limits": "Different OCR model families; input page identifiers agree, but exact original resize/prompt/finish reasons are unavailable. Do not claim matched cached costs or proven normal termination.",
+  "gt_file": "[LOCAL_GROUND_TRUTH_JSON]",
+  "gt_sha256": "90a4cf4628321cf53191bd20e0109b5935032feedc8c6e502a3fa46a9181a51c",
+  "denominators": "18pages, all nonignored English text-block tokens and all numeric footnote_mark spans on those blocks; report eligible blocks/tokens/spans and reviewed common deletion spans separately",
+  "screening": "Normalize markup, tokenize text, align each cached output to source-order gold by SequenceMatcher; intersection of delete opcodes is only a candidate. All candidates require image+raw-output manual audit. Replacements are not automatically omissions.",
+  "types": "long run>=8word tokens; short numeric/superscript span separately; remaining lexical runs separately. Physical whole-line/region status requires image inspection.",
+  "normal_output": "Visible normal-looking output proxy only: nonempty and no degenerate10gram repetition; terminal finish reason unknown for historical caches",
+  "stage_order": [
+    "Audit common omission candidates and source-image agreement",
+    "If genuine evaluable cases exist, freeze candidate geometry and budgets before fresh calls, then compare ordinary text detection+reread and confidence/consensus ranking under identical call and pixel caps",
+    "Report all recovered/missed/false/harmful results; do not tune or extend this batch",
+    "Only new signal beyond ordinary controls can motivate later document-disjoint confirmation"
+  ],
+  "budget": "Stage1 no new OCR, downloads or paid calls; stage2 budget to be frozen separately after verifying data, before recognition",
+  "word_sha256": "dd00d31e8435e3da12a1d28642ae5df72c2063c9229c46dc038b1df03e4d5136",
+  "word_edit_allowed": false,
+  "automatic_insertion": false,
+  "no_gpu_rental": true,
+  "no_model_downloads": true,
+  "old_linking_method_unchanged": true,
+  "publication": "Code, aggregate statistics and opaque decisions only; no source images/raw text or license-uncertain cache redistribution"
+}
