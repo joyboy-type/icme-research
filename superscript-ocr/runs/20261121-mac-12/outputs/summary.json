@@ -1,0 +1,101 @@
+{
+  "id": "20261121-mac-12",
+  "stage": "limited_fresh_input_data_gate",
+  "sample": {
+    "documents": 4,
+    "pages": 4,
+    "source_types": [
+      "2US Federal Register government-notice pages (dataset calls them newspapers)",
+      "2academic article pages"
+    ],
+    "new_relative_to_previous_local_images_and_source_proxies": true,
+    "document_grouping": "filename-derived proxy; not model-training holdout"
+  },
+  "engines": {
+    "actual_engines": 1,
+    "name": "Apple Vision",
+    "configurations": [
+      "accurate_r3",
+      "fast_r3",
+      "accurate_r2"
+    ],
+    "independent_engines": false,
+    "identical_accurate_text_pages": 3
+  },
+  "completion": {
+    "requested": 12,
+    "completed": 12,
+    "errors": 0,
+    "all_completed_normally": true,
+    "evidence": "Vision perform returned without exception; per-request settings, actual revision, dimensions, elapsed time and full raw observations saved",
+    "identical_input_pixels_across_configurations": true,
+    "resize_or_degradation": false
+  },
+  "line_audit": {
+    "annotated_physical_line_groups": 375,
+    "screen_candidates": 13,
+    "source_transcription_errors_confirmed": 12,
+    "representation_or_segmentation_false_alarm": 1,
+    "confirmed_whole_line_omissions_shared_by_at_least2_configurations": 1,
+    "affected_document_groups": 1,
+    "all3_configurations_pure_omission": 0,
+    "confirmed_case": "line-0189",
+    "nonomission_candidates": 12,
+    "unresolved_screen_candidates": 0,
+    "whole_line_gate_required_lines": 5,
+    "whole_line_gate_required_documents": 2,
+    "gate_passed": false
+  },
+  "short_audit": {
+    "positions": 10,
+    "types": {
+      "trademark": 3,
+      "author_affiliation": 7
+    },
+    "source_symbol_label_errors": 2,
+    "pure_shared_omissions_by_at_least2": 0,
+    "mixed_shared_numeric_errors": 3,
+    "mixed_error_document_groups": 1,
+    "successful_configurations_preserved_as_controls": true,
+    "gate_passed": false
+  },
+  "data_quality": {
+    "original_annotations_untouched": true,
+    "corrections_saved_separately": true,
+    "not_all375transcriptions_manually_certified": "All4page overlays and all13screen candidates were reviewed; unflagged lines were not independently re-transcribed. Counts are a conservative reviewed-screen result, not an exhaustive error census."
+  },
+  "matched_budget_comparison": {
+    "status": "not_run_data_gate_failed",
+    "ordinary_text_detection_plus_local_reread": "not_run",
+    "confidence_or_disagreement_controls": "not_run",
+    "correct_recovery": null,
+    "false_insertions": null,
+    "harmful_edits": null,
+    "reason": "Only1shared physical-line omission in1document; short errors confined to1document and mainly substitutions. Frozen minimum5positions across2documents not met. A second independent engine is unavailable locally."
+  },
+  "resource_use": {
+    "new_full_page_ocr_requests": 12,
+    "input_pixels": 44856210,
+    "new_detector_requests": 0,
+    "new_local_reread_requests": 0,
+    "model_downloads": 0,
+    "paid_calls": 0,
+    "gpu_rental": false,
+    "training": false
+  },
+  "limitations": [
+    "Three configurations share one Apple framework; matching results are not independent-model evidence.",
+    "Four hash-selected development pages are not a prevalence estimate for documents in general.",
+    "375line groups omit short(<4word)lines, titles, headers and isolated formulas; no whole-document completeness claim.",
+    "Cached transcription errors would have created false omission counts without source-image review.",
+    "Mixed marker substitutions are separate from true missing lines or symbols."
+  ],
+  "decision": "STOP_THIS_LIMITED_DATA_ROUND; insufficient target population and independent-engine evidence; no GPU justification",
+  "automatic_insertion": false,
+  "word_edit_allowed": false,
+  "continuation_conditions": [
+    "A traceable second independent OCR engine and suitable source-position labels are needed before interpreting shared omissions as cross-model evidence",
+    "Any later batch requires separate authorization/freeze; this4pagebatch is not expanded",
+    "Only an adequate target pool can trigger matched-call/pixel ordinary detection+reread controls; recovery and harm remain unmeasured until then"
+  ]
+}

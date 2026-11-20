@@ -1,0 +1,8 @@
+{
+  "line_transcription_errors": 12,
+  "short_symbol_label_errors": 2,
+  "original_annotations_edited": false,
+  "private_corrections_saved_separately": true,
+  "counts_overlap_with_true_omission": true,
+  "scope": "source-image adjudication; corrected source text withheld"
+}

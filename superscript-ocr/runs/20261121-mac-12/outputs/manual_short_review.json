@@ -1,0 +1,92 @@
+[
+  {
+    "marker_id": "mark-001",
+    "case_id": "new-02",
+    "role": "trademark",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": false
+  },
+  {
+    "marker_id": "mark-002",
+    "case_id": "new-02",
+    "role": "trademark",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": false
+  },
+  {
+    "marker_id": "mark-003",
+    "case_id": "new-02",
+    "role": "trademark",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": false
+  },
+  {
+    "marker_id": "mark-004",
+    "case_id": "new-03",
+    "role": "author_affiliation",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": false
+  },
+  {
+    "marker_id": "mark-005",
+    "case_id": "new-03",
+    "role": "author_affiliation",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": true
+  },
+  {
+    "marker_id": "mark-006",
+    "case_id": "new-03",
+    "role": "author_affiliation",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": true
+  },
+  {
+    "marker_id": "mark-007",
+    "case_id": "new-03",
+    "role": "author_affiliation",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": true
+  },
+  {
+    "marker_id": "mark-008",
+    "case_id": "new-03",
+    "role": "author_affiliation",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": false
+  },
+  {
+    "marker_id": "mark-009",
+    "case_id": "new-03",
+    "role": "author_affiliation",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": false
+  },
+  {
+    "marker_id": "mark-010",
+    "case_id": "new-03",
+    "role": "author_affiliation",
+    "source_image_checked": true,
+    "raw_output_author_or_phrase_context_checked": true,
+    "pure_shared_omission_by_at_least2": false,
+    "mixed_shared_numeric_error": false
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "independent_engine_count": 1,
+  "accurate_r2_r3_identical_top1_text_lists": {
+    "new-01": true,
+    "new-02": true,
+    "new-03": false,
+    "new-04": true
+  },
+  "identical_pages": 3,
+  "note": "Requested and actual revisions differ as recorded, but outputs are highly dependent; do not treat matching configurations as independent-model confirmations"
+}

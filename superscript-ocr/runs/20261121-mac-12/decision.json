@@ -1,0 +1,11 @@
+{
+  "status": "limited_data_gate_stopped",
+  "whole_line_data_gate_passed": false,
+  "short_marker_data_gate_passed": false,
+  "independent_second_engine_available": false,
+  "matched_budget_comparison_ran": false,
+  "automatic_insertion": false,
+  "word_edit_allowed": false,
+  "no_gpu_justification": true,
+  "no_sample_expansion": true
+}

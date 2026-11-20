@@ -1,0 +1,53 @@
+{
+  "id": "20261121-mac-12",
+  "status": "complete_data_gate_stopped",
+  "pages": 4,
+  "ocr_requests": 12,
+  "successful_requests": 12,
+  "failed_requests": 0,
+  "process_exit_code": 0,
+  "input_pixels": 44856210,
+  "wall_seconds": 4.678148542065173,
+  "actual_engine_count": 1,
+  "configuration_count": 3,
+  "independent_engines": false,
+  "system": "macOS-26.5.1-arm64-arm-64bit",
+  "protocol_sha256": "998754c1ab93018d6d41617072d18af52b479573ba8388a1ce8545c76bbc25dd",
+  "source_image_sha256": {
+    "new-01": "0186d69d80d5b3dfe8f2a60e8f0f09cc65b1b0f834ae066623c6d2f92a2e252b",
+    "new-02": "ad3038ca17b137852ab0ba1399f6c166d7165142beebd3096146f1440e146565",
+    "new-03": "cf063d3b167d4c206e6a3c7010d2f61919c6ee1c1beaf1fe5094d0781882417e",
+    "new-04": "f820a11cbddabb0467e09962bb299a19a9ac2096cddc9d12834e89db19178d90"
+  },
+  "code_sha256": {
+    "test_lines.py": "98a5ca3d50a3614b8125a849c702ae374e2d63a73d62c52a49a8b0e16109d164",
+    "run.py": "8925a06c9ce24d8b4e211355835b0a4ea4bdd6e8777a9ca66cbaad637853666f",
+    "recognize.swift": "4baa0dc61da3915c3478fe0b717f3e031a2756d08b520cae4db78794d7e6b400",
+    "lines.py": "cefeec6430848a8cc45485335d0d3e9b38f22f873cc74d8367886e03a66598a4",
+    "prepare.py": "c293900cceebd8436b6f6726200d77a48be5d445a99366d6daa5702a9947d894"
+  },
+  "model_downloads": 0,
+  "paid_calls": 0,
+  "training": false,
+  "gpu_rental": false,
+  "word_edit_allowed": false,
+  "automatic_insertion": false,
+  "completed_at": "2026-11-20T17:54:05.910969+00:00",
+  "summary": "outputs/summary.json",
+  "decision": "decision.json",
+  "annotation_corrections": 12,
+  "manual_line_reviews": 13,
+  "manual_short_reviews": 10,
+  "independent_engine_count": 1,
+  "local_reread_calls": 0,
+  "final_code_sha256": {
+    "lines.py": "cefeec6430848a8cc45485335d0d3e9b38f22f873cc74d8367886e03a66598a4",
+    "prepare.py": "c293900cceebd8436b6f6726200d77a48be5d445a99366d6daa5702a9947d894",
+    "recognize.swift": "4baa0dc61da3915c3478fe0b717f3e031a2756d08b520cae4db78794d7e6b400",
+    "run.py": "8925a06c9ce24d8b4e211355835b0a4ea4bdd6e8777a9ca66cbaad637853666f",
+    "screen.py": "b58491504c76ca7020c2bad3ec97ef41b246dda4672cedd788a59415485aa2e2",
+    "test_lines.py": "98a5ca3d50a3614b8125a849c702ae374e2d63a73d62c52a49a8b0e16109d164"
+  },
+  "cpu_execution_caveat": "CPU-only flag requested; deprecated API and opaque Vision scheduling do not prove hardware-only CPU execution",
+  "verification": "verification.json"
+}

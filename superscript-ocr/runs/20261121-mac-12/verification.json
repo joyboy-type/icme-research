@@ -1,0 +1,29 @@
+{
+  "verified_at": "2026-11-20T17:56:42.867980+00:00",
+  "status": "passed",
+  "targeted_tests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "image_hashes_dimensions_bytes_verified": 4,
+  "protocol_frozen_hash_verified": true,
+  "annotation_file_hash_verified": true,
+  "word_hash_verified_unchanged": true,
+  "raw_records_verified": 12,
+  "total_input_pixels": 44856210,
+  "line_groups": 375,
+  "line_reviews": 13,
+  "annotation_transcription_errors": 12,
+  "shared_whole_line_omissions": 1,
+  "shared_omission_documents": 1,
+  "all_three_pure_omissions": 0,
+  "short_reviews": 10,
+  "short_pure_shared_omissions": 0,
+  "short_mixed_errors": 3,
+  "short_mixed_error_documents": 1,
+  "identical_accurate_text_pages": 3,
+  "annotation_error_and_omission_counts_overlap": true,
+  "old_archive_entries_verified_unchanged": 6914,
+  "comparison_metrics_unmeasured": true,
+  "scope": "File integrity, recorded settings and reviewed decisions; no fresh OCR or independent re-transcription performed"
+}

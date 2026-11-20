@@ -1,0 +1,184 @@
+[
+  {
+    "line_id": "line-0003",
+    "case_id": "new-01",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0021",
+    "case_id": "new-01",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0169",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0188",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0189",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": true,
+    "actual_configuration_states": {
+      "accurate_r3": "whole_line_omitted",
+      "accurate_r2": "whole_line_omitted",
+      "fast_r3": "line_present_but_misrecognized"
+    }
+  },
+  {
+    "line_id": "line-0205",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0209",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0227",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0229",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0231",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0250",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0251",
+    "case_id": "new-02",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": true,
+    "representation_or_segmentation_difference": false,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  },
+  {
+    "line_id": "line-0254",
+    "case_id": "new-03",
+    "source_image_checked": true,
+    "all_raw_configurations_checked": true,
+    "annotation_text_error": false,
+    "representation_or_segmentation_difference": true,
+    "confirmed_shared_whole_line_omission": false,
+    "actual_configuration_states": {
+      "accurate_r3": "no_confirmed_whole_line_omission",
+      "accurate_r2": "no_confirmed_whole_line_omission",
+      "fast_r3": "no_confirmed_whole_line_omission"
+    }
+  }
+]

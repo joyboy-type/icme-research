@@ -1,0 +1,83 @@
+{
+  "id": "20261121-mac-12",
+  "frozen_at": "2026-11-20T17:46:09.137241+00:00",
+  "purpose": "One limited local fresh-input audit of quiet shared omissions; stop at evidence gate if inadequate",
+  "sample": [
+    {
+      "case_id": "new-01",
+      "width": 1700,
+      "height": 2200,
+      "layout": "three_column"
+    },
+    {
+      "case_id": "new-02",
+      "width": 1700,
+      "height": 2200,
+      "layout": "three_column"
+    },
+    {
+      "case_id": "new-03",
+      "width": 1654,
+      "height": 2205,
+      "layout": "1andmore_column"
+    },
+    {
+      "case_id": "new-04",
+      "width": 1700,
+      "height": 2250,
+      "layout": "double_column"
+    }
+  ],
+  "selection": "Seeded hash,2newspapers+2academic articles,one page per distinct filename-derived source group; excludes all previously local original-image names and recorded sample groups; no selection by new OCR result",
+  "known_excluded_page_ids": 81,
+  "known_excluded_document_proxies": 78,
+  "independence": "New relative to prior local inspected/selected sources, not model-training holdout; source document grouping is a filename proxy, not publisher-verified",
+  "gt_file": "PRIVATE_SOURCE_ANNOTATIONS_NOT_REDISTRIBUTED",
+  "gt_sha256": "90a4cf4628321cf53191bd20e0109b5935032feedc8c6e502a3fa46a9181a51c",
+  "line_annotation": "Construct physical line groups from body text_span polygons; inspect each source page/annotation overlay before treating them as line-level truth; inline formulas and short markers separate",
+  "engines_available": [
+    "Apple Vision"
+  ],
+  "independent_second_engine_available": false,
+  "configurations": [
+    {
+      "id": "accurate_r3",
+      "revision": 3,
+      "recognition_level": "accurate"
+    },
+    {
+      "id": "fast_r3",
+      "revision": 3,
+      "recognition_level": "fast"
+    },
+    {
+      "id": "accurate_r2",
+      "revision": 2,
+      "recognition_level": "accurate"
+    }
+  ],
+  "configuration_caveat": "Three configurations of one framework, not three independent OCR models. No independent-model generalization claim.",
+  "common_settings": {
+    "input": "identical original pixels, orientation.up, no rescaling/binarization/cropping for primary pass",
+    "languages": [
+      "en-US"
+    ],
+    "automatic_language_detection": false,
+    "language_correction": false,
+    "minimum_text_height": 0,
+    "cpu_only_requested": true,
+    "execution": "serial; BLAS/OpenCV2threads if used; Vision internal scheduling not exposed"
+  },
+  "completion": "Save one result or explicit error per image/configuration, monotonic times, requested and actual revision, image dimensions and source hashes, request-returned completion status; no generative token stop reason applies to this API",
+  "data_gate": {
+    "whole_line_or_region": "at least5visually confirmed source line omissions shared by>=2configurations across>=2document groups; report all3-shared subset",
+    "short_markers": "separate task; at least5confirmed positions across>=2documents, with any successful third configuration as baseline",
+    "insufficient": "Do not expand or force next phase; report missing or unsupported labels, API errors and unrun metrics"
+  },
+  "stage2": "Only if data gate is met, freeze call/pixel budget and candidate rule before detector/local OCR; compare ordinary detection+reread and available confidence/configuration-disagreement controls. Record correct recovery, false insertion and harm. Ground-truth boxes only for evaluation or separately named oracle.",
+  "data_limits": "No renting GPUs, paid calls, training or model downloads; only4public source images may be fetched, no source resampling after outputs",
+  "word_sha256": "dd00d31e8435e3da12a1d28642ae5df72c2063c9229c46dc038b1df03e4d5136",
+  "word_edit_allowed": false,
+  "automatic_insertion": false,
+  "release_note": "Sanitized derivative; protocol_sha256 in run.json refers to frozen private original. Image and source identifiers withheld. Code requires private inputs and is not a self-contained data release."
+}

@@ -1,0 +1,34 @@
+{
+  "dataset": {
+    "repository": "opendatalab/OmniDocBench",
+    "revision": "aa1ee96d106dbe53d0ae59474d75c6e6d9b53fec",
+    "source_annotation_sha256": "90a4cf4628321cf53191bd20e0109b5935032feedc8c6e502a3fa46a9181a51c",
+    "note": "Cached annotations may differ from current pinned image repository; pixel dimensions and label/image agreement checked separately"
+  },
+  "images": [
+    {
+      "case_id": "new-01",
+      "width": 1700,
+      "height": 2200,
+      "sha256": "0186d69d80d5b3dfe8f2a60e8f0f09cc65b1b0f834ae066623c6d2f92a2e252b"
+    },
+    {
+      "case_id": "new-02",
+      "width": 1700,
+      "height": 2200,
+      "sha256": "ad3038ca17b137852ab0ba1399f6c166d7165142beebd3096146f1440e146565"
+    },
+    {
+      "case_id": "new-03",
+      "width": 1654,
+      "height": 2205,
+      "sha256": "cf063d3b167d4c206e6a3c7010d2f61919c6ee1c1beaf1fe5094d0781882417e"
+    },
+    {
+      "case_id": "new-04",
+      "width": 1700,
+      "height": 2250,
+      "sha256": "f820a11cbddabb0467e09962bb299a19a9ac2096cddc9d12834e89db19178d90"
+    }
+  ]
+}
