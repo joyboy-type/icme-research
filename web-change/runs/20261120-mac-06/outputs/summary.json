@@ -1,0 +1,525 @@
+{
+  "scope": "Development-only, one predeclared canonicalization candidate. No confirmation metrics used.",
+  "development_positive_pairs": 19,
+  "train_negative_baselines": 10,
+  "development_negative_baselines": 6,
+  "development_families": 2,
+  "metrics": {
+    "raw": {
+      "local_max32": {
+        "threshold": 0.06135110557079315,
+        "recall": {
+          "clean": {
+            "n": 19,
+            "detected": 13,
+            "rate": 0.6842105263157895
+          },
+          "jpeg95": {
+            "n": 19,
+            "detected": 13,
+            "rate": 0.6842105263157895
+          },
+          "shift_x1": {
+            "n": 19,
+            "detected": 13,
+            "rate": 0.6842105263157895
+          }
+        },
+        "fpr": {
+          "identity": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg90": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95_shift_x1": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg98": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "shift_x1": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          }
+        },
+        "per_class_clean_recall": {
+          "color": {
+            "n": 2,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "font_size": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "font_weight": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "gradient": {
+            "n": 1,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "letter_spacing": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "line_height": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "opacity": {
+            "n": 2,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "position": {
+            "n": 1,
+            "detected": 1,
+            "rate": 1.0
+          },
+          "rounded": {
+            "n": 1,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "spacing": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "text": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          }
+        }
+      },
+      "frozen_run05_learned_gate": {
+        "threshold": 0.9533333333333334,
+        "recall": {
+          "clean": {
+            "n": 19,
+            "detected": 16,
+            "rate": 0.8421052631578947
+          },
+          "jpeg95": {
+            "n": 19,
+            "detected": 13,
+            "rate": 0.6842105263157895
+          },
+          "shift_x1": {
+            "n": 19,
+            "detected": 16,
+            "rate": 0.8421052631578947
+          }
+        },
+        "fpr": {
+          "identity": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg90": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95_shift_x1": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg98": {
+            "n": 6,
+            "detected": 1,
+            "rate": 0.16666666666666666
+          },
+          "shift_x1": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          }
+        },
+        "per_class_clean_recall": {
+          "color": {
+            "n": 2,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "font_size": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "font_weight": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "gradient": {
+            "n": 1,
+            "detected": 1,
+            "rate": 1.0
+          },
+          "letter_spacing": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "line_height": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "opacity": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "position": {
+            "n": 1,
+            "detected": 1,
+            "rate": 1.0
+          },
+          "rounded": {
+            "n": 1,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "spacing": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "text": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          }
+        }
+      }
+    },
+    "canonical90": {
+      "local_max32": {
+        "threshold": 0.050961244851350784,
+        "recall": {
+          "clean": {
+            "n": 19,
+            "detected": 13,
+            "rate": 0.6842105263157895
+          },
+          "jpeg95": {
+            "n": 19,
+            "detected": 13,
+            "rate": 0.6842105263157895
+          },
+          "shift_x1": {
+            "n": 19,
+            "detected": 13,
+            "rate": 0.6842105263157895
+          }
+        },
+        "fpr": {
+          "identity": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg90": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95_shift_x1": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg98": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "shift_x1": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          }
+        },
+        "per_class_clean_recall": {
+          "color": {
+            "n": 2,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "font_size": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "font_weight": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "gradient": {
+            "n": 1,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "letter_spacing": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "line_height": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "opacity": {
+            "n": 2,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "position": {
+            "n": 1,
+            "detected": 1,
+            "rate": 1.0
+          },
+          "rounded": {
+            "n": 1,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "spacing": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "text": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          }
+        }
+      },
+      "frozen_run05_learned_gate": {
+        "threshold": 0.9533333333333334,
+        "recall": {
+          "clean": {
+            "n": 19,
+            "detected": 19,
+            "rate": 1.0
+          },
+          "jpeg95": {
+            "n": 19,
+            "detected": 14,
+            "rate": 0.7368421052631579
+          },
+          "shift_x1": {
+            "n": 19,
+            "detected": 13,
+            "rate": 0.6842105263157895
+          }
+        },
+        "fpr": {
+          "identity": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg90": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95_shift_x1": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg98": {
+            "n": 6,
+            "detected": 1,
+            "rate": 0.16666666666666666
+          },
+          "shift_x1": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          }
+        },
+        "per_class_clean_recall": {
+          "color": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "font_size": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "font_weight": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "gradient": {
+            "n": 1,
+            "detected": 1,
+            "rate": 1.0
+          },
+          "letter_spacing": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "line_height": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "opacity": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "position": {
+            "n": 1,
+            "detected": 1,
+            "rate": 1.0
+          },
+          "rounded": {
+            "n": 1,
+            "detected": 1,
+            "rate": 1.0
+          },
+          "spacing": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          },
+          "text": {
+            "n": 2,
+            "detected": 2,
+            "rate": 1.0
+          }
+        }
+      }
+    },
+    "matched_capture": {
+      "local_max32": {
+        "threshold": 0.06135110557079315,
+        "recall": {
+          "jpeg95": {
+            "n": 19,
+            "detected": 13,
+            "rate": 0.6842105263157895
+          }
+        },
+        "fpr": {
+          "jpeg90": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg98": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          }
+        },
+        "per_class_clean_recall": {}
+      },
+      "frozen_run05_learned_gate": {
+        "threshold": 0.9533333333333334,
+        "recall": {
+          "jpeg95": {
+            "n": 19,
+            "detected": 19,
+            "rate": 1.0
+          }
+        },
+        "fpr": {
+          "jpeg90": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg95": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          },
+          "jpeg98": {
+            "n": 6,
+            "detected": 0,
+            "rate": 0.0
+          }
+        },
+        "per_class_clean_recall": {}
+      }
+    }
+  },
+  "decision": {
+    "local_max32": {
+      "raw_worst_development_fpr": 0.0,
+      "canonical_worst_development_fpr": 0.0,
+      "preserves_clean_and_jpeg95_recall": true,
+      "predeclared_signal": false
+    },
+    "frozen_run05_learned_gate": {
+      "raw_worst_development_fpr": 0.16666666666666666,
+      "canonical_worst_development_fpr": 0.16666666666666666,
+      "preserves_clean_and_jpeg95_recall": true,
+      "predeclared_signal": false
+    }
+  },
+  "matched_capture_negative_pixel_difference_all_zero": true,
+  "matched_capture_diagnostic_warning": "Same encoding on identical frames is a construction sanity check. It does not repair singly encoded incoming pairs.",
+  "seconds": 43.86090400000103,
+  "no_iteration": true
+}

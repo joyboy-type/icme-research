@@ -1,0 +1,11 @@
+{
+  "scope": "Development-only pixel feasibility, no model inference",
+  "hashes": {
+    "runs/20261120-mac-06/protocol.json": "3c1ad44fcb06a3ad742cb2cf1983b02f3af27d16eebd50ff2f75154d21484e80",
+    "runs/20261120-mac-06/code/generation_check.mjs": "64390cdb90a936c0acf198ad157c482369844daeed1943e7b6f360fbdf522618",
+    "runs/20261120-mac-06/code/generation_targets.mjs": "430a7bfe2d292ba195f58e47a6668bfe6ead2cf5aaf6e32fcfe4d18c8acc1640",
+    "runs/20261120-mac-05/code/mutations.mjs": "025effee6ff1d0f3e9186ae329445d7ae3cf2872db82f7f7c566c9818f121441",
+    "data/template-probes-01/pages/spectre.html": "c2dc29ab0c8a4b9a278d02fe3d5f27633f6897ba08003a844d776494e0a62848",
+    "data/template-probes-01/pages/chota.html": "219adf06d2dcfea4c3259d17b101871a9d294a7420bb77991be36e02a21f4b91"
+  }
+}

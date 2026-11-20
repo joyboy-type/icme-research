@@ -1,0 +1,51 @@
+{
+  "id": "20261120-mac-06",
+  "status": "complete_bounded_development_check_stop",
+  "scope": "One fixed development-only JPEG cause/preprocessing check and minimal class generation feasibility. Not new confirmation.",
+  "protocol": "protocol.json",
+  "protocol_sha256": "3c1ad44fcb06a3ad742cb2cf1983b02f3af27d16eebd50ff2f75154d21484e80",
+  "taskbook_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/\u7f51\u9875\u622a\u56fe\u7684\u7ec6\u5fae\u53d8\u66f4\u5206\u7c7b\uff5c\u5b9e\u9a8c\u4efb\u52a1\u4e66_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_unchanged_verified": true,
+  "data_roles": {
+    "train": [
+      "materialize",
+      "uikit",
+      "bootstrap",
+      "milligram"
+    ],
+    "development": [
+      "spectre",
+      "chota"
+    ],
+    "excluded": "All6 confirmation families and419 opened pairs; historical155,355 and72 controls."
+  },
+  "development_positive_pairs": 19,
+  "train_negative_baselines": 10,
+  "development_negative_baselines": 6,
+  "development_families": 2,
+  "seconds_jpeg_check": 43.86090400000103,
+  "candidate_count": 1,
+  "candidate_signal": {
+    "local_max32": false,
+    "frozen_run05_learned_gate": false
+  },
+  "generation_valid_position_images": 6,
+  "generation_valid_justify_images": 0,
+  "generation_images_added_to_frozen_run05": false,
+  "decision": "Stop here. No predeclared development improvement in FPR; shifted recall worsens for frozen learned gate. Position feasibility only in one family/view; justify needs suitable new layouts. Fresh, source-identified and unseen data required for further meaningful validation.",
+  "paid_api_calls": 0,
+  "rented_compute": false,
+  "verification": "outputs/verification.json",
+  "outputs": [
+    "outputs/summary.json",
+    "outputs/decisions.csv",
+    "outputs/generation_summary.json",
+    "outputs/generation_decisions.json",
+    "outputs/verification.json"
+  ]
+}

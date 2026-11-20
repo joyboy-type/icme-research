@@ -1,0 +1,92 @@
+{
+  "scope": "Development-only eligibility, no model scores and no addition to frozen corpus",
+  "families": [
+    "spectre",
+    "chota"
+  ],
+  "views": [
+    {
+      "family": "spectre",
+      "baseline_id": "spectre_v0",
+      "eligible_position": 3,
+      "eligible_justify": 0,
+      "restoration_identical": true
+    },
+    {
+      "family": "spectre",
+      "baseline_id": "spectre_v320",
+      "eligible_position": 3,
+      "eligible_justify": 0,
+      "restoration_identical": true
+    },
+    {
+      "family": "spectre",
+      "baseline_id": "spectre_v640",
+      "eligible_position": 3,
+      "eligible_justify": 0,
+      "restoration_identical": true
+    },
+    {
+      "family": "chota",
+      "baseline_id": "chota_v0",
+      "eligible_position": 0,
+      "eligible_justify": 0,
+      "restoration_identical": true
+    },
+    {
+      "family": "chota",
+      "baseline_id": "chota_v320",
+      "eligible_position": 0,
+      "eligible_justify": 0,
+      "restoration_identical": true
+    },
+    {
+      "family": "chota",
+      "baseline_id": "chota_v640",
+      "eligible_position": 0,
+      "eligible_justify": 0,
+      "restoration_identical": true
+    }
+  ],
+  "counts": {
+    "justify": {
+      "spectre": {
+        "attempted": 0,
+        "valid_new": 0,
+        "status_counts": {
+          "no_eligible_layout_target": 3
+        }
+      },
+      "chota": {
+        "attempted": 0,
+        "valid_new": 0,
+        "status_counts": {
+          "no_eligible_layout_target": 3
+        }
+      }
+    },
+    "position": {
+      "spectre": {
+        "attempted": 27,
+        "valid_new": 6,
+        "status_counts": {
+          "no_changed_pixels": 21,
+          "valid_new_pixels": 6
+        }
+      },
+      "chota": {
+        "attempted": 0,
+        "valid_new": 0,
+        "status_counts": {
+          "no_eligible_layout_target": 3
+        }
+      }
+    }
+  },
+  "required_conditions": {
+    "position": "Visible filled/bordered non-inline box; moving an unboxed text may be pixel-identical to spacing.",
+    "justify": "Horizontal flex container with2+ children and unused free width. Need suitable independent training-family pages; success here is not training coverage."
+  },
+  "browser_version": "158.0.8127.36",
+  "confirmation_sources_used": false
+}

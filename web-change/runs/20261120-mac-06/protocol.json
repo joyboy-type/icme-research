@@ -1,0 +1,86 @@
+{
+  "run_id": "20261120-mac-06",
+  "at_utc": "2026-11-20T15:44:09.905086+00:00",
+  "scope": "One fixed development-only JPEG cause/preprocessing check and minimal class generation feasibility. Not new confirmation.",
+  "word_policy": "FROZEN. No editing, overwriting, copying as a new version, or invoking taskbook writers without explicit user request.",
+  "word_reference": {
+    "version": "1.1",
+    "archive_path": "protocol/网页截图的细微变更分类｜实验任务书_v1.1.docx",
+    "sha256": "4d6e3dbd404a351b219af6144ce761b0a6ddbfcd8b2e7d5244da4f83591150dc"
+  },
+  "word_guard": {},
+  "input_roles": {
+    "train": [
+      "materialize",
+      "uikit",
+      "bootstrap",
+      "milligram"
+    ],
+    "development": [
+      "spectre",
+      "chota"
+    ],
+    "excluded": "All6 confirmation families and419 opened pairs; historical155,355 and72 controls."
+  },
+  "jpeg_experiment": {
+    "reuse": "run05 fixed local descriptors and fitted learned detector; no refit or candidate method search",
+    "candidate_preprocessing": "JPEG roundtrip quality90 applied independently once to both received frames. If received after is already JPEG95, it is encoded again. One candidate only.",
+    "raw_controls": [
+      "identity",
+      "jpeg95",
+      "shift_x1",
+      "jpeg95_shift_x1",
+      "jpeg90",
+      "jpeg98"
+    ],
+    "calibration_conditions": [
+      "identity",
+      "jpeg95",
+      "shift_x1",
+      "jpeg95_shift_x1"
+    ],
+    "threshold_calibration": "Scalar local_max32: separately in each pipeline, max95th higher quantile over train-family unique baseline negatives in four calibration conditions. Frozen learned gate: keep existing run05 threshold unchanged in every pipeline; do not recalibrate it. Development is readout only.",
+    "methods": [
+      "local_max32",
+      "frozen_run05_learned_gate"
+    ],
+    "positive_selection": "On development families only, choose one original pair per(family,label), prefer level1 then0 then2, then lexicographic baseline_id/id. No replacement based on scores.",
+    "positive_conditions": [
+      "clean",
+      "jpeg95",
+      "shift_x1"
+    ],
+    "causal_diagnostic": "Compare PNG vs JPEG(q) same baseline with JPEG(q) vs JPEG(q) matched encoding. Matched pairs are a construction sanity check, not a deployed repair. Also compare matched-encoded changed pairs atq95.",
+    "interpretation": "A candidate counts as development signal only if worst FPR falls without reducing clean or JPEG95 positive recall. Any gain remains development only; no further candidates or tuning."
+  },
+  "generation_check": {
+    "families": [
+      "spectre",
+      "chota"
+    ],
+    "views": [
+      0,
+      320,
+      640
+    ],
+    "labels": [
+      "justify",
+      "position"
+    ],
+    "levels": [
+      0,
+      1,
+      2
+    ],
+    "target_cap_per_label_per_view": 3,
+    "position_rule": "Existing visible non-inline boxes with visible fill or border; choose area ascending. Translate existing transform by1/2/4px. Do not add elements or content.",
+    "justify_rule": "Existing visible horizontal nowrap flex containers with>=2 visible children and measured unused width>=8px; choose DOM order. Reuse original justify-content operator.",
+    "policy": "Pixel eligibility check only, no model scores. Compare generated pixel hashes to existing development labels to expose collisions. No mutation of run05 corpus. If no target, record required source-layout conditions."
+  },
+  "budget": {
+    "local_cpu_only": true,
+    "paid_api_calls": 0,
+    "rental": false,
+    "one_candidate": true
+  }
+}

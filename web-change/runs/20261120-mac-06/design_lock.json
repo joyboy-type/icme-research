@@ -1,0 +1,16 @@
+{
+  "at_utc": "2026-11-20T15:45:57.335807+00:00",
+  "hashes": {
+    "data/template-probes-01/baselines.json": "4ab804d75fcd88e2779085184015ba357fe287320062875a296c066d969f813c",
+    "data/template-probes-01/manifest.json": "a3adfa0f55b0ca68ccc962440555c97f367498801bbe96fc8ae641662cb31e86",
+    "runs/20261120-mac-05/confirmation_lock.json": "6c12dcb5aee21a249fd04b216851a95f95ef85671a03a8a169608cfbd714760e",
+    "runs/20261120-mac-05/outputs/detection_features.npz": "82e7d1a58bf6472f05d1c0aa989dc98f09bb72a987ab6e9b2a5fd9a88badbd61",
+    "runs/20261120-mac-05/outputs/detection_index.json": "4b12bcd53e61febebe7f0883008485701cd56662ff7e23012bcb26414d5525c3",
+    "runs/20261120-mac-05/outputs/frozen_models.joblib": "f57d7c6ba1556c8703f92609feb5f638d1e3f531c907da3129444331e5eaa341",
+    "runs/20261120-mac-06/code/jpeg_check.py": "a3097caa1de8e343a8a1e061e0f0c530ee193e0e5e9e760f8720b893b1db89cf",
+    "runs/20261120-mac-06/code/test_development_check.py": "21705b9e8674504b631f5a9b5bdcf7d1efc882708af6f941833b883e332aae04",
+    "runs/20261120-mac-06/code/test_generation_targets.mjs": "4b92201ae9b8f269394f487503f47371818ff99e31a91618c6cc5fdfbf2741c3",
+    "runs/20261120-mac-06/protocol.json": "3c1ad44fcb06a3ad742cb2cf1983b02f3af27d16eebd50ff2f75154d21484e80"
+  },
+  "no_new_confirmation": true
+}

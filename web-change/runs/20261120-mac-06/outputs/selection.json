@@ -1,0 +1,135 @@
+[
+  {
+    "id": "chota_v0_color_1",
+    "family": "chota",
+    "label": "color",
+    "level": 1,
+    "baseline_id": "chota_v0"
+  },
+  {
+    "id": "chota_v0_font_size_1",
+    "family": "chota",
+    "label": "font_size",
+    "level": 1,
+    "baseline_id": "chota_v0"
+  },
+  {
+    "id": "chota_v0_font_weight_1",
+    "family": "chota",
+    "label": "font_weight",
+    "level": 1,
+    "baseline_id": "chota_v0"
+  },
+  {
+    "id": "chota_v0_letter_spacing_1",
+    "family": "chota",
+    "label": "letter_spacing",
+    "level": 1,
+    "baseline_id": "chota_v0"
+  },
+  {
+    "id": "chota_v0_line_height_1",
+    "family": "chota",
+    "label": "line_height",
+    "level": 1,
+    "baseline_id": "chota_v0"
+  },
+  {
+    "id": "chota_v0_opacity_1",
+    "family": "chota",
+    "label": "opacity",
+    "level": 1,
+    "baseline_id": "chota_v0"
+  },
+  {
+    "id": "chota_v0_spacing_1",
+    "family": "chota",
+    "label": "spacing",
+    "level": 1,
+    "baseline_id": "chota_v0"
+  },
+  {
+    "id": "chota_v0_text_1",
+    "family": "chota",
+    "label": "text",
+    "level": 1,
+    "baseline_id": "chota_v0"
+  },
+  {
+    "id": "spectre_v0_color_1",
+    "family": "spectre",
+    "label": "color",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  },
+  {
+    "id": "spectre_v0_font_size_1",
+    "family": "spectre",
+    "label": "font_size",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  },
+  {
+    "id": "spectre_v0_font_weight_1",
+    "family": "spectre",
+    "label": "font_weight",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  },
+  {
+    "id": "spectre_v0_gradient_1",
+    "family": "spectre",
+    "label": "gradient",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  },
+  {
+    "id": "spectre_v0_letter_spacing_1",
+    "family": "spectre",
+    "label": "letter_spacing",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  },
+  {
+    "id": "spectre_v0_line_height_1",
+    "family": "spectre",
+    "label": "line_height",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  },
+  {
+    "id": "spectre_v0_opacity_1",
+    "family": "spectre",
+    "label": "opacity",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  },
+  {
+    "id": "spectre_v0_position_1",
+    "family": "spectre",
+    "label": "position",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  },
+  {
+    "id": "spectre_v320_rounded_1",
+    "family": "spectre",
+    "label": "rounded",
+    "level": 1,
+    "baseline_id": "spectre_v320"
+  },
+  {
+    "id": "spectre_v0_spacing_1",
+    "family": "spectre",
+    "label": "spacing",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  },
+  {
+    "id": "spectre_v0_text_1",
+    "family": "spectre",
+    "label": "text",
+    "level": 1,
+    "baseline_id": "spectre_v0"
+  }
+]

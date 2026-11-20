@@ -1,0 +1,26 @@
+{
+  "at_utc": "2026-11-20T15:50:34.370677+00:00",
+  "locked_jpeg_files_verified": 10,
+  "locked_generation_files_verified": 6,
+  "summary_cells_recomputed_from_decisions": 44,
+  "decision_rows": 446,
+  "all_decisions_match_thresholds": true,
+  "score_rows_only_development": true,
+  "all_feature_rows_only_train_or_development": true,
+  "new_generation_images_verified": 6,
+  "new_generation_images_visually_reviewed": true,
+  "tests": {
+    "python": 3,
+    "node": 2,
+    "failed": 0,
+    "red_green_logs_retained": true
+  },
+  "word_unchanged_verified": true,
+  "confirmation_used": false,
+  "no_additional_candidate_or_iteration": true,
+  "review_caveats": [
+    "Matched identical encoded frames are a construction sanity check, not real-world causal proof.",
+    "Scalar comparison changes both preprocessing and train-calibrated threshold.",
+    "Box eligibility is approximate; only6 valid images manually verified; coverage not solved."
+  ]
+}
