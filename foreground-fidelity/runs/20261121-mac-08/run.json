@@ -1,0 +1,19 @@
+{
+  "run_id": "20261121-mac-08",
+  "date": "2026-11-21",
+  "direction": "03 / foreground-fidelity",
+  "purpose": "Check authorized existing GPU conditions before frozen32 PVC diagnostic inference",
+  "status": "NOT_STARTED_missing_authorized_GPU_endpoint",
+  "executed": "Local platform/tool/backend availability and four targeted model-cache path checks; frozen input archive hash and Word hash checks",
+  "threads": 2,
+  "inference_attempts": 0,
+  "existing_gpu_only": true,
+  "resource_gate": "Not passed: no concrete authorized server execution entry or provisioned model paths supplied",
+  "resumption_requires": "User-provided existing GPU access conditions; then perform actual server preflight before the unchanged32 requests",
+  "outputs": [
+    "outputs/resource_preflight.json",
+    "outputs/RESULTS.md",
+    "outputs/final_validation.json"
+  ],
+  "publication_scope": "Only this run metadata and status; no images, credentials, model files or confirmation data"
+}

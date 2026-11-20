@@ -1,0 +1,94 @@
+{
+  "run_id": "20261121-mac-08",
+  "date": "2026-11-21",
+  "status": "NOT_STARTED_missing_authorized_GPU_endpoint",
+  "authorization_scope": "Use only already-authorized and actually available existing GPU; no rentals, payments or substitute experiment",
+  "observed_local_hardware": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "remote_shell_session": false,
+    "nvidia_smi_available": false,
+    "nvidia_device_nodes_present": false
+  },
+  "observed_existing_ML_environment": {
+    "torch_version": "2.10.0",
+    "torch_cuda_build": null,
+    "cuda_available": false,
+    "mps_available": true,
+    "vllm_installed": false,
+    "flash_attn_installed": false,
+    "model_loaded": false,
+    "inference_run": false
+  },
+  "targeted_local_asset_presence": [
+    {
+      "location_label": "default_or_configured_hf_Qwen3VL8B",
+      "exists": false
+    },
+    {
+      "location_label": "default_or_configured_hf_PVCJudge",
+      "exists": false
+    },
+    {
+      "location_label": "project_Qwen3VL8B",
+      "exists": false
+    },
+    {
+      "location_label": "project_PVCJudge",
+      "exists": false
+    }
+  ],
+  "asset_search_limit": "Checked four explicit configured/default cache/project locations only; no claim of absence from all disks or remote servers",
+  "server_access_evidence": {
+    "existing_handoff": "runs/20261120-mac-06/outputs/server_handoff_current.json",
+    "existing_handoff_status": "local_input_and_command_handoff_ready_actual_inference_NOT_RUN",
+    "concrete_authorized_GPU_endpoint_provided": false,
+    "actual_server_model_or_LoRA_paths_provided": false,
+    "remote_login_attempted": false,
+    "remote_authentication_material_searched": false,
+    "tool_inventory_GPU_or_remote_compute_connector_found": false
+  },
+  "engineering_readiness": {
+    "input_archive_sha256": "b91cfee63a609a01bad7563d2d394ced6fd7c9a8835b7d17bd1ad0d8ff40a797",
+    "input_archive_matches_frozen_receipt": true,
+    "pairs": 16,
+    "orders": [
+      "AB",
+      "BA"
+    ],
+    "planned_ordered_requests": 32,
+    "prompt_id": "vlm/assessment/visual_consistency/pairwise",
+    "prompt_version": "v1",
+    "official_commit": "a083bbbf28f86c6e1f9e50c11082b80fccbe4ceb",
+    "prior_input_and_command_checks": "mac-03/mac-06 PASS; no new server environment validation claimed"
+  },
+  "actual_inference": {
+    "ordered_requests_attempted": 0,
+    "AB_results": null,
+    "BA_results": null,
+    "invalid_output_count": null,
+    "order_disagreement_count": null,
+    "VRAM_peak": null,
+    "inference_wall_seconds": null,
+    "actual_external_compute_cost": null,
+    "note": "Not measured because no judge/model was started; unobserved metrics are not zero"
+  },
+  "missing_information": [
+    "Authorized existing GPU server address and intended login method, or an already connected execution environment",
+    "On that server: actual Qwen3-VL-8B-Instruct and PVC LoRA paths; if not provisioned, resource preparation remains unresolved",
+    "Actual CUDA/vLLM/flash-attn compatibility, GPU capacity, model hashes and writable paths must be checked after server access is available"
+  ],
+  "interpretation": "Apple MPS availability does not satisfy the currently prepared CUDA/vLLM/flash-attn execution path. No claim that all possible Mac/CPU/quantized alternatives are impossible; none were authorized or tested as substitutions.",
+  "scope_controls": {
+    "Word_sha256_unchanged": "1682914cc21d0db94763be41d40f16b8c66ea88fda66676609edb60d3dd4ac71",
+    "confirmation_files_opened_or_hashed": false,
+    "confirmation_predictions": 0,
+    "new_human_annotation": false,
+    "preprocessing_sweep": false,
+    "model_download": false,
+    "training": false,
+    "rentals_or_paid_services": false
+  },
+  "execution_errors": [],
+  "blocking_condition": "Resource/access precondition missing, not an inference failure"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_for_resource_preflight_record_only",
+  "run_id": "20261121-mac-08",
+  "resource_gate_passed": false,
+  "judge_inference": "NOT_STARTED",
+  "reason": "No supplied concrete authorized existing GPU execution entry; local prepared environment lacks CUDA backend and required runtime/model assets",
+  "ordered_inference_attempts": 0,
+  "unmeasured_metrics_are_null": true,
+  "Word_and_frozen_input_archive_hashes": "match known frozen values",
+  "confirmation_files_opened_or_hashed": false,
+  "public_screening": "metadata only; no credentials, images, model files, raw labels or private paths",
+  "scope_changed": false
+}
