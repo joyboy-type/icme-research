@@ -1,0 +1,14 @@
+{
+  "status": "PASS_existing_asset_audit_only",
+  "run_id": "20261121-mac-09",
+  "source_overlap_exclusion_list_reproduced": true,
+  "all11_extra_pairs_exactly_match_old_source_groups": true,
+  "new_eligible_independent_source_groups": 0,
+  "new_authorized_resources_provided": false,
+  "hardware_preflight_repeated": false,
+  "PVC_or_other_model_inference": "NOT_RUN",
+  "performance_metrics": "not measured, not zero-valued results",
+  "read_scope_excludes_confirmation": true,
+  "Word_frozen_hash": "PASS",
+  "public_export_screening": "No images, weights, raw preference labels, private paths or future confirmation identifiers"
+}

@@ -1,0 +1,195 @@
+{
+  "status": "PASS_existing_asset_independence_audit",
+  "run_id": "20261121-mac-09",
+  "existing_scored_pairs": 89,
+  "existing_source_groups": 46,
+  "existing_unsealed_metadata_rows": 100,
+  "triplet_inventory": [
+    {
+      "metadata_rows": 64,
+      "complete_triplets": 64,
+      "complete_pairs_outside_old89": 0
+    },
+    {
+      "metadata_rows": 36,
+      "complete_triplets": 36,
+      "complete_pairs_outside_old89": 11
+    }
+  ],
+  "extra_complete_pairs": 11,
+  "extra_pair_distinct_sources": 8,
+  "extra_pairs_matching_old_sources": 11,
+  "eligible_independent_new_source_groups": 0,
+  "extra_pair_records": [
+    {
+      "development_pair": "background_change_pair_000064",
+      "row_index": 64,
+      "source_RGB_sha256": "0e214e006bacba8161cb7fad2b9dd59ec7cfe837846b71c18d2a0d3a0208578d",
+      "dimensions": [
+        3072,
+        1728
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 62
+    },
+    {
+      "development_pair": "background_change_pair_000087",
+      "row_index": 87,
+      "source_RGB_sha256": "684ce20cb63b549b4097bfe07eacea0629f3733d5f6b8c5b94992928419f75a1",
+      "dimensions": [
+        1000,
+        667
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 0
+    },
+    {
+      "development_pair": "background_change_pair_000088",
+      "row_index": 88,
+      "source_RGB_sha256": "839f9160bf80e2ce0963f0392a35746aa02a43b2a27308eaccfe6f80b98c74b9",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 1
+    },
+    {
+      "development_pair": "background_change_pair_000089",
+      "row_index": 89,
+      "source_RGB_sha256": "684ce20cb63b549b4097bfe07eacea0629f3733d5f6b8c5b94992928419f75a1",
+      "dimensions": [
+        1000,
+        667
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 0
+    },
+    {
+      "development_pair": "background_change_pair_000090",
+      "row_index": 90,
+      "source_RGB_sha256": "684ce20cb63b549b4097bfe07eacea0629f3733d5f6b8c5b94992928419f75a1",
+      "dimensions": [
+        1000,
+        667
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 0
+    },
+    {
+      "development_pair": "background_change_pair_000091",
+      "row_index": 91,
+      "source_RGB_sha256": "540916c1c508bc4bc4f8e339aea4486400ff3c3e6adf36524d61c58461a9092f",
+      "dimensions": [
+        700,
+        465
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 3
+    },
+    {
+      "development_pair": "background_change_pair_000092",
+      "row_index": 92,
+      "source_RGB_sha256": "d257bf7f3c5d7531e5a6afda14e924a1b40177ab05d5521ab06d9e2a9d3c75cc",
+      "dimensions": [
+        4928,
+        2712
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 7
+    },
+    {
+      "development_pair": "background_change_pair_000093",
+      "row_index": 93,
+      "source_RGB_sha256": "241da6b759619bdced213e11cf8844d7bbf13924b365e47c4b6eac6b90a3de44",
+      "dimensions": [
+        1575,
+        1050
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 10
+    },
+    {
+      "development_pair": "background_change_pair_000095",
+      "row_index": 95,
+      "source_RGB_sha256": "b3ec696116e54c84b1bcb6a8d53971537ff26ba422e7f822815e6c69a4a68dff",
+      "dimensions": [
+        2592,
+        1944
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 16
+    },
+    {
+      "development_pair": "background_change_pair_000098",
+      "row_index": 98,
+      "source_RGB_sha256": "3b4b160841bd0a5e2c7e3a559918272f5c1b0cca0b8eebb08fd90c3767a5cf8a",
+      "dimensions": [
+        2592,
+        1936
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 18
+    },
+    {
+      "development_pair": "background_change_pair_000099",
+      "row_index": 99,
+      "source_RGB_sha256": "839f9160bf80e2ce0963f0392a35746aa02a43b2a27308eaccfe6f80b98c74b9",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "matches_old46_source_group": true,
+      "old_source_first_row": 1
+    }
+  ],
+  "matches_prior_overlap_exclusion_list": true,
+  "EditHF_local_assets": {
+    "score_rows": 7912,
+    "columns": [
+      "filename",
+      "visual",
+      "editing",
+      "preservatioin",
+      "instruction"
+    ],
+    "complete_original_instruction_AB_bundle_established": false,
+    "local_image_archives_in_known_work_directory": 0,
+    "limitation": "Scores table and remote archive listings do not constitute local traceable image triplets or source-disjoint failure cases"
+  },
+  "resource_delta": {
+    "resource_history_ref": "a152c98926efeb3a1a0e888f91b92365812b657c",
+    "direction_commits_since_mac08": 0,
+    "known_server_handoff_hash_unchanged": true,
+    "new_authorized_server_access_supplied": false,
+    "hardware_or_model_cache_preflight_repeated": false,
+    "reuse_preflight": "runs/20261121-mac-08/outputs/resource_preflight.json"
+  },
+  "new_preference_predictions_or_scores": 0,
+  "traceable_independent_failure_case_established": false,
+  "confirmation_files_opened_or_hashed": false,
+  "GPU_model_inference": false,
+  "downloads": 0,
+  "read_scope": [
+    "experiments/foreground-fidelity/runs/20261120-mac-02/protocol/inputs.json",
+    "experiments/foreground-fidelity/runs/20261120-mac-04/protocol/source_review_manifest.json",
+    "experiments/foreground-fidelity/data/snapshot-01/fixed_sample_manifest.json",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/fixed_sample_manifest.json",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0064_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0087_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0088_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0089_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0090_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0091_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0092_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0093_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0095_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0098_source.jpg",
+    "experiments/foreground-fidelity/data/snapshot-01/replication/images/0099_source.jpg",
+    "work/image_preference_round3_20261120/replication/source_overlap_exclusions.json",
+    "work/image_preference_round3_20261120/edithf_test.csv",
+    "experiments/foreground-fidelity/integrity.json",
+    "experiments/foreground-fidelity/runs/20261120-mac-06/outputs/server_handoff_current.json"
+  ],
+  "scope_note": "Only existing known local assets; not a claim that all public independent datasets are unavailable"
+}

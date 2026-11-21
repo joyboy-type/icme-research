@@ -1,0 +1,35 @@
+{
+  "run_id": "20261121-mac-09",
+  "date": "2026-11-21",
+  "direction": "03 / foreground-fidelity",
+  "status": "NO_RUN_no_new_GPU_or_eligible_existing_independent_development_case",
+  "actual_work": "Existing first100 development-asset completeness, source RGB duplicate audit and provenance inspection; resource-change check only",
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "code/audit_existing_development.py",
+        "--workspace",
+        "<WORKSPACE>",
+        "--resource-history-ref",
+        "a152c98926efeb3a1a0e888f91b92365812b657c",
+        "--output",
+        "outputs/existing_asset_audit.json"
+      ],
+      "result": "PASS; 11/11 extra pair sources overlap old46, representing8 old groups"
+    }
+  ],
+  "threads": 2,
+  "resource_preflight_reused": "20261121-mac-08; not repeated",
+  "source_group_rule": "legacy RGB-byte SHA-256, checked only on 11 extra development originals",
+  "new_preference_predictions": 0,
+  "PVC_inference_attempts": 0,
+  "invalid_output_count": null,
+  "order_disagreements": null,
+  "VRAM_latency_cost": null,
+  "new_independent_failure_cases": 0,
+  "confirmation_files_accessed": false,
+  "model_downloads_training_rentals_human_annotation": false,
+  "Word_sha256_unchanged": "1682914cc21d0db94763be41d40f16b8c66ea88fda66676609edb60d3dd4ac71",
+  "publication_scope": "Only scoped code, asset counts and source-match records; no images, raw label values, credentials or confirmation IDs"
+}
