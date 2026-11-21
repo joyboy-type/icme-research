@@ -1,0 +1,95 @@
+{
+  "project": "paper2_av_nullslot",
+  "title": "Null-Slot Cross-Attention with Counterfactual Modality-Swap Regularization for Audio-Visual Event Localization and Video Parsing",
+  "benchmarks": {
+    "primary_fast_pilot": {
+      "name": "AVE (ECCV 2018)",
+      "source": "https://github.com/YapengTian/AVE-ECCV18",
+      "features": {
+        "audio": "VGGish (10 x 128) - audio_feature.h5 (42.4 MB)",
+        "visual": "VGG-19 GAP (10 x 512) - visual_feature_vec.h5 (162 MB)"
+      },
+      "splits": {
+        "train": 3339,
+        "val": 402,
+        "test": 402
+      },
+      "num_classes": 29,
+      "background_class_idx": 28,
+      "evaluation": [
+        "clean_segment_acc",
+        "clean_macro_f1",
+        "av_event_acc",
+        "bg_unaligned_acc",
+        "swap_v_audio_retention_acc",
+        "swap_v_visual_drag_rate",
+        "swap_v_av_rejection_rate",
+        "swap_a_visual_retention_acc",
+        "swap_a_audio_drag_rate",
+        "swap_a_av_rejection_rate",
+        "null_slot_mass_aligned_vs_bg_vs_swapped"
+      ]
+    },
+    "full_paper_benchmark": {
+      "name": "LLP / AVVP (ECCV 2020)",
+      "source": "https://github.com/YapengTian/AVVP-ECCV20",
+      "features": {
+        "audio": "VGGish (10 x 128)",
+        "visual_2d": "ResNet-152 (10 x 2048)",
+        "visual_3d": "R(2+1)D-18 (10 x 512)",
+        "archive": "feats.zip (7.8 GiB, verified HTTP 206 direct download)"
+      },
+      "splits": {
+        "train_weak": 10000,
+        "val_dense": 649,
+        "test_dense": 1200
+      },
+      "num_classes": 25,
+      "evaluation": [
+        "segment_level_F1_Audio",
+        "segment_level_F1_Visual",
+        "segment_level_F1_AudioVisual",
+        "segment_level_F1_Type",
+        "segment_level_F1_Event",
+        "event_level_F1_Audio",
+        "event_level_F1_Visual",
+        "event_level_F1_AudioVisual",
+        "unimodal_corruption_rate_on_audio_only_and_visual_only"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "baseline_xattn",
+      "description": "Standard Multi-Head Cross-Attention (softmax forced to sum to 1 over opposite modality tokens) + temporal encoder + A/V/AV heads."
+    },
+    {
+      "id": "nullslot_xattn",
+      "description": "Null-Slot Cross-Attention: appends a learnable per-head null key with zero value (abstain slot) to softmax, enabling sink-free cross-modal gating without counterfactual regularization."
+    },
+    {
+      "id": "baseline_cfswap",
+      "description": "Standard Multi-Head Cross-Attention + Counterfactual Modality-Swap Regularization (invariance + BG rejection, without Null-Slot escape hatch)."
+    },
+    {
+      "id": "nullslot_cfswap",
+      "description": "Null-Slot Cross-Attention + Counterfactual Modality-Swap Regularization: in-batch cross-video swaps (A_i, V_j) supervise (1) null-slot abstention mass alpha_null -> 1, (2) unimodal prediction invariance (preventing distractor drag), and (3) joint AV background rejection."
+    }
+  ],
+  "training": {
+    "seeds": [42, 43, 44],
+    "epochs": 25,
+    "batch_size": 128,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "d_model": 256,
+    "n_heads": 4,
+    "n_layers": 2,
+    "dropout": 0.2,
+    "cf_swap_weight": 0.5,
+    "cf_null_weight": 0.3,
+    "cf_invariance_weight": 0.5,
+    "cf_bg_weight": 0.5,
+    "device": "mps_or_cpu"
+  }
+}

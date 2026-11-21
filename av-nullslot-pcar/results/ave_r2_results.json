@@ -1,0 +1,1002 @@
+{
+  "A0_baseline_xattn": {
+    "spec": {
+      "attn_mode": "standard",
+      "use_cf": false,
+      "null_loss": "none"
+    },
+    "runs": [
+      {
+        "clean_acc": 0.7268656716417911,
+        "clean_macro_f1": 0.7551720375512627,
+        "av_event_acc": 0.7915279878971255,
+        "bg_unaligned_acc": 0.427972027972028,
+        "ev_to_bg_err": 0.09954614220877459,
+        "clean_audio_event_acc": 0.7821482602118003,
+        "clean_visual_event_acc": 0.7821482602118003,
+        "swap_v_audio_retain_acc": 0.39091236927515327,
+        "swap_v_visual_drag_rate": 0.19509556437071762,
+        "swap_v_av_reject_rate": 0.28452939055174903,
+        "swap_a_visual_retain_acc": 0.3173458348359178,
+        "swap_a_audio_drag_rate": 0.27335016227912007,
+        "swap_a_av_reject_rate": 0.29029931482149296,
+        "null_a2v_ev": 0.0,
+        "null_v2a_ev": 0.0,
+        "null_a2v_bg": 0.0,
+        "null_v2a_bg": 0.0,
+        "null_a2v_swap_v": 0.0,
+        "null_v2a_swap_a": 0.0,
+        "alpha_auroc_swap_v": 0.5,
+        "alpha_auroc_swap_a": 0.5,
+        "fusion_ratio_ev": 0.6843692064285278,
+        "fusion_ratio_swap": 0.6803291440010071,
+        "best_val_clean_acc": 0.7634328358208955,
+        "constraint_met": 0.0,
+        "mean_grad_norm": 1.392002957554964
+      },
+      {
+        "clean_acc": 0.7159203980099502,
+        "clean_macro_f1": 0.7420132789263773,
+        "av_event_acc": 0.7697428139183056,
+        "bg_unaligned_acc": 0.4671328671328671,
+        "ev_to_bg_err": 0.10922844175491679,
+        "clean_audio_event_acc": 0.7760968229954615,
+        "clean_visual_event_acc": 0.7612708018154312,
+        "swap_v_audio_retain_acc": 0.36927515326361343,
+        "swap_v_visual_drag_rate": 0.18932564010097366,
+        "swap_v_av_reject_rate": 0.3981247746123332,
+        "swap_a_visual_retain_acc": 0.2967904796249549,
+        "swap_a_audio_drag_rate": 0.2614496934727732,
+        "swap_a_av_reject_rate": 0.3433104940497656,
+        "null_a2v_ev": 0.0,
+        "null_v2a_ev": 0.0,
+        "null_a2v_bg": 0.0,
+        "null_v2a_bg": 0.0,
+        "null_a2v_swap_v": 0.0,
+        "null_v2a_swap_a": 0.0,
+        "alpha_auroc_swap_v": 0.5,
+        "alpha_auroc_swap_a": 0.5,
+        "fusion_ratio_ev": 0.692744255065918,
+        "fusion_ratio_swap": 0.6895943880081177,
+        "best_val_clean_acc": 0.7445273631840796,
+        "constraint_met": 0.0,
+        "mean_grad_norm": 1.3892555658633892
+      },
+      {
+        "clean_acc": 0.7495024875621891,
+        "clean_macro_f1": 0.7711615878959176,
+        "av_event_acc": 0.8066565809379728,
+        "bg_unaligned_acc": 0.4853146853146853,
+        "ev_to_bg_err": 0.09228441754916793,
+        "clean_audio_event_acc": 0.7990922844175492,
+        "clean_visual_event_acc": 0.7984871406959153,
+        "swap_v_audio_retain_acc": 0.3689145329967544,
+        "swap_v_visual_drag_rate": 0.18175261449693472,
+        "swap_v_av_reject_rate": 0.3126577713667508,
+        "swap_a_visual_retain_acc": 0.3205914172376488,
+        "swap_a_audio_drag_rate": 0.28452939055174903,
+        "swap_a_av_reject_rate": 0.27335016227912007,
+        "null_a2v_ev": 0.0,
+        "null_v2a_ev": 0.0,
+        "null_a2v_bg": 0.0,
+        "null_v2a_bg": 0.0,
+        "null_a2v_swap_v": 0.0,
+        "null_v2a_swap_a": 0.0,
+        "alpha_auroc_swap_v": 0.5,
+        "alpha_auroc_swap_a": 0.5,
+        "fusion_ratio_ev": 0.6560200452804565,
+        "fusion_ratio_swap": 0.654498279094696,
+        "best_val_clean_acc": 0.7495024875621891,
+        "constraint_met": 0.0,
+        "mean_grad_norm": 1.4032357522157521
+      }
+    ],
+    "summary": {
+      "clean_acc": {
+        "mean": 0.7307628524046433,
+        "std": 0.013984043242148232
+      },
+      "clean_macro_f1": {
+        "mean": 0.7561156347911858,
+        "std": 0.011918438397691187
+      },
+      "av_event_acc": {
+        "mean": 0.789309127584468,
+        "std": 0.0151514367791943
+      },
+      "bg_unaligned_acc": {
+        "mean": 0.46013986013986014,
+        "std": 0.02392657794005843
+      },
+      "ev_to_bg_err": {
+        "mean": 0.10035300050428643,
+        "std": 0.00694085750240454
+      },
+      "clean_audio_event_acc": {
+        "mean": 0.7857791225416036,
+        "std": 0.0097325975445808
+      },
+      "clean_visual_event_acc": {
+        "mean": 0.7806354009077155,
+        "std": 0.015231120058884391
+      },
+      "swap_v_audio_retain_acc": {
+        "mean": 0.3763673518451737,
+        "std": 0.010285934110004282
+      },
+      "swap_v_visual_drag_rate": {
+        "mean": 0.18872460632287533,
+        "std": 0.0054637904446993655
+      },
+      "swap_v_av_reject_rate": {
+        "mean": 0.33177064551027774,
+        "std": 0.04830427371353132
+      },
+      "swap_a_visual_retain_acc": {
+        "mean": 0.3115759105661738,
+        "std": 0.010538506452363844
+      },
+      "swap_a_audio_drag_rate": {
+        "mean": 0.2731097487678808,
+        "std": 0.009423780320961478
+      },
+      "swap_a_av_reject_rate": {
+        "mean": 0.3023199903834595,
+        "std": 0.029799155313411645
+      },
+      "null_a2v_ev": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_v2a_ev": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_a2v_bg": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_v2a_bg": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_a2v_swap_v": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_v2a_swap_a": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "alpha_auroc_swap_v": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "alpha_auroc_swap_a": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "fusion_ratio_ev": {
+        "mean": 0.6777111689249674,
+        "std": 0.015714409388429836
+      },
+      "fusion_ratio_swap": {
+        "mean": 0.6748072703679403,
+        "std": 0.014850421577188917
+      },
+      "best_val_clean_acc": {
+        "mean": 0.7524875621890548,
+        "std": 0.008001550966377963
+      },
+      "constraint_met": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mean_grad_norm": {
+        "mean": 1.3948314252113685,
+        "std": 0.006047675838655908
+      }
+    },
+    "elapsed_sec": 106.66
+  },
+  "A1_baseline_cfswap_v2": {
+    "spec": {
+      "attn_mode": "standard",
+      "use_cf": true,
+      "null_loss": "none"
+    },
+    "runs": [
+      {
+        "clean_acc": 0.6753731343283582,
+        "clean_macro_f1": 0.7151285142244903,
+        "av_event_acc": 0.6953101361573374,
+        "bg_unaligned_acc": 0.5832167832167832,
+        "ev_to_bg_err": 0.21936459909228442,
+        "clean_audio_event_acc": 0.7549167927382754,
+        "clean_visual_event_acc": 0.6980332829046899,
+        "swap_v_audio_retain_acc": 0.716913090515687,
+        "swap_v_visual_drag_rate": 0.010818608005769925,
+        "swap_v_av_reject_rate": 0.9242697439596105,
+        "swap_a_visual_retain_acc": 0.6498377208799134,
+        "swap_a_audio_drag_rate": 0.014064190407500902,
+        "swap_a_av_reject_rate": 0.9134511359538406,
+        "null_a2v_ev": 0.0,
+        "null_v2a_ev": 0.0,
+        "null_a2v_bg": 0.0,
+        "null_v2a_bg": 0.0,
+        "null_a2v_swap_v": 0.0,
+        "null_v2a_swap_a": 0.0,
+        "alpha_auroc_swap_v": 0.5,
+        "alpha_auroc_swap_a": 0.5,
+        "fusion_ratio_ev": 0.4062170088291168,
+        "fusion_ratio_swap": 0.396134614944458,
+        "best_val_clean_acc": 0.6895522388059702,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.8365753460847414
+      },
+      {
+        "clean_acc": 0.6611940298507463,
+        "clean_macro_f1": 0.7107051854376302,
+        "av_event_acc": 0.6798789712556732,
+        "bg_unaligned_acc": 0.5748251748251748,
+        "ev_to_bg_err": 0.25173978819969745,
+        "clean_audio_event_acc": 0.7509833585476551,
+        "clean_visual_event_acc": 0.6801815431164902,
+        "swap_v_audio_retain_acc": 0.7288135593220338,
+        "swap_v_visual_drag_rate": 0.01009736747205193,
+        "swap_v_av_reject_rate": 0.9596105301117923,
+        "swap_a_visual_retain_acc": 0.6808510638297872,
+        "swap_a_audio_drag_rate": 0.015867291741795887,
+        "swap_a_av_reject_rate": 0.9332852506310855,
+        "null_a2v_ev": 0.0,
+        "null_v2a_ev": 0.0,
+        "null_a2v_bg": 0.0,
+        "null_v2a_bg": 0.0,
+        "null_a2v_swap_v": 0.0,
+        "null_v2a_swap_a": 0.0,
+        "alpha_auroc_swap_v": 0.5,
+        "alpha_auroc_swap_a": 0.5,
+        "fusion_ratio_ev": 0.37089693546295166,
+        "fusion_ratio_swap": 0.361636221408844,
+        "best_val_clean_acc": 0.6883084577114428,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.824467346576544
+      },
+      {
+        "clean_acc": 0.685820895522388,
+        "clean_macro_f1": 0.722017929897898,
+        "av_event_acc": 0.7049924357034796,
+        "bg_unaligned_acc": 0.5972027972027972,
+        "ev_to_bg_err": 0.21633888048411498,
+        "clean_audio_event_acc": 0.7600605143721634,
+        "clean_visual_event_acc": 0.724054462934947,
+        "swap_v_audio_retain_acc": 0.7475658131987017,
+        "swap_v_visual_drag_rate": 0.011900468806346917,
+        "swap_v_av_reject_rate": 0.9217454020915975,
+        "swap_a_visual_retain_acc": 0.6732780382257483,
+        "swap_a_audio_drag_rate": 0.026325279480706815,
+        "swap_a_av_reject_rate": 0.8777497295347999,
+        "null_a2v_ev": 0.0,
+        "null_v2a_ev": 0.0,
+        "null_a2v_bg": 0.0,
+        "null_v2a_bg": 0.0,
+        "null_a2v_swap_v": 0.0,
+        "null_v2a_swap_a": 0.0,
+        "alpha_auroc_swap_v": 0.5,
+        "alpha_auroc_swap_a": 0.5,
+        "fusion_ratio_ev": 0.4030168950557709,
+        "fusion_ratio_swap": 0.3966525197029114,
+        "best_val_clean_acc": 0.6977611940298507,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.8546423747906318
+      }
+    ],
+    "summary": {
+      "clean_acc": {
+        "mean": 0.6741293532338308,
+        "std": 0.01009227003736356
+      },
+      "clean_macro_f1": {
+        "mean": 0.7159505431866728,
+        "std": 0.0046548430347206115
+      },
+      "av_event_acc": {
+        "mean": 0.6933938477054967,
+        "std": 0.010341684105786062
+      },
+      "bg_unaligned_acc": {
+        "mean": 0.5850815850815851,
+        "std": 0.009230298309195048
+      },
+      "ev_to_bg_err": {
+        "mean": 0.22914775592536563,
+        "std": 0.01602266488420479
+      },
+      "clean_audio_event_acc": {
+        "mean": 0.7553202218860312,
+        "std": 0.003716697079715224
+      },
+      "clean_visual_event_acc": {
+        "mean": 0.7007564296520424,
+        "std": 0.018014252126300784
+      },
+      "swap_v_audio_retain_acc": {
+        "mean": 0.7310974876788076,
+        "std": 0.012617701811994352
+      },
+      "swap_v_visual_drag_rate": {
+        "mean": 0.01093881476138959,
+        "std": 0.0007410042075933376
+      },
+      "swap_v_av_reject_rate": {
+        "mean": 0.9352085587210001,
+        "std": 0.01728554755249661
+      },
+      "swap_a_visual_retain_acc": {
+        "mean": 0.6679889409784829,
+        "std": 0.013201963805936691
+      },
+      "swap_a_audio_drag_rate": {
+        "mean": 0.01875225387666787,
+        "std": 0.00540529562589665
+      },
+      "swap_a_av_reject_rate": {
+        "mean": 0.9081620387065753,
+        "std": 0.022978677625533152
+      },
+      "null_a2v_ev": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_v2a_ev": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_a2v_bg": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_v2a_bg": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_a2v_swap_v": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "null_v2a_swap_a": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "alpha_auroc_swap_v": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "alpha_auroc_swap_a": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "fusion_ratio_ev": {
+        "mean": 0.3933769464492798,
+        "std": 0.015949364720883912
+      },
+      "fusion_ratio_swap": {
+        "mean": 0.3848077853520711,
+        "std": 0.016386134138675602
+      },
+      "best_val_clean_acc": {
+        "mean": 0.6918739635157545,
+        "std": 0.0041937541016257825
+      },
+      "constraint_met": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "mean_grad_norm": {
+        "mean": 1.8385616891506391,
+        "std": 0.012398716358608213
+      }
+    },
+    "elapsed_sec": 335.57
+  },
+  "A2_nullslot_cfswap_abs": {
+    "spec": {
+      "attn_mode": "nullslot",
+      "use_cf": true,
+      "null_loss": "abs"
+    },
+    "runs": [
+      {
+        "clean_acc": 0.6649253731343283,
+        "clean_macro_f1": 0.7119010326019961,
+        "av_event_acc": 0.6859304084720121,
+        "bg_unaligned_acc": 0.5678321678321678,
+        "ev_to_bg_err": 0.2384266263237519,
+        "clean_audio_event_acc": 0.7537065052950076,
+        "clean_visual_event_acc": 0.6859304084720121,
+        "swap_v_audio_retain_acc": 0.7417958889289578,
+        "swap_v_visual_drag_rate": 0.009736747205192933,
+        "swap_v_av_reject_rate": 0.9307609087630725,
+        "swap_a_visual_retain_acc": 0.6552470248827984,
+        "swap_a_audio_drag_rate": 0.016588532275513886,
+        "swap_a_av_reject_rate": 0.9278759466282005,
+        "null_a2v_ev": 0.6009252667427063,
+        "null_v2a_ev": 0.6495317816734314,
+        "null_a2v_bg": 0.6832920908927917,
+        "null_v2a_bg": 0.739626407623291,
+        "null_a2v_swap_v": 0.8115441203117371,
+        "null_v2a_swap_a": 0.8428531885147095,
+        "alpha_auroc_swap_v": 0.830093234579127,
+        "alpha_auroc_swap_a": 0.8254845647893388,
+        "fusion_ratio_ev": 0.2803557813167572,
+        "fusion_ratio_swap": 0.14467208087444305,
+        "best_val_clean_acc": 0.6828358208955224,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.801826119331213
+      },
+      {
+        "clean_acc": 0.6883084577114428,
+        "clean_macro_f1": 0.722534627053548,
+        "av_event_acc": 0.7373676248108926,
+        "bg_unaligned_acc": 0.46153846153846156,
+        "ev_to_bg_err": 0.18124054462934946,
+        "clean_audio_event_acc": 0.7794251134644478,
+        "clean_visual_event_acc": 0.7416036308623298,
+        "swap_v_audio_retain_acc": 0.722683014785431,
+        "swap_v_visual_drag_rate": 0.015867291741795887,
+        "swap_v_av_reject_rate": 0.8860439956725568,
+        "swap_a_visual_retain_acc": 0.6693112152902994,
+        "swap_a_audio_drag_rate": 0.021997836278398845,
+        "swap_a_av_reject_rate": 0.8481788676523621,
+        "null_a2v_ev": 0.6036704778671265,
+        "null_v2a_ev": 0.6372893452644348,
+        "null_a2v_bg": 0.6620704531669617,
+        "null_v2a_bg": 0.7155780792236328,
+        "null_a2v_swap_v": 0.7885345816612244,
+        "null_v2a_swap_a": 0.8055093884468079,
+        "alpha_auroc_swap_v": 0.7865693724544117,
+        "alpha_auroc_swap_a": 0.7835836889359543,
+        "fusion_ratio_ev": 0.28170740604400635,
+        "fusion_ratio_swap": 0.16116325557231903,
+        "best_val_clean_acc": 0.704726368159204,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.8090362088496867
+      },
+      {
+        "clean_acc": 0.6604477611940298,
+        "clean_macro_f1": 0.709503069721576,
+        "av_event_acc": 0.6934947049924357,
+        "bg_unaligned_acc": 0.5076923076923077,
+        "ev_to_bg_err": 0.21906202723146748,
+        "clean_audio_event_acc": 0.7549167927382754,
+        "clean_visual_event_acc": 0.7074130105900152,
+        "swap_v_audio_retain_acc": 0.7454020915975478,
+        "swap_v_visual_drag_rate": 0.012621709340064912,
+        "swap_v_av_reject_rate": 0.9347277316985214,
+        "swap_a_visual_retain_acc": 0.6826541651640822,
+        "swap_a_audio_drag_rate": 0.015867291741795887,
+        "swap_a_av_reject_rate": 0.9322033898305084,
+        "null_a2v_ev": 0.6151215434074402,
+        "null_v2a_ev": 0.6417608261108398,
+        "null_a2v_bg": 0.6931904554367065,
+        "null_v2a_bg": 0.74010169506073,
+        "null_a2v_swap_v": 0.8617671132087708,
+        "null_v2a_swap_a": 0.8700268268585205,
+        "alpha_auroc_swap_v": 0.8559876684254654,
+        "alpha_auroc_swap_a": 0.85686815148236,
+        "fusion_ratio_ev": 0.26692402362823486,
+        "fusion_ratio_swap": 0.1153886690735817,
+        "best_val_clean_acc": 0.6932835820895522,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.825779356956482
+      }
+    ],
+    "summary": {
+      "clean_acc": {
+        "mean": 0.6712271973466004,
+        "std": 0.012215818813069929
+      },
+      "clean_macro_f1": {
+        "mean": 0.7146462431257067,
+        "std": 0.005663185631117111
+      },
+      "av_event_acc": {
+        "mean": 0.7055975794251136,
+        "std": 0.022676073783073222
+      },
+      "bg_unaligned_acc": {
+        "mean": 0.5123543123543124,
+        "std": 0.043519257921174684
+      },
+      "ev_to_bg_err": {
+        "mean": 0.2129097327281896,
+        "std": 0.02374798280038418
+      },
+      "clean_audio_event_acc": {
+        "mean": 0.7626828038325769,
+        "std": 0.011848907060172522
+      },
+      "clean_visual_event_acc": {
+        "mean": 0.7116490166414525,
+        "std": 0.022925018840869064
+      },
+      "swap_v_audio_retain_acc": {
+        "mean": 0.7366269984373122,
+        "std": 0.009969192026260513
+      },
+      "swap_v_visual_drag_rate": {
+        "mean": 0.012741916095684577,
+        "std": 0.002504227269623711
+      },
+      "swap_v_av_reject_rate": {
+        "mean": 0.9171775453780503,
+        "std": 0.02207422869922639
+      },
+      "swap_a_visual_retain_acc": {
+        "mean": 0.66907080177906,
+        "std": 0.011190209518198836
+      },
+      "swap_a_audio_drag_rate": {
+        "mean": 0.01815122009856954,
+        "std": 0.002735859280380104
+      },
+      "swap_a_av_reject_rate": {
+        "mean": 0.9027527347036903,
+        "std": 0.03862997035868516
+      },
+      "null_a2v_ev": {
+        "mean": 0.606572429339091,
+        "std": 0.0061481465795064204
+      },
+      "null_v2a_ev": {
+        "mean": 0.6428606510162354,
+        "std": 0.005058097364555007
+      },
+      "null_a2v_bg": {
+        "mean": 0.67951766649882,
+        "std": 0.012981996378230594
+      },
+      "null_v2a_bg": {
+        "mean": 0.7317687273025513,
+        "std": 0.011450161234631481
+      },
+      "null_a2v_swap_v": {
+        "mean": 0.820615271727244,
+        "std": 0.030577390996376012
+      },
+      "null_v2a_swap_a": {
+        "mean": 0.8394631346066793,
+        "std": 0.026447990647391933
+      },
+      "alpha_auroc_swap_v": {
+        "mean": 0.8242167584863348,
+        "std": 0.028642912821302123
+      },
+      "alpha_auroc_swap_a": {
+        "mean": 0.8219788017358844,
+        "std": 0.030020780509719232
+      },
+      "fusion_ratio_ev": {
+        "mean": 0.27632907032966614,
+        "std": 0.0066732251044955915
+      },
+      "fusion_ratio_swap": {
+        "mean": 0.1404080018401146,
+        "std": 0.01892907762836225
+      },
+      "best_val_clean_acc": {
+        "mean": 0.6936152570480929,
+        "std": 0.008939855371106822
+      },
+      "constraint_met": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "mean_grad_norm": {
+        "mean": 1.8122138950457938,
+        "std": 0.010033698731569434
+      }
+    },
+    "elapsed_sec": 386.41
+  },
+  "A3_nullslot_cfswap_pcar": {
+    "spec": {
+      "attn_mode": "nullslot",
+      "use_cf": true,
+      "null_loss": "pcar"
+    },
+    "runs": [
+      {
+        "clean_acc": 0.6629353233830846,
+        "clean_macro_f1": 0.6993161623643802,
+        "av_event_acc": 0.6783661119515885,
+        "bg_unaligned_acc": 0.5916083916083916,
+        "ev_to_bg_err": 0.24689863842662632,
+        "clean_audio_event_acc": 0.7319213313161876,
+        "clean_visual_event_acc": 0.6856278366111952,
+        "swap_v_audio_retain_acc": 0.7385503065272269,
+        "swap_v_visual_drag_rate": 0.009736747205192933,
+        "swap_v_av_reject_rate": 0.9340064911648035,
+        "swap_a_visual_retain_acc": 0.6552470248827984,
+        "swap_a_audio_drag_rate": 0.02163721601153985,
+        "swap_a_av_reject_rate": 0.9322033898305084,
+        "null_a2v_ev": 0.10898879170417786,
+        "null_v2a_ev": 0.09540556371212006,
+        "null_a2v_bg": 0.2074386328458786,
+        "null_v2a_bg": 0.19099333882331848,
+        "null_a2v_swap_v": 0.7185162305831909,
+        "null_v2a_swap_a": 0.6795814633369446,
+        "alpha_auroc_swap_v": 0.9415049998510963,
+        "alpha_auroc_swap_a": 0.9482206257366348,
+        "fusion_ratio_ev": 0.5064727067947388,
+        "fusion_ratio_swap": 0.17656195163726807,
+        "best_val_clean_acc": 0.6870646766169154,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.9162147525640634
+      },
+      {
+        "clean_acc": 0.6828358208955224,
+        "clean_macro_f1": 0.7314681018143073,
+        "av_event_acc": 0.7337367624810892,
+        "bg_unaligned_acc": 0.44755244755244755,
+        "ev_to_bg_err": 0.18940998487140695,
+        "clean_audio_event_acc": 0.7812405446293494,
+        "clean_visual_event_acc": 0.7285930408472012,
+        "swap_v_audio_retain_acc": 0.7244861161197259,
+        "swap_v_visual_drag_rate": 0.020555355210962856,
+        "swap_v_av_reject_rate": 0.8936170212765957,
+        "swap_a_visual_retain_acc": 0.6732780382257483,
+        "swap_a_audio_drag_rate": 0.02416155787955283,
+        "swap_a_av_reject_rate": 0.860439956725568,
+        "null_a2v_ev": 0.14661329984664917,
+        "null_v2a_ev": 0.1383194476366043,
+        "null_a2v_bg": 0.2709313929080963,
+        "null_v2a_bg": 0.2306317687034607,
+        "null_a2v_swap_v": 0.7567316889762878,
+        "null_v2a_swap_a": 0.733474612236023,
+        "alpha_auroc_swap_v": 0.9194834299994187,
+        "alpha_auroc_swap_a": 0.918232443105423,
+        "fusion_ratio_ev": 0.48869457840919495,
+        "fusion_ratio_swap": 0.16543957591056824,
+        "best_val_clean_acc": 0.695273631840796,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.9334080251363608
+      },
+      {
+        "clean_acc": 0.6659203980099503,
+        "clean_macro_f1": 0.7054468297786985,
+        "av_event_acc": 0.6931921331316188,
+        "bg_unaligned_acc": 0.5398601398601398,
+        "ev_to_bg_err": 0.21815431164901664,
+        "clean_audio_event_acc": 0.7518910741301059,
+        "clean_visual_event_acc": 0.6801815431164902,
+        "swap_v_audio_retain_acc": 0.7454020915975478,
+        "swap_v_visual_drag_rate": 0.010457987738910927,
+        "swap_v_av_reject_rate": 0.9091236927515326,
+        "swap_a_visual_retain_acc": 0.6595744680851063,
+        "swap_a_audio_drag_rate": 0.0288496213487198,
+        "swap_a_av_reject_rate": 0.8773891092679409,
+        "null_a2v_ev": 0.14487028121948242,
+        "null_v2a_ev": 0.1381710022687912,
+        "null_a2v_bg": 0.2421402484178543,
+        "null_v2a_bg": 0.2501507103443146,
+        "null_a2v_swap_v": 0.795281708240509,
+        "null_v2a_swap_a": 0.755651593208313,
+        "alpha_auroc_swap_v": 0.9314951539944775,
+        "alpha_auroc_swap_a": 0.92584376754415,
+        "fusion_ratio_ev": 0.48297154903411865,
+        "fusion_ratio_swap": 0.14336463809013367,
+        "best_val_clean_acc": 0.7097014925373134,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.9418519359368545
+      }
+    ],
+    "summary": {
+      "clean_acc": {
+        "mean": 0.670563847429519,
+        "std": 0.008762749461773077
+      },
+      "clean_macro_f1": {
+        "mean": 0.7120770313191286,
+        "std": 0.013938112783491328
+      },
+      "av_event_acc": {
+        "mean": 0.7017650025214323,
+        "std": 0.0234036721078285
+      },
+      "bg_unaligned_acc": {
+        "mean": 0.5263403263403262,
+        "std": 0.059582535319617616
+      },
+      "ev_to_bg_err": {
+        "mean": 0.21815431164901664,
+        "std": 0.02346964453498759
+      },
+      "clean_audio_event_acc": {
+        "mean": 0.7550176500252143,
+        "std": 0.020255498151994747
+      },
+      "clean_visual_event_acc": {
+        "mean": 0.6981341401916289,
+        "std": 0.02165215924670696
+      },
+      "swap_v_audio_retain_acc": {
+        "mean": 0.7361461714148335,
+        "std": 0.008706488261681375
+      },
+      "swap_v_visual_drag_rate": {
+        "mean": 0.013583363385022237,
+        "std": 0.0049387278721418765
+      },
+      "swap_v_av_reject_rate": {
+        "mean": 0.912249068397644,
+        "std": 0.01663637178312608
+      },
+      "swap_a_visual_retain_acc": {
+        "mean": 0.6626998437312177,
+        "std": 0.007685715765426514
+      },
+      "swap_a_audio_drag_rate": {
+        "mean": 0.02488279841327083,
+        "std": 0.00298829255791707
+      },
+      "swap_a_av_reject_rate": {
+        "mean": 0.8900108186080057,
+        "std": 0.030626548861520213
+      },
+      "null_a2v_ev": {
+        "mean": 0.1334907909234365,
+        "std": 0.017340136539044808
+      },
+      "null_v2a_ev": {
+        "mean": 0.12396533787250519,
+        "std": 0.020194900908826103
+      },
+      "null_a2v_bg": {
+        "mean": 0.24017009139060974,
+        "std": 0.025958220073977696
+      },
+      "null_v2a_bg": {
+        "mean": 0.2239252726236979,
+        "std": 0.0246120765556152
+      },
+      "null_a2v_swap_v": {
+        "mean": 0.7568432092666626,
+        "std": 0.031339474230544305
+      },
+      "null_v2a_swap_a": {
+        "mean": 0.7229025562604269,
+        "std": 0.03194257806674416
+      },
+      "alpha_auroc_swap_v": {
+        "mean": 0.9308278612816642,
+        "std": 0.009002641995788757
+      },
+      "alpha_auroc_swap_a": {
+        "mean": 0.9307656121287359,
+        "std": 0.012727691332074386
+      },
+      "fusion_ratio_ev": {
+        "mean": 0.49271294474601746,
+        "std": 0.010006216568882568
+      },
+      "fusion_ratio_swap": {
+        "mean": 0.16178872187932333,
+        "std": 0.013796423644185986
+      },
+      "best_val_clean_acc": {
+        "mean": 0.697346600331675,
+        "std": 0.009356967369350277
+      },
+      "constraint_met": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "mean_grad_norm": {
+        "mean": 1.930491571212426,
+        "std": 0.010667569871354768
+      }
+    },
+    "elapsed_sec": 418.9
+  },
+  "B3_sigmoid_gate_cfswap_v2": {
+    "spec": {
+      "attn_mode": "sigmoid_gate",
+      "use_cf": true,
+      "null_loss": "pcar"
+    },
+    "runs": [
+      {
+        "clean_acc": 0.6853233830845771,
+        "clean_macro_f1": 0.7249351209180153,
+        "av_event_acc": 0.7173978819969743,
+        "bg_unaligned_acc": 0.5370629370629371,
+        "ev_to_bg_err": 0.21331316187594554,
+        "clean_audio_event_acc": 0.7600605143721634,
+        "clean_visual_event_acc": 0.7391830559757943,
+        "swap_v_audio_retain_acc": 0.7248467363865849,
+        "swap_v_visual_drag_rate": 0.013342949873782907,
+        "swap_v_av_reject_rate": 0.9441038586368554,
+        "swap_a_visual_retain_acc": 0.6574107464839524,
+        "swap_a_audio_drag_rate": 0.018031013342949875,
+        "swap_a_av_reject_rate": 0.9318427695636495,
+        "null_a2v_ev": 0.4582318663597107,
+        "null_v2a_ev": 0.43412989377975464,
+        "null_a2v_bg": 0.487993061542511,
+        "null_v2a_bg": 0.4934138059616089,
+        "null_a2v_swap_v": 0.6843585968017578,
+        "null_v2a_swap_a": 0.676792562007904,
+        "alpha_auroc_swap_v": 0.8042449674095774,
+        "alpha_auroc_swap_a": 0.8315615949949601,
+        "fusion_ratio_ev": 0.3959959149360657,
+        "fusion_ratio_swap": 0.24255380034446716,
+        "best_val_clean_acc": 0.6893034825870646,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.889114314042605
+      },
+      {
+        "clean_acc": 0.667910447761194,
+        "clean_macro_f1": 0.7044481735368145,
+        "av_event_acc": 0.6962178517397882,
+        "bg_unaligned_acc": 0.5370629370629371,
+        "ev_to_bg_err": 0.22208774583963692,
+        "clean_audio_event_acc": 0.7627836611195159,
+        "clean_visual_event_acc": 0.7043872919818457,
+        "swap_v_audio_retain_acc": 0.7349441038586368,
+        "swap_v_visual_drag_rate": 0.01153984853948792,
+        "swap_v_av_reject_rate": 0.9275153263613415,
+        "swap_a_visual_retain_acc": 0.6815723043635052,
+        "swap_a_audio_drag_rate": 0.01153984853948792,
+        "swap_a_av_reject_rate": 0.9304002884962135,
+        "null_a2v_ev": 0.4046120047569275,
+        "null_v2a_ev": 0.43048155307769775,
+        "null_a2v_bg": 0.4386838376522064,
+        "null_v2a_bg": 0.5420550107955933,
+        "null_a2v_swap_v": 0.6944160461425781,
+        "null_v2a_swap_a": 0.6992168426513672,
+        "alpha_auroc_swap_v": 0.8674466277453404,
+        "alpha_auroc_swap_a": 0.836436926110819,
+        "fusion_ratio_ev": 0.4229830205440521,
+        "fusion_ratio_swap": 0.23954862356185913,
+        "best_val_clean_acc": 0.708457711442786,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.8800508555082174
+      },
+      {
+        "clean_acc": 0.6833333333333333,
+        "clean_macro_f1": 0.7265342611709443,
+        "av_event_acc": 0.7052950075642965,
+        "bg_unaligned_acc": 0.5818181818181818,
+        "ev_to_bg_err": 0.22027231467473524,
+        "clean_audio_event_acc": 0.7612708018154312,
+        "clean_visual_event_acc": 0.6931921331316188,
+        "swap_v_audio_retain_acc": 0.725928597187162,
+        "swap_v_visual_drag_rate": 0.01875225387666787,
+        "swap_v_av_reject_rate": 0.9397764154345474,
+        "swap_a_visual_retain_acc": 0.6671474936891453,
+        "swap_a_audio_drag_rate": 0.013342949873782907,
+        "swap_a_av_reject_rate": 0.9271547060944825,
+        "null_a2v_ev": 0.41984549164772034,
+        "null_v2a_ev": 0.41188380122184753,
+        "null_a2v_bg": 0.521329939365387,
+        "null_v2a_bg": 0.5087064504623413,
+        "null_a2v_swap_v": 0.6958823800086975,
+        "null_v2a_swap_a": 0.7022156715393066,
+        "alpha_auroc_swap_v": 0.8461809559467166,
+        "alpha_auroc_swap_a": 0.8677552292214517,
+        "fusion_ratio_ev": 0.40928035974502563,
+        "fusion_ratio_swap": 0.23579397797584534,
+        "best_val_clean_acc": 0.6840796019900498,
+        "constraint_met": 1.0,
+        "mean_grad_norm": 1.8948482661063855
+      }
+    ],
+    "summary": {
+      "clean_acc": {
+        "mean": 0.678855721393035,
+        "std": 0.0077820021271310545
+      },
+      "clean_macro_f1": {
+        "mean": 0.7186391852085915,
+        "std": 0.010055775176103671
+      },
+      "av_event_acc": {
+        "mean": 0.7063035804336865,
+        "std": 0.008676071878005669
+      },
+      "bg_unaligned_acc": {
+        "mean": 0.551981351981352,
+        "std": 0.021097824706731473
+      },
+      "ev_to_bg_err": {
+        "mean": 0.21855774079677256,
+        "std": 0.003781812054312187
+      },
+      "clean_audio_event_acc": {
+        "mean": 0.7613716591023701,
+        "std": 0.0011140051454551052
+      },
+      "clean_visual_event_acc": {
+        "mean": 0.7122541603630862,
+        "std": 0.01958242340485548
+      },
+      "swap_v_audio_retain_acc": {
+        "mean": 0.7285731458107946,
+        "std": 0.00452654655217278
+      },
+      "swap_v_visual_drag_rate": {
+        "mean": 0.014545017429979564,
+        "std": 0.0030646829628517766
+      },
+      "swap_v_av_reject_rate": {
+        "mean": 0.9371318668109149,
+        "std": 0.007025670968242571
+      },
+      "swap_a_visual_retain_acc": {
+        "mean": 0.6687101815122011,
+        "std": 0.009925613825384328
+      },
+      "swap_a_audio_drag_rate": {
+        "mean": 0.014304603918740234,
+        "std": 0.0027358592803801048
+      },
+      "swap_a_av_reject_rate": {
+        "mean": 0.9297992547181151,
+        "std": 0.001960512853744486
+      },
+      "null_a2v_ev": {
+        "mean": 0.4275631209214528,
+        "std": 0.022560197114689783
+      },
+      "null_v2a_ev": {
+        "mean": 0.4254984160264333,
+        "std": 0.009741522799422612
+      },
+      "null_a2v_bg": {
+        "mean": 0.4826689461867015,
+        "std": 0.03394951335279905
+      },
+      "null_v2a_bg": {
+        "mean": 0.5147250890731812,
+        "std": 0.02030861409962655
+      },
+      "null_a2v_swap_v": {
+        "mean": 0.6915523409843445,
+        "std": 0.005121848642505739
+      },
+      "null_v2a_swap_a": {
+        "mean": 0.6927416920661926,
+        "std": 0.011343994178622687
+      },
+      "alpha_auroc_swap_v": {
+        "mean": 0.8392908503672114,
+        "std": 0.026257921134670147
+      },
+      "alpha_auroc_swap_a": {
+        "mean": 0.8452512501090769,
+        "std": 0.016036708313324252
+      },
+      "fusion_ratio_ev": {
+        "mean": 0.4094197650750478,
+        "std": 0.011017880699380814
+      },
+      "fusion_ratio_swap": {
+        "mean": 0.23929880062739053,
+        "std": 0.0027653340048741397
+      },
+      "best_val_clean_acc": {
+        "mean": 0.6939469320066335,
+        "std": 0.010479957760934836
+      },
+      "constraint_met": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "mean_grad_norm": {
+        "mean": 1.8880044785524026,
+        "std": 0.006091778131995006
+      }
+    },
+    "elapsed_sec": 505.33
+  }
+}
