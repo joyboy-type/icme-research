@@ -1,0 +1,19 @@
+{
+  "selection_frozen_sha256": "499acbdf8f420be03cb0b7e08e4fbe9904d4f8e63ad503f91e4b1979ad07c8bf",
+  "selected_cases": 10,
+  "distinct_sources": 10,
+  "disagreements": 6,
+  "agreement_controls": 4,
+  "labels_or_numeric_scores_loaded": false,
+  "per_pair_winners_hidden_from_reviewer": true,
+  "sheets": 5,
+  "candidate_pool_pair_counts": {
+    "disagreement": 10,
+    "agreement": 79
+  },
+  "candidate_pool_distinct_source_groups": {
+    "disagreement": 9,
+    "agreement": 44
+  },
+  "metadata_note": "Pool counts documented without changing frozen selected cases; pair hash ranking then source de-duplication, not uniform random source sampling."
+}

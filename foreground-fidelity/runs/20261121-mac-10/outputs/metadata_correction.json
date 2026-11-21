@@ -1,0 +1,34 @@
+{
+  "kind": "metadata_only",
+  "root_cause": "Switch branch updated winner and triggered but inherited default status=unchanged. Credits and outcome counts use routed winner, so scientific results were already correct.",
+  "test": "Added status assertion, observed failure, one-line fix; all5 tests pass",
+  "original_executed_core_sha256": "14437bc7cbab75ae412e7255a6d73345c9e49d76e33c7f3bb708dbab028268ee",
+  "corrected_core_sha256": "e3d2421acc94134a6dedfe3e8b1e4f869d3d9b73671b840a5865bb7057f1b0e5",
+  "original_core_archived": "protocol/executed_trigger_core_v1.py",
+  "changes": [
+    {
+      "file": "per_case_results_PRIVATE.json",
+      "changed_cases": [
+        "C010"
+      ],
+      "changed_field": "routing_status",
+      "from": "unchanged",
+      "to": "switched",
+      "scientific_fields_unchanged": true
+    },
+    {
+      "file": "per_case_results_screened.json",
+      "changed_cases": [
+        "C010"
+      ],
+      "changed_field": "routing_status",
+      "from": "unchanged",
+      "to": "switched",
+      "scientific_fields_unchanged": true
+    }
+  ],
+  "rescoring_performed": false,
+  "rule_threshold_or_batch_changed": false,
+  "stored10_decisions_rechecked_against_corrected_core": true,
+  "summary_8to7_and_net_minus1_unchanged": true
+}

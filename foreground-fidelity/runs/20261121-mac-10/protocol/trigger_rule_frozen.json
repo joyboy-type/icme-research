@@ -1,0 +1,31 @@
+{
+  "run_id": "20261121-mac-10",
+  "rule_id": "background-opposition-source-QA-v1",
+  "frozen_at_UTC": "2026-11-21T04:18:04.074653+00:00",
+  "phase": "before viewing per-pair numeric scores or released labels in this run",
+  "default": "B1_all_unrestricted",
+  "fallback_subject_check": "A_subject_unrestricted (existing cached source-only automatic selection, same unrestricted matcher)",
+  "fixed_qualitative_gate": "eligible in source_eligibility_frozen.json only; gate based on images/instructions/source support, not scores or labels",
+  "manual_gate_limitation": "This is an AI-assisted per-case triage diagnostic, not a learned or autonomous trigger. C010 tests only represented vehicle identity core; crop limits remain.",
+  "numeric_rule": "For eligible cases only, B1 and source-region winners must disagree; decompose canonical A-minus-B mean similarity into K/N*foreground mean difference and (N-K)/N*complement mean difference. Switch to existing source-region winner only when foreground contribution favors that winner, complement contribution favors B1, and complement magnitude exceeds foreground magnitude, with finite, non-negligible contributions.",
+  "epsilon": 1e-07,
+  "epsilon_role": "fixed numerical roundoff guard; not fitted or varied",
+  "no_radius_constraint": "Both heads use unrestricted source-to-candidate maximum cosine. Existing B3 radius2 remains paused.",
+  "score_reproduction_tolerance": 1e-06,
+  "unknown_policy": "Unreliable regions or ambiguous scene, when heads disagree, produce unable and preserve B1; they remain in metric denominator. Same-winner controls remain unchanged.",
+  "outcome_priority": [
+    "heads agree -> unchanged",
+    "out-of-scope -> unchanged B1",
+    "region unreliable or visual uncertainty -> unable, retain B1",
+    "eligible + verified opposition -> existing subject check",
+    "otherwise -> unchanged B1"
+  ],
+  "credit": "released A/B winner; ties0.5, invalid0, no exclusions",
+  "count_categories": "rescued/new_error/unchanged/unable mutually exclusive; unable cases keep baseline credit and remain in denominator",
+  "stop": "One fixed batch, one rule, one final label evaluation. If net rescued-new_error<=0, stop and archive; do not try a new threshold, mask, batch or correspondence setting. Positive diagnostic net alone still cannot justify expansion without independent evidence.",
+  "frozen_input_hashes": {
+    "protocol/selection_frozen.json": "499acbdf8f420be03cb0b7e08e4fbe9904d4f8e63ad503f91e4b1979ad07c8bf",
+    "protocol/blinded_image_review.json": "068ac51a4475ddbd1f1364469eaef276642adc3c08114ceb64385ac032b76d35",
+    "protocol/source_eligibility_frozen.json": "b19b80c39c3b17f14ce370cdc23aa82d7b3df513abb90ff7fbfafb672442cf31"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "run_id": "20261121-mac-10",
+  "date": "2026-11-21",
+  "direction": "03 / foreground-fidelity",
+  "status": "STOP_no_positive_net_gain",
+  "input_scope": "Old development89 only; 10 fixed source-disjoint-within-batch cases, not new independent data",
+  "selection": "cached B1 vs existing source-unrestricted prediction disagreement, deterministic pair hashes then source dedup;6disagreement+4agreement; no label/score selection",
+  "blinding": "Scores, expert answers, method predictions and selection class hidden in original/X/Y sheets; reviewer has historical exposure, not an independent human",
+  "review_sheets_viewed": {
+    "original_instruction_candidate_sheets": 5,
+    "source_crop_support_sheets": 5
+  },
+  "rule": "one frozen AI-triage gate plus complement/subject opposition; manual case gate, not autonomous deployable trigger",
+  "rule_sha256": "64ede656765b51e3d5766f9e790e85d58c3164effbb297944fd75dcc17ca8de4",
+  "evaluation_number": 1,
+  "scientific_rule_or_threshold_retries": 0,
+  "new_model_inference": 0,
+  "new_masks_features": 0,
+  "cached_candidate_comparisons": 20,
+  "head_score_reproduction_checks": 40,
+  "threads": 2,
+  "baseline_correct": 8,
+  "triggered_correct": 7,
+  "outcomes": {
+    "rescued": 0,
+    "new_error": 1,
+    "unchanged": 5,
+    "unable": 4
+  },
+  "net_correct": -1,
+  "unable_kept_in_denominator": true,
+  "unit_tests": {
+    "count": 5,
+    "result": "PASS",
+    "scope": "routing and safe fallback; added failing status assertion and fixed metadata bug"
+  },
+  "metadata_correction": "C010 status unchanged->switched; no predictions, scores, credits, cases or frozen rule changed; original code/output retained locally",
+  "Word_sha256_unchanged": "1682914cc21d0db94763be41d40f16b8c66ea88fda66676609edb60d3dd4ac71",
+  "confirmation_access": false,
+  "PVC_GPU_training_rentals_human_annotation": false,
+  "stop": "Do not adjust threshold, mask, sample or matcher on this batch; keep B1 default, current subject scheme paused",
+  "timing": "0.2608s cached arithmetic/loading only; not inference or full pipeline latency, excludes review",
+  "commands": [
+    {
+      "script": "code/prepare_blind_cases.py",
+      "execution": "sample and render before review"
+    },
+    {
+      "script": "code/render_source_support.py",
+      "execution": "cached source geometry only"
+    },
+    {
+      "script": "code/test_trigger_core.py",
+      "execution": "5 targeted tests passed after metadata correction"
+    },
+    {
+      "script": "code/evaluate_once.py",
+      "execution": "one fixed scoring event; file seal prevents in-place rerun"
+    }
+  ],
+  "public_export": "code, frozen protocols, screened per-case metrics, summaries and correction note; no images, weights, features, raw labels or private absolute paths"
+}

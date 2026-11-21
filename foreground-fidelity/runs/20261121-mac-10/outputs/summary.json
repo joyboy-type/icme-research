@@ -1,0 +1,36 @@
+{
+  "run_id": "20261121-mac-10",
+  "stage": "one fixed reused-development diagnostic, not independent confirmation",
+  "cases": 10,
+  "distinct_sources": 10,
+  "disagreement_cases": 6,
+  "agreement_controls": 4,
+  "one_rule_evaluated": true,
+  "rule_sha256": "64ede656765b51e3d5766f9e790e85d58c3164effbb297944fd75dcc17ca8de4",
+  "max_cached_score_reproduction_error": 0,
+  "max_decomposition_residual": 1.6205012798309326e-07,
+  "baseline_correct_credit": 8.0,
+  "routed_correct_credit": 7.0,
+  "baseline_accuracy": 0.8,
+  "routed_accuracy": 0.7,
+  "triggered_cases": [
+    "C010"
+  ],
+  "outcome_counts": {
+    "rescued": 0,
+    "new_error": 1,
+    "unchanged": 5,
+    "unable": 4
+  },
+  "net_correct_credit": -1,
+  "unable_kept_in_denominator": true,
+  "control_changed_predictions": 0,
+  "cached_computation_wall_seconds": 0.2607930420199409,
+  "timing_scope": "cache loading, 20 candidate similarity matrices and scoring; not model inference or end-to-end latency; excludes image review",
+  "new_model_inference": false,
+  "new_masks_or_features": false,
+  "confirmation_access": false,
+  "PVC_GPU_training_rentals_human_annotation": false,
+  "decision": "STOP_no_positive_net_gain",
+  "stop_conditions": "No threshold, source mask, batch or head retries regardless of result"
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "20261121-mac-10",
+  "purpose": "One fixed small development mechanism diagnostic; retain unrestricted all-patch B1 as default",
+  "primary": "B1_all_unrestricted",
+  "subject_check": "A_subject_unrestricted",
+  "subject_check_reason": "Use the existing source-only U2NETP region with the same unrestricted matching as B1; do not confound background restriction with radius2 correspondence",
+  "selection": "Read only pair_id,source_group and the two cached winner columns; take up to6 disagreement source groups and4 agreement groups, disjoint sources, deterministic sha256 ranking and hidden display order",
+  "ranking_seed": "background-trigger-diagnostic-v1",
+  "labels_or_scores_used_for_selection": false,
+  "display": "Original/instruction plus randomly swapped X/Y; hide expert labels, numeric scores, method winners and selection category from reviewer",
+  "blinding_limit": "Repeated development89; reviewer knows prior aggregate results and some old examples. Display blinding is not independent confirmation or human annotation.",
+  "next_gate": "Only if blinded image/instruction review supports an unintended subject-damage/background-similarity pattern: freeze one lightweight trigger before exposing per-pair scores/labels; otherwise stop",
+  "stop_rule": "One rule and one evaluation on this fixed batch only; if rescue-minus-new-error<=0 or no usable scene, archive and stop; no threshold tuning or method expansion",
+  "confirmation_scope": "No access to reserved20groups37pairs or their metadata/images/labels",
+  "PVC_GPU_training_human_annotation": false
+}

@@ -1,0 +1,9 @@
+{
+  "rule_sha256": "64ede656765b51e3d5766f9e790e85d58c3164effbb297944fd75dcc17ca8de4",
+  "eligibility_sha256": "b19b80c39c3b17f14ce370cdc23aa82d7b3df513abb90ff7fbfafb672442cf31",
+  "selection_sha256": "88354b468d361adfb4ebabdd53744c99526f00c2e695bea0e640ea04d78a4747",
+  "core_sha256": "14437bc7cbab75ae412e7255a6d73345c9e49d76e33c7f3bb708dbab028268ee",
+  "evaluator_sha256": "25a8908f0145bebcadfabb30b2d9e5fea392209c070e3e081fc7eb4b37ea38c1",
+  "label_columns_read_yet": false,
+  "evaluation_number": 1
+}

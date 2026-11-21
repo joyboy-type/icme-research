@@ -1,0 +1,95 @@
+{
+  "run_id": "20261121-mac-10",
+  "stage": "after_viewing5_blinded_sheets_before_per_pair_scores_or_expert_labels",
+  "reviewer": "assistant AI; historically exposed to aggregate results and some legacy examples",
+  "new_human_annotation": false,
+  "independent_confirmation": false,
+  "display_winners_scores_labels_seen": false,
+  "records": [
+    {
+      "case_id": "C001",
+      "scope": "scene_and_lighting_edits",
+      "mechanism_before_scores": "not_established",
+      "observation": "指令要求落日与游乐园灯光；两图都改变了照明，未看到可明确归因于背景干扰的单一主体身份损坏。",
+      "subject_damage_evidence": "uncertain",
+      "eligibility_prior_to_mask": "no"
+    },
+    {
+      "case_id": "C002",
+      "scope": "background_change_with_ambiguous_leaf_boundary",
+      "mechanism_before_scores": "uncertain",
+      "observation": "蚂蚁与承载叶片在两图中仍可见；Y 去掉了后方大叶片，但这些叶片属于主体还是所改背景并不明确，不能据此断言主体损坏。",
+      "subject_damage_evidence": "uncertain",
+      "eligibility_prior_to_mask": "uncertain"
+    },
+    {
+      "case_id": "C003",
+      "scope": "window_background_only",
+      "mechanism_before_scores": "plausible",
+      "observation": "原窗前花瓶中的绿色花叶在 X 中被花园花朵替代或遮蔽，Y 中更接近原物；X 的亮窗区域在观感上更接近原图的亮背景。但尚不知道特征分数或哪种方法偏向哪张。",
+      "subject_damage_evidence": "visible_non_target_plant_change",
+      "eligibility_prior_to_mask": "pending_mask_coverage"
+    },
+    {
+      "case_id": "C004",
+      "scope": "explicit_subject_relighting",
+      "mechanism_before_scores": "not_a_strict_invariance_case",
+      "observation": "指令明确允许主体光照随环境融合；X 还缩小人物。不能把正常主体光照变化直接判为保真错误。",
+      "subject_damage_evidence": "scale_change_but_relighting_explicitly_allowed",
+      "eligibility_prior_to_mask": "no"
+    },
+    {
+      "case_id": "C005",
+      "scope": "background_city_change",
+      "mechanism_before_scores": "not_established",
+      "observation": "两图墙上雕塑及近处设施大体保留；右侧建筑究竟属于目标背景还是保留对象有边界歧义，未见足够明确的主体损坏差异。",
+      "subject_damage_evidence": "not_clear",
+      "eligibility_prior_to_mask": "uncertain"
+    },
+    {
+      "case_id": "C006",
+      "scope": "background_change_with_scene_additions",
+      "mechanism_before_scores": "uncertain",
+      "observation": "两图在前景区域也增加设施，且 Y 的风格更卡通；岩石主体仍在，不能把场景／风格差异简单等同为背景误导导致的主体身份损坏。",
+      "subject_damage_evidence": "scene_additions_with_ambiguous_target_extent",
+      "eligibility_prior_to_mask": "uncertain"
+    },
+    {
+      "case_id": "C007",
+      "scope": "background_behind_station",
+      "mechanism_before_scores": "not_established",
+      "observation": "列车、站台和标牌大体保留；X 更暖、Y 更接近原日光色。当前显示尺度不足以确认列车身份细节损坏，不能强判。",
+      "subject_damage_evidence": "uncertain_fine_details",
+      "eligibility_prior_to_mask": "uncertain"
+    },
+    {
+      "case_id": "C008",
+      "scope": "horizon_and_natural_integration",
+      "mechanism_before_scores": "not_established",
+      "observation": "灯塔与前景植被在两图都存在，远处岩石／山体变化符合目标；未看到可确认的主体身份损坏，宽幅原图还需核对中心裁剪是否丢失灯塔。",
+      "subject_damage_evidence": "not_clear",
+      "eligibility_prior_to_mask": "uncertain"
+    },
+    {
+      "case_id": "C009",
+      "scope": "forest_behind_river",
+      "mechanism_before_scores": "not_established",
+      "observation": "桥体与近景灌木大体保留，河道边界有差异，但这是场景保留问题，未形成清楚的单一主体身份损坏案例。",
+      "subject_damage_evidence": "uncertain_scene_boundary",
+      "eligibility_prior_to_mask": "uncertain"
+    },
+    {
+      "case_id": "C010",
+      "scope": "background_countryside_golden_hour",
+      "mechanism_before_scores": "plausible",
+      "observation": "X 的车身外观与构型更接近原车，Y 车体比例与局部形状变化更明显，且沥青路面在观感上更接近原背景；但两图都缩小车辆，金色时段的光照变化也不能一概判错。尚不知道模型分数或选择。",
+      "subject_damage_evidence": "relative_vehicle_shape_change_with_shared_rescaling",
+      "eligibility_prior_to_mask": "pending_mask_and_crop_coverage"
+    }
+  ],
+  "plausible_mechanism_cases": [
+    "C003",
+    "C010"
+  ],
+  "qualification": "Plausible qualitative patterns only; no causal claim or correctness verdict; source support and crop coverage still need checking"
+}

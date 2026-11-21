@@ -1,0 +1,59 @@
+{
+  "run_id": "20261121-mac-10",
+  "stage": "source-only geometry reviewed after blind images and before per-pair numeric scores/expert labels",
+  "records": [
+    {
+      "case_id": "C001",
+      "eligibility": "ineligible_scope",
+      "reason": "整体场景与灯光改动；缓存只选到招牌碎片，不能承担整体主体身份检查。"
+    },
+    {
+      "case_id": "C002",
+      "eligibility": "uncertain_scene",
+      "reason": "缓存只覆盖蚂蚁少量格子；叶片属于主体还是背景边界不清，细节变化不足以可靠判断。"
+    },
+    {
+      "case_id": "C003",
+      "eligibility": "unreliable_region",
+      "reason": "原图绿色窗前植物是待核查对象，但缓存主体区域选中的是上方盘子，没有覆盖该植物。"
+    },
+    {
+      "case_id": "C004",
+      "eligibility": "ineligible_scope",
+      "reason": "指令明确允许主体光照融合；严格外观不变触发不适用。"
+    },
+    {
+      "case_id": "C005",
+      "eligibility": "uncertain_scene",
+      "reason": "缓存部分覆盖雕塑，但两候选主体差异不清；建筑/墙面目标边界不明确。"
+    },
+    {
+      "case_id": "C006",
+      "eligibility": "uncertain_scene",
+      "reason": "缓存覆盖岩石主体核心，但两图增加设施与风格变化混杂，未建立单一背景误导解释。"
+    },
+    {
+      "case_id": "C007",
+      "eligibility": "uncertain_scene",
+      "reason": "缓存覆盖部分列车，但裁剪切掉车头边缘，盲审未能确认细节身份损坏。"
+    },
+    {
+      "case_id": "C008",
+      "eligibility": "unreliable_region",
+      "reason": "固定中心裁剪完全丢失右侧灯塔；缓存选到海岸地带，无法检查灯塔身份。"
+    },
+    {
+      "case_id": "C009",
+      "eligibility": "uncertain_scene",
+      "reason": "场景主体边界不清，缓存仅选到桥边单一小块，无法可靠检查河道/桥体整体保留。"
+    },
+    {
+      "case_id": "C010",
+      "eligibility": "eligible",
+      "reason": "只允许做部分身份核心检查：缓存覆盖引擎盖、车窗及车身核心，与盲审发现的构型差异相关；车首/车尾有裁剪，不能声称覆盖整车或评估全部轮廓。"
+    }
+  ],
+  "all5_source_sheets_viewed": true,
+  "eligibility_is": "AI manual diagnostic gate, not an automated deployable detector, expert segmentation or independent human truth",
+  "no_new_source_regions_or_thresholds": true
+}
