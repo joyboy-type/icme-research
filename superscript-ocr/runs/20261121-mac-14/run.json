@@ -1,0 +1,30 @@
+{
+  "id": "20261121-mac-14",
+  "status": "complete_stop_stronger_single_engine_ties",
+  "source_run": "20261121-mac-13",
+  "protocol_sha256": "8542d5106ed0bb76a12154bd185cc71c708d335ad98c0d4f16dbbc8efb56ed72",
+  "source_manifest_sha256": "6e08b50111f40063c1c5e324efe4e0313e6401d0ad0b60d6221e134dd81ee75c",
+  "routing_code_sha256_at_replay": "77ef5193a5f7a4a5b1e2170f6ac776be4474b06665a50a726f0e4f39a846039c",
+  "final_code_sha256": {
+    "run.py": "2a9cc12fed6711c1fe8b0f0049e2bf4b98eb713f99c3d3166c89b2a34dc2ae5e",
+    "merge.py": "77ef5193a5f7a4a5b1e2170f6ac776be4474b06665a50a726f0e4f39a846039c",
+    "test_score.py": "7e8510551f34edd43ad01e53d04bc51794b0345f1c6b0186d383334b2aea911d",
+    "test_merge.py": "68a8e3a330b7057675962be5aefc03e5dc814d3adcf35071c1ddc55fd616b0d5",
+    "evaluate.py": "68137b9678d17a998dbbfcd751ae34e27c76fad8e22d10c883374891831f5c29",
+    "score.py": "e2b123de615797cb53560c284dccbecb801d1e5ad0f8544e46487e5993089198"
+  },
+  "method_page_records": 24,
+  "primary_position_method_rows": 24,
+  "summary": "outputs/summary.json",
+  "evaluation": "outputs/evaluation.json",
+  "manual_review": "outputs/manual_change_review.json",
+  "decision": "decision.json",
+  "new_ocr_calls": 0,
+  "new_detector_calls": 0,
+  "paid_calls": 0,
+  "gpu_rental": false,
+  "training": false,
+  "word_edit_allowed": false,
+  "completed_at": "2026-11-21T04:15:18.410453+00:00",
+  "verification": "verification.json"
+}

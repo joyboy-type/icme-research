@@ -1,0 +1,12 @@
+{
+  "unique_text_only_action_crops": 17,
+  "source_crop_pixels": 698567,
+  "automatic_image_verification_calls": 0,
+  "automatic_image_verification_pixels": 0,
+  "description": "Source crops for human/model visual adjudication only; not inputs to either merging algorithm",
+  "source_image_decode_events": 17,
+  "source_image_decode_pixels": 62278980,
+  "visual_review_elapsed_seconds": null,
+  "visual_review_time_status": "not_instrumented",
+  "prototype_reused_one_of_existing_review_crops": true
+}

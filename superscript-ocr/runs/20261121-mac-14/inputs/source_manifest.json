@@ -1,0 +1,67 @@
+{
+  "source_run": "20261121-mac-13",
+  "files": [
+    {
+      "relative_to_source": "protocol.json",
+      "bytes": 6584,
+      "sha256": "c943c64e7557b747fb1207e3428e18458881d8af1d0ebac8f29b010e9e1efb75"
+    },
+    {
+      "relative_to_source": "run.json",
+      "bytes": 3565,
+      "sha256": "db6db085c36d67c864d756a99100429698c7127412817689c38d074029b11fe2"
+    },
+    {
+      "relative_to_source": "pages.json",
+      "bytes": 3052,
+      "sha256": "314f79d41ee7cd67d89ed35e4f213c1718ae872b34fea8721454fbd8a5ff0dc2"
+    },
+    {
+      "relative_to_source": "outputs/whole_raw.jsonl",
+      "bytes": 368424,
+      "sha256": "b9034315ef95ce7cf1f78713c4807479dd810f90e1d6c96363dba8282d486d92"
+    },
+    {
+      "relative_to_source": "outputs/manual_line_review.json",
+      "bytes": 2851,
+      "sha256": "6c45757b6fda4493a6336910c985ae97bca0d18a22baadedc6499769f7aad378"
+    },
+    {
+      "relative_to_source": "outputs/annotation_corrections.json",
+      "bytes": 1066,
+      "sha256": "9bba73ceb61f611ed36558a10492e73c4c8313bbbbcc6368df044a31035eb95e"
+    },
+    {
+      "relative_to_source": "outputs/summary.json",
+      "bytes": 5071,
+      "sha256": "0d6abe3a11ba3a7e51e279fe4a72495690ee3274039644c4ce9f3cd536932779"
+    }
+  ],
+  "images": [
+    {
+      "case_id": "fresh-01",
+      "sha256": "b24a0b901612033dda6618425195e1a3683dcdfb4ad04add219dcaf4edd8d0cb",
+      "width": 1700,
+      "height": 2200
+    },
+    {
+      "case_id": "fresh-02",
+      "sha256": "dbebb3f4270a5b130da152499aa1c6f45b9567f6146c4faf20fc35c7968c854b",
+      "width": 1700,
+      "height": 2200
+    },
+    {
+      "case_id": "fresh-03",
+      "sha256": "f0afe2ecd35ae9cc3af2af506ab410cf178c604b5f5711faa8af5d3c94c3a933",
+      "width": 1654,
+      "height": 2182
+    },
+    {
+      "case_id": "fresh-04",
+      "sha256": "d1530d3e6b9525f38163a59d729f416a96009775010bd9b03f5508c0c0d9c4bd",
+      "width": 1654,
+      "height": 2205
+    }
+  ],
+  "data_role": "Previously inspected development data; not independent confirmation"
+}

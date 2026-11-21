@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "verified_at": "2026-11-21T04:16:10.120182+00:00",
+  "targeted_tests_passed": 10,
+  "deterministic_replay_records_verified": 24,
+  "original_receiver_line_records_verified_unchanged": 3267,
+  "source_files_and_image_hashes_verified": true,
+  "protocol_hash_unchanged": true,
+  "routing_code_unchanged_since_frozen_run": true,
+  "source_reviewed_simple_merge_events": 17,
+  "source_reviewed_prototype_events": 1,
+  "source_reviewed_events_are_not_independent_positives": true,
+  "primary_position_method_rows": 24,
+  "primary_missing_positions": 1,
+  "primary_intact_controls": 3,
+  "stronger_single_engine_tied": true,
+  "new_ocr_calls": 0,
+  "new_automatic_image_checks": 0,
+  "word_hash_verified_unchanged": true,
+  "old_archive_entries_verified_unchanged": 7030,
+  "scope": "Deterministic prototype and scored known cases; no full-page accuracy, novelty or generalization verified"
+}

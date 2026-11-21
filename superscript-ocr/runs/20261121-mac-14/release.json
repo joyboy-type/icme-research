@@ -1,0 +1,9 @@
+{
+  "sanitized": true,
+  "new_ocr_calls": 0,
+  "source_run": "20261121-mac-13",
+  "private_original_protocol_sha256": "8542d5106ed0bb76a12154bd185cc71c708d335ad98c0d4f16dbbc8efb56ed72",
+  "input_release": "Images, raw OCR text, source transcriptions and original absolute paths withheld. CLI requires a compatible private cached source-run directory and local manual review records; this is not a self-contained data release.",
+  "source_manifest_note": "Path fields removed; original source_manifest_sha256 in protocol/run metadata refers to private original. Source relative filenames/hashes retained.",
+  "code_note": "Synthetic unit-test target string replaced with generic text in public derivative; routing/scoring implementations unchanged. Original code hashes refer to local archived files."
+}

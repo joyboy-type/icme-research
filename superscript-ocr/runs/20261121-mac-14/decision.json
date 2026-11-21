@@ -1,0 +1,13 @@
+{
+  "status": "complete_stop_stronger_single_engine_ties",
+  "prototype_ran": true,
+  "text_only_baseline_ran": true,
+  "single_engines_compared": true,
+  "independent_confirmation": false,
+  "parameter_tuning_after_replay": false,
+  "new_ocr_calls": 0,
+  "expand_sample": false,
+  "gpu_justified": false,
+  "word_edit_allowed": false,
+  "automatic_document_writeback": false
+}

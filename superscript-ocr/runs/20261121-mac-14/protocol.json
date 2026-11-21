@@ -1,0 +1,57 @@
+{
+  "id": "20261121-mac-14",
+  "frozen_at": "2026-11-21T04:08:53.163039+00:00",
+  "purpose": "One replay-only prototype for complementary single-engine whole-line omissions",
+  "source_run": "20261121-mac-13",
+  "data_role": "Known run13 development sample; rules informed by known failure, not independent validation",
+  "scope": {
+    "pages": 4,
+    "cached_ocr_requests": 8,
+    "new_ocr_calls": 0,
+    "new_data": false,
+    "verified_primary_positions": [
+      "line-0086",
+      "line-0101",
+      "line-0106",
+      "line-0177"
+    ],
+    "verified_missing_positions": 1,
+    "verified_present_controls": 3,
+    "all_primary_positions_in_one_document": true,
+    "run13_body_line_groups_not_a_manually_certified_accuracy_denominator": 283
+  },
+  "methods": [
+    "single_vision",
+    "single_tesseract",
+    "text_only_merge_vision_base",
+    "position_neighbor_prototype_vision_base",
+    "text_only_merge_tesseract_base",
+    "position_neighbor_prototype_tesseract_base"
+  ],
+  "rules": {
+    "normalization": "NFKC, casefold, remove nonalphanumeric characters",
+    "donor_line_minimum_normalized_chars": 12,
+    "donor_line_minimum_alphanumeric_tokens": 4,
+    "global_existing_text_similarity_threshold": 0.9,
+    "global_existing_text_also_detects_contiguous_substring_in_receiver_reading_order": true,
+    "one_copy_of_each_novel_normalized_donor_line": true,
+    "text_only_merge": "For every novel donor line, use nearest preceding text-matching donor line as receiver insertion anchor; else nearest following; else page end. Anchor matching uses normalized text similarity>=0.90 and donor order only; never inspect box positions. Preserve all receiver lines and donor native boxes.",
+    "prototype": "Use same novelty pool; reject if donor box invalid or outside image, or receiver observation overlaps >=0.10 of donor box. Require one source-column anchor above and one below within180 pixels. Both anchors must text-match a receiver line with normalized similarity>=0.90, x0 displacement<=20px, center-y displacement<=12px, receiver order increasing, and correctly bracket candidate y. Insert immediately after upper receiver anchor and retain donor box. No line replacement.",
+    "source_column": "Horizontal overlap/min(anchor_width,candidate_width)>=0.50 OR abs(left_edges)<=40px",
+    "anchor_max_vertical_gap_pixels": 180,
+    "anchor_x0_max_displacement_pixels": 20,
+    "anchor_center_y_max_displacement_pixels": 12,
+    "existing_observation_max_overlap_for_insertion": 0.1,
+    "both_orientations_use_identical_rules": true
+  },
+  "image_verification": "No new automatic pixel-level verification, detection, OCR or model calls; use cached native pixel coordinates and manual source inspection for adjudication. Any review crop pixels/time logged separately.",
+  "evaluation": "Primary paired panel is four source-verified run13 positions; corrected source text evaluation-only, never passed to routing. Missing-line recovery denominator1; intact controls denominator3. List each accepted/rejected donor line. Score false insertion, wrong placement, duplication and original receiver-body edits on verified positions; unknown outside-panel effects must remain unmeasured until source-checked. Source-native box correctness and insertion-anchor order both checked.",
+  "stop": "One frozen prototype version, no threshold tuning or input expansion. Stop expansion if stronger single engine or text-only merge matches prototype on verified panel. Deliver runnable code and case comparison even if prototype fails.",
+  "source_manifest_sha256": "6e08b50111f40063c1c5e324efe4e0313e6401d0ad0b60d6221e134dd81ee75c",
+  "word_sha256": "dd00d31e8435e3da12a1d28642ae5df72c2063c9229c46dc038b1df03e4d5136",
+  "word_edit_allowed": false,
+  "automatic_document_writeback": false,
+  "paid_calls": 0,
+  "gpu_rental": false,
+  "training": false
+}
